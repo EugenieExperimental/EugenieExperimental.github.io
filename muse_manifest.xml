@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1498693098692">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1498694001937">
   <folder name="css">
     <file name="site_global.css" crc="3914131437"/>
     <file name="music.css" crc="3787067418" ref="music"/>
@@ -6,7 +6,7 @@
     <file name="info.css" crc="177371897" ref="info"/>
     <file name="design.css" crc="189512457" ref="design"/>
     <file name="index.css" crc="4028593907" ref="index"/>
-    <file name="news.css" crc="347751904" ref="news"/>
+    <file name="news.css" crc="3892586242" ref="news"/>
   </folder>
   <folder name="assets">
     <file name="office.mp4" crc="4160197544" seo="true" mt="1553459853000"/>
@@ -1960,8 +1960,8 @@
     <file name="index.html" crc="3980247706" seo="true" redirect="false"/>
   </folder>
   <file name="index.html" crc="4289095107" seo="true" redirect="true"/>
-  <file name="music.html" crc="367001304" seo="true" redirect="true"/>
+  <file name="music.html" crc="170882107" seo="true" redirect="true"/>
   <file name="design.html" crc="3948421202" seo="true" redirect="true"/>
-  <file name="news.html" crc="4175088597" seo="true" mt="1498692993172" redirect="true"/>
+  <file name="news.html" crc="86946018" seo="true" mt="1498693880066" redirect="true"/>
   <file name="info.html" crc="4010677644" seo="true" redirect="true"/>
 </manifest>
