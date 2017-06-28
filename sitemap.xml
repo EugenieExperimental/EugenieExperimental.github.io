@@ -1199,6 +1199,9 @@
       <image:loc>http://9.com/images/katie.jpg</image:loc>
     </image:image>
     <image:image>
+      <image:loc>http://9.com/images/katie%2010.png</image:loc>
+    </image:image>
+    <image:image>
       <image:loc>http://9.com/images/%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80-%D0%B2%D0%B8%D0%B4-qq.jpg</image:loc>
     </image:image>
     <image:image>
