@@ -1,5 +1,5 @@
 html{min-height:100%;min-width:100%;-ms-text-size-adjust:none;}
--webkit-tap-highlight-color: transparent;
+-webkit-tap-highlight-color: transparent:0;
  <style>
    a {
     color: #008000; /* Цвет обычной ссылки */
