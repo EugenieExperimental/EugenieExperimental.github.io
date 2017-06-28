@@ -1,8 +1,8 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1498686826448">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1498688107281">
   <folder name="css">
     <file name="site_global.css" crc="3914131437"/>
     <file name="info.css" crc="177371897" ref="info"/>
-    <file name="index.css" crc="3996508466" ref="index"/>
+    <file name="index.css" crc="383130190" ref="index"/>
     <file name="news.css" crc="3807634808" ref="news"/>
     <file name="design.css" crc="24191559" ref="design"/>
     <file name="music.css" crc="272424815" ref="music"/>
@@ -100,9 +100,9 @@
     <file name="девушка-дождь-аниме-3.gif" crc="3675298" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="u558282.png" crc="407474609" ref="index"/>
-    <file name="u558282-r.png" crc="222845840" ref="index"/>
-    <file name="u558282-m.png" crc="222845840" ref="index"/>
+    <file name="u558282.png" crc="4130094512" ref="index"/>
+    <file name="u558282-r.png" crc="105588054" ref="index"/>
+    <file name="u558282-m.png" crc="105588054" ref="index"/>
     <file name="фон длинный без выреза.png" crc="179625175" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
@@ -1922,8 +1922,8 @@
     </folder>
     <file name="index.html" crc="3980247706" seo="true" redirect="false"/>
   </folder>
-  <file name="index.html" crc="171763314" seo="true" mt="1498686715805" redirect="true"/>
-  <file name="music.html" crc="320549896" seo="true" redirect="true"/>
+  <file name="index.html" crc="90775509" seo="true" mt="1498688000974" redirect="true"/>
+  <file name="music.html" crc="3914482125" seo="true" redirect="true"/>
   <file name="design.html" crc="3880346464" seo="true" redirect="true"/>
   <file name="news.html" crc="472739970" seo="true" redirect="true"/>
   <file name="info.html" crc="4010677644" seo="true" redirect="true"/>
