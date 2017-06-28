@@ -1,12 +1,12 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1498695424929">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1498690450030">
   <folder name="css">
     <file name="site_global.css" crc="3914131437"/>
-    <file name="music.css" crc="9740418" ref="music"/>
-    <file name="iefonts_music.css" crc="4238321021" ref="music"/>
-    <file name="info.css" crc="177371897" ref="info"/>
-    <file name="design.css" crc="4013670061" ref="design"/>
-    <file name="news.css" crc="79919974" ref="news"/>
+    <file name="design.css" crc="38174060" ref="design"/>
     <file name="index.css" crc="2672875" ref="index"/>
+    <file name="news.css" crc="4078632653" ref="news"/>
+    <file name="info.css" crc="177371897" ref="info"/>
+    <file name="music.css" crc="3886528283" ref="music"/>
+    <file name="iefonts_music.css" crc="4238321021" ref="music"/>
   </folder>
   <folder name="assets">
     <file name="3d-1.mp4" crc="273499462" seo="true" mt="1553562096000"/>
@@ -120,6 +120,16 @@
     <file name="music 43.gif" crc="4248609182" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
+    <file name="new 5.png" crc="453764867" seo="true" ref="music">
+      <caption webpage="music" alt=""/>
+    </file>
+    <file name="лого music.png" crc="4252852459" seo="true" ref="music">
+      <caption webpage="music" alt=""/>
+    </file>
+    <file name="grannulator.jpg" crc="323982509" seo="true" ref="music">
+      <caption webpage="music" alt=""/>
+    </file>
+    <file name="u547747-15.png" crc="83483883" ref="music"/>
     <file name="u511835-8.png" crc="4290200593" ref="music"/>
     <file name="u511838-9.png" crc="4234858071" ref="music"/>
     <file name="лошадки.jpg" crc="3987173684" seo="true" ref="music">
@@ -134,9 +144,6 @@
     <file name="youtube_значок-u347753-u511946.png" crc="3895449116" ref="music"/>
     <file name="youtube_значок-u347753-u511981.png" crc="3895449116" ref="music"/>
     <file name="параходик 2.jpg" crc="381764243" seo="true" ref="music">
-      <caption webpage="music" alt=""/>
-    </file>
-    <file name="лого music.png" crc="4252852459" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
     <file name="u512508-8.png" crc="127273544" ref="music"/>
@@ -544,7 +551,7 @@
       <caption webpage="music" alt=""/>
     </file>
     <file name="youtube_значок-u347753-u354065.png" crc="160525797" ref="music"/>
-    <file name="u354072-13.png" crc="4185402832" ref="music"/>
+    <file name="u354072-13.png" crc="416106000" ref="music"/>
     <file name="u354856-7.png" crc="322899805" ref="music"/>
     <file name="u355407-7.png" crc="251496765" ref="music"/>
     <file name="u339890-8.png" crc="3814546084" ref="music"/>
@@ -642,12 +649,12 @@
       <caption webpage="music" alt=""/>
     </file>
     <file name="плей.png" crc="3842421073" seo="true" ref="music:design:news">
-      <caption webpage="music" alt=""/>
-      <caption webpage="music" alt=""/>
-      <caption webpage="music" alt=""/>
       <caption webpage="news" alt=""/>
       <caption webpage="news" alt=""/>
       <caption webpage="news" alt=""/>
+      <caption webpage="music" alt=""/>
+      <caption webpage="music" alt=""/>
+      <caption webpage="music" alt=""/>
       <caption webpage="design" alt=""/>
       <caption webpage="design" alt=""/>
     </file>
@@ -707,8 +714,8 @@
       <caption webpage="music" alt=""/>
     </file>
     <file name="роспись 4.png" crc="133031820" seo="true" ref="music:design:news">
-      <caption webpage="music" alt=""/>
       <caption webpage="news" alt=""/>
+      <caption webpage="music" alt=""/>
       <caption webpage="design" alt=""/>
       <caption webpage="design" alt=""/>
       <caption webpage="design" alt=""/>
@@ -990,9 +997,6 @@
     <file name="новости лого 3.png" crc="4223956716" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
-    <file name="new 5.png" crc="453764867" seo="true" ref="news">
-      <caption webpage="news" alt=""/>
-    </file>
     <file name="лампочка 1.gif" crc="4157040752" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
@@ -1001,7 +1005,7 @@
     <file name="ундина-44.jpg" crc="3860651567" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
-    <file name="u546266-22.png" crc="3803904456" ref="news"/>
+    <file name="u546266-26.png" crc="4160051680" ref="news"/>
     <file name="u546263-6.png" crc="3951047070" ref="news"/>
     <file name="u544979-4.png" crc="51489248" ref="news"/>
     <file name="u544980-4.png" crc="149692158" ref="news"/>
@@ -1806,9 +1810,9 @@
     </folder>
     <file name="index.html" crc="3980247706" seo="true" redirect="false"/>
   </folder>
-  <file name="index.html" crc="3936725300" seo="true" redirect="true"/>
-  <file name="music.html" crc="427938002" seo="true" mt="1498683306436" redirect="true"/>
-  <file name="design.html" crc="316365406" seo="true" mt="1498691255123" redirect="true"/>
-  <file name="news.html" crc="3942606896" seo="true" mt="1498695324376" redirect="true"/>
+  <file name="index.html" crc="517154086" seo="true" mt="1498689982664" redirect="true"/>
+  <file name="music.html" crc="361406295" seo="true" mt="1498689942272" redirect="true"/>
+  <file name="design.html" crc="4159335355" seo="true" redirect="true"/>
+  <file name="news.html" crc="310273580" seo="true" mt="1498689900131" redirect="true"/>
   <file name="info.html" crc="3860366556" seo="true" redirect="true"/>
 </manifest>
