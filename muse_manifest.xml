@@ -1,11 +1,11 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1498697002979">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1498697934496">
   <folder name="css">
     <file name="site_global.css" crc="3914131437"/>
     <file name="music.css" crc="185287511" ref="music"/>
     <file name="iefonts_music.css" crc="4238321021" ref="music"/>
     <file name="index.css" crc="316764249" ref="index"/>
-    <file name="news.css" crc="4078888653" ref="news"/>
-    <file name="design.css" crc="4283511473" ref="design"/>
+    <file name="news.css" crc="457797929" ref="news"/>
+    <file name="design.css" crc="4076800653" ref="design"/>
     <file name="info.css" crc="177371897" ref="info"/>
   </folder>
   <folder name="assets">
@@ -653,8 +653,8 @@
     <file name="youtube_значок-u347753-u331045.png" crc="4051119154" ref="music"/>
     <file name="youtube_значок-u347753-u351148.png" crc="4051119154" ref="music"/>
     <file name="переворот-3.svg" crc="4037082086" seo="true" ref="music:design">
-      <caption webpage="design" alt=""/>
       <caption webpage="music" alt=""/>
+      <caption webpage="design" alt=""/>
     </file>
     <file name="переворот 3_poster_.png" crc="21591777" ref="music"/>
     <file name="78117392.jpg" crc="8134959" seo="true" ref="music">
@@ -734,14 +734,14 @@
       <caption webpage="music" alt=""/>
     </file>
     <file name="плей.png" crc="3842421073" seo="true" ref="music:design:news">
+      <caption webpage="news" alt=""/>
+      <caption webpage="news" alt=""/>
+      <caption webpage="news" alt=""/>
+      <caption webpage="music" alt=""/>
+      <caption webpage="music" alt=""/>
+      <caption webpage="music" alt=""/>
       <caption webpage="design" alt=""/>
       <caption webpage="design" alt=""/>
-      <caption webpage="news" alt=""/>
-      <caption webpage="news" alt=""/>
-      <caption webpage="news" alt=""/>
-      <caption webpage="music" alt=""/>
-      <caption webpage="music" alt=""/>
-      <caption webpage="music" alt=""/>
     </file>
     <file name="piano.jpg" crc="8451357" seo="true" ref="music">
       <caption webpage="music" alt=""/>
@@ -799,11 +799,11 @@
       <caption webpage="music" alt=""/>
     </file>
     <file name="роспись 4.png" crc="133031820" seo="true" ref="music:design:news">
-      <caption webpage="design" alt=""/>
-      <caption webpage="design" alt=""/>
-      <caption webpage="design" alt=""/>
       <caption webpage="news" alt=""/>
       <caption webpage="music" alt=""/>
+      <caption webpage="design" alt=""/>
+      <caption webpage="design" alt=""/>
+      <caption webpage="design" alt=""/>
     </file>
     <file name="ace vent.png" crc="516709029" seo="true" ref="music">
       <caption webpage="music" alt=""/>
@@ -877,7 +877,7 @@
     </file>
     <file name="u559810-4.png" crc="61719737" ref="design"/>
     <file name="u559811-4.png" crc="149692158" ref="design"/>
-    <file name="кисти-u559836.png" crc="4028984468" ref="design"/>
+    <file name="кисти-u559836.png" crc="457632762" ref="design"/>
     <file name="design лого 4.png" crc="3971076869" seo="true" ref="design">
       <caption webpage="design" alt=""/>
     </file>
@@ -1934,8 +1934,8 @@
     <file name="index.html" crc="3980247706" seo="true" redirect="false"/>
   </folder>
   <file name="index.html" crc="205587677" seo="true" mt="1498694911709" redirect="true"/>
-  <file name="music.html" crc="4280090500" seo="true" mt="1498680236093" redirect="true"/>
-  <file name="design.html" crc="492927050" seo="true" mt="1498696189878" redirect="true"/>
-  <file name="news.html" crc="430142219" seo="true" mt="1498696820949" redirect="true"/>
+  <file name="music.html" crc="356624070" seo="true" mt="1498680236093" redirect="true"/>
+  <file name="design.html" crc="384621184" seo="true" mt="1498697724120" redirect="true"/>
+  <file name="news.html" crc="523109171" seo="true" mt="1498697818838" redirect="true"/>
   <file name="info.html" crc="4010677644" seo="true" redirect="true"/>
 </manifest>
