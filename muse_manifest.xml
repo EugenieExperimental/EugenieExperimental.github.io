@@ -1,7 +1,7 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1498740858090">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1498743343890">
   <folder name="css">
     <file name="site_global.css" crc="3914131437"/>
-    <file name="design.css" crc="330498366" ref="design"/>
+    <file name="design.css" crc="217886310" ref="design"/>
     <file name="info.css" crc="159087581" ref="info"/>
     <file name="music.css" crc="339803057" ref="music"/>
     <file name="iefonts_music.css" crc="4238321021" ref="music"/>
@@ -902,7 +902,7 @@
     <file name="katie.jpg" crc="3915612819" seo="true" ref="design">
       <caption webpage="design" alt=""/>
     </file>
-    <file name="katie-00.jpg" crc="3894378742" seo="true" ref="design">
+    <file name="katie-000.jpg" crc="193404469" seo="true" ref="design">
       <caption webpage="design" alt=""/>
     </file>
     <file name="bmw 2 (2).jpg" crc="227274152" seo="true" ref="design">
@@ -1948,8 +1948,8 @@
     <file name="index.html" crc="3980247706" seo="true" redirect="false"/>
   </folder>
   <file name="index.html" crc="3783467126" seo="true" mt="1498694911709" redirect="true"/>
-  <file name="music.html" crc="495029964" seo="true" mt="1498680236093" redirect="true"/>
-  <file name="design.html" crc="231922392" seo="true" mt="1498740687226" redirect="true"/>
+  <file name="music.html" crc="201739705" seo="true" mt="1498680236093" redirect="true"/>
+  <file name="design.html" crc="164826915" seo="true" mt="1498743142488" redirect="true"/>
   <file name="news.html" crc="115602093" seo="true" mt="1498697818838" redirect="true"/>
   <file name="info.html" crc="182201805" seo="true" redirect="true"/>
 </manifest>
