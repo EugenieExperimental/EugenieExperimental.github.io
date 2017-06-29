@@ -1193,13 +1193,10 @@
       <image:loc>http://9.com/images/katie.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://9.com/images/katie-01.jpg</image:loc>
+      <image:loc>http://9.com/images/katie-00.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://9.com/images/bmw%202%20(2).jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/bmw-1.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://9.com/images/bmw%202%20(1).jpg</image:loc>
@@ -1215,6 +1212,12 @@
     </image:image>
     <image:image>
       <image:loc>http://9.com/images/%D1%87%D0%B0%D1%81%D1%8B--09--57-%D0%B1%D0%B8%D1%82%D1%8B%D0%B5-%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/bmw-5.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/bmw.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://9.com/images/%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80-%D0%B2%D0%B8ee.jpg</image:loc>
