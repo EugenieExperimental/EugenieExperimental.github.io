@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1498694001937">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1498694654165">
   <folder name="css">
     <file name="site_global.css" crc="3914131437"/>
     <file name="music.css" crc="3787067418" ref="music"/>
@@ -6,7 +6,7 @@
     <file name="info.css" crc="177371897" ref="info"/>
     <file name="design.css" crc="189512457" ref="design"/>
     <file name="index.css" crc="4028593907" ref="index"/>
-    <file name="news.css" crc="3892586242" ref="news"/>
+    <file name="news.css" crc="183571117" ref="news"/>
   </folder>
   <folder name="assets">
     <file name="office.mp4" crc="4160197544" seo="true" mt="1553459853000"/>
@@ -1125,6 +1125,9 @@
       <caption webpage="news" alt=""/>
     </file>
     <file name="u563545-6.png" crc="3940592711" ref="news"/>
+    <file name="шестерня 3.gif" crc="115679784" seo="true" ref="news">
+      <caption webpage="news" alt=""/>
+    </file>
     <file name="u565188-4.png" crc="533384978" ref="news"/>
     <file name="u565191-4.png" crc="149692158" ref="news"/>
     <file name="я-3.jpg" crc="4139869332" seo="true" ref="news">
@@ -1134,9 +1137,6 @@
       <caption webpage="news" alt=""/>
     </file>
     <file name="u565229-4.png" crc="3976210800" ref="news"/>
-    <file name="шестерня 3.gif" crc="115679784" seo="true" ref="news">
-      <caption webpage="news" alt=""/>
-    </file>
     <file name="u565197-11.png" crc="4165712853" ref="news"/>
     <file name="перельман.jpg" crc="478480466" seo="true" ref="news">
       <caption webpage="news" alt=""/>
@@ -1960,8 +1960,8 @@
     <file name="index.html" crc="3980247706" seo="true" redirect="false"/>
   </folder>
   <file name="index.html" crc="4289095107" seo="true" redirect="true"/>
-  <file name="music.html" crc="170882107" seo="true" redirect="true"/>
+  <file name="music.html" crc="3916567690" seo="true" redirect="true"/>
   <file name="design.html" crc="3948421202" seo="true" redirect="true"/>
-  <file name="news.html" crc="86946018" seo="true" mt="1498693880066" redirect="true"/>
+  <file name="news.html" crc="3770938683" seo="true" mt="1498694552455" redirect="true"/>
   <file name="info.html" crc="4010677644" seo="true" redirect="true"/>
 </manifest>
