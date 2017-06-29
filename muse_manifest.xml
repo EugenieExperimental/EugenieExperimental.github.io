@@ -1,9 +1,9 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1498735855350">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1498736530007">
   <folder name="css">
     <file name="site_global.css" crc="3914131437"/>
     <file name="index.css" crc="316764249" ref="index"/>
     <file name="info.css" crc="177371897" ref="info"/>
-    <file name="design.css" crc="3904756821" ref="design"/>
+    <file name="design.css" crc="245378176" ref="design"/>
     <file name="music.css" crc="185287511" ref="music"/>
     <file name="iefonts_music.css" crc="4238321021" ref="music"/>
     <file name="news.css" crc="437262013" ref="news"/>
@@ -664,7 +664,7 @@
     <file name="header-extend.jpg" crc="4160055423" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
-    <file name="горы-1a-crop-u301830.png" crc="4125083082" seo="true" ref="music">
+    <file name="горы-1a-crop-u301830.png" crc="475115189" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
     <file name="ocarina winds.jpg" crc="469147090" seo="true" ref="music">
@@ -887,7 +887,7 @@
     <file name="nastie.jpg" crc="4222659503" seo="true" ref="design">
       <caption webpage="design" alt=""/>
     </file>
-    <file name="u568102-4.png" crc="4235974593" ref="design"/>
+    <file name="u568102-4.png" crc="101208603" ref="design"/>
     <file name="u561642-6.png" crc="361656028" ref="design"/>
     <file name="u561643-4.png" crc="149692158" ref="design"/>
     <file name="bmw.jpg" crc="272294664" seo="true" ref="design">
@@ -1973,8 +1973,8 @@
     <file name="index.html" crc="3980247706" seo="true" redirect="false"/>
   </folder>
   <file name="index.html" crc="4206632341" seo="true" mt="1498735019652" redirect="true"/>
-  <file name="music.html" crc="458453384" seo="true" redirect="true"/>
-  <file name="design.html" crc="259181529" seo="true" mt="1498735728586" redirect="true"/>
+  <file name="music.html" crc="150731392" seo="true" redirect="true"/>
+  <file name="design.html" crc="4055999232" seo="true" mt="1498736422986" redirect="true"/>
   <file name="news.html" crc="3908181574" seo="true" mt="1498735721834" redirect="true"/>
   <file name="info.html" crc="4010677644" seo="true" redirect="true"/>
 </manifest>
