@@ -34,18 +34,6 @@
     </image:image>
   </url>
   <url>
-    <loc>http://9.com/info.html</loc>
-    <lastmod>2017-06-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://9.com/images/%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%204.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/%D1%83%D1%87%D1%91%D0%BD%D1%8B%D0%B5.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
     <loc>http://9.com/news.html</loc>
     <lastmod>2017-06-29</lastmod>
     <changefreq>weekly</changefreq>
@@ -672,186 +660,15 @@
     </image:image>
   </url>
   <url>
-    <loc>http://9.com/design.html</loc>
+    <loc>http://9.com/info.html</loc>
     <lastmod>2017-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://9.com/images/%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D1%80%D0%BE%D1%82-3.svg</image:loc>
+      <image:loc>http://9.com/images/%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%204.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://9.com/images/%D0%BF%D0%BB%D0%B5%D0%B9.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/%D1%80%D0%BE%D1%81%D0%BF%D0%B8%D1%81%D1%8C%204.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B0%2003.gif</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/design%20%D0%BB%D0%BE%D0%B3%D0%BE%204.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/%D1%81%D0%B0%D0%BC%D1%8B%D0%B9-%D1%81%D0%BB%D0%BE%D0%B6%D0%BD%D1%8B%D0%B9-%D0%BCdd.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80-%D0%B2%D0%B8ee.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/%D1%87%D0%B0%D1%81%D1%8B-tre.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/%D1%87%D0%B0%D1%81%D1%8B--09--57.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/asd.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80-%D0%B2%D0%B8%D0%B4-qq.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/bestea.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/%D1%87%D0%B0%D1%81%D1%8B--09--57-%D0%B4%D1%80%D1%83%D0%B3%D0%B8%D0%B5%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/%D1%87%D0%B0%D1%81%D1%8B--09--57-%D0%B1%D0%B8%D1%82%D1%8B%D0%B5-%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/%D0%BA%D0%BE%D0%BC%D0%BD%D0%B0%D1%82%D0%B0-%D1%81-%D0%BB%D0%B0%D0%BC%D0%BF%D0%BE%D0%B9-2.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/interior-my-new-1-compos-2.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/interior%20my%205.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/vieport%202.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%D0%BA%D0%B0%D1%80%D1%82%D0%B0%201.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%D0%BA%D0%B0%D1%80%D1%82%D0%B0%202.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%201.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/iphone-evee-optimaze.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/untitled-2-optimaze.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/iphone-black--hi-px-optimaze.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B0%201.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/%D1%82%D1%84%D0%BE%D0%BD%D1%8B-%D1%86%D0%B2%D0%B5%D1%82%D0%BD%D1%8B%D0%B5-1-optimaze.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/%D1%84%D0%BE%D0%BD%20%D0%B4%D0%BB%D0%B8%D0%BD%D0%BD%D1%8B%D0%B9.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/%D1%86%D0%B2%D0%B5%D1%82%D0%BA%D0%B8-12-%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7%D0%B8%D1%86%D0%B8%D1%8F-8.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/cycles%20render.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/%D1%82%D0%B5%D0%BA%D1%81%D1%82-1.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/3d%202.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/3d-7.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/3d-6.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/3d-5.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/3d%204.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/autodesk-arnold-logo.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/i-quit.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/i-quit%202.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/%D0%B8%D0%BD%D1%82%D0%B5%D1%80%201.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/%D0%B8%D0%BD%D1%82%D0%B5%D1%80%202.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/%D0%B8%D0%BD%D1%82%D0%B5%D1%80%206.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/%D0%B8%D0%BD%D1%82%D0%B5%D1%804.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/%D0%B8%D0%BD%D1%82%D0%B5%D1%80%205.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/%D0%B8%D0%BD%D1%82%D0%B5%D1%80-7.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/eevee.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/ableton%20daw%2012.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/ableton%20daw%2013.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/%D0%BE%D1%81%D0%BA%D0%BE%D0%BB%D0%BA%D0%B8%204%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7%D0%B8%D1%86%D0%B8%D1%8F%202.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/image_0070000.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/vfx.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/cycles.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/picture054.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/%D0%BE%D1%81%D0%BA%D0%BE%D0%BB%D0%BA%D0%B8-2--%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7%D0%B8%D1%86%D0%B8%D1%8F-1.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/%D0%BE%D1%81%D0%BA%D0%BE%D0%BB%D0%BA%D0%B8-1-%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7%D0%B8%D1%86%D0%B8%D1%8F-1.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/image001-1-e1553215219839.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/%D1%82%D0%B5%D0%BA%D1%81%D1%82%D1%82-2.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/1_00.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/picture078.jpg</image:loc>
+      <image:loc>http://9.com/images/%D1%83%D1%87%D1%91%D0%BD%D1%8B%D0%B5.jpg</image:loc>
     </image:image>
   </url>
   <url>
@@ -867,6 +684,15 @@
     </image:image>
     <image:image>
       <image:loc>http://9.com/images/%D0%BB%D0%BE%D0%B3%D0%BE%20music.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/infected.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%20%D0%B7%D0%BD%D0%B0%D1%87%D0%BE%D0%BA%202.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/infected%202.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://9.com/images/ft2jpga.jpg</image:loc>
@@ -1287,8 +1113,191 @@
     </image:image>
   </url>
   <url>
-    <loc>http://9.com/assets/%D0%BE%D0%B1%D0%B2%D0%BE%D0%B4%D0%BA%D0%B0-%D0%B4%D0%BB%D1%8F-%D1%84%D0%B8%D0%BB%D1%8C%D0%BC%D0%B0-22.png</loc>
-    <lastmod>2017-07-03</lastmod>
+    <loc>http://9.com/design.html</loc>
+    <lastmod>2017-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://9.com/images/%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D1%80%D0%BE%D1%82-3.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/%D0%BF%D0%BB%D0%B5%D0%B9.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/%D1%80%D0%BE%D1%81%D0%BF%D0%B8%D1%81%D1%8C%204.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B0%2003.gif</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/design%20%D0%BB%D0%BE%D0%B3%D0%BE%204.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/%D1%81%D0%B0%D0%BC%D1%8B%D0%B9-%D1%81%D0%BB%D0%BE%D0%B6%D0%BD%D1%8B%D0%B9-%D0%BCdd.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80-%D0%B2%D0%B8ee.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/%D1%87%D0%B0%D1%81%D1%8B-tre.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/%D1%87%D0%B0%D1%81%D1%8B--09--57.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/asd.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80-%D0%B2%D0%B8%D0%B4-qq.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/bestea.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/%D1%87%D0%B0%D1%81%D1%8B--09--57-%D0%B4%D1%80%D1%83%D0%B3%D0%B8%D0%B5%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/%D1%87%D0%B0%D1%81%D1%8B--09--57-%D0%B1%D0%B8%D1%82%D1%8B%D0%B5-%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/%D0%BA%D0%BE%D0%BC%D0%BD%D0%B0%D1%82%D0%B0-%D1%81-%D0%BB%D0%B0%D0%BC%D0%BF%D0%BE%D0%B9-2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/interior-my-new-1-compos-2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/interior%20my%205.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/vieport%202.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%D0%BA%D0%B0%D1%80%D1%82%D0%B0%201.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%D0%BA%D0%B0%D1%80%D1%82%D0%B0%202.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%201.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/iphone-evee-optimaze.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/untitled-2-optimaze.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/iphone-black--hi-px-optimaze.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B0%201.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/%D1%82%D1%84%D0%BE%D0%BD%D1%8B-%D1%86%D0%B2%D0%B5%D1%82%D0%BD%D1%8B%D0%B5-1-optimaze.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/%D1%84%D0%BE%D0%BD%20%D0%B4%D0%BB%D0%B8%D0%BD%D0%BD%D1%8B%D0%B9.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/%D1%86%D0%B2%D0%B5%D1%82%D0%BA%D0%B8-12-%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7%D0%B8%D1%86%D0%B8%D1%8F-8.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/cycles%20render.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/%D1%82%D0%B5%D0%BA%D1%81%D1%82-1.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/3d%202.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/3d-7.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/3d-6.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/3d-5.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/3d%204.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/autodesk-arnold-logo.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/i-quit.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/i-quit%202.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/%D0%B8%D0%BD%D1%82%D0%B5%D1%80%201.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/%D0%B8%D0%BD%D1%82%D0%B5%D1%80%202.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/%D0%B8%D0%BD%D1%82%D0%B5%D1%80%206.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/%D0%B8%D0%BD%D1%82%D0%B5%D1%804.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/%D0%B8%D0%BD%D1%82%D0%B5%D1%80%205.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/%D0%B8%D0%BD%D1%82%D0%B5%D1%80-7.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/eevee.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/ableton%20daw%2012.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/ableton%20daw%2013.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/%D0%BE%D1%81%D0%BA%D0%BE%D0%BB%D0%BA%D0%B8%204%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7%D0%B8%D1%86%D0%B8%D1%8F%202.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/image_0070000.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/vfx.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/cycles.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/picture054.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/%D0%BE%D1%81%D0%BA%D0%BE%D0%BB%D0%BA%D0%B8-2--%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7%D0%B8%D1%86%D0%B8%D1%8F-1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/%D0%BE%D1%81%D0%BA%D0%BE%D0%BB%D0%BA%D0%B8-1-%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7%D0%B8%D1%86%D0%B8%D1%8F-1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/image001-1-e1553215219839.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/%D1%82%D0%B5%D0%BA%D1%81%D1%82%D1%82-2.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/1_00.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/picture078.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://9.com/assets/%D0%BE%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0-%D1%81%D0%BE%D0%BB%D1%8C%D1%84.png</loc>
+    <lastmod>2017-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -1305,14 +1314,14 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://9.com/assets/%D0%B4%D0%B2%D0%B0-%D0%B2%D0%B0%D1%80%D0%B8%D0%B0%D0%BD%D1%82%D0%B0-%D1%81%D0%BE%D0%BB%D1%8C%D1%84%D0%B5%D0%B4%D0%B6%D0%B8%D0%BE-%D0%BF%D0%BE-%D1%81%D1%80%D0%B5%D0%B4%D0%B0%D0%BC-%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0%D1%86%D0%B0.mp4</loc>
-    <lastmod>2017-06-29</lastmod>
+    <loc>http://9.com/assets/%D1%82%D1%84%D0%BE%D0%BD%D1%8B-%D1%86%D0%B2%D0%B5%D1%82%D0%BD%D1%8B%D0%B5-1.png</loc>
+    <lastmod>2017-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://9.com/assets/%D0%BE%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0-%D1%81%D0%BE%D0%BB%D1%8C%D1%84.png</loc>
-    <lastmod>2017-06-29</lastmod>
+    <loc>http://9.com/assets/%D0%BE%D0%B1%D0%B2%D0%BE%D0%B4%D0%BA%D0%B0-%D0%B4%D0%BB%D1%8F-%D1%84%D0%B8%D0%BB%D1%8C%D0%BC%D0%B0-22.png</loc>
+    <lastmod>2017-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -1335,13 +1344,13 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://9.com/assets/%D0%B8%D1%84%D0%BE%D0%BD-%D0%B0%D0%BD%D0%B8%D0%BC%D0%B5-%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0%D1%86%D0%B0-2.mp4</loc>
-    <lastmod>2017-07-03</lastmod>
+    <loc>http://9.com/assets/%D0%B4%D0%B2%D0%B0-%D0%B2%D0%B0%D1%80%D0%B8%D0%B0%D0%BD%D1%82%D0%B0-%D1%81%D0%BE%D0%BB%D1%8C%D1%84%D0%B5%D0%B4%D0%B6%D0%B8%D0%BE-%D0%BF%D0%BE-%D1%81%D1%80%D0%B5%D0%B4%D0%B0%D0%BC-%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0%D1%86%D0%B0.mp4</loc>
+    <lastmod>2017-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://9.com/assets/%D1%82%D1%84%D0%BE%D0%BD%D1%8B-%D1%86%D0%B2%D0%B5%D1%82%D0%BD%D1%8B%D0%B5-1.png</loc>
+    <loc>http://9.com/assets/%D0%B8%D1%84%D0%BE%D0%BD-%D0%B0%D0%BD%D0%B8%D0%BC%D0%B5-%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0%D1%86%D0%B0-2.mp4</loc>
     <lastmod>2017-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -1395,6 +1404,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://9.com/assets/infected--new.mp3</loc>
+    <lastmod>2017-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://9.com/assets/office.mp4</loc>
     <lastmod>2019-03-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -1407,14 +1422,14 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://9.com/assets/3d-1.mp4</loc>
-    <lastmod>2019-03-26</lastmod>
+    <loc>http://9.com/assets/%D0%BE%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0-%D1%84%D0%BE%D1%82%D0%BE.png</loc>
+    <lastmod>2017-06-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://9.com/assets/%D0%BE%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0-%D1%84%D0%BE%D1%82%D0%BE.png</loc>
-    <lastmod>2017-06-30</lastmod>
+    <loc>http://9.com/assets/3d-1.mp4</loc>
+    <lastmod>2019-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
