@@ -1,12 +1,12 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1498734011883">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1498699290189">
   <folder name="css">
     <file name="site_global.css" crc="3914131437"/>
-    <file name="news.css" crc="9173002" ref="news"/>
-    <file name="music.css" crc="4064924567" ref="music"/>
-    <file name="iefonts_music.css" crc="4238321021" ref="music"/>
-    <file name="design.css" crc="322187311" ref="design"/>
     <file name="info.css" crc="177371897" ref="info"/>
-    <file name="index.css" crc="4028593907" ref="index"/>
+    <file name="music.css" crc="3894507468" ref="music"/>
+    <file name="iefonts_music.css" crc="4238321021" ref="music"/>
+    <file name="news.css" crc="3968326329" ref="news"/>
+    <file name="index.css" crc="383130190" ref="index"/>
+    <file name="design.css" crc="4279172320" ref="design"/>
   </folder>
   <folder name="assets">
     <file name="office.mp4" crc="4160197544" seo="true" mt="1553459853000"/>
@@ -875,20 +875,25 @@
     <file name="загрузка 03.gif" crc="3811195276" seo="true" ref="design">
       <caption webpage="design" alt=""/>
     </file>
-    <file name="u568712-4.png" crc="496852598" ref="design"/>
-    <file name="u568713-4.png" crc="149692158" ref="design"/>
+    <file name="u569673-4.png" crc="482667795" ref="design"/>
+    <file name="u569674-4.png" crc="149692158" ref="design"/>
     <file name="design лого 4.png" crc="3971076869" seo="true" ref="design">
       <caption webpage="design" alt=""/>
     </file>
     <file name="new 5.png" crc="453764867" seo="true" ref="design">
       <caption webpage="design" alt=""/>
     </file>
-    <file name="папирус 3 -1 -u569114.png" crc="324333105" ref="design"/>
-    <file name="u568693-6.png" crc="3833348481" ref="design"/>
+    <file name="я 3244 .jpg" crc="4207670196" seo="true" ref="design">
+      <caption webpage="design" alt=""/>
+    </file>
+    <file name="u568712-4.png" crc="496852598" ref="design"/>
+    <file name="u568713-4.png" crc="149692158" ref="design"/>
     <file name="u568708-4.png" crc="3935011341" ref="design"/>
     <file name="петербург 4.jpg" crc="10144787" seo="true" ref="design">
       <caption webpage="design" alt=""/>
     </file>
+    <file name="папирус 3 -1 -u569114.png" crc="324333105" ref="design"/>
+    <file name="u568693-6.png" crc="3833348481" ref="design"/>
     <file name="u561642-6.png" crc="361656028" ref="design"/>
     <file name="u561643-4.png" crc="149692158" ref="design"/>
     <file name="bmw.jpg" crc="272294664" seo="true" ref="design">
@@ -1973,9 +1978,9 @@
     </folder>
     <file name="index.html" crc="3980247706" seo="true" redirect="false"/>
   </folder>
-  <file name="index.html" crc="3903029347" seo="true" redirect="true"/>
-  <file name="music.html" crc="371670321" seo="true" redirect="true"/>
-  <file name="design.html" crc="409633586" seo="true" mt="1498733902590" redirect="true"/>
-  <file name="news.html" crc="4020881594" seo="true" redirect="true"/>
+  <file name="index.html" crc="49498526" seo="true" redirect="true"/>
+  <file name="music.html" crc="3787983669" seo="true" redirect="true"/>
+  <file name="design.html" crc="418174815" seo="true" mt="1498699167520" redirect="true"/>
+  <file name="news.html" crc="364926382" seo="true" redirect="true"/>
   <file name="info.html" crc="4010677644" seo="true" redirect="true"/>
 </manifest>
