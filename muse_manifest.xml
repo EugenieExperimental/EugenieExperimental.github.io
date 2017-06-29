@@ -1,12 +1,12 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1498702126090">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1498735855350">
   <folder name="css">
     <file name="site_global.css" crc="3914131437"/>
-    <file name="news.css" crc="4089725883" ref="news"/>
-    <file name="index.css" crc="4028593907" ref="index"/>
-    <file name="design.css" crc="189512457" ref="design"/>
+    <file name="index.css" crc="316764249" ref="index"/>
     <file name="info.css" crc="177371897" ref="info"/>
-    <file name="music.css" crc="3787067418" ref="music"/>
+    <file name="design.css" crc="3904756821" ref="design"/>
+    <file name="music.css" crc="185287511" ref="music"/>
     <file name="iefonts_music.css" crc="4238321021" ref="music"/>
+    <file name="news.css" crc="437262013" ref="news"/>
   </folder>
   <folder name="assets">
     <file name="office.mp4" crc="4160197544" seo="true" mt="1553459853000"/>
@@ -40,7 +40,7 @@
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="phone>index:index:music:design:news:info"/>
     <file name="museutils.js" crc="340535759" ref="phone>index:index:music:design:news:info"/>
     <file name="whatinput.js" crc="86476730" ref="phone>index:index:music:design:news:info"/>
-    <file name="museconfig.js" crc="4286661555" ref="phone>index:index:music:design:news:info"/>
+    <file name="museconfig.js" crc="310584261" ref="phone>index:index:music:design:news:info"/>
     <file name="jquery.watch.js" crc="51536988" ref="phone>index:index:music:design:news:info"/>
     <file name="require.js" crc="7928878" ref="phone>index:index:music:design:news:info"/>
     <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="index"/>
@@ -653,8 +653,8 @@
     <file name="youtube_значок-u347753-u331045.png" crc="4051119154" ref="music"/>
     <file name="youtube_значок-u347753-u351148.png" crc="4051119154" ref="music"/>
     <file name="переворот-3.svg" crc="4037082086" seo="true" ref="music:design">
-      <caption webpage="design" alt=""/>
       <caption webpage="music" alt=""/>
+      <caption webpage="design" alt=""/>
     </file>
     <file name="переворот 3_poster_.png" crc="21591777" ref="music"/>
     <file name="78117392.jpg" crc="8134959" seo="true" ref="music">
@@ -734,14 +734,14 @@
       <caption webpage="music" alt=""/>
     </file>
     <file name="плей.png" crc="3842421073" seo="true" ref="music:design:news">
+      <caption webpage="music" alt=""/>
+      <caption webpage="music" alt=""/>
+      <caption webpage="music" alt=""/>
+      <caption webpage="news" alt=""/>
+      <caption webpage="news" alt=""/>
+      <caption webpage="news" alt=""/>
       <caption webpage="design" alt=""/>
       <caption webpage="design" alt=""/>
-      <caption webpage="music" alt=""/>
-      <caption webpage="music" alt=""/>
-      <caption webpage="music" alt=""/>
-      <caption webpage="news" alt=""/>
-      <caption webpage="news" alt=""/>
-      <caption webpage="news" alt=""/>
     </file>
     <file name="piano.jpg" crc="8451357" seo="true" ref="music">
       <caption webpage="music" alt=""/>
@@ -799,11 +799,11 @@
       <caption webpage="music" alt=""/>
     </file>
     <file name="роспись 4.png" crc="133031820" seo="true" ref="music:design:news">
-      <caption webpage="design" alt=""/>
-      <caption webpage="design" alt=""/>
-      <caption webpage="design" alt=""/>
       <caption webpage="music" alt=""/>
       <caption webpage="news" alt=""/>
+      <caption webpage="design" alt=""/>
+      <caption webpage="design" alt=""/>
+      <caption webpage="design" alt=""/>
     </file>
     <file name="ace vent.png" crc="516709029" seo="true" ref="music">
       <caption webpage="music" alt=""/>
@@ -875,11 +875,21 @@
     <file name="загрузка 03.gif" crc="3811195276" seo="true" ref="design">
       <caption webpage="design" alt=""/>
     </file>
-    <file name="u561642-6.png" crc="361656028" ref="design"/>
-    <file name="u561643-4.png" crc="149692158" ref="design"/>
     <file name="design лого 4.png" crc="3971076869" seo="true" ref="design">
       <caption webpage="design" alt=""/>
     </file>
+    <file name="new 5.png" crc="453764867" seo="true" ref="design">
+      <caption webpage="design" alt=""/>
+    </file>
+    <file name="мишка.jpg" crc="3962691685" seo="true" ref="design">
+      <caption webpage="design" alt=""/>
+    </file>
+    <file name="nastie.jpg" crc="4222659503" seo="true" ref="design">
+      <caption webpage="design" alt=""/>
+    </file>
+    <file name="u568102-4.png" crc="4235974593" ref="design"/>
+    <file name="u561642-6.png" crc="361656028" ref="design"/>
+    <file name="u561643-4.png" crc="149692158" ref="design"/>
     <file name="bmw.jpg" crc="272294664" seo="true" ref="design">
       <caption webpage="design" alt=""/>
     </file>
@@ -976,7 +986,7 @@
     <file name="тфоны-цветные-1-optimaze.png" crc="237903128" seo="true" ref="design">
       <caption webpage="design" alt=""/>
     </file>
-    <file name="u316292-17.png" crc="4029848617" ref="design"/>
+    <file name="u316292-17.png" crc="484562575" ref="design"/>
     <file name="фон длинный.png" crc="257595623" seo="true" ref="design">
       <caption webpage="design" alt=""/>
       <caption webpage="design" alt=""/>
@@ -1094,9 +1104,6 @@
     </file>
     <file name="news-favicon.ico" crc="231847113" ref="news"/>
     <file name="новости лого 3.png" crc="4223956716" seo="true" ref="news">
-      <caption webpage="news" alt=""/>
-    </file>
-    <file name="new 5.png" crc="453764867" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
     <file name="лампочка 1.gif" crc="4157040752" seo="true" ref="news">
@@ -1963,11 +1970,11 @@
     <folder name="css">
       <file name="index.css" crc="3972356362" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="3775996431" seo="true" redirect="false"/>
+    <file name="index.html" crc="3980247706" seo="true" redirect="false"/>
   </folder>
-  <file name="index.html" crc="4066827597" seo="true" redirect="true"/>
-  <file name="music.html" crc="3859806978" seo="true" redirect="true"/>
-  <file name="design.html" crc="439272199" seo="true" mt="1498702044773" redirect="true"/>
-  <file name="news.html" crc="3838724862" seo="true" mt="1498701084679" redirect="true"/>
-  <file name="info.html" crc="3819492335" seo="true" redirect="true"/>
+  <file name="index.html" crc="4206632341" seo="true" mt="1498735019652" redirect="true"/>
+  <file name="music.html" crc="458453384" seo="true" redirect="true"/>
+  <file name="design.html" crc="259181529" seo="true" mt="1498735728586" redirect="true"/>
+  <file name="news.html" crc="3908181574" seo="true" mt="1498735721834" redirect="true"/>
+  <file name="info.html" crc="4010677644" seo="true" redirect="true"/>
 </manifest>
