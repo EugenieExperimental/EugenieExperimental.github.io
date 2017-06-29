@@ -1,0 +1,2078 @@
+<!DOCTYPE html>
+<html class="nojs html css_verticalspacer" lang="ru-RU">
+ <head>
+
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+  <meta name="description" content="Новости, Новость, Новости, News"/>
+  <meta name="keywords" content="Новости, Новость, Новости, News"/>
+  <meta name="generator" content="2018.1.0.386"/>
+  <meta name="google-site-verification" content="njaqcyxO1UjPdoUbvAiovSw13isV-_mRwDTNRM1_ou0"/><!-- custom meta -->
+  <meta name="yandex-verification" content="ff4551aa97859c26"/><!-- custom meta -->
+  
+  <script type="text/javascript">
+   // Update the 'nojs'/'js' class on the html node
+document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
+
+// Check that all required assets are uploaded and up-to-date
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "require.js", "news.css"], "outOfDate":[]};
+</script>
+  
+  <link rel="shortcut icon" href="images/news-favicon.ico?crc=4286553693"/>
+  <title>News</title>
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=3914131437"/>
+  <link rel="stylesheet" type="text/css" href="css/news.css?crc=3774609535" id="pagesheet"/>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   var __adobewebfontsappname__ = "muse";
+</script>
+  <!-- JS includes -->
+  <script src="https://webfonts.creativecloud.com/anonymous-pro:i4:all.js" type="text/javascript" async></script>
+    <!--custom head HTML-->
+  <!-- Chrome, Firefox OS and Opera -->
+<meta name="theme-color" content="#666666">
+<!-- Windows Phone -->
+<meta name="msapplication-navbutton-color" content="#666666">
+<!-- iOS Safari -->
+<meta name="apple-mobile-web-app-status-bar-style" content="#666666">
+
+<style> 
+.js body { 
+visibility: visible !important; 
+}
+</style>
+  <!--HTML Widget code-->
+    
+<style>
+
+.audioplayer
+{
+	height: 2.5em; /* 40 */
+	position: relative;
+	z-index: 1;
+}
+	.audioplayer-mini
+	{
+		width: 2.5em; /* 40 */
+		margin: 0 auto;
+	}
+	.audioplayer > div
+	{
+		position: absolute;
+	}
+.audioplayer {
+    color: #FFFFFF;
+	background: #7F7F7F;
+}
+    
+.audioplayer-playpause
+{
+	width: 2.5em; /* 40 */
+	height: 100%;
+	text-align: left;
+	text-indent: -9999px;
+	cursor: pointer;
+	z-index: 2;
+	top: 0;
+	left: 0;
+}
+	.audioplayer-mini .audioplayer-playpause
+	{
+		width: 100%;
+	}
+    
+    /* Color */
+	.audioplayer-playpause:hover,
+	.audioplayer-playpause:focus
+	{
+		background-color: 7F7F7F;
+	}
+	.audioplayer-playpause a
+	{
+		display: block;
+	}
+
+	.audioplayer:not(.audioplayer-playing) .audioplayer-playpause a
+	{
+		width: 0;
+		height: 0;
+		border: 0.5em solid transparent; /* 8 */
+		border-right: none;
+		border-left-color: #FFFFFF;
+		content: '';
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin: -0.5em 0 0 -0.25em; /* 8 4 */
+	}
+
+	.audioplayer-playing .audioplayer-playpause a
+	{
+		width: 0.75em; /* 12 */
+		height: 0.75em; /* 12 */
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin: -0.375em 0 0 -0.375em; /* 6 */
+	}
+    
+		.audioplayer-playing .audioplayer-playpause a:before,
+		.audioplayer-playing .audioplayer-playpause a:after
+		{
+			width: 40%;
+			height: 100%;
+			background-color: #FFFFFF;
+			content: '';
+			position: absolute;
+			top: 0;
+		}
+		.audioplayer-playing .audioplayer-playpause a:before
+		{
+			left: 0;
+		}
+		.audioplayer-playing .audioplayer-playpause a:after
+		{
+			right: 0;
+		}
+        
+        
+.audioplayer-time
+{
+	width: 4.375em; /* 70 */
+	height: 100%;
+	line-height: 2.5em; /* 40 */
+	text-align: center;
+	z-index: 2;
+	top: 0;
+}
+	.audioplayer-time-current
+	{
+		border-left: 1px solid #7F7F7F;
+		left: 2.5em; /* 40 */
+	}
+	.audioplayer-time-duration
+	{
+		right: 2.5em; /* 40 */
+	}
+		.audioplayer-novolume .audioplayer-time-duration
+		{
+			border-right: 0;
+			right: 0;
+		}
+        
+       
+.audioplayer-bar
+{
+	height: 0.875em; /* 14 */
+	background-color: #7F7F7F;
+	cursor: pointer;
+	z-index: 1;
+	top: 50%;
+	right: 6.875em; /* 110 */
+	left: 6.875em; /* 110 */
+	margin-top: -0.438em; /* 7 */
+}
+	.audioplayer-novolume .audioplayer-bar
+	{
+		right: 4.375em; /* 70 */
+	}
+	.audioplayer-bar div
+	{
+		width: 0;
+		height: 100%;
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+    
+	.audioplayer-bar-loaded
+	{
+		background-color: #E5E5E5;
+		z-index: 1;
+	}
+
+	.audioplayer-bar-played
+	{
+        /* Accent Color */
+		background: #007FD1;
+		z-index: 2;
+	}
+
+.audioplayer-volume
+{
+	width: 2.5em; /* 40 */
+	height: 100%;
+	border-left: 1px solid #7F7F7F;
+	text-align: left;
+	text-indent: -9999px;
+	cursor: pointer;
+	z-index: 2;
+	top: 0;
+	right: 0;
+}
+
+
+	.audioplayer-volume:hover,
+	.audioplayer-volume:focus
+	{
+		background-color: #7F7F7F;
+        
+
+	}
+	.audioplayer-volume-button
+	{
+		width: 100%;
+		height: 100%;
+	}
+
+
+		.audioplayer-volume-button a
+		{
+			width: 0.313em; /* 5 */
+			height: 0.375em; /* 6 */
+			background-color: #FFFFFF;
+			display: block;
+			position: relative;
+			z-index: 1;
+			top: 40%;
+			left: 35%;
+		}
+			.audioplayer-volume-button a:before,
+			.audioplayer-volume-button a:after
+			{
+				content: '';
+				position: absolute;
+			}
+            
+			.audioplayer-volume-button a:before
+			{
+				width: 0;
+				height: 0;
+				border: 0.5em solid transparent; /* 8 */
+				border-left: none;
+				border-right-color: #FFFFFF;
+				z-index: 2;
+				top: 50%;
+				right: -0.25em;
+				margin-top: -0.5em; /* 8 */
+			}
+            
+            /* Color */
+			.audioplayer:not(.audioplayer-mute) .audioplayer-volume-button a:after
+			{
+				/* "volume" icon by Nicolas Gallagher, http://nicolasgallagher.com/pure-css-gui-icons */
+				width: 0.313em; /* 5 */
+				height: 0.313em; /* 5 */
+				border: 0.25em double #FFFFFF; /* 4 */
+				border-width: 0.25em 0.25em 0 0; /* 4 */
+				left: 0.563em; /* 9 */
+				top: -0.063em; /* 1 */
+				-webkit-border-radius: 0 0.938em 0 0; /* 15 */
+				-moz-border-radius: 0 0.938em 0 0; /* 15 */
+				border-radius: 0 0.938em 0 0; /* 15 */
+				-webkit-transform: rotate( 45deg );
+				-moz-transform: rotate( 45deg );
+				-ms-transform: rotate( 45deg );
+				-o-transform: rotate( 45deg );
+				transform: rotate( 45deg );
+			}
+
+	.audioplayer-volume-adjust
+	{
+		width: 100%;
+		height: 6.25em; /* 100 */
+		cursor: default;
+		position: absolute;
+		left: 0;
+		top: -9999px;
+		background: #7F7F7F;
+        
+
+        
+	}
+		.audioplayer-volume:not(:hover) .audioplayer-volume-adjust
+		{
+			opacity: 0;
+		}
+		.audioplayer-volume:hover .audioplayer-volume-adjust
+		{
+			top: auto;
+			bottom: 100%;
+		}
+		.audioplayer-volume-adjust > div
+		{
+			width: 40%;
+			height: 80%;
+			background-color: #E5E5E5;
+			cursor: pointer;
+			position: relative;
+			z-index: 1;
+			margin: 30% auto 0;
+		}
+        
+
+			.audioplayer-volume-adjust div div
+			{
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				bottom: 0;
+				left: 0;
+                /* Accent Color */
+				background: #007FD1;
+			}
+	.audioplayer-novolume .audioplayer-volume
+	{
+		display: none;
+	} 
+</style>
+
+ </head>
+ <body>
+
+  <div class="rounded-corners clearfix" id="page"><!-- column -->
+   <div class="position_content" id="page_position_content">
+    <div class="clearfix colelem" id="pppu352245"><!-- group -->
+     <div class="clearfix grpelem" id="ppu352245"><!-- column -->
+      <div class="clearfix colelem" id="pu352245"><!-- group -->
+       <div class="rounded-corners grpelem" id="u352245"><!-- content --></div>
+       <div class="rounded-corners clip_frame grpelem" id="u348929"><!-- image -->
+        <img class="block" id="u348929_img" src="images/%d0%bd%d0%be%d0%b2%d0%be%d1%81%d1%82%d0%b8%20%d0%bb%d0%be%d0%b3%d0%be%203.png?crc=4223956716" alt="" width="363" height="33"/>
+       </div>
+      </div>
+      <div class="clearfix colelem" id="pu348867"><!-- group -->
+       <div class="size_fixed grpelem" id="u348867"><!-- custom html -->
+       </div>
+       <div class="size_fixed grpelem" id="u348868"><!-- custom html -->
+        
+
+       </div>
+       <div class="size_fixed grpelem" id="u348968"><!-- custom html -->
+        
+
+       </div>
+      </div>
+     </div>
+     <div class="clip_frame grpelem" id="u348827"><!-- image -->
+      <img class="block" id="u348827_img" src="images/%d0%bb%d0%b0%d0%bc%d0%bf%d0%be%d1%87%d0%ba%d0%b0%201.gif?crc=4157040752" alt="" width="196" height="196"/>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu534630"><!-- group -->
+     <div class="rounded-corners grpelem" id="u534630"><!-- simple frame --></div>
+     <img class="grpelem" id="u534631-5" alt="IT" width="448" height="76" src="images/u534631-5.png?crc=59011258"/><!-- rasterized frame -->
+     <img class="grpelem" id="u534632-4" alt="das thema" width="138" height="34" src="images/u534632-4.png?crc=149692158"/><!-- rasterized frame -->
+    </div>
+    <div class="clearfix colelem" id="pu534714"><!-- group -->
+     <div class="shadow rounded-corners clip_frame grpelem" id="u534714"><!-- image -->
+      <img class="block" id="u534714_img" src="images/eugenie-ml-2sa.jpg?crc=3800857280" alt="" width="297" height="523"/>
+     </div>
+     <div class="clearfix grpelem" id="pu534659-9"><!-- column -->
+      <img class="colelem" id="u534659-9" alt="Весь год по старым ценам !" width="515" height="64" src="images/u534659-9.png?crc=273626913"/><!-- rasterized frame -->
+      <div class="clearfix colelem" id="pu534734-4"><!-- group -->
+       <img class="grpelem" id="u534734-4" alt="&nbsp;https://eugenie.ml" width="403" height="66" src="images/u534734-4.png?crc=55584573"/><!-- rasterized frame -->
+       <div class="clip_frame grpelem" id="u534649"><!-- image -->
+        <img class="block" id="u534649_img" src="images/%d1%81%d1%81%d1%8b%d0%bb%d0%ba%d0%b0.png?crc=4137797038" alt="" width="90" height="90"/>
+       </div>
+       <a class="nonblock nontext grpelem" id="u534656" href="https://eugenie.ml/"><!-- content --></a>
+       <img class="grpelem" id="u534724" alt="" width="331" height="167" src="images/%d0%b0%d0%ba%d1%86%d0%b8%d1%8f-u534724.png?crc=4081605865"/><!-- rasterized frame -->
+      </div>
+      <div class="clearfix colelem" id="pu534972-8"><!-- group -->
+       <img class="grpelem" id="u534972-8" alt="&nbsp;Демонстрационный проект здесь !" width="515" height="85" src="images/u534972-8.png?crc=522716915"/><!-- rasterized frame -->
+       <div class="clip_frame grpelem" id="u535079"><!-- image -->
+        <img class="block" id="u535079_img" src="images/%d1%81%d1%81%d1%8b%d0%bb%d0%ba%d0%b0%204.jpg?crc=103601854" alt="" width="87" height="80"/>
+       </div>
+       <a class="nonblock nontext rounded-corners grpelem" id="u535089" href="http://bigsite.ml/"><!-- content --></a>
+      </div>
+      <img class="colelem" id="u534750-6" alt="&nbsp;Вы можете оставить вашу заявку прямо на сайте в форме обратной связи !" width="518" height="201" src="images/u534750-6.png?crc=236015208"/><!-- rasterized frame -->
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu526458"><!-- group -->
+     <div class="rounded-corners grpelem" id="u526458"><!-- simple frame --></div>
+     <img class="grpelem" id="u526459-4" alt="Skating" width="446" height="76" src="images/u526459-4.png?crc=46446374"/><!-- rasterized frame -->
+     <img class="grpelem" id="u526460-4" alt="das thema" width="138" height="34" src="images/u526460-4.png?crc=149692158"/><!-- rasterized frame -->
+    </div>
+    <div class="clearfix colelem" id="pu526477-8"><!-- group -->
+     <img class="grpelem" id="u526477-8" alt="&nbsp;Figure skating is a sport in which individuals, duos, or groups perform on figure skates on ice. It was the first winter sport to be included in the Olympic Games, when it was contested at the 1908 Olympics in London. The four Olympic disciplines are men's singles, ladies' singles, pair skating, and ice dance. Non-Olympic disciplines include synchronized skating, Theater on Ice, and four skating. From intermediate through senior-level competition, skaters generally perform two programs (short and free skate), which may include spins, jumps, moves in the field, lifts, throw jumps, death spirals, and other elements or moves, depending on the discipline." width="547" height="801" src="images/u526477-8.png?crc=368479469"/><!-- rasterized frame -->
+     <img class="grpelem" id="u533227-41" alt="&nbsp;Алёна Косторная - фигуристка, победительница финала Гран-при 2019. По состоянию на 8 февраля 2020 года занимает 7-е место в рейтинге Международного союза конькобежцев. В 2019 году на своём первом международном старте на взрослом уровне CS Finlandia Trophy в произвольной програ-мме исполнила два тройных акселя, став десятой женщиной, успешно исполняющей этот элемент на международных соревнованиях. Первая одиночница в исто-рии фигурного катания, преодолевшая отметку в 85 балла в короткой программе и 247 баллов за общую сумму. Обладательница текущих мировых реко- рдов в короткой программе и по сумме баллов. " width="547" height="841" src="images/u533227-41.png?crc=349008096"/><!-- rasterized frame -->
+     <img class="grpelem" id="u531410-51" alt="Весна не Виктор Цой Покажи мне людей, уверенных в завтрашнем дне Нарисуй мне портреты промокших на этом пути. Покажи мне того, кто высох один из полка Но кто-то должен стать дверью А кто-то замком, а кто-то ключом от замка. Зима. Лето. Между Зимой и Летом - Весна! И где бы ты ни был Что б ты ни делал - Между Землей и Небом - Вода! Где-то есть люди, для которых есть день и есть ночь. Где-то есть люди, у которых есть сын и есть дочь. Где-то есть люди, для которых теорема верна. Но кто-то станет стеной, а кто-то плечом Под которым дрогнет стена. Зима. Лето. Между Зимой и Летом - Весна! И где бы ты ни был Что б ты ни делал - Между Землей и Небом - Вода! " width="873" height="1025" src="images/u531410-51.png?crc=4081962355"/><!-- rasterized frame -->
+     <div class="rounded-corners grpelem" id="u523400"><!-- simple frame --></div>
+     <img class="grpelem" id="u523401-4" alt="Bio" width="445" height="76" src="images/u523401-4.png?crc=167753043"/><!-- rasterized frame -->
+     <img class="grpelem" id="u523402-4" alt="das thema" width="138" height="34" src="images/u523402-4.png?crc=149692158"/><!-- rasterized frame -->
+     <div class="shadow rounded-corners clip_frame grpelem" id="u526467"><!-- image -->
+      <img class="block" id="u526467_img" src="images/%d0%b5%d0%b2%d0%b3%d0%b5%d0%bd%d0%b8%d1%8f.jpg?crc=68089497" alt="" width="279" height="419"/>
+     </div>
+     <img class="grpelem" id="u526480-4" alt="Photo by E. M." width="260" height="46" src="images/u526480-4.png?crc=3977209541"/><!-- rasterized frame -->
+     <img class="grpelem" id="u531423-4" alt="WAter" width="197" height="46" src="images/u531423-4.png?crc=3811528916"/><!-- rasterized frame -->
+     <div class="rounded-corners grpelem" id="u531398"><!-- simple frame --></div>
+     <img class="grpelem" id="u531399-4" alt="der Frühling" width="446" height="76" src="images/u531399-4.png?crc=4111655861"/><!-- rasterized frame -->
+     <img class="grpelem" id="u531400-4" alt="das thema" width="138" height="34" src="images/u531400-4.png?crc=149692158"/><!-- rasterized frame -->
+     <div class="shadow rounded-corners clip_frame grpelem" id="u531413"><!-- image -->
+      <img class="block" id="u531413_img" src="images/%d0%b2%d0%be%d0%b4%d0%b0%208.jpg?crc=4286264084" alt="" width="276" height="155"/>
+     </div>
+     <div class="shadow rounded-corners clip_frame grpelem" id="u533230"><!-- image -->
+      <img class="block" id="u533230_img" src="images/%d0%b0%d0%bb%d0%b5%d0%bd%d0%b0%20%d0%ba%d0%be%d1%81%d1%82%d0%be%d1%80%d0%bd%d0%b0%d1%8f.jpg?crc=4192809245" alt="" width="297" height="198"/>
+     </div>
+     <div class="clip_frame grpelem" id="u533253"><!-- image -->
+      <img class="block" id="u533253_img" src="images/%d0%b3%d1%80%d0%b0%d0%bd%20%d0%bf%d1%80%d0%b8.png?crc=166537322" alt="" width="262" height="153"/>
+     </div>
+     <div class="clip_frame grpelem" id="u527423"><!-- image -->
+      <img class="block" id="u527423_img" src="images/%d1%81%d1%81%d1%8b%d0%bb%d0%ba%d0%b0.png?crc=4137797038" alt="" width="90" height="90"/>
+     </div>
+     <a class="nonblock nontext grpelem" id="u527425" href="https://www.youtube.com/watch?v=y27Bn2W-j-Y"><!-- content --></a>
+     <div class="clip_frame grpelem" id="u528214"><!-- image -->
+      <img class="block" id="u528214_img" src="images/%d1%81%d1%81%d1%8b%d0%bb%d0%ba%d0%b0.png?crc=4137797038" alt="" width="90" height="90"/>
+     </div>
+     <a class="nonblock nontext grpelem" id="u528216" href="https://www.youtube.com/watch?v=LnK_d0bmBKw"><!-- content --></a>
+     <div class="clip_frame grpelem" id="u533240"><!-- image -->
+      <img class="block" id="u533240_img" src="images/%d1%81%d1%81%d1%8b%d0%bb%d0%ba%d0%b0.png?crc=4137797038" alt="" width="90" height="90"/>
+     </div>
+     <a class="nonblock nontext grpelem" id="u533242" href="https://www.youtube.com/watch?v=8gP_qYEgaog"><!-- content --></a>
+    </div>
+    <div class="clearfix colelem" id="pu523387"><!-- group -->
+     <div class="shadow rounded-corners clip_frame grpelem" id="u523387"><!-- image -->
+      <img class="block" id="u523387_img" src="images/%d0%b1%d1%83%d1%80%d1%83%d0%bd%d0%b4%d1%83%d0%ba-2.jpg?crc=11636547" alt="" width="388" height="248"/>
+     </div>
+     <img class="grpelem" id="u523397-15" alt="Вы не знаете почему бурундучки зимой полнеют оч ? Надо бы похудеть им как-нибудь ! )(" width="447" height="328" src="images/u523397-15.png?crc=4177856893"/><!-- rasterized frame -->
+    </div>
+    <div class="clearfix colelem" id="pu522268"><!-- group -->
+     <div class="rounded-corners grpelem" id="u522268"><!-- simple frame --></div>
+     <img class="grpelem" id="u522269-4" alt="&nbsp;Inform. Technology" width="447" height="76" src="images/u522269-4.png?crc=70053301"/><!-- rasterized frame -->
+     <img class="grpelem" id="u522270-4" alt="das thema" width="138" height="34" src="images/u522270-4.png?crc=149692158"/><!-- rasterized frame -->
+    </div>
+    <div class="clearfix colelem" id="pu522287-21"><!-- group -->
+     <img class="grpelem" id="u522287-21" alt="&nbsp;Что такое кэш ? Кэш - это буфер между браузером и интернетом, в котором сохраняются посещённые пользователем страницы. Вместо того, чтобы скачивать их из интернета, браузер может «достать» страницы из кэша, что значительно сокращает скорость загрузки страниц. Проблема может возникнуть, если на сервере страница обновится, а браузер продолжает подгружать старую версию из кэша. Зачем чистить кэш ? Веб-страницы могут отображаться некорректно в связи с тем, что в них были внесены изменения, а браузер продолжает использовать устаревшие данные из кэша. С накоплением кэша место на компьютере, пусть незначительно, но уменьшается. " width="512" height="883" src="images/u522287-21.png?crc=3883747242"/><!-- rasterized frame -->
+     <div class="rounded-corners grpelem" id="u520089"><!-- simple frame --></div>
+     <img class="grpelem" id="u520090-4" alt="&nbsp;die Stadt" width="349" height="76" src="images/u520090-4.png?crc=180461296"/><!-- rasterized frame -->
+     <img class="grpelem" id="u520091-4" alt="das thema" width="138" height="34" src="images/u520091-4.png?crc=149692158"/><!-- rasterized frame -->
+     <div class="clip_frame grpelem" id="u522277"><!-- image -->
+      <img class="block" id="u522277_img" src="images/%d1%86%d0%b2%d0%b5%d1%82%d0%bd%d0%b0%d1%8f-%d1%81%d1%82%d1%80%d0%be%d0%ba%d0%b0-2.jpg?crc=291469890" alt="" width="344" height="594"/>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu520108-24"><!-- group -->
+     <img class="grpelem" id="u520108-24" alt="&nbsp;Город asBEST расположен на восточной окраине Среднего Урала, на реке Большой Рефт, в 86 км к северо - востоку от Екатеринбурга. Преобладает умеренно конти- нентальный климат. Средне-годовая норма осадков — 503 мм. " width="422" height="972" src="images/u520108-24.png?crc=100118400"/><!-- rasterized frame -->
+     <img class="grpelem" id="u520111-47" alt="&nbsp;Меньше всего осадков выпадает в марте, в среднем 15 мм. Большая часть осадков выпадает в июле, в среднем около 90 мм. Самый холодный месяц январь со средней температурой -12,5 ° C, а самый тёплый — июль, со средней температурой 19,2 ° C. Минерал асбест обладает чудесными свойствами. Он расщепляется на тоненькие волокна, рассмотреть которые можно только под микроскопом. Изготовленный из этих волокон фильтр имеет около 200 миллионов отверстий на одном квадратном сантиметре и обладает способностью не только очищать от механических примесей, но и задерживать микроорганизмы. Из волокон асбеста делают пряжу и ткут различные полотна. Поэтому его и называют &quot;горным льном&quot;, &quot;каменной куделькой&quot;. Асбест не горит. Благодаря этому свойству он получил своё название от греческого слова &quot;асбес-тос&quot; - негоримый. Асбест обладает большой прочностью. Стальная проволока сечением в один квадратный миллиметр разрывается при нагрузке в 200 килограммов, а волокно каменной кудели такого же сечения выдерживает нагрузку в 300 килограммов. Кроме того, асбест является прекрасным электроизолятором и не пропускает тепло&quot;. Исключительные качества асбеста, минерала - &quot;кормильца&quot; не могли не сказаться на облике города как внешнем, так и скрытом - &quot;внутреннем&quot;, то есть - душе его. Окрестности города оч красивые. Но если у Вас есть возможность, то почему лучше уехать ? " width="874" height="1671" src="images/u520111-47.png?crc=130303851"/><!-- rasterized frame -->
+     <div class="rounded-corners grpelem" id="u517551"><!-- simple frame --></div>
+     <img class="grpelem" id="u517552-4" alt="&nbsp;mit der U-Bahn" width="348" height="76" src="images/u517552-4.png?crc=4115982709"/><!-- rasterized frame -->
+     <img class="grpelem" id="u517553-4" alt="das thema" width="138" height="34" src="images/u517553-4.png?crc=149692158"/><!-- rasterized frame -->
+     <div class="shadow rounded-corners clip_frame grpelem" id="u520098"><!-- image -->
+      <img class="block" id="u520098_img" src="images/%d0%b0%d1%81%d0%b1%d0%b5%d1%81%d1%82.jpg?crc=12758942" alt="" width="431" height="287"/>
+     </div>
+     <div class="clip_frame grpelem" id="u521326"><!-- image -->
+      <img class="block" id="u521326_img" src="images/%d0%b0%d1%81%d0%b1%d0%b5%d1%81%d1%82%201.jpg?crc=4226776209" alt="" width="260" height="223"/>
+     </div>
+     <img class="grpelem" id="u521338-6" alt="МИНеРАЛ АСБЕСТ / ХРИЗОТИЛ" width="300" height="135" src="images/u521338-6.png?crc=4134582819"/><!-- rasterized frame -->
+     <div class="clip_frame grpelem" id="u521341"><!-- image -->
+      <img class="block" id="u521341_img" src="images/%d1%81%d1%81%d1%8b%d0%bb%d0%ba%d0%b0%202.jpg?crc=4220601960" alt="" width="116" height="116"/>
+     </div>
+     <a class="nonblock nontext grpelem" id="u521343" href="https://meduza.io/feature/2018/06/20/asbest-vyzyvaet-rak-v-rossii-ego-vse-ravno-dobyvayut-i-ispolzuyut-v-stroitelstve"><!-- content --></a>
+     <div class="clip_frame grpelem" id="u521351"><!-- image -->
+      <img class="block" id="u521351_img" src="images/%d1%81%d1%81%d1%8b%d0%bb%d0%ba%d0%b0.png?crc=4137797038" alt="" width="90" height="90"/>
+     </div>
+     <a class="nonblock nontext grpelem" id="u521361" href="https://www.proza.ru/2017/01/25/391"><!-- content --></a>
+    </div>
+    <div class="clearfix colelem" id="pu517570-17"><!-- group -->
+     <img class="grpelem" id="u517570-17" alt="&nbsp;«Ботаническая» — 8-я станция Екатеринбургского метрополитена. Конечная станция 1-й линии, расположена между действующей станцией «Чкаловская» и перспективной «Уктусские горы». Станция открыта 28 ноября 2011 года в составе пускового участка «Геологическая» — «Ботаническая». Находится на территории Чкаловского района Екатеринбурга. Названа в честь близлежащего Ботанического сада и прилегающего к нему жилого района «Ботанический». " width="541" height="575" src="images/u517570-17.png?crc=353671042"/><!-- rasterized frame -->
+     <img class="grpelem" id="u517573-4" alt="&nbsp;В оформлении станции ключевым элементом являются прави- льные шестиугольники, ассоциирующиеся с пчелиными сотами. Потолок станции в форме сот позволил удачно скрыть внутри них светильники, обеспечил мягкое и тёплое освещение платформенной части. Светлый пол выполнен из керамогранита, колонны облицованы листовым металлом." width="874" height="274" src="images/u517573-4.png?crc=355526751"/><!-- rasterized frame -->
+     <div class="shadow rounded-corners clip_frame grpelem" id="u519174"><!-- image -->
+      <img class="block" id="u519174_img" src="images/%d1%8f-%d1%80%d0%b5%d0%b4%d0%b0%d0%ba%d1%82%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5-4ds.jpg?crc=3925438772" alt="" width="279" height="464"/>
+     </div>
+    </div>
+    <div class="rounded-corners clearfix colelem" id="u516218"><!-- group -->
+     <img class="grpelem" id="u516219-4" alt="&nbsp;der Tour" width="218" height="76" src="images/u516219-4.png?crc=4007518103"/><!-- rasterized frame -->
+    </div>
+    <img class="colelem" id="u516220-4" alt="das thema" width="138" height="34" src="images/u516220-4.png?crc=149692158"/><!-- rasterized frame -->
+    <div class="clearfix colelem" id="pu516237-9"><!-- group -->
+     <img class="grpelem" id="u516237-9" alt="&nbsp;&quot;... я отправляюсь в Сочи на грузовых поездах; основная цель доехать до Сочи без дополнительных транспортных средств. Все сложности и приключения что происходят со мной вы можете наблюдать в этом фильме&quot; " width="494" height="291" src="images/u516237-9.png?crc=3993126779"/><!-- rasterized frame -->
+     <img class="grpelem" id="u516432-5" alt="&nbsp;&quot;Начало&quot; (1)" width="291" height="112" src="images/u516432-5.png?crc=67698822"/><!-- rasterized frame -->
+     <img class="grpelem" id="u516718-5" alt="&nbsp;&quot;По России&quot; (2)" width="291" height="112" src="images/u516718-5.png?crc=3815377908"/><!-- rasterized frame -->
+     <div class="shadow rounded-corners clip_frame grpelem" id="u516227"><!-- image -->
+      <img class="block" id="u516227_img" src="images/%d0%b2-%d1%81%d0%be%d1%87%d0%b8--2.jpg?crc=3944127350" alt="" width="361" height="186"/>
+     </div>
+     <div class="shadow rounded-corners clip_frame grpelem" id="u516695"><!-- image -->
+      <img class="block" id="u516695_img" src="images/%d0%b2-%d1%81%d0%be%d1%87%d0%b8-3.jpg?crc=93987531" alt="" width="492" height="256"/>
+     </div>
+     <div class="shadow rounded-corners clearfix grpelem" id="u516419"><!-- group -->
+      <img class="grpelem" id="u516420" alt="" width="137" height="137" src="images/youtube_%d0%b7%d0%bd%d0%b0%d1%87%d0%be%d0%ba-u347753-u516420.png?crc=3895449116"/><!-- rasterized frame -->
+      <a class="nonblock nontext grpelem" id="u516422" href="https://www.youtube.com/watch?v=swfPw4c8dIs"><!-- content --></a>
+     </div>
+     <div class="shadow rounded-corners clearfix grpelem" id="u516705"><!-- group -->
+      <img class="grpelem" id="u516708" alt="" width="137" height="137" src="images/youtube_%d0%b7%d0%bd%d0%b0%d1%87%d0%be%d0%ba-u347753-u516708.png?crc=3895449116"/><!-- rasterized frame -->
+      <a class="nonblock nontext grpelem" id="u516715" href="https://www.youtube.com/watch?v=sFqRTD20WWM&amp;list=TLPQMDMwMzIwMjCUvAJlyY6S_w&amp;index=6"><!-- content --></a>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu517033"><!-- group -->
+     <div class="shadow rounded-corners clip_frame grpelem" id="u517033"><!-- image -->
+      <img class="block" id="u517033_img" src="images/%d0%ba-%d1%81%d0%be%d1%87%d0%b8-5.jpg?crc=311649590" alt="" width="361" height="187"/>
+     </div>
+     <div class="clearfix grpelem" id="pu517044"><!-- column -->
+      <div class="shadow rounded-corners clearfix colelem" id="u517044"><!-- group -->
+       <img class="grpelem" id="u517045" alt="" width="137" height="137" src="images/youtube_%d0%b7%d0%bd%d0%b0%d1%87%d0%be%d0%ba-u347753-u517045.png?crc=3895449116"/><!-- rasterized frame -->
+       <a class="nonblock nontext grpelem" id="u517047" href="https://www.youtube.com/watch?v=vtc2pbn5YjQ"><!-- content --></a>
+      </div>
+      <div class="shadow rounded-corners clearfix colelem" id="u517331"><!-- group -->
+       <img class="grpelem" id="u517324" alt="" width="137" height="137" src="images/youtube_%d0%b7%d0%bd%d0%b0%d1%87%d0%be%d0%ba-u347753-u517324.png?crc=3895449116"/><!-- rasterized frame -->
+       <a class="nonblock nontext grpelem" id="u517334" href="https://www.youtube.com/watch?v=fZqp8Nr3TyI&amp;has_verified=1"><!-- content --></a>
+      </div>
+     </div>
+     <img class="grpelem" id="u517043-7" alt="&nbsp;24 часа на берегу моря. Сочи / Адлер" width="291" height="179" src="images/u517043-7.png?crc=4123941826"/><!-- rasterized frame -->
+     <img class="grpelem" id="u517340-7" alt="&nbsp;Поворот &quot;Туда&quot; (оч интригующий)" width="291" height="179" src="images/u517340-7.png?crc=3991498809"/><!-- rasterized frame -->
+    </div>
+    <img class="colelem" id="u517059-15" alt="Трип — маленькое путешествие, поездка ... Бэд-трип (англ. bad trip — «отчаянное путешествие») — сленговое выражение, потенциально опасные для психики переживания, которые могут возникать во время психоделического опыта, обычно вызванного приёмом психоактивных веществ группы психоделиков ... " width="900" height="305" src="images/u517059-15.png?crc=4031579131"/><!-- rasterized frame -->
+    <div class="rounded-corners clearfix colelem" id="u514358"><!-- group -->
+     <img class="grpelem" id="u514359-4" alt="&nbsp;der Film" width="217" height="76" src="images/u514359-4.png?crc=257578603"/><!-- rasterized frame -->
+    </div>
+    <img class="colelem" id="u514360-4" alt="das thema" width="138" height="34" src="images/u514360-4.png?crc=149692158"/><!-- rasterized frame -->
+    <div class="clearfix colelem" id="pu514348"><!-- group -->
+     <div class="shadow rounded-corners clip_frame grpelem" id="u514348"><!-- image -->
+      <img class="block" id="u514348_img" src="images/%d0%ba%d0%be%d0%b7%d1%91%d0%bb.jpg?crc=456976365" alt="" width="361" height="180"/>
+     </div>
+     <img class="grpelem" id="u514367-9" alt="&nbsp;The Scapegoat is a British film adaptation of Daphne du Maurier's 1957 novel of the same name. The drama is written and directed by Charles Sturridge and stars Matthew Rhys as lookalike characters John Standing and Johnny Spence. It was broadcast on ITV on 9 September 2012. The novel was first adapted into film in 1959 by director Robert Hamer, with Sir Alec Guinness playing the parts of John Barratt and Jacques de Gue. " width="493" height="473" src="images/u514367-9.png?crc=4271489520"/><!-- rasterized frame -->
+    </div>
+    <div class="clearfix colelem" id="pu511311"><!-- group -->
+     <div class="rounded-corners grpelem" id="u511311"><!-- simple frame --></div>
+     <img class="grpelem" id="u511312-4" alt="&nbsp;Tiere" width="217" height="76" src="images/u511312-4.png?crc=356193619"/><!-- rasterized frame -->
+     <img class="grpelem" id="u511313-4" alt="das thema" width="138" height="34" src="images/u511313-4.png?crc=149692158"/><!-- rasterized frame -->
+    </div>
+    <div class="clearfix colelem" id="pu511305-8"><!-- group -->
+     <img class="grpelem" id="u511305-8" alt="&nbsp;Опыты проводятся в университетах, медицинских училищах, фармацевтических компаниях, фермерских хозяйствах, оборонных предприятиях и коммерческих лабораториях (которые обслуживают нужды промышленности). Опыты относятся к генетике, биологии развития, этологии и прикладным исследованиям типа биомедицинских, ксенотрансплантации, тестирования лекарств, токсикологических опытов (в том числе тестирование косметики и бытовой химии). Животных используют для обучения студентов и в оборонных исследованиях. Сторонники использования животных в опытах утверждают, что практически все достижения в медицине XX века каким-либо образом зависели от опытов на животных. Институт исследований лабораторных животных Национальной академии наук США утверждает, что опыты на животных не могут быть заменены даже сложными компьютерными моделями, которые не способны смоделировать чрезвычайно сложные взаимодействия молекул, клеток, органов, тканей, организмов и окружающей среды. Организации за права животных и некоторые организации за благосостояние животных — такие, как PETA и BUAV — ставят под вопрос необходимость и законность опытов на животных, утверждая, что они жестокие и плохо регулируются, что медицинский прогресс в действительности задерживается вводящими в заблуждение моделями процессов у животных, которые не могут надёжно предсказать эффекты у людей, что некоторые из опытов устарели, что затраты превышают прибыли, или что у животных есть неотъемлемое право не быть используемыми в экспериментах или не получать вреда в ходе экспериментов. " width="875" height="979" src="images/u511305-8.png?crc=61720385"/><!-- rasterized frame -->
+     <img class="grpelem" id="u511302-8" alt="&nbsp;Подсчитано, что ежегодно в мире используется 50—100 миллионов позвоночных животных. Несмотря на исключительную важность беспозво- ночных для ряда широкого спектра экспериментов (см. «модельные орга- низмы»), их использование никак не контролируется, а учёт количества не ведется. Большинство животных после применения в опытах усыпляется. Лабораторных животных специально разводят, однако некоторых ловят в дикой среде либо покупают на аукционах и в приютах. " width="493" height="589" src="images/u511302-8.png?crc=426922651"/><!-- rasterized frame -->
+     <div class="clip_frame grpelem" id="u511337"><!-- image -->
+      <img class="block" id="u511337_img" src="images/%d1%81%d1%81%d1%8b%d0%bb%d0%ba%d0%b0%202.jpg?crc=4220601960" alt="" width="116" height="116"/>
+     </div>
+     <a class="nonblock nontext grpelem" id="u511339" href="https://www.bbc.com/russian/science/2015/03/150317_vert_fut_will_we_ever_end_animal_testing"><!-- content --></a>
+     <div class="shadow rounded-corners clip_frame grpelem" id="u511292"><!-- image -->
+      <img class="block" id="u511292_img" src="images/%d0%ba%d1%80%d0%be%d0%bb%d0%b8%d0%ba.jpg?crc=302380970" alt="" width="361" height="204"/>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu508607"><!-- group -->
+     <div class="rounded-corners grpelem" id="u508607"><!-- simple frame --></div>
+     <img class="grpelem" id="u508608-4" alt="die Hilfe" width="217" height="76" src="images/u508608-4.png?crc=4156307002"/><!-- rasterized frame -->
+     <img class="grpelem" id="u508609-4" alt="das thema" width="138" height="34" src="images/u508609-4.png?crc=149692158"/><!-- rasterized frame -->
+    </div>
+    <div class="clearfix colelem" id="pu508634"><!-- group -->
+     <div class="clip_frame grpelem" id="u508634"><!-- image -->
+      <img class="block" id="u508634_img" src="images/%d0%b1%d0%b5%d0%b7%d0%b4%d0%be%d0%bc%d0%bd%d1%8b%d0%b9.jpg?crc=4085180842" alt="" width="353" height="407"/>
+     </div>
+     <div class="grpelem" id="u508644"><!-- simple frame --></div>
+     <img class="grpelem" id="u508647-6" alt="&nbsp;ОНИ ТОЖЕ ЛЮДИ, НУЖДАЮЩИЕСЯ, КАК И МЫ, В ПОМОЩИ !" width="356" height="133" src="images/u508647-6.png?crc=4188862640"/><!-- rasterized frame -->
+    </div>
+    <div class="clearfix colelem" id="pppu508616"><!-- group -->
+     <div class="clearfix grpelem" id="ppu508616"><!-- column -->
+      <div class="clearfix colelem" id="pu508616"><!-- group -->
+       <div class="clip_frame grpelem" id="u508616"><!-- image -->
+        <img class="block" id="u508616_img" src="images/pdf%20%d0%b7%d0%bd%d0%b0%d1%87%d0%be%d0%ba%204.png?crc=3898170329" alt="" width="113" height="113"/>
+       </div>
+       <a class="nonblock nontext grpelem" id="u508626" href="assets/%d0%b1%d0%b5%d0%b7%d0%b4%d0%be%d0%bc%d0%bd%d1%8b%d0%bc.pdf"><!-- content --></a>
+      </div>
+      <img class="colelem" id="u508650-4" alt="(ссылка для скачивания)" width="302" height="81" src="images/u508650-4.png?crc=447356875"/><!-- rasterized frame -->
+     </div>
+     <img class="grpelem" id="u508631-6" alt="Адреса различных благотворительных организаций с указанием на карте их месторасположения. " width="508" height="195" src="images/u508631-6.png?crc=3768934210"/><!-- rasterized frame -->
+    </div>
+    <div class="rounded-corners clearfix colelem" id="u496114"><!-- group -->
+     <img class="grpelem" id="u496115-4" alt="der Film" width="217" height="76" src="images/u496115-4.png?crc=257578603"/><!-- rasterized frame -->
+    </div>
+    <img class="colelem" id="u496116-4" alt="das thema" width="138" height="34" src="images/u496116-4.png?crc=149692158"/><!-- rasterized frame -->
+    <div class="clearfix colelem" id="pu504584-5"><!-- group -->
+     <img class="grpelem" id="u504584-5" alt="&nbsp;The Katyn massacre (Polish: zbrodnia katyńska, &quot;Katyń crime&quot;; Russian: &quot;Katyn execution by shooting&quot;) was a series of mass executions of about 22,000 Polish military officers and intelligentsia carried out by the Soviet Union, specifically the NKVD (&quot;People's Commissariat for Internal Affairs&quot;, the Soviet secret police) in April and May 1940. Though the killings also occurred in the Kalinin and Kharkiv prisons and elsewhere, the massacre is named after the Katyn Forest, where some of the mass graves were first discovered." width="400" height="772" src="images/u504584-5.png?crc=4241081977"/><!-- rasterized frame -->
+     <div class="shadow rounded-corners clip_frame grpelem" id="u504564"><!-- image -->
+      <img class="block" id="u504564_img" src="images/%d0%ba%d0%b0%d1%82%d1%8b%d0%bd%d1%8c.jpg?crc=464113540" alt="" width="446" height="293"/>
+     </div>
+     <img class="grpelem" id="u504587-4" alt="Katyn 2007" width="226" height="86" src="images/u504587-4.png?crc=334607519"/><!-- rasterized frame -->
+     <div class="shadow rounded-corners clip_frame grpelem" id="u505488"><!-- image -->
+      <img class="block" id="u505488_img" src="images/%d0%b4%d1%80%d1%83%d0%b3%d0%b0%d1%8f%20%d0%b7%d0%b5%d0%bc%d0%bb%d1%8f.jpg?crc=144226252" alt="" width="340" height="191"/>
+     </div>
+     <div class="shadow rounded-corners clip_frame grpelem" id="u505498"><!-- image -->
+      <img class="block" id="u505498_img" src="images/%d0%b4%d1%80%d1%83%d0%b3%d0%b0%d1%8f%20%d0%b7%d0%b5%d0%bc%d0%bb%d1%8f%202.jpg?crc=171822949" alt="" width="340" height="228"/>
+     </div>
+     <img class="grpelem" id="u505508-23" alt="&nbsp;Rhoda Williams (Brit Marling), a brilliant 17-year-old girl who has spent her young life fascinated by astronomy, is delighted to learn that she has been accepted into MIT. She celebrates, drinking with friends, and in a reckless moment, drives home intoxicated. Listening to a story on the radio about a recently discovered Earth-like planet, she gazes out her car window at the stars and inadvertently hits a stopped car at an intersection, putting John Burroughs (William Mapother) in a coma and killing his pregnant wife and young son. " width="510" height="900" src="images/u505508-23.png?crc=524708857"/><!-- rasterized frame -->
+     <img class="grpelem" id="u505511-4" alt="&nbsp;After serving her four-year prison sentence, Rhoda chooses to work with her hands and to have minimal contact with other people, becoming a janitor at her former high school." width="873" height="166" src="images/u505511-4.png?crc=533012433"/><!-- rasterized frame -->
+     <img class="grpelem" id="u505514-4" alt="Another Earth 2011" width="332" height="92" src="images/u505514-4.png?crc=4161864880"/><!-- rasterized frame -->
+     <div class="clip_frame grpelem" id="u504574"><!-- image -->
+      <img class="block" id="u504574_img" src="images/%d1%81%d1%81%d1%8b%d0%bb%d0%ba%d0%b0%202.jpg?crc=4220601960" alt="" width="116" height="116"/>
+     </div>
+     <a class="nonblock nontext grpelem" id="u504576" href="https://www.youtube.com/watch?v=wIkEaWWXXvo&amp;has_verified=1"><!-- content --></a>
+    </div>
+    <div class="clearfix colelem" id="pu498671"><!-- group -->
+     <div class="shadow rounded-corners clip_frame grpelem" id="u498671"><!-- image -->
+      <img class="block" id="u498671_img" src="images/%d0%bb%d0%b8%d0%b0%d0%bc.jpg?crc=4063832676" alt="" width="270" height="378"/>
+     </div>
+     <img class="grpelem" id="u498681-5" alt="&nbsp;Liam John Neeson was born in Ballymena on 7 June 1952, the son of Katherine &quot;Kitty&quot; Neeson (née Brown), a cook, and Bernard &quot;Barney&quot; Neeson, a caretaker at the Ballymena Boys All Saints Primary SchoolNeeson has described himself as out of touch with the politics and history of Northern Ireland until becoming aware of protests by fellow students after Bloody Sunday in 1972, during the Troubles. That experience encouraged him to learn more local history.In a 2009 interview, Neeson said, &quot;I never stop thinking about it [the Troubles]. I've known guys and girls who have been perpetrators ..." width="576" height="708" src="images/u498681-5.png?crc=84914880"/><!-- rasterized frame -->
+    </div>
+    <div class="shadow rounded-corners clip_frame colelem" id="u498139"><!-- image -->
+     <img class="block" id="u498139_img" src="images/%d0%bf%d1%80%d0%be%d0%bc%d0%b5%d1%82%d0%b5%d0%b9%205.jpg?crc=4232284438" alt="" width="475" height="239"/>
+    </div>
+    <img class="colelem" id="u496143-7" alt="&nbsp;Prometheus is a 2012 science fiction film directed by Ridley Scott, written by Jon Spaihts and Damon Lindelof and starring Noomi Rapace, Michael Fassbender, Guy Pearce, Idris Elba, Logan Marshall-Green, and Charlize Theron. It is set in the late 21st century and centers on the crew of the spaceship Prometheus as it follows a star map discovered among the artifacts of several ancient Earth cultures. Seeking the origins of humanity, the crew arrives on a distant world and discovers a threat that could cause the extinction of the human species." width="873" height="390" src="images/u496143-7.png?crc=13646954"/><!-- rasterized frame -->
+    <div class="clearfix colelem" id="u497185-7"><!-- content -->
+     <p><span id="u497185">Original&nbsp; soundtrack</span></p>
+     <p><span id="u497185-3">by Marc Streitenfeld </span><span id="u497185-4"></span></p>
+    </div>
+    <div class="clearfix colelem" id="pu497014"><!-- group -->
+     <div class="shadow rounded-corners clip_frame grpelem" id="u497014"><!-- image -->
+      <img class="block" id="u497014_img" src="images/%d0%bf%d1%80%d0%be%d0%bc%d0%b5%d1%82%d0%b5%d0%b9%201.jpg?crc=4076647934" alt="" width="158" height="158"/>
+     </div>
+     <div class="shadow rounded-corners clip_frame grpelem" id="u497630"><!-- image -->
+      <img class="block" id="u497630_img" src="images/%d0%bf%d1%80%d0%be%d0%bc%d0%b5%d1%82%d0%b5%d0%b9%204.jpg?crc=4155409877" alt="" width="239" height="135"/>
+     </div>
+     <div class="shadow rounded-corners clip_frame grpelem" id="u497640"><!-- image -->
+      <img class="block" id="u497640_img" src="images/%d0%be%d1%82%2018%20%d0%bb%d0%b5%d1%82.jpg?crc=4150265247" alt="" width="78" height="78"/>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu496159"><!-- group -->
+     <div class="grpelem" id="u496159"><!-- simple frame --></div>
+     <div class="rounded-corners clearfix grpelem" id="u494439"><!-- group -->
+      <img class="grpelem" id="u494440-4" alt="das Auto" width="217" height="76" src="images/u494440-4.png?crc=426979360"/><!-- rasterized frame -->
+     </div>
+     <img class="grpelem" id="u494441-4" alt="das thema" width="138" height="34" src="images/u494441-4.png?crc=149692158"/><!-- rasterized frame -->
+     <div class="clip_frame grpelem" id="u494448"><!-- image -->
+      <img class="block" id="u494448_img" src="images/porsche%20911%202.png?crc=4289673832" alt="" width="264" height="149"/>
+     </div>
+     <img class="grpelem" id="u494468-9" alt="&nbsp;The Porsche 911 (pronounced Nine Eleven or in German: Neunelfer) is a two-door, 2+2 high performance rear-engined sports car made since 1963 by Porsche AG of Stuttgart, Germany. It has a rear-mounted flat-six engine and all round independent suspension. It has undergone continuous development, though the basic concept has remained unchanged. " width="605" height="489" src="images/u494468-9.png?crc=3850197128"/><!-- rasterized frame -->
+     <img class="grpelem" id="u495484-6" alt="&nbsp;The engines were air-cooled until the introduction of the Type 996 in 1998, with the 993, produced from 1994–1998 model years, being the last of the air-cooled Porsche sports cars. " width="873" height="198" src="images/u495484-6.png?crc=3895399881"/><!-- rasterized frame -->
+    </div>
+    <div class="clearfix colelem" id="ppu494649"><!-- group -->
+     <div class="clearfix grpelem" id="pu494649"><!-- column -->
+      <div class="shadow rounded-corners clearfix colelem" id="u494649"><!-- group -->
+       <img class="grpelem" id="u494650" alt="" width="137" height="137" src="images/youtube_%d0%b7%d0%bd%d0%b0%d1%87%d0%be%d0%ba-u347753-u494650.png?crc=3895449116"/><!-- rasterized frame -->
+       <a class="nonblock nontext grpelem" id="u494652" href="https://www.youtube.com/watch?v=BbcKZ1lRDuA"><!-- content --></a>
+      </div>
+      <img class="colelem" id="u494665" alt="" width="169" height="147" src="images/motor-u494665.png?crc=4265507650"/><!-- rasterized frame -->
+     </div>
+     <div class="clearfix grpelem" id="pu494662-6"><!-- column -->
+      <img class="colelem" id="u494662-6" alt="Porsche 911 DOVELOPMENT PRODUCTION" width="553" height="69" src="images/u494662-6.png?crc=4201936923"/><!-- rasterized frame -->
+      <div class="shadow rounded-corners clip_frame colelem" id="u494456"><!-- image -->
+       <img class="block" id="u494456_img" src="images/porsche-911--1.jpg?crc=4293192978" alt="" width="521" height="293"/>
+      </div>
+     </div>
+    </div>
+    <div class="rounded-corners clearfix colelem" id="u494805"><!-- group -->
+     <div class="rounded-corners grpelem" id="u494682"><!-- simple frame --></div>
+     <div class="rounded-corners grpelem" id="u494679"><!-- simple frame --></div>
+     <div class="rounded-corners grpelem" id="u494688"><!-- simple frame --></div>
+    </div>
+    <img class="colelem" id="u494675-5" alt="SPORTCAR" width="305" height="75" src="images/u494675-5.png?crc=3939193451"/><!-- rasterized frame -->
+    <div class="rounded-corners clearfix colelem" id="u491012"><!-- group -->
+     <img class="grpelem" id="u491013-4" alt="der Film" width="217" height="76" src="images/u491013-4.png?crc=257578603"/><!-- rasterized frame -->
+    </div>
+    <img class="colelem" id="u491014-4" alt="das thema" width="138" height="34" src="images/u491014-4.png?crc=149692158"/><!-- rasterized frame -->
+    <div class="clearfix colelem" id="pu490986"><!-- group -->
+     <div class="shadow rounded-corners clip_frame grpelem" id="u490986"><!-- image -->
+      <img class="block" id="u490986_img" src="images/%d1%82%d0%be%d0%bc%20%d0%ba%d1%80%d1%83%d0%b7%202.jpg?crc=74746563" alt="" width="430" height="538"/>
+     </div>
+     <img class="grpelem" id="u491009-4" alt="Tom Cruise" width="314" height="100" src="images/u491009-4.png?crc=312287238"/><!-- rasterized frame -->
+    </div>
+    <img class="colelem" id="u491006-8" alt="&nbsp;Cruise has been married to actresses Mimi Rogers, Nicole Kidman, and Katie Holmes. He has three children, two of whom were adopted during his marriage to Kidman and the other of whom is a biological daughter he had with Holmes. Cruise is an outspoken advocate for the Church of Scientology and its associated social programs, and credits it with helping him overcome dyslexia. In the 2000s, he sparked controversy with his Church-affiliated criticisms of psychiatry and anti-depressant drugs, his efforts to promote Scientology as a religion in Europe, and a leaked video interview of him promoting Scientology." width="873" height="457" src="images/u491006-8.png?crc=431457626"/><!-- rasterized frame -->
+    <img class="colelem" id="u491129-4" alt="ТУРЦА" width="258" height="88" src="images/u491129-4.png?crc=3792220091"/><!-- rasterized frame -->
+    <div class="clearfix colelem" id="pu491125-8"><!-- group -->
+     <img class="grpelem" id="u491125-8" alt="&nbsp;ВОТ ЭТО Я ПОНИМАЮ - ПУТЕШЕСТВИЕ !" width="538" height="126" src="images/u491125-8.png?crc=512911524"/><!-- rasterized frame -->
+     <div class="rounded-corners clearfix grpelem" id="u491126"><!-- group -->
+      <img class="grpelem" id="u491127-6" alt="der Tour" width="218" height="76" src="images/u491127-6.png?crc=4122053150"/><!-- rasterized frame -->
+     </div>
+     <img class="grpelem" id="u491128-4" alt="das thema" width="138" height="34" src="images/u491128-4.png?crc=412186627"/><!-- rasterized frame -->
+     <div class="shadow rounded-corners clearfix grpelem" id="u491130"><!-- column -->
+      <div class="clearfix colelem" id="pu491131"><!-- group -->
+       <img class="grpelem" id="u491131" alt="" width="137" height="137" src="images/youtube_%d0%b7%d0%bd%d0%b0%d1%87%d0%be%d0%ba-u347753-u491131.png?crc=3895449116"/><!-- rasterized frame -->
+       <a class="nonblock nontext grpelem" id="u491133" href="https://www.youtube.com/watch?v=CVAYIHjfU4Q"><!-- content --></a>
+      </div>
+      <div class="clip_frame colelem" id="u491256"><!-- image -->
+       <img class="block" id="u491256_img" src="images/%d0%b0%d0%b2%d1%82%d0%be%205.png?crc=462819100" alt="" width="105" height="104"/>
+      </div>
+     </div>
+     <div class="clip_frame grpelem" id="u491134"><!-- image -->
+      <img class="block" id="u491134_img" src="images/%d0%bc%d0%be%d1%80%d0%b5%2012.png?crc=3970375260" alt="" width="330" height="177"/>
+     </div>
+     <div class="clip_frame grpelem" id="u491136"><!-- image -->
+      <img class="block" id="u491136_img" src="images/%d0%bc%d0%be%d1%80%d0%b5-13.png?crc=3961632070" alt="" width="290" height="416"/>
+     </div>
+     <div class="clip_frame grpelem" id="u491226"><!-- image -->
+      <img class="block" id="u491226_img" src="images/%d0%bf%d0%b0%d0%bb%d0%b0%d1%82%d0%ba%d0%b0.png?crc=4196295269" alt="" width="151" height="151"/>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu490358"><!-- group -->
+     <div class="shadow rounded-corners clip_frame grpelem" id="u490358"><!-- image -->
+      <img class="block" id="u490358_img" src="images/%d0%bf%d0%bb%d0%b0%d1%82%d1%8c%d0%b5%20%d0%b2%20%d0%b3%d0%be%d1%80%d0%be%d1%88%d0%b5%d0%ba%20%d0%ba%d0%be%d1%80%d0%be%d1%82%d0%ba%d0%be%d0%b5%205.jpg?crc=462430498" alt="" width="324" height="324"/>
+     </div>
+     <div class="shadow rounded-corners clip_frame grpelem" id="u490366"><!-- image -->
+      <img class="block" id="u490366_img" src="images/%d0%bf%d0%bb%d0%b0%d1%82%d1%8c%d0%b5%20%d0%b2%20%d0%b3%d0%be%d1%80%d0%be%d1%88%d0%b5%d0%ba%20%d0%ba%d0%be%d1%80%d0%be%d1%82%d0%ba%d0%be%d0%b5%204.jpg?crc=4154311977" alt="" width="324" height="324"/>
+     </div>
+     <div class="shadow rounded-corners clip_frame grpelem" id="u490373"><!-- image -->
+      <img class="block" id="u490373_img" src="images/%d0%bf%d0%bb%d0%b0%d1%82%d1%8c%d0%b5%20%d0%b2%20%d0%b3%d0%be%d1%80%d0%be%d1%88%d0%b5%d0%ba%20%d0%ba%d0%be%d1%80%d0%be%d1%82%d0%ba%d0%be%d0%b5%202.jpg?crc=3992762467" alt="" width="266" height="355"/>
+     </div>
+     <div class="clip_frame grpelem" id="u490388"><!-- image -->
+      <img class="block" id="u490388_img" src="images/%d1%86%d0%b2%d0%b5%d1%82%d0%be%d0%ba%202.png?crc=3776617500" alt="" width="168" height="165"/>
+     </div>
+     <img class="grpelem" id="u490817-8" alt="&nbsp;красивые Платья в горошек . . ." width="283" height="158" src="images/u490817-8.png?crc=107269699"/><!-- rasterized frame -->
+    </div>
+    <div class="clearfix colelem" id="pu491374"><!-- group -->
+     <div class="clip_frame grpelem" id="u491374"><!-- image -->
+      <img class="block" id="u491374_img" src="images/%d1%86%d0%b2%d0%b5%d1%82%d0%be%d0%ba%203.png?crc=3955550389" alt="" width="80" height="80"/>
+     </div>
+     <div class="clip_frame grpelem" id="u490432" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.829,M12=-0.5592,M21=0.5592,M22=0.829,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-16" data-mu-ie-matrix-dy="-15"><!-- image -->
+      <img class="block" id="u490432_img" src="images/%d1%86%d0%b2%d0%b5%d1%82%d0%be%d0%ba%203.png?crc=3955550389" alt="" width="80" height="80"/>
+     </div>
+     <div class="clip_frame grpelem" id="u491367" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.9563,M12=-0.2924,M21=0.2924,M22=0.9563,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-10" data-mu-ie-matrix-dy="-10"><!-- image -->
+      <img class="block" id="u491367_img" src="images/%d1%86%d0%b2%d0%b5%d1%82%d0%be%d0%ba%203.png?crc=3955550389" alt="" width="80" height="80"/>
+     </div>
+     <div class="clip_frame grpelem" id="u490418" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.0872,M12=0.9962,M21=-0.9962,M22=0.0872,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-3" data-mu-ie-matrix-dy="-3"><!-- image -->
+      <img class="block" id="u490418_img" src="images/%d1%86%d0%b2%d0%b5%d1%82%d0%be%d0%ba%203.png?crc=3955550389" alt="" width="80" height="80"/>
+     </div>
+     <div class="clip_frame grpelem" id="u491381" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=-0.6157,M12=0.788,M21=-0.788,M22=-0.6157,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-16" data-mu-ie-matrix-dy="-16"><!-- image -->
+      <img class="block" id="u491381_img" src="images/%d1%86%d0%b2%d0%b5%d1%82%d0%be%d0%ba%203.png?crc=3955550389" alt="" width="80" height="80"/>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu489678"><!-- group -->
+     <div class="clip_frame grpelem" id="u489678"><!-- image -->
+      <img class="block" id="u489678_img" src="images/%d0%bf%d0%be%d0%bc%d0%b0%d0%b4%d1%8b%202.jpg?crc=3956466876" alt="" width="295" height="236"/>
+     </div>
+     <div class="clip_frame grpelem" id="u489656"><!-- image -->
+      <img class="block" id="u489656_img" src="images/%d1%86%d0%b2%d0%b5%d1%82%d1%8b%2010.png?crc=66949350" alt="" width="224" height="248"/>
+     </div>
+     <div class="shadow rounded-corners clip_frame grpelem" id="u489696"><!-- image -->
+      <img class="block" id="u489696_img" src="images/%d0%b6%d0%b5%d0%bd%d1%81%d0%ba%d0%b8%d0%b5%20%d0%b2%d0%b5%d1%89%d0%b8%201.jpg?crc=4177617850" alt="" width="318" height="232"/>
+     </div>
+     <div class="shadow rounded-corners clip_frame grpelem" id="u489874"><!-- image -->
+      <img class="block" id="u489874_img" src="images/%d0%b4%d0%b5%d0%b2%d0%be%d1%87%d0%ba%d0%b0%203.jpg?crc=128493532" alt="" width="244" height="302"/>
+     </div>
+     <div class="clip_frame grpelem" id="u489884"><!-- image -->
+      <img class="block" id="u489884_img" src="images/%d0%b4%d0%b5%d0%b2%d0%be%d1%87%d0%ba%d0%b0%204.jpg?crc=401050043" alt="" width="234" height="431"/>
+     </div>
+     <img class="grpelem" id="u489894-6" alt="Как хорошо быть девочкой " width="348" height="120" src="images/u489894-6.png?crc=256445401"/><!-- rasterized frame -->
+     <div class="shadow rounded-corners clip_frame grpelem" id="u490170"><!-- image -->
+      <img class="block" id="u490170_img" src="images/%d0%b4%d0%b5%d0%b2%d0%be%d1%87%d0%ba%d0%b0%202.jpg?crc=4292279670" alt="" width="302" height="295"/>
+     </div>
+     <div class="clip_frame grpelem" id="u490177"><!-- image -->
+      <img class="block" id="u490177_img" src="images/%d0%b1%d0%b0%d0%bd%d1%82%d0%b8%d0%ba%202.jpg?crc=96848182" alt="" width="237" height="158"/>
+     </div>
+     <div class="clip_frame grpelem" id="u489864"><!-- image -->
+      <img class="block" id="u489864_img" src="images/%d0%b1%d0%b0%d0%bd%d1%82%d0%b8%d0%ba.jpg?crc=231136296" alt="" width="168" height="168"/>
+     </div>
+     <img class="grpelem" id="u489898" alt="" width="137" height="137" src="images/youtube_%d0%b7%d0%bd%d0%b0%d1%87%d0%be%d0%ba-u347753-u489898.png?crc=3895449116"/><!-- rasterized frame -->
+     <a class="nonblock nontext grpelem" id="u489900" href="https://www.youtube.com/watch?v=IdusYl9_68k"><!-- content --></a>
+    </div>
+    <div class="rounded-corners clearfix colelem" id="u488767"><!-- group -->
+     <img class="grpelem" id="u488768-4" alt="die Mode" width="217" height="76" src="images/u488768-4.png?crc=495450008"/><!-- rasterized frame -->
+    </div>
+    <div class="clearfix colelem" id="pu488769-4"><!-- group -->
+     <img class="grpelem" id="u488769-4" alt="das thema" width="138" height="34" src="images/u488769-4.png?crc=149692158"/><!-- rasterized frame -->
+     <div class="shadow rounded-corners clip_frame grpelem" id="u488776"><!-- image -->
+      <img class="block" id="u488776_img" src="images/%d1%8e%d0%b1%d0%ba%d0%b0%202.jpg?crc=166591274" alt="" width="311" height="464"/>
+     </div>
+     <div class="shadow rounded-corners clip_frame grpelem" id="u488784"><!-- image -->
+      <img class="block" id="u488784_img" src="images/%d1%8e%d0%b1%d0%ba%d0%b0%201.jpg?crc=4017513252" alt="" width="340" height="340"/>
+     </div>
+     <img class="grpelem" id="u488796-20" alt="Как правильно сочетать колготки с обувью и одеждой или что одеть на свидание?" width="561" height="202" src="images/u488796-20.png?crc=4162305164"/><!-- rasterized frame -->
+     <img class="grpelem" id="u488810-10" alt="P.S. Не забывайте также про цель свидания!" width="478" height="109" src="images/u488810-10.png?crc=4255010295"/><!-- rasterized frame -->
+     <div class="clip_frame grpelem" id="u489196"><!-- image -->
+      <img class="block" id="u489196_img" src="images/%d1%86%d0%b2%d0%b5%d1%82%d1%8b%201.png?crc=4192156284" alt="" width="341" height="346"/>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="ppu488823"><!-- group -->
+     <div class="clearfix grpelem" id="pu488823"><!-- column -->
+      <div class="rounded-corners colelem" id="u488823"><!-- simple frame --></div>
+      <div class="clearfix colelem" id="pu488826"><!-- group -->
+       <div class="rounded-corners grpelem" id="u488826"><!-- simple frame --></div>
+       <div class="clip_frame grpelem" id="u488800"><!-- image -->
+        <img class="block" id="u488800_img" src="images/%d1%81%d1%81%d1%8b%d0%bb%d0%ba%d0%b0%202.jpg?crc=4220601960" alt="" width="116" height="116"/>
+       </div>
+       <a class="nonblock nontext grpelem" id="u488802" href="https://www.adme.ru/tvorchestvo-dizajn/15-sovetov-kotorye-pomogut-navsegda-razobratsya-kak-sochetat-kolgotki-s-obuvyu-i-odezhdoj-1886515/"><!-- content --></a>
+      </div>
+      <div class="rounded-corners colelem" id="u488829"><!-- simple frame --></div>
+     </div>
+     <div class="shadow rounded-corners clip_frame grpelem" id="u488813"><!-- image -->
+      <img class="block" id="u488813_img" src="images/%d1%81%d0%b2%d0%b8%d0%b4%d0%b0%d0%bd%d0%b8%d1%8f%201.jpg?crc=382283639" alt="" width="564" height="376"/>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu487922"><!-- group -->
+     <div class="clip_frame grpelem" id="u487922"><!-- image -->
+      <img class="block" id="u487922_img" src="images/%d0%ba%d0%bb%d0%be%d1%83%d0%bd%202.jpg?crc=273005058" alt="" width="180" height="233"/>
+     </div>
+     <img class="grpelem" id="u487908-27" alt="&nbsp;Не знаю как Вам, но мне регулярно названивают менеджеры от компашки интерсвязь. Что можно этим ответить: - Здравствуйте, меня зовут Дарья! - ВозжА? - Вам удобно говорить? - ВозжА! ВозжА! - Что простите? - ВозжА? (и т.д. в таком духе))) " width="786" height="536" src="images/u487908-27.png?crc=3965918282"/><!-- rasterized frame -->
+     <div class="shadow clip_frame grpelem" id="u487912"><!-- image -->
+      <img class="block" id="u487912_img" src="images/%d0%b8%d0%bd%d1%82%d0%b5%d1%80%d1%81%d0%b2%d1%8f%d0%b7%d1%8c.jpg?crc=3793142933" alt="" width="326" height="158"/>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu482459-10"><!-- group -->
+     <img class="grpelem" id="u482459-10" alt="&quot; Жена с детьми будут загорать - я буду пить коньяк &quot;" width="738" height="126" src="images/u482459-10.png?crc=105882651"/><!-- rasterized frame -->
+     <div class="rounded-corners clearfix grpelem" id="u482462"><!-- group -->
+      <img class="grpelem" id="u482463-6" alt="der Tour" width="218" height="76" src="images/u482463-6.png?crc=4122053150"/><!-- rasterized frame -->
+     </div>
+     <img class="grpelem" id="u482464-4" alt="das thema" width="138" height="34" src="images/u482464-4.png?crc=412186627"/><!-- rasterized frame -->
+     <img class="grpelem" id="u482494-4" alt="КРЫМ" width="259" height="88" src="images/u482494-4.png?crc=230849062"/><!-- rasterized frame -->
+     <div class="shadow rounded-corners clearfix grpelem" id="u482471"><!-- column -->
+      <div class="clearfix colelem" id="pu482472"><!-- group -->
+       <img class="grpelem" id="u482472" alt="" width="137" height="137" src="images/youtube_%d0%b7%d0%bd%d0%b0%d1%87%d0%be%d0%ba-u347753-u482472.png?crc=3895449116"/><!-- rasterized frame -->
+       <a class="nonblock nontext grpelem" id="u482476" href="https://www.youtube.com/watch?v=x3Irdtwdqs8"><!-- content --></a>
+      </div>
+      <img class="colelem" id="u482763" alt="" width="96" height="95" src="images/%d0%ba%d0%b0%d0%bf%d0%b5%d0%bb%d1%8c%d0%ba%d0%b8-u482763.png?crc=4225349143"/><!-- rasterized frame -->
+     </div>
+     <div class="clip_frame grpelem" id="u482773"><!-- image -->
+      <img class="block" id="u482773_img" src="images/%d0%bc%d0%be%d1%80%d0%b5%2012.png?crc=3970375260" alt="" width="330" height="177"/>
+     </div>
+     <div class="clip_frame grpelem" id="u482783"><!-- image -->
+      <img class="block" id="u482783_img" src="images/%d0%bc%d0%be%d1%80%d0%b5%2013.png?crc=51826902" alt="" width="290" height="416"/>
+     </div>
+    </div>
+    <div class="rounded-corners clearfix colelem" id="u483059"><!-- group -->
+     <img class="grpelem" id="u483062-4" alt="auto Relax" width="218" height="76" src="images/u483062-4.png?crc=326133028"/><!-- rasterized frame -->
+    </div>
+    <img class="colelem" id="u483065-4" alt="das thema" width="138" height="34" src="images/u483065-4.png?crc=149692158"/><!-- rasterized frame -->
+    <div class="clearfix colelem" id="pu483078"><!-- group -->
+     <div class="shadow rounded-corners clearfix grpelem" id="u483078"><!-- column -->
+      <div class="clearfix colelem" id="pu483081"><!-- group -->
+       <img class="grpelem" id="u483081" alt="" width="137" height="137" src="images/youtube_%d0%b7%d0%bd%d0%b0%d1%87%d0%be%d0%ba-u347753-u483081.png?crc=3895449116"/><!-- rasterized frame -->
+       <a class="nonblock nontext grpelem" id="u483075" href="https://www.youtube.com/watch?v=uln20RRS6fw"><!-- content --></a>
+      </div>
+      <div class="clip_frame colelem" id="u483572"><!-- image -->
+       <img class="block" id="u483572_img" src="images/%d0%b0%d0%b2%d1%82%d0%be%205.png?crc=462819100" alt="" width="105" height="104"/>
+      </div>
+     </div>
+     <div class="clip_frame grpelem" id="u483390"><!-- image -->
+      <img class="block" id="u483390_img" src="images/%d0%b3%d0%be%d1%80%d0%be%d0%b4%203.jpg?crc=380517075" alt="" width="530" height="259"/>
+     </div>
+    </div>
+    <img class="colelem" id="u483108-9" alt="Для автолюбителей маленькое городское вечернее путешествие ... (на вечер, Вам понравится)" width="814" height="147" src="images/u483108-9.png?crc=3784493994"/><!-- rasterized frame -->
+    <div class="rounded-corners clearfix colelem" id="u480716"><!-- group -->
+     <img class="grpelem" id="u480717-4" alt="die Blumen" width="217" height="76" src="images/u480717-4.png?crc=3959558296"/><!-- rasterized frame -->
+    </div>
+    <div class="clearfix colelem" id="ppu480683"><!-- group -->
+     <div class="clearfix grpelem" id="pu480683"><!-- column -->
+      <div class="shadow rounded-corners clip_frame colelem" id="u480683"><!-- image -->
+       <img class="block" id="u480683_img" src="images/%d1%86%d0%b2%d0%b5%d1%82%d1%8b%2011.jpg?crc=109926196" alt="" width="258" height="389"/>
+      </div>
+      <div class="shadow rounded-corners clip_frame colelem" id="u480735"><!-- image -->
+       <img class="block" id="u480735_img" src="images/%d1%86%d0%b2%d0%b5%d1%82%d1%8b%2015.jpg?crc=3838376095" alt="" width="258" height="369"/>
+      </div>
+     </div>
+     <div class="clearfix grpelem" id="pu480765"><!-- column -->
+      <div class="clip_frame colelem" id="u480765"><!-- image -->
+       <img class="block" id="u480765_img" src="images/%d1%86%d0%b2%d0%b5%d1%82%d1%8b%2016.jpg?crc=383268403" alt="" width="280" height="161"/>
+      </div>
+      <div class="shadow rounded-corners clip_frame colelem" id="u480693"><!-- image -->
+       <img class="block" id="u480693_img" src="images/%d1%86%d0%b2%d0%b5%d1%82%d1%8b%2012.jpg?crc=3846989100" alt="" width="280" height="419"/>
+      </div>
+     </div>
+     <div class="clearfix grpelem" id="pu480718-4"><!-- column -->
+      <img class="colelem" id="u480718-4" alt="das thema" width="138" height="34" src="images/u480718-4.png?crc=4122619644"/><!-- rasterized frame -->
+      <div class="shadow rounded-corners clip_frame colelem" id="u480703"><!-- image -->
+       <img class="block" id="u480703_img" src="images/%d1%86%d0%b2%d0%b5%d1%82%d1%8b%2013.jpg?crc=442937185" alt="" width="262" height="396"/>
+      </div>
+     </div>
+    </div>
+    <div class="rounded-corners clearfix colelem" id="u471728"><!-- group -->
+     <img class="grpelem" id="u471729-4" alt="das Wasser" width="284" height="76" src="images/u471729-4.png?crc=16861363"/><!-- rasterized frame -->
+    </div>
+    <img class="colelem" id="u471730-4" alt="das thema" width="138" height="34" src="images/u471730-4.png?crc=4122619644"/><!-- rasterized frame -->
+    <div class="clearfix colelem" id="pppu471708"><!-- group -->
+     <div class="clearfix grpelem" id="ppu471708"><!-- column -->
+      <div class="clearfix colelem" id="pu471708"><!-- group -->
+       <div class="shadow rounded-corners clip_frame grpelem" id="u471708"><!-- image -->
+        <img class="block" id="u471708_img" src="images/%d0%b2%d0%be%d0%b4%d0%b0%201.jpg?crc=126840341" alt="" width="532" height="354"/>
+       </div>
+       <div class="clip_frame grpelem" id="u471750" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.7193,M12=-0.6947,M21=0.6947,M22=0.7193,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-26" data-mu-ie-matrix-dy="-42"><!-- image -->
+        <img class="block" id="u471750_img" src="images/%d0%bf%d0%b5%d1%87%d0%b0%d1%82%d1%8c%201.png?crc=4049031454" alt="" width="182" height="148"/>
+       </div>
+      </div>
+      <div class="clearfix colelem" id="pu472183"><!-- group -->
+       <div class="rounded-corners clip_frame grpelem" id="u472183"><!-- image -->
+        <img class="block" id="u472183_img" src="images/%d0%b2%d0%be%d0%b4%d0%b0%207.jpg?crc=4059955109" alt="" width="174" height="174"/>
+       </div>
+       <div class="rounded-corners clip_frame grpelem" id="u472191"><!-- image -->
+        <img class="block" id="u472191_img" src="images/%d0%b2%d0%be%d0%b4%d0%b0%206.png?crc=58123772" alt="" width="174" height="174"/>
+       </div>
+       <div class="rounded-corners clip_frame grpelem" id="u472213"><!-- image -->
+        <img class="block" id="u472213_img" src="images/%d0%b2%d0%be%d0%b4%d0%b0%204.png?crc=495385075" alt="" width="174" height="174"/>
+       </div>
+      </div>
+     </div>
+     <div class="clearfix grpelem" id="ppu471737"><!-- column -->
+      <div class="clearfix colelem" id="pu471737"><!-- group -->
+       <div class="clip_frame grpelem" id="u471737"><!-- image -->
+        <img class="block" id="u471737_img" src="images/%d1%81%d1%81%d1%8b%d0%bb%d0%ba%d0%b0%202.jpg?crc=4220601960" alt="" width="116" height="116"/>
+       </div>
+       <a class="nonblock nontext grpelem" id="u471739" href="https://ru.wikipedia.org/wiki/%D0%9E%D0%B1%D1%80%D0%B0%D1%82%D0%BD%D1%8B%D0%B9_%D0%BE%D1%81%D0%BC%D0%BE%D1%81"><!-- content --></a>
+      </div>
+      <img class="colelem" id="u471747-6" alt="БУДЬТЕ ЗДОРОВЫ !" width="294" height="70" src="images/u471747-6.png?crc=160116046"/><!-- rasterized frame -->
+      <div class="clip_frame colelem" id="u472198"><!-- image -->
+       <img class="block" id="u472198_img" src="images/%d0%b2%d0%be%d0%b4%d0%b0%205.png?crc=4234090151" alt="" width="249" height="249"/>
+      </div>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu470499"><!-- group -->
+     <div class="shadow rounded-corners clip_frame grpelem" id="u470499"><!-- image -->
+      <img class="block" id="u470499_img" src="images/%d0%b8%d0%bd%d0%b4%d1%8e%d0%ba.jpg?crc=4150102348" alt="" width="466" height="349"/>
+     </div>
+     <div class="clearfix grpelem" id="pu470509-11"><!-- column -->
+      <img class="colelem" id="u470509-11" alt="НАТУРАЛЬНЫЙ КУРОЗАМЕНИТЕЛЬ БОИТСЯ АНТИБИОТИКОВ, СТИМУЛЯТОРОВ РОСТА И ДОХНЕТ ОТ УКОЛОВ" width="318" height="214" src="images/u470509-11.png?crc=4259043071"/><!-- rasterized frame -->
+      <img class="colelem" id="u470515-4" alt="ИНДЮШАТИНА" width="305" height="66" src="images/u470515-4.png?crc=74233127"/><!-- rasterized frame -->
+     </div>
+    </div>
+    <div class="rounded-corners clearfix colelem" id="u461149"><!-- group -->
+     <img class="grpelem" id="u461150-4" alt="das Essen" width="283" height="76" src="images/u461150-4.png?crc=299914920"/><!-- rasterized frame -->
+    </div>
+    <img class="colelem" id="u461151-4" alt="das thema" width="138" height="34" src="images/u461151-4.png?crc=4122619644"/><!-- rasterized frame -->
+    <div class="clearfix colelem" id="pu462146"><!-- group -->
+     <div class="clip_frame grpelem" id="u462146"><!-- image -->
+      <img class="block" id="u462146_img" src="images/%d0%ba%d0%be%d1%81%d1%82%d0%b5%d1%80%202.png?crc=110914164" alt="" width="271" height="271"/>
+     </div>
+     <div class="shadow rounded-corners clip_frame grpelem" id="u460944"><!-- image -->
+      <img class="block" id="u460944_img" src="images/%d0%b1%d1%83%d1%80%d0%b3%d0%b5%d1%80%d0%bd%d0%b0%d1%8f%20%d0%ba%d1%8b%d1%88%d1%82%d1%8b%d0%bc%201.jpg?crc=4134079065" alt="" width="420" height="420"/>
+     </div>
+     <div class="shadow rounded-corners clip_frame grpelem" id="u461126"><!-- image -->
+      <img class="block" id="u461126_img" src="images/%d0%b2%d0%ba%201.jpg?crc=4117005394" alt="" width="105" height="105"/>
+     </div>
+     <a class="nonblock nontext grpelem" id="u461136" href="https://vk.com/uf_kitchen?utm_source=restaurantguru&amp;utm_medium=referral"><!-- content --></a>
+     <div class="clip_frame grpelem" id="u461139"><!-- image -->
+      <img class="block" id="u461139_img" src="images/%d0%b7%d0%bd%d0%b0%d0%ba%202.png?crc=498318395" alt="" width="131" height="131"/>
+     </div>
+     <a class="nonblock nontext grpelem" id="u461590" href="https://www.google.com/maps/place/UF+KITCHEN/@55.7069053,60.5572064,17z/data=!3m1!4b1!4m5!3m4!1s0x43c445f9841c5321:0x9ff1953179477570!8m2!3d55.7069053!4d60.559395"><!-- content --></a>
+    </div>
+    <div class="clearfix colelem" id="pppu472731"><!-- group -->
+     <div class="clearfix grpelem" id="ppu472731"><!-- column -->
+      <div class="clearfix colelem" id="pu472731"><!-- group -->
+       <div class="clip_frame grpelem" id="u472731"><!-- image -->
+        <img class="block" id="u472731_img" src="images/%d1%87%d0%b0%d1%88%d0%ba%d0%b0%201.png?crc=477252030" alt="" width="163" height="163"/>
+       </div>
+       <div class="clip_frame grpelem" id="u472711" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.829,M12=0.5592,M21=-0.5592,M22=0.829,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-24" data-mu-ie-matrix-dy="-23"><!-- image -->
+        <img class="block" id="u472711_img" src="images/%d0%bb%d0%b8%d1%81%d1%82.jpg?crc=3917235389" alt="" width="118" height="122"/>
+       </div>
+      </div>
+      <div class="clearfix colelem" id="pu391723"><!-- group -->
+       <div class="rounded-corners grpelem" id="u391723"><!-- simple frame --></div>
+       <div class="rounded-corners grpelem" id="u392123"><!-- simple frame --></div>
+       <img class="grpelem" id="u390849-7" alt="h.m. &amp; Summer" width="488" height="146" src="images/u390849-7.png?crc=36379370"/><!-- rasterized frame -->
+      </div>
+      <div class="clearfix colelem" id="pu490976"><!-- group -->
+       <div class="shadow rounded-corners clip_frame grpelem" id="u490976"><!-- image -->
+        <img class="block" id="u490976_img" src="images/a0346016004_10.jpg?crc=271513310" alt="" width="484" height="484"/>
+       </div>
+       <div class="clip_frame grpelem" id="u396917"><!-- image -->
+        <img class="block" id="u396917_img" src="images/%d0%b2%d0%b0%d0%b7%d0%b0%204.png?crc=4189598842" alt="" width="335" height="353"/>
+       </div>
+       <div class="clip_frame grpelem" id="u472379" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.8387,M12=-0.5446,M21=0.5446,M22=0.8387,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-22" data-mu-ie-matrix-dy="-28"><!-- image -->
+        <img class="block" id="u472379_img" src="images/%d1%81%d0%b5%d1%80%d0%b4%d1%86%d0%b5%201.png?crc=3943711264" alt="" width="139" height="122"/>
+       </div>
+      </div>
+     </div>
+     <div class="shadow rounded-corners grpelem" id="u455390"><!-- simple frame --></div>
+     <div class="shadow rounded-corners grpelem" id="u444629" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0,M12=-1,M21=1,M22=0,SizingMethod='auto expand')" data-mu-ie-matrix-dx="0" data-mu-ie-matrix-dy="0"><!-- simple frame --></div>
+     <div class="shadow rounded-corners grpelem" id="u444630" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0,M12=-1,M21=1,M22=0,SizingMethod='auto expand')" data-mu-ie-matrix-dx="0" data-mu-ie-matrix-dy="0"><!-- simple frame --></div>
+     <div class="shadow rounded-corners grpelem" id="u444631" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0,M12=-1,M21=1,M22=0,SizingMethod='auto expand')" data-mu-ie-matrix-dx="0" data-mu-ie-matrix-dy="0"><!-- simple frame --></div>
+     <div class="shadow rounded-corners grpelem" id="u444632" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0,M12=-1,M21=1,M22=0,SizingMethod='auto expand')" data-mu-ie-matrix-dx="0" data-mu-ie-matrix-dy="0"><!-- simple frame --></div>
+     <div class="shadow rounded-corners grpelem" id="u444633" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=-0.809,M12=0.5878,M21=-0.5878,M22=-0.809,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-7" data-mu-ie-matrix-dy="-7"><!-- simple frame --></div>
+    </div>
+    <a class="anchor_item colelem" id="brot"></a>
+    <div class="rounded-corners clearfix colelem" id="u443492"><!-- group -->
+     <img class="grpelem" id="u443488-4" alt="die Gesundheit" width="284" height="76" src="images/u443488-4.png?crc=3800497028"/><!-- rasterized frame -->
+    </div>
+    <img class="colelem" id="u443498-4" alt="das thema" width="138" height="34" src="images/u443498-4.png?crc=4122619644"/><!-- rasterized frame -->
+    <img class="colelem" id="u443475-6" alt="Не кушайте хлеб от всяких городских хлебокомбинатов, готовящийся на химических смесях (этот хлеб не едят деревенские жители и сами производители). Пеките хлебушек из муки 1-го сорта (не отбелянной) или кушайте цельнозерновые полезные хлебцы и отруби !" width="878" height="322" src="images/u443475-6.png?crc=4023727022"/><!-- rasterized frame -->
+    <div class="clearfix colelem" id="pu443465"><!-- group -->
+     <div class="shadow rounded-corners clip_frame grpelem" id="u443465"><!-- image -->
+      <img class="block" id="u443465_img" src="images/%d1%85%d0%bb%d0%b5%d0%b1.jpg?crc=3850954941" alt="" width="545" height="363"/>
+     </div>
+     <div class="clip_frame grpelem" id="u443478"><!-- image -->
+      <img class="block" id="u443478_img" src="images/%d1%85%d0%bb%d0%b5%d0%b1%d1%86%d1%8b%20jfif.jpg?crc=509869911" alt="" width="319" height="319"/>
+     </div>
+    </div>
+    <div class="rounded-corners colelem" id="u443661" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0,M12=-1,M21=1,M22=0,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-33" data-mu-ie-matrix-dy="33"><!-- simple frame --></div>
+    <div class="rounded-corners colelem" id="u443664" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0,M12=-1,M21=1,M22=0,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-33" data-mu-ie-matrix-dy="33"><!-- simple frame --></div>
+    <div class="rounded-corners colelem" id="u443667" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0,M12=-1,M21=1,M22=0,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-33" data-mu-ie-matrix-dy="33"><!-- simple frame --></div>
+    <a class="anchor_item colelem" id="storm"></a>
+    <img class="colelem" id="u442009-6" alt="The Storm 2009" width="224" height="89" src="images/u442009-6.png?crc=49049642"/><!-- rasterized frame -->
+    <img class="colelem" id="u442696-9" alt="About love in difficult times ..." width="404" height="77" src="images/u442696-9.png?crc=4111818114"/><!-- rasterized frame -->
+    <div class="clearfix colelem" id="pu441975"><!-- group -->
+     <div class="shadow clip_frame grpelem" id="u441975"><!-- image -->
+      <img class="block" id="u441975_img" src="images/%d1%88%d1%82%d0%be%d1%80%d0%bc%20%d1%84%d0%b8%d0%bb%d1%8c%d0%bc%206.jpg?crc=3925235745" alt="" width="426" height="487"/>
+     </div>
+     <div class="shadow clip_frame grpelem" id="u441953"><!-- image -->
+      <img class="block" id="u441953_img" src="images/%d1%88%d1%82%d0%be%d1%80%d0%bc%20%d1%84%d0%b8%d0%bb%d1%8c%d0%bc%203.jpg?crc=4273039419" alt="" width="307" height="434"/>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu441961"><!-- group -->
+     <div class="shadow clip_frame grpelem" id="u441961"><!-- image -->
+      <img class="block" id="u441961_img" src="images/%d1%88%d1%82%d0%be%d1%80%d0%bc%20%d1%84%d0%b8%d0%bb%d1%8c%d0%bc%202.jpg?crc=317526004" alt="" width="316" height="436"/>
+     </div>
+     <div class="clearfix grpelem" id="pu447865"><!-- column -->
+      <div class="shadow rounded-corners clip_frame colelem" id="u447865"><!-- image -->
+       <img class="block" id="u447865_img" src="images/sylvia%20hoeks.jpg?crc=3779866101" alt="" width="529" height="201"/>
+      </div>
+      <div class="clearfix colelem" id="pu442198"><!-- group -->
+       <div class="clip_frame grpelem" id="u442198"><!-- image -->
+        <img class="block" id="u442198_img" src="images/%d1%81%d1%81%d1%8b%d0%bb%d0%ba%d0%b0%202.jpg?crc=4220601960" alt="" width="116" height="116"/>
+       </div>
+       <a class="nonblock nontext grpelem" id="u442035" href="https://en.wikipedia.org/wiki/The_Storm_(2009_film)"><!-- content --></a>
+       <img class="grpelem" id="u442205-4" alt="A historical film . . ." width="209" height="51" src="images/u442205-4.png?crc=155495788"/><!-- rasterized frame -->
+      </div>
+     </div>
+    </div>
+    <a class="anchor_item colelem" id="summer"></a>
+    <img class="colelem" id="u441530-4" alt="Лета в ленту . . ." width="465" height="79" src="images/u441530-4.png?crc=3814671079"/><!-- rasterized frame -->
+    <div class="clearfix colelem" id="pu441520"><!-- group -->
+     <div class="shadow rounded-corners clip_frame grpelem" id="u441520"><!-- image -->
+      <img class="block" id="u441520_img" src="images/romashka-9.jpg?crc=4027274548" alt="" width="581" height="363"/>
+     </div>
+     <div class="clip_frame grpelem" id="u472701"><!-- image -->
+      <img class="block" id="u472701_img" src="images/%d0%bb%d0%b8%d1%81%d1%82%202.jpg?crc=4007839885" alt="" width="223" height="197"/>
+     </div>
+    </div>
+    <a class="anchor_item colelem" id="sp"></a>
+    <div class="clearfix colelem" id="pu440334"><!-- group -->
+     <div class="shadow rounded-corners grpelem" id="u440334"><!-- simple frame --></div>
+     <div class="shadow rounded-corners grpelem" id="u440335"><!-- simple frame --></div>
+     <div class="clip_frame grpelem" id="u440338"><!-- image -->
+      <img class="block" id="u440338_img" src="images/%d1%87%d0%b0%d1%88%d0%ba%d0%b0.png?crc=388648966" alt="" width="153" height="152"/>
+     </div>
+     <div class="shadow rounded-corners grpelem" id="u440336"><!-- simple frame --></div>
+     <div class="shadow rounded-corners grpelem" id="u440337"><!-- simple frame --></div>
+    </div>
+    <div class="clearfix colelem" id="pppu440192"><!-- group -->
+     <div class="clearfix grpelem" id="ppu440192"><!-- column -->
+      <div class="clearfix colelem" id="pu440192"><!-- group -->
+       <img class="grpelem" id="u440192" alt="" width="157" height="157" src="images/youtube_%d0%b7%d0%bd%d0%b0%d1%87%d0%be%d0%ba-u347753-u440192.png?crc=160525797"/><!-- rasterized frame -->
+       <a class="nonblock nontext grpelem" id="u440194" href="https://www.youtube.com/watch?v=aUtgtKpZuNQ&amp;list=TLPQMTgxMjIwMTl4R7Q2RW-8hA&amp;index=1"><!-- content --></a>
+      </div>
+      <img class="colelem" id="u440191-4" alt="on Youtube " width="242" height="64" src="images/u440191-4.png?crc=530928746"/><!-- rasterized frame -->
+      <img class="colelem" id="u440214-10" alt="ДЛЯ ЛЮБИТЕЛЕЙ ВЕЧЕРНЕЙ ГОРОДСКОЙ ПРОГУЛКИ" width="318" height="314" src="images/u440214-10.png?crc=533444719"/><!-- rasterized frame -->
+     </div>
+     <div class="shadow clip_frame grpelem" id="u440204"><!-- image -->
+      <img class="block" id="u440204_img" src="images/%d0%bf%d0%b5%d1%82%d0%b5%d1%80%d0%b1%d1%83%d1%80%d0%b3.jpg?crc=3873311132" alt="" width="502" height="628"/>
+     </div>
+     <div class="rounded-corners clip_frame grpelem" id="u440217"><!-- image -->
+      <img class="block" id="u440217_img" src="images/%d0%b4%d0%be%d0%b6%d0%b4%d1%8c%202.jpg?crc=405452552" alt="" width="502" height="320"/>
+     </div>
+    </div>
+    <div class="shadow rounded-corners clip_frame colelem" id="u441238"><!-- image -->
+     <img class="block" id="u441238_img" src="images/%d0%bf%d0%b5%d1%82%d0%b5%d1%80%d0%b1%d1%83%d1%80%d0%b3-3.jpg?crc=298977704" alt="" width="661" height="439"/>
+    </div>
+    <a class="anchor_item colelem" id="optimize"></a>
+    <img class="colelem" id="u434364-6" alt="Now Optimize Website for new Mobile Devices (resize content)" width="692" height="67" src="images/u434364-6.png?crc=3842718333"/><!-- rasterized frame -->
+    <div class="clearfix colelem" id="pu434136"><!-- group -->
+     <div class="shadow rounded-corners clip_frame grpelem" id="u434136"><!-- image -->
+      <img class="block" id="u434136_img" src="images/%d0%be%d0%bf%d1%82%d0%b8%d0%bc%d0%b8%d0%b7%d0%b0%d1%86%d0%b8%d1%8f%201.jpg?crc=173489427" alt="" width="453" height="302"/>
+     </div>
+     <div class="rounded-corners grpelem" id="u435958"><!-- simple frame --></div>
+     <div class="rounded-corners grpelem" id="u436377"><!-- simple frame --></div>
+     <div class="rounded-corners grpelem" id="u436380"><!-- simple frame --></div>
+    </div>
+    <div class="shadow rounded-corners clip_frame colelem" id="u434146"><!-- image -->
+     <img class="block" id="u434146_img" src="images/%d0%be%d0%bf%d1%82%d0%b8%d0%bc%d0%b8%d0%b7%d0%b0%d1%86%d0%b8%d1%8f%202.jpg?crc=423606562" alt="" width="519" height="345"/>
+    </div>
+    <a class="anchor_item colelem" id="eyes"></a>
+    <div class="clearfix colelem" id="pu432585-8"><!-- group -->
+     <img class="grpelem" id="u432585-8" alt="Ночной режим. Фильтр синего цвета. " width="510" height="124" src="images/u432585-8.png?crc=3799844674"/><!-- rasterized frame -->
+     <img class="grpelem" id="u432594" alt="" width="123" height="123" src="images/%d0%bf%d0%bb%d0%b5%d0%b9%20%d0%b7%d0%bd%d0%b0%d1%87%d0%be%d0%ba-u432594.png?crc=419031601"/><!-- rasterized frame -->
+     <a class="nonblock nontext grpelem" id="u435948" href="https://play.google.com/store/apps/details?id=com.ascendik.eyeshield"><!-- content --></a>
+    </div>
+    <div class="clearfix colelem" id="pu432573"><!-- group -->
+     <img class="grpelem" id="u432573" alt="" width="151" height="151" src="images/%d0%bd%d0%be%d1%87%d0%bd%d0%be%d0%b9%20%d1%80%d0%b5%d0%b6%d0%b8%d0%bc-u432573.png?crc=4020049334"/><!-- rasterized frame -->
+     <div class="rounded-corners grpelem" id="u435945"><!-- simple frame --></div>
+     <img class="grpelem" id="u432591-4" alt="by Ascendik" width="215" height="50" src="images/u432591-4.png?crc=80150018"/><!-- rasterized frame -->
+     <img class="grpelem" id="u432604-4" alt="from Google Play" width="290" height="52" src="images/u432604-4.png?crc=3980223607"/><!-- rasterized frame -->
+     <img class="grpelem" id="u432614-6" alt="значок приложения" width="224" height="72" src="images/u432614-6.png?crc=531989968"/><!-- rasterized frame -->
+     <div class="clearfix grpelem" id="u432786-4"><!-- content -->
+      <p>Official site</p>
+     </div>
+     <div class="grpelem" id="u432800" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=-0.6691,M12=0.7431,M21=-0.7431,M22=-0.6691,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-1" data-mu-ie-matrix-dy="-27"><!-- rasterized frame -->
+      <img id="u432800_img" alt="" width="94" height="45" src="images/%d1%81%d1%82%d1%80%d0%b5%d0%bb%d0%ba%d0%b0%204-u432800.png?crc=3910722159"/>
+     </div>
+     <a class="nonblock nontext grpelem" id="u432620" href="https://www.ascendik.com/"><!-- content --></a>
+    </div>
+    <div class="clip_frame colelem" id="u433080"><!-- image -->
+     <img class="block" id="u433080_img" src="images/%d0%bd%d0%be%d1%87%d0%bd%d0%be%d0%b9%20%d1%80%d0%b5%d0%b6%203.png?crc=3857798012" alt="" width="570" height="518"/>
+    </div>
+    <img class="colelem" id="u432607-7" alt="Dies ist keine Werbung ! ES IST EINFACH VON MIR ." width="751" height="93" src="images/u432607-7.png?crc=17288019"/><!-- rasterized frame -->
+    <div class="rounded-corners colelem" id="u433090"><!-- simple frame --></div>
+    <a class="anchor_item colelem" id="snow"></a>
+    <div class="clearfix colelem" id="pu427308"><!-- group -->
+     <div class="rounded-corners clearfix grpelem" id="u427308"><!-- column -->
+      <div class="position_content" id="u427308_position_content">
+       <img class="colelem" id="u425803-4" alt="Heute es schneit . . . " width="463" height="61" src="images/u425803-4.png?crc=3920003402"/><!-- rasterized frame -->
+       <div class="shadow rounded-corners clip_frame colelem" id="u425793"><!-- image -->
+        <img class="block" id="u425793_img" src="images/%d1%81%d0%bd%d0%b5%d0%b3.jpg?crc=4031473423" alt="" width="816" height="612"/>
+       </div>
+       <img class="colelem" id="u428950-4" alt="W I N T E R" width="289" height="59" src="images/u428950-4.png?crc=106453455"/><!-- rasterized frame -->
+       <div class="shadow rounded-corners clip_frame colelem" id="u428016"><!-- image -->
+        <img class="block" id="u428016_img" src="images/%d1%81%d0%bd%d0%b5%d0%b3%204.jpg?crc=5473470" alt="" width="350" height="246"/>
+       </div>
+       <div class="rounded-corners colelem" id="u428296"><!-- simple frame --></div>
+      </div>
+     </div>
+     <div class="shadow rounded-corners clip_frame grpelem" id="u427281" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.9744,M12=-0.225,M21=0.225,M22=0.9744,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-17" data-mu-ie-matrix-dy="-36"><!-- image -->
+      <img class="block" id="u427281_img" src="images/%d1%81%d0%bd%d0%b5%d0%b3%202.jpg?crc=422310849" alt="" width="343" height="193"/>
+     </div>
+     <div class="shadow rounded-corners clip_frame grpelem" id="u427273" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.9563,M12=0.2924,M21=-0.2924,M22=0.9563,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-26" data-mu-ie-matrix-dy="-45"><!-- image -->
+      <img class="block" id="u427273_img" src="images/%d1%81%d0%bd%d0%b5%d0%b3%201.jpg?crc=323565260" alt="" width="341" height="227"/>
+     </div>
+    </div>
+    <a class="anchor_item colelem" id="cities"></a>
+    <div class="clearfix colelem" id="pu411286"><!-- group -->
+     <div class="shadow rounded-corners clearfix grpelem" id="u411286"><!-- group -->
+      <img class="grpelem" id="u411287" alt="" width="174" height="174" src="images/youtube_%d0%b7%d0%bd%d0%b0%d1%87%d0%be%d0%ba-u347753-u411287.png?crc=4168309636"/><!-- rasterized frame -->
+      <img class="grpelem" id="u411289" alt="" width="184" height="184" src="images/youtube_%d0%b7%d0%bd%d0%b0%d1%87%d0%be%d0%ba-u347753-u411289.png?crc=4115434946"/><!-- rasterized frame -->
+      <a class="nonblock nontext grpelem" id="u411291" href="https://www.youtube.com/watch?v=PBLFHJhc6ZY"><!-- content --></a>
+      <a class="nonblock nontext grpelem" id="u411292" href="https://www.youtube.com/watch?v=VE9dQHtKT_g"><!-- content --></a>
+     </div>
+     <img class="grpelem" id="u411328-8" alt="Авторская прогулка по одному известному городу" width="489" height="256" src="images/u411328-8.png?crc=4125555424"/><!-- rasterized frame -->
+     <img class="grpelem" id="u411333-4" alt="от первого лица" width="409" height="82" src="images/u411333-4.png?crc=88470581"/><!-- rasterized frame -->
+    </div>
+    <div class="rounded-corners clip_frame colelem" id="u415893"><!-- image -->
+     <img class="block" id="u415893_img" src="images/paris%204.jpg?crc=76209692" alt="" width="840" height="560"/>
+    </div>
+    <div class="clearfix colelem" id="ppu412311"><!-- group -->
+     <div class="clearfix grpelem" id="pu412311"><!-- column -->
+      <div class="shadow rounded-corners colelem" id="u412311" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.9205,M12=-0.3907,M21=0.3907,M22=0.9205,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-2" data-mu-ie-matrix-dy="-10"><!-- simple frame --></div>
+      <div class="shadow rounded-corners colelem" id="u412302" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.9135,M12=0.4067,M21=-0.4067,M22=0.9135,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-2" data-mu-ie-matrix-dy="-10"><!-- simple frame --></div>
+     </div>
+     <div class="shadow rounded-corners grpelem" id="u411319" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.8988,M12=-0.4384,M21=0.4384,M22=0.8988,SizingMethod='auto expand')" data-mu-ie-matrix-dx="1" data-mu-ie-matrix-dy="-21"><!-- simple frame --></div>
+     <div class="shadow rounded-corners grpelem" id="u411320" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.7314,M12=0.682,M21=-0.682,M22=0.7314,SizingMethod='auto expand')" data-mu-ie-matrix-dx="10" data-mu-ie-matrix-dy="-39"><!-- simple frame --></div>
+     <div class="shadow rounded-corners grpelem" id="u411321"><!-- simple frame --></div>
+     <div class="shadow rounded-corners grpelem" id="u412305" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.7431,M12=-0.6691,M21=0.6691,M22=0.7431,SizingMethod='auto expand')" data-mu-ie-matrix-dx="5" data-mu-ie-matrix-dy="-28"><!-- simple frame --></div>
+     <div class="shadow rounded-corners grpelem" id="u412308" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.9781,M12=-0.2079,M21=0.2079,M22=0.9781,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-1" data-mu-ie-matrix-dy="-7"><!-- simple frame --></div>
+    </div>
+    <div class="clearfix colelem" id="pu397236"><!-- group -->
+     <div class="shadow rounded-corners clip_frame grpelem" id="u397236"><!-- image -->
+      <img class="block" id="u397236_img" src="images/%d0%b3%d0%b0%d0%b1%d1%80%d0%b8%d1%8d%d0%bb%d0%bb%d0%b0%203.jpg?crc=135980287" alt="" width="468" height="625"/>
+     </div>
+     <div class="clearfix grpelem" id="ppu397532-6"><!-- column -->
+      <div class="clearfix colelem" id="pu397532-6"><!-- group -->
+       <img class="grpelem" id="u397532-6" alt="Gabriella Quevedo" width="367" height="192" src="images/u397532-6.png?crc=4211889526"/><!-- rasterized frame -->
+       <img class="grpelem" id="u397698-5" alt="guitar player " width="365" height="77" src="images/u397698-5.png?crc=3900729178"/><!-- rasterized frame -->
+      </div>
+      <div class="clearfix colelem" id="pu398845"><!-- group -->
+       <div class="clip_frame grpelem" id="u398845"><!-- image -->
+        <img class="block" id="u398845_img" src="images/%d1%81%d1%81%d1%8b%d0%bb%d0%ba%d0%b0%203.png?crc=205154754" alt="" width="112" height="112"/>
+       </div>
+       <a class="nonblock nontext grpelem" id="u397711" href="music.html#gabriella-quevedo"><!-- content --></a>
+      </div>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu391537"><!-- group -->
+     <div class="shadow rounded-corners grpelem" id="u391537"><!-- simple frame --></div>
+     <div class="shadow rounded-corners grpelem" id="u395781"><!-- simple frame --></div>
+     <div class="shadow rounded-corners clip_frame grpelem" id="u390862"><!-- image -->
+      <img class="block" id="u390862_img" src="images/img_20191203_135846.jpg?crc=4168348524" alt="" width="443" height="332"/>
+     </div>
+     <img class="grpelem" id="u390882-10" alt="ТРК КУБЕЙ" width="270" height="56" src="images/u390882-10.png?crc=248738825"/><!-- rasterized frame -->
+    </div>
+    <div class="clearfix colelem" id="pu390870"><!-- group -->
+     <div class="shadow rounded-corners clip_frame grpelem" id="u390870"><!-- image -->
+      <img class="block" id="u390870_img" src="images/img_20191203_135808.jpg?crc=3866921076" alt="" width="531" height="398"/>
+     </div>
+     <div class="clearfix grpelem" id="pu391283"><!-- column -->
+      <div class="colelem" id="u391283" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.8829,M12=-0.4695,M21=0.4695,M22=0.8829,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-24" data-mu-ie-matrix-dy="-25"><!-- rasterized frame -->
+       <img id="u391283_img" alt="" width="139" height="136" src="images/%d0%ba%d1%83%d0%b1%d0%b8%d0%ba-u391283.png?crc=4119932337"/>
+      </div>
+      <img class="colelem" id="u391293-4" alt="Exclusive" width="196" height="76" src="images/u391293-4.png?crc=264543057"/><!-- rasterized frame -->
+     </div>
+    </div>
+    <div class="shadow rounded-corners clip_frame colelem" id="u390829"><!-- image -->
+     <img class="block" id="u390829_img" src="images/img_20191203_141925.jpg?crc=240068017" alt="" width="635" height="476"/>
+    </div>
+    <div class="clearfix colelem" id="pu382727-4"><!-- group -->
+     <img class="grpelem" id="u382727-4" alt="Girl &amp; Winter" width="582" height="63" src="images/u382727-4.png?crc=416944397"/><!-- rasterized frame -->
+     <div class="grpelem" id="u395778"><!-- simple frame --></div>
+     <div class="grpelem" id="u396764"><!-- simple frame --></div>
+    </div>
+    <div class="shadow rounded-corners clip_frame colelem" id="u382717"><!-- image -->
+     <img class="block" id="u382717_img" src="images/%d0%b4%d0%b5%d0%b2%d1%83%d1%88%d0%ba%d0%b0%203.jpg?crc=391080678" alt="" width="616" height="770"/>
+    </div>
+    <div class="clearfix colelem" id="pu379403"><!-- group -->
+     <div class="rounded-corners grpelem" id="u379403"><!-- simple frame --></div>
+     <div class="rounded-corners grpelem" id="u380279"><!-- simple frame --></div>
+     <img class="grpelem" id="u378242-7" alt="&nbsp;Опоры для клематиса - интересные варианты " width="584" height="110" src="images/u378242-7.png?crc=4159712928"/><!-- rasterized frame -->
+    </div>
+    <div class="clearfix colelem" id="pu379194"><!-- group -->
+     <div class="clip_frame grpelem" id="u379194" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.9816,M12=-0.1908,M21=0.1908,M22=0.9816,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-15" data-mu-ie-matrix-dy="-7"><!-- image -->
+      <img class="block" id="u379194_img" src="images/%d1%86%d0%b2%d0%b5%d1%82%d0%be%d0%ba-6.png?crc=3934512751" alt="" width="89" height="164"/>
+     </div>
+     <div class="rounded-corners clearfix grpelem" id="u378727"><!-- group -->
+      <div class="clearfix grpelem" id="pu378733-4"><!-- group -->
+       <img class="grpelem" id="u378733-4" alt="САД" width="115" height="58" src="images/u378733-4.png?crc=4153341162"/><!-- rasterized frame -->
+       <img class="grpelem" id="u378736" alt="" width="152" height="277" src="images/%d1%86%d0%b2%d0%b5%d1%82%d0%be%d0%ba-1-u378736.png?crc=3794773145"/><!-- rasterized frame -->
+      </div>
+      <div class="clip_frame grpelem" id="u378222"><!-- image -->
+       <img class="block" id="u378222_img" src="images/%d0%ba%d0%bb%d0%b8%d0%bc%d0%b5%d0%bd%d1%82%d0%b8%d1%81.jpg?crc=3889023433" alt="" width="387" height="579"/>
+      </div>
+     </div>
+     <div class="rounded-corners grpelem" id="u379034"><!-- simple frame --></div>
+    </div>
+    <div class="colelem" id="u379204"><!-- simple frame --></div>
+    <div class="clearfix colelem" id="pu371546"><!-- group -->
+     <div class="clip_frame grpelem" id="u371546" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.9781,M12=0.2079,M21=-0.2079,M22=0.9781,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-11" data-mu-ie-matrix-dy="-15"><!-- image -->
+      <img class="block" id="u371546_img" src="images/%d1%81%d0%bd%d0%b5%d0%b6%d0%b8%d0%bd%d0%ba%d0%b0.png?crc=361302850" alt="" width="158" height="122"/>
+     </div>
+     <div class="clip_frame grpelem" id="u395771" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.8829,M12=-0.4695,M21=0.4695,M22=0.8829,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-14" data-mu-ie-matrix-dy="-21"><!-- image -->
+      <img class="block" id="u395771_img" src="images/%d1%81%d0%bd%d0%b5%d0%b6%d0%b8%d0%bd%d0%ba%d0%b0.png?crc=361302850" alt="" width="111" height="86"/>
+     </div>
+     <div class="clip_frame grpelem" id="u371554" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.9397,M12=-0.342,M21=0.342,M22=0.9397,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-30" data-mu-ie-matrix-dy="-30"><!-- image -->
+      <img class="block" id="u371554_img" src="images/%d1%81%d0%bd%d0%b5%d0%b6%d0%b8%d0%bd%d0%ba%d0%b0%202.jpg?crc=4159516147" alt="" width="210" height="210"/>
+     </div>
+     <div class="clip_frame grpelem" id="u372924"><!-- image -->
+      <img class="block" id="u372924_img" src="images/%d0%b2%d0%b5%d1%80%d1%82%d0%b8%d0%ba%d0%b0%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d1%80%d1%8f%d0%b4-%d1%84%d0%be%d1%82%d0%bedff.jpg?crc=457358653" alt="" width="903" height="2433"/>
+     </div>
+     <div class="clip_frame grpelem" id="u374536"><!-- image -->
+      <img class="block" id="u374536_img" src="images/%d1%81%d0%b2%d0%b0%d0%b4%d1%8c%d0%b1%d0%b0-%d0%be%d1%84%d0%befdd.jpg?crc=3951626691" alt="" width="903" height="3227"/>
+     </div>
+     <img class="grpelem" id="u371243-6" alt="Карточки выходного дня" width="779" height="71" src="images/u371243-6.png?crc=258830933"/><!-- rasterized frame -->
+    </div>
+    <div class="rounded-corners clearfix colelem" id="u359129"><!-- group -->
+     <div class="rounded-corners clip_frame grpelem" id="u358415"><!-- image -->
+      <img class="block" id="u358415_img" src="images/%d0%bc%d0%b8%d0%ba%d1%80%d0%be%d1%84%d0%be%d0%bd.png?crc=275542286" alt="" width="159" height="159"/>
+     </div>
+     <img class="grpelem" id="u358425-7" alt="&nbsp;Результат запроса в поисковике Гуглей &quot;Собачкин холод&quot;" width="620" height="92" src="images/u358425-7.png?crc=4066949942"/><!-- rasterized frame -->
+    </div>
+    <div class="clearfix colelem" id="pu359420"><!-- group -->
+     <div class="shadow rounded-corners clip_frame grpelem" id="u359420" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.9976,M12=-0.0698,M21=0.0698,M22=0.9976,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-10" data-mu-ie-matrix-dy="-14"><!-- image -->
+      <img class="block" id="u359420_img" src="images/%d1%81%d0%ba%d0%be%d1%80%d0%b0%d1%8f.jpg?crc=340186206" alt="" width="412" height="309"/>
+     </div>
+     <div class="shadow rounded-corners clip_frame grpelem" id="u359430" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.9877,M12=-0.1564,M21=0.1564,M22=0.9877,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-21" data-mu-ie-matrix-dy="-17"><!-- image -->
+      <img class="block" id="u359430_img" src="images/%d0%bc%d1%8b%d1%88%d0%ba%d0%b0.jpg?crc=406466018" alt="" width="244" height="282"/>
+     </div>
+     <div class="shadow rounded-corners clip_frame grpelem" id="u359440"><!-- image -->
+      <img class="block" id="u359440_img" src="images/%d1%81%d0%bf%d0%b0%d1%81%d0%b0%d1%82%d0%b5%d0%bb%d0%b8.jpg?crc=3900991071" alt="" width="364" height="273"/>
+     </div>
+     <div class="shadow rounded-corners clip_frame grpelem" id="u358400" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.9925,M12=-0.1219,M21=0.1219,M22=0.9925,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-19" data-mu-ie-matrix-dy="-26"><!-- image -->
+      <img class="block" id="u358400_img" src="images/%d1%81%d0%be%d0%b1%d0%b0%d1%87%d0%ba%d0%b0%201.jpg?crc=183711255" alt="" width="442" height="342"/>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu348630"><!-- group -->
+     <div class="clip_frame grpelem" id="u348630"><!-- image -->
+      <img class="block" id="u348630_img" src="images/%d0%b2%d0%be%d0%bb%d0%bd%d0%b0%201.jpg?crc=103940711" alt="" width="173" height="138"/>
+     </div>
+     <div class="clip_frame grpelem" id="u347782"><!-- image -->
+      <img class="block" id="u347782_img" src="images/%d0%b0%d0%bb%d1%83%d1%88%d1%82%d0%b0.png?crc=3890692605" alt="" width="554" height="108"/>
+     </div>
+     <div class="grpelem" id="u347786" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.848,M12=0.5299,M21=-0.5299,M22=0.848,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-17" data-mu-ie-matrix-dy="-16"><!-- simple frame --></div>
+     <div class="grpelem" id="u347787" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.848,M12=0.5299,M21=-0.5299,M22=0.848,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-8" data-mu-ie-matrix-dy="-11"><!-- simple frame --></div>
+     <div class="grpelem" id="u347788" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=-0.682,M12=0.7314,M21=-0.7314,M22=-0.682,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-10" data-mu-ie-matrix-dy="-8"><!-- simple frame --></div>
+    </div>
+    <div class="clearfix colelem" id="ppu365907"><!-- group -->
+     <div class="clearfix grpelem" id="pu365907"><!-- column -->
+      <div class="clip_frame colelem" id="u365907"><!-- image -->
+       <img class="block" id="u365907_img" src="images/%d1%87%d0%b0%d0%b9%d0%ba%d0%b0-%d0%bf%d0%be%d0%b4-%d1%83%d0%b3%d0%bb%d0%be%d0%bc-%d0%bb%d0%b5%d1%82%d0%b8%d1%82.gif?crc=3863875439" alt="" width="251" height="137"/>
+      </div>
+      <div class="shadow rounded-corners clearfix colelem" id="u347748"><!-- group -->
+       <img class="grpelem" id="u347751" alt="" width="174" height="174" src="images/youtube_%d0%b7%d0%bd%d0%b0%d1%87%d0%be%d0%ba-u347753-u347751.png?crc=4168309636"/><!-- rasterized frame -->
+       <img class="grpelem" id="u347753" alt="" width="184" height="184" src="images/youtube_%d0%b7%d0%bd%d0%b0%d1%87%d0%be%d0%ba-u347753-u347753.png?crc=4115434946"/><!-- rasterized frame -->
+       <a class="nonblock nontext grpelem" id="u347755" href="https://www.youtube.com/watch?v=qY0qUZXzw1k"><!-- content --></a>
+       <a class="nonblock nontext grpelem" id="u347756" href="https://www.youtube.com/watch?v=9ye-wVtm9dU&amp;pbjreload=10"><!-- content --></a>
+      </div>
+     </div>
+     <div class="shadow rounded-corners clip_frame grpelem" id="u347759"><!-- image -->
+      <img class="block" id="u347759_img" src="images/%d0%b0%d0%bb%d1%83%d1%88%d1%82%d0%b0%202.jpg?crc=4290331352" alt="" width="584" height="397"/>
+     </div>
+    </div>
+    <div class="shadow rounded-corners clip_frame colelem" id="u347757"><!-- image -->
+     <img class="block" id="u347757_img" src="images/%d0%b0%d0%bb%d1%83%d1%88%d1%82%d0%b0%201.jpg?crc=3867174764" alt="" width="897" height="420"/>
+    </div>
+    <div class="clearfix colelem" id="pu347743"><!-- group -->
+     <div class="shadow rounded-corners clearfix grpelem" id="u347743"><!-- group -->
+      <div class="rounded-corners clip_frame grpelem" id="u347744"><!-- image -->
+       <img class="block" id="u347744_img" src="images/%d0%b2%d0%be%d0%bb%d0%bd%d0%b0%202.gif?crc=3843780632" alt="" width="265" height="199"/>
+      </div>
+     </div>
+     <div class="clip_frame grpelem" id="u347746"><!-- image -->
+      <img class="block" id="u347746_img" src="images/%d0%bf%d1%82%d0%b8%d1%86%d0%b0%20%d0%bb%d0%b5%d1%82%d0%b8%d1%82.gif?crc=254081968" alt="" width="137" height="160"/>
+     </div>
+     <div class="clip_frame grpelem" id="u347778"><!-- image -->
+      <img class="block" id="u347778_img" src="images/%d0%b2%d0%b5%d0%ba%d1%82%d0%be%d1%80%d0%bd%d0%b0%d1%8f%20%d0%b3%d1%80%d0%b0%d1%84%d0%b8%d0%ba%d0%b0%20%d0%ba%d1%80%d1%83%d0%b3%20%d0%b2%d0%be%d0%bb%d0%bd%d0%be%d0%b9.png?crc=346655412" alt="" width="84" height="75"/>
+     </div>
+     <div class="clip_frame grpelem" id="u347780" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.9397,M12=-0.342,M21=0.342,M22=0.9397,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-18" data-mu-ie-matrix-dy="-21"><!-- image -->
+      <img class="block" id="u347780_img" src="images/%d0%b2%d0%b5%d0%ba%d1%82%d0%be%d1%80%d0%bd%d0%b0%d1%8f%20%d0%b3%d1%80%d0%b0%d1%84%d0%b8%d0%ba%d0%b0%20%d0%ba%d1%80%d1%83%d0%b3%20%d0%b4%d1%80%d1%83%d0%b3%d0%be%d0%b9%20%d0%b7%d0%b5%d0%bb%d0%b5%d0%bd.png?crc=3840673668" alt="" width="146" height="130"/>
+     </div>
+     <div class="clip_frame grpelem" id="u347784" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.9397,M12=0.342,M21=-0.342,M22=0.9397,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-13" data-mu-ie-matrix-dy="-15"><!-- image -->
+      <img class="block" id="u347784_img" src="images/%d0%b2%d0%b5%d0%ba%d1%82%d0%be%d1%80%d0%bd%d0%b0%d1%8f%20%d0%b3%d1%80%d0%b0%d1%84%d0%b8%d0%ba%d0%b0%20%d0%ba%d1%80%d1%83%d0%b3%20%d0%b4%d1%80%d1%83%d0%b3%d0%be%d0%b9.png?crc=212377090" alt="" width="105" height="93"/>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu394561"><!-- group -->
+     <div class="rounded-corners clearfix grpelem" id="u394561"><!-- group -->
+      <img class="grpelem" id="u347763-40" alt="&nbsp;Алу́шта (укр. Алу́шта, крымско-тат. Aluşta, Алушта) — город-курорт на южном берегу Крыма. Административный центр городского округа Алушта (Алуштинского горсовета), так называемой Большой Алушты. Климат Климат субтропический средиземноморского типа (см. Южный Берег Крыма). Очень похож по температуре на климат Ялты с апреля по сентябрь, но немного холоднее (в среднем на 0,5 °C) с октября по март. Алуштинский курорт имеет 2 перевала (Кебит-богаз и Ангарский перевал), благодаря которым постоянно происходит перемещение воздушных масс с равнин полуострова к морю и обратно. В связи с этим климат характеризуется жарким летом и мягкой зимой, а также сравнительной сухостью, бо́льшая часть осадков в ыпадает с ноября по март. Средняя влажность воздуха 72 %. Средняя температура самого холодного месяца января +4,1 °C, а самого тёплого месяца — августа = +26,2 °C. Общая продолжительность солнечного сияния составляет 2321 час в год. Температура воды даже в самый холодный период не снижается ниже +8 °C. Купальный сезон — с мая по октябрь. В эти месяцы температура воды не ниже +17 °C. Самое тёплое море бывает с июля по сентябрь — когда температура воды достигает +22…+27 °C. Летом штормы редки и кратковременны. Несмотря на небольшую разницу с Ялтой по средней температуре, в зимний период времени в Алуште был зафиксирован ( за все время наблюдений ) мороз в −18.3 °C (в то время как в Ялте никогда не было ниже −12,3 °C), а минимальная температура в году в среднем на 3 °C ниже (высота перевалов всего 590—752 метра, а высота гор в Ялте почти на 750 метров выше, что и дает такую разницу), то есть по зоне морозостойкости USDA Алушта держится только в зоне 8b. В результате этого такие показатели достаточны для роста без укрытия пальм Трахикарпус Форчуна, но опасны для пальм Вашингтония нитеносная, которые без проблем зимуют в Ялте и в Сочи. Среднегодовая скорость ветра в Алуште 4 м/с (а в Ялте 2 м/с) — именно поэтому сформировалось у стойчивое выражение, что «по ощущению зимой в Алуште на 3 градуса холоднее, чем в Ялте». Обилие солнца, свежий воздух, тёплое море и живописные горы — вот важные составляющие, делающие Алушту прекрасным климатическим курортом. Знаменитый врач Боткин писал: «Алушта здоровее Ялты, там во время летней жары воздух непрерывно обновляется тягою через горные проходы по сторонам Чатыр-Дага». " width="883" height="1859" src="images/u347763-40.png?crc=494175317"/><!-- rasterized frame -->
+     </div>
+     <a class="anchor_item grpelem" id="birds"></a>
+     <div class="rounded-corners grpelem" id="u439252"><!-- simple frame --></div>
+    </div>
+    <img class="colelem" id="u348628-6" alt="Не забываем про добротнушек ... Им зимой не просто ..." width="769" height="129" src="images/u348628-6.png?crc=4133618005"/><!-- rasterized frame -->
+    <div class="shadow rounded-corners clip_frame colelem" id="u348626"><!-- image -->
+     <img class="block" id="u348626_img" src="images/%d1%81%d0%b8%d0%bd%d0%b8%d1%87%d0%ba%d0%b8.jpg?crc=177278694" alt="" width="897" height="590"/>
+    </div>
+    <div class="clearfix colelem" id="pu439973"><!-- group -->
+     <div class="shadow rounded-corners grpelem" id="u439973"><!-- simple frame --></div>
+     <div class="shadow rounded-corners grpelem" id="u439974"><!-- simple frame --></div>
+     <div class="shadow rounded-corners grpelem" id="u439975"><!-- simple frame --></div>
+    </div>
+    <div class="shadow rounded-corners clip_frame colelem" id="u348602"><!-- image -->
+     <img class="block" id="u348602_img" src="images/%d0%be%d0%ba%d1%82%d0%be%d0%b1%d0%b5%d1%80%d1%84%d0%b5%d1%81%d1%82%203.jpg?crc=4265481213" alt="" width="803" height="516"/>
+    </div>
+    <div class="clearfix colelem" id="pu439255"><!-- group -->
+     <div class="rounded-corners clearfix grpelem" id="u439255"><!-- group -->
+      <img class="grpelem" id="u348600-41" alt="&nbsp;Oktoberfest считается одним из самых больших народных гуляний в мире. Его посещают ежегодно порядка шести миллионов человек, которые приезжают в Мюнхен со всех немецких земель и из других стран. Официальным временем, когда проходит Октоберфест, считается период с середины сентября и до начала октября. В 2019 году Октоберфест пройдёт с 21 сентября по 6 октября, традиционное место – центр города, на лугу Терезы – рядом с Главным вокзалом. Продолжительность мероприятия составляет около 16 дней. Проведением Октоберфеста занимается администрация города Мюнхена. История Октоберфеста Впервые этот фестиваль пива в Германии был организован 12 октября 1810 г. Инициатором стал унтер-офицер, который предложил устроить скачки на лугу в окрестностях Мюнхена. Данное событие отмечалось в честь свадьбы принцессы Терезы Саксонской-Хильдбургхаузской и кронпринца Людвига Баварского. С тех пор фестиваль Октоберфест стал проводиться ежегодно, за исключением военных лет. В 1872 г. праздник был перенесен с октября на конец сентября, так как погода в городе в это время мягче и теплее. На протяжении долгих лет пивной фестиваль Октоберфест постоянно модернизировали. Например, в 1881 г. заработала первая жаровня курочек, а с 1892 г. пиво начали подавать в кружках из стекла. Официальные даты проведения Октоберфеста 2019 21 сентября – 6 октября. Программа праздника Шествие хозяев пивных палаток. В 1887 г. луг Терезы находился за пределами Мюнхена. Первый раз хозяева аттракционов и палаток выехали из города, чтобы всем вместе открыть Октоберфест. С тех пор такое шествие стало традиционным официальным открытием фестиваля. В последние годы процессию стали возглавлять обер-бургомистр на праздничной упряжке и мюнхенский ребенок, символ города. Шествие сопровождают оркестры пивных палаток. На повозки ставят бочки с пивом, из которых подается напиток той или иной палатки. Процессия начинается в центре города и заканчивается на лугу Терезы, где проходит Октоберфест. " width="893" height="1941" src="images/u348600-41.png?crc=3909895240"/><!-- rasterized frame -->
+     </div>
+     <div class="rounded-corners clearfix grpelem" id="u439258"><!-- group -->
+      <img class="grpelem" id="u348601-23" alt="&nbsp;Открытие первой бочки. Ровно в 12 часов дня, сразу после шествия хозяев праздничных палаток, проходит церемония вбивания крана в первую бочку. Действующий обер-бургомистр в палатке Schottenhamel-Festzelt устанавливает с помощью специального молотка кран в бочку октоберфестовского пива. Данный процесс происходит под характерный возглас «O’zapft is!» (что в переводе на русский означает «Откупорено!»), после этого праздник Октоберфест в Германии можно считать открытым. Момент вскрытия первой бочки означает, что хозяева палаток получают официальное разрешение к розливу пива и продаже его посетителям. Согласно традиции, право первым испробовать напиток получает министр-президент Баварии. Костюмированное шествие Данная церемония впервые появилась в 1835 г. на праздновании серебряной свадьбы принцессы Терезы и баварского короля Людвига I. С 1950 г. это мероприятие проводится каждый год и входит в число важнейших событий в дни Октоберфеста. В первое воскресенье фестиваля порядка 8000 человек наряжаются в национальные и исторические костюмы и движутся по 7-километровому маршруту от здания баварского парламента (Максимилианеума) до луга Терезы. Во главе этой процессии идет мюнхенский ребенок, за ним следуют представители городской администрации и правительства Баварии, обычно министр-президент с женой. В шествии принимают участие общества национальных костюмов, оркестры и стрелковые отряды, примерно 40 праздничных упряжек. В основном много приезжих из Баварии и ее регионов, но есть и представители Швейцарии, Австрии, северной Италии и других стран Европы, которые и в нынешнем году воспользуются возможностью отправиться в тур на Октоберфест 2019. Еда и напитки Главным героем Октоберфеста в Германии 2019, конечно же, будет особенное, сваренное по специальному рецепту октоберфестовское пиво, которое можно купить только во время фестиваля. Его выдерживают дольше, чем простое светлое, оно имеет крепость от 5,8 до 6,3 % и характерный ярко выраженный вкус солода. Однако гости, которые организовали свою поездку на Октоберфест, могут отведать и другие сорта пивного напитка, а также различные молодые и выдержанные вина, безалкогольные и крепкие алкогольные напитки, коктейли. В качестве закуски пользуются популярностью жареные курочки, белые мюнхенские сосиски, огромные кренделя, капустный и картофельный салаты, а также запеченная на палочке рыба, жареные на вертеле быки и свиные окорока, которые можно отведать во время поездки. Поэтому, что касается меню, то оно придется по вкусу гостям праздника. " width="891" height="2115" src="images/u348601-23.png?crc=42487997"/><!-- rasterized frame -->
+     </div>
+     <div class="rounded-corners grpelem" id="u439271"><!-- simple frame --></div>
+    </div>
+    <div class="clearfix colelem" id="pu394981"><!-- group -->
+     <div class="shadow rounded-corners grpelem" id="u394981"><!-- simple frame --></div>
+     <div class="shadow rounded-corners grpelem" id="u395741"><!-- simple frame --></div>
+     <div class="shadow rounded-corners grpelem" id="u395744"><!-- simple frame --></div>
+    </div>
+    <div class="rounded-corners clearfix colelem" id="u439222"><!-- column -->
+     <img class="colelem" id="u348975-8" alt="Добро пожаловать на мой официальный Бизнес - Лэндинг сайт (Landing Page) !" width="802" height="105" src="images/u348975-8.png?crc=388409516"/><!-- rasterized frame -->
+     <div class="colelem" id="u348979"><!-- simple frame --></div>
+     <div class="clearfix colelem" id="ppu439225"><!-- group -->
+      <div class="clearfix grpelem" id="pu439225"><!-- column -->
+       <div class="clearfix colelem" id="u439225"><!-- group -->
+        <div class="clearfix grpelem" id="u348976-4"><!-- content -->
+         <p>https://eugenie.ml</p>
+        </div>
+        <a class="nonblock nontext grpelem" id="u439228" href="https://eugenie.ml/"><!-- content --></a>
+       </div>
+       <div class="clip_frame colelem" id="u348590"><!-- image -->
+        <img class="block" id="u348590_img" src="images/landing--%d1%84%d0%be%d1%82%d0%bea-after-before-1.png?crc=4234572062" alt="" width="322" height="307"/>
+       </div>
+       <div class="clip_frame colelem" id="u348977"><!-- image -->
+        <img class="block" id="u348977_img" src="images/%d0%be%d1%84%d0%be%d1%80%d0%bc%d0%bb%d0%b5%d0%bd%d0%b8%d0%b5%20%d0%bf%d1%80%d0%b8%d0%bc%d0%b5%d1%80.png?crc=80731646" alt="" width="425" height="184"/>
+       </div>
+       <div class="clip_frame colelem" id="u348592"><!-- image -->
+        <img class="block" id="u348592_img" src="images/%d0%b4%d0%bb%d1%8f-landing-%d1%81%d0%b0%d0%b9%d1%82%d0%b0-bussines-(before---after-slider)-2.png?crc=173942375" alt="" width="242" height="231"/>
+       </div>
+      </div>
+      <div class="clip_frame grpelem" id="u348584"><!-- image -->
+       <img class="block" id="u348584_img" src="images/eug%202.png?crc=4129389516" alt="" width="429" height="1006"/>
+      </div>
+      <div class="grpelem" id="u348587"><!-- simple frame --></div>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="u348578"><!-- group -->
+     <div class="clip_frame grpelem" id="u348579"><!-- image -->
+      <img class="block" id="u348579_img" src="images/flowers.png?crc=4101824234" alt="" width="392" height="122"/>
+     </div>
+    </div>
+    <div class="rounded-corners colelem" id="u348581"><!-- simple frame --></div>
+    <div class="shadow colelem" id="u348574"><!-- simple frame --></div>
+    <div class="clearfix colelem" id="pu348572"><!-- group -->
+     <div class="shadow clip_frame grpelem" id="u348572"><!-- image -->
+      <img class="block" id="u348572_img" src="images/%d1%86%d0%b2%d0%b5%d1%82%d1%8b%206.jpg?crc=297048515" alt="" width="558" height="804"/>
+     </div>
+     <div class="clearfix grpelem" id="pu348575"><!-- column -->
+      <div class="shadow colelem" id="u348575"><!-- simple frame --></div>
+      <div class="shadow clip_frame colelem" id="u348576"><!-- image -->
+       <img class="block" id="u348576_img" src="images/%d1%86%d0%b2%d0%b5%d1%82%d1%8b%205.jpg?crc=129392647" alt="" width="277" height="277"/>
+      </div>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu348564"><!-- group -->
+     <div class="shadow clip_frame grpelem" id="u348564" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.9063,M12=0.4226,M21=-0.4226,M22=0.9063,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-119" data-mu-ie-matrix-dy="-70"><!-- image -->
+      <img class="block" id="u348564_img" src="images/%d1%86%d0%b2%d0%b5%d1%82%d1%8b%208.jpg?crc=489100873" alt="" width="478" height="669"/>
+     </div>
+     <div class="shadow clip_frame grpelem" id="u348566" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.9744,M12=-0.225,M21=0.225,M22=0.9744,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-66" data-mu-ie-matrix-dy="-46"><!-- image -->
+      <img class="block" id="u348566_img" src="images/%d1%86%d0%b2%d0%b5%d1%82%d1%8b%207.jpg?crc=3927464604" alt="" width="480" height="640"/>
+     </div>
+     <div class="shadow clip_frame grpelem" id="u348568" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.9659,M12=-0.2588,M21=0.2588,M22=0.9659,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-50" data-mu-ie-matrix-dy="-31"><!-- image -->
+      <img class="block" id="u348568_img" src="images/%d1%86%d0%b2%d0%b5%d1%82%d1%8b%206293x423.jpg?crc=3760588183" alt="" width="293" height="422"/>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu396400"><!-- group -->
+     <div class="shadow rounded-corners grpelem" id="u396400"><!-- simple frame --></div>
+     <div class="shadow rounded-corners grpelem" id="u396399"><!-- simple frame --></div>
+     <div class="shadow rounded-corners grpelem" id="u396401"><!-- simple frame --></div>
+     <div class="shadow rounded-corners grpelem" id="u396402"><!-- simple frame --></div>
+     <div class="shadow rounded-corners grpelem" id="u396403"><!-- simple frame --></div>
+    </div>
+    <div class="clearfix colelem" id="pu348992"><!-- group -->
+     <div class="shadow clip_frame grpelem" id="u348992"><!-- image -->
+      <img class="block" id="u348992_img" src="images/%d0%bd%d0%b0%d1%88%d0%b8%20%d0%bc%d0%b0%d1%82%d0%b5%d1%80%d0%b8.jpg?crc=3894146010" alt="" width="434" height="595"/>
+     </div>
+     <div class="clearfix grpelem" id="pu348997"><!-- column -->
+      <div class="clip_frame colelem" id="u348997"><!-- image -->
+       <img class="block" id="u348997_img" src="images/%d0%bd%d0%b0%d1%88%d0%b8%20%d0%bc%d0%b0%d1%82%d0%b5%d1%80%d0%b8%2c%20%d0%bd%d0%b0%d1%88%d0%b8%20%d0%be%d1%82%d1%86%d1%8b.png?crc=3899382899" alt="" width="370" height="79"/>
+      </div>
+      <div class="clearfix colelem" id="pu348994"><!-- group -->
+       <div class="grpelem" id="u348994"><!-- simple frame --></div>
+       <div class="clip_frame grpelem" id="u348985"><!-- image -->
+        <img class="block" id="u348985_img" src="images/%d0%bd%d0%b0%d1%88%d0%b8%20%d0%bc%d0%b0%d1%82%d0%b5%d1%80%d0%b8%204.jpg?crc=457557532" alt="" width="437" height="243"/>
+       </div>
+      </div>
+      <div class="clearfix colelem" id="pu348987"><!-- group -->
+       <div class="shadow clip_frame grpelem" id="u348987"><!-- image -->
+        <img class="block" id="u348987_img" src="images/%d0%bd%d0%b0%d1%88%d0%b8%20%d0%bc%d0%b0%d1%82%d0%b5%d1%80%d0%b8%203.jpg?crc=4210830395" alt="" width="402" height="267"/>
+       </div>
+       <div class="clip_frame grpelem" id="u349086" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0,M12=1,M21=-1,M22=0,SizingMethod='auto expand')" data-mu-ie-matrix-dx="12" data-mu-ie-matrix-dy="-12"><!-- image -->
+        <img class="block" id="u349086_img" src="images/zdf.png?crc=353353702" alt="" width="48" height="25"/>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="shadow clip_frame colelem" id="u348990"><!-- image -->
+     <img class="block" id="u348990_img" src="images/%d0%bd%d0%b0%d1%88%d0%b8%20%d0%bc%d0%b0%d1%82%d0%b5%d1%80%d0%b8%202.jpg?crc=408136474" alt="" width="532" height="338"/>
+    </div>
+    <div class="colelem" id="u348995"><!-- simple frame --></div>
+    <img class="colelem" id="u390286-6" alt="Пассажирский теплоход и отдых с гитарой на реке Лена, в 1970-х" width="627" height="69" src="images/u390286-6.png?crc=4157115869"/><!-- rasterized frame -->
+    <div class="clearfix colelem" id="pu348777"><!-- group -->
+     <div class="shadow clip_frame grpelem" id="u348777"><!-- image -->
+      <img class="block" id="u348777_img" src="images/%d0%bb%d0%b5%d0%bd%d0%b0%20%d1%80%d0%b5%d0%ba%d0%b0%202.jpg?crc=359171242" alt="" width="658" height="641"/>
+     </div>
+     <div class="grpelem" id="u348784"><!-- simple frame --></div>
+    </div>
+    <div class="shadow clip_frame colelem" id="u348779"><!-- image -->
+     <img class="block" id="u348779_img" src="images/%d0%bb%d0%b5%d0%bd%d0%b0%20%d1%80%d0%b5%d0%ba%d0%b0.jpg?crc=4063683173" alt="" width="740" height="497"/>
+    </div>
+    <div class="rounded-corners clearfix colelem" id="u439231"><!-- column -->
+     <div class="position_content" id="u439231_position_content">
+      <div class="clearfix colelem" id="pu395754"><!-- group -->
+       <div class="rounded-corners grpelem" id="u395754"><!-- simple frame --></div>
+       <div class="rounded-corners grpelem" id="u395753"><!-- simple frame --></div>
+       <div class="rounded-corners grpelem" id="u395755"><!-- simple frame --></div>
+       <div class="rounded-corners grpelem" id="u395756"><!-- simple frame --></div>
+       <div class="rounded-corners grpelem" id="u395757"><!-- simple frame --></div>
+      </div>
+      <div class="clearfix colelem" id="pu348773"><!-- group -->
+       <div class="rounded-corners clip_frame grpelem" id="u348773"><!-- image -->
+        <img class="block" id="u348773_img" src="images/%d0%b1%d0%b0%d1%82%d1%83%d0%bc%d0%b8.jpg?crc=102223850" alt="" width="958" height="662"/>
+       </div>
+       <div class="clearfix grpelem" id="u349002-4"><!-- content -->
+        <p>All Rights Reserved / CSS 2019</p>
+       </div>
+       <div class="clip_frame grpelem" id="u349005"><!-- image -->
+        <img class="block" id="u349005_img" src="images/%d1%80%d0%be%d1%81%d0%bf%d0%b8%d1%81%d1%8c%204.png?crc=133031820" alt="" width="151" height="108"/>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="clip_frame colelem" id="u348806"><!-- image -->
+     <img class="block" id="u348806_img" src="images/%d1%82%d0%b5%d0%ba%d1%81%d1%82%20%d0%b2%d0%be%d0%ba%d0%b7%d0%b0%d0%bb.png?crc=3991004492" alt="" width="407" height="74"/>
+    </div>
+    <div class="clearfix colelem" id="pu395768"><!-- group -->
+     <div class="shadow rounded-corners grpelem" id="u395768"><!-- simple frame --></div>
+     <div class="clip_frame grpelem" id="u348762"><!-- image -->
+      <img class="block" id="u348762_img" src="images/retro.png?crc=4037279521" alt="" width="384" height="146"/>
+     </div>
+    </div>
+    <img class="colelem" id="u349074-7" alt="&nbsp;Русановский канал Киев, 1986 год" width="735" height="100" src="images/u349074-7.png?crc=247117951"/><!-- rasterized frame -->
+    <div class="clearfix colelem" id="pu439237"><!-- group -->
+     <div class="rounded-corners clearfix grpelem" id="u439237"><!-- group -->
+      <img class="grpelem" id="u348751-6" alt="&nbsp;20-й Век . . . " width="836" height="80" src="images/u348751-6.png?crc=274053973"/><!-- rasterized frame -->
+     </div>
+     <div class="clip_frame grpelem" id="u349072"><!-- image -->
+      <img class="block" id="u349072_img" src="images/%d0%ba%d0%b8%d0%b5%d0%b2.jpg?crc=441727295" alt="" width="958" height="968"/>
+     </div>
+     <div class="rounded-corners grpelem" id="u407855" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0,M12=1,M21=-1,M22=0,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-92" data-mu-ie-matrix-dy="92"><!-- simple frame --></div>
+    </div>
+    <div class="clip_frame colelem" id="u394564"><!-- image -->
+     <img class="block" id="u394564_img" src="images/%d1%81%d0%bb%d0%b0%d0%b9%206.png?crc=326914244" alt="" width="237" height="178"/>
+    </div>
+    <div class="shadow rounded-corners clip_frame colelem" id="u348720"><!-- image -->
+     <img class="block" id="u348720_img" src="images/merc%202681x379.jpg?crc=528368869" alt="" width="681" height="378"/>
+    </div>
+    <div class="shadow clip_frame colelem" id="u348722"><!-- image -->
+     <img class="block" id="u348722_img" src="images/merc%204.jpg?crc=3811126668" alt="" width="674" height="450"/>
+    </div>
+    <div class="clearfix colelem" id="pu348741"><!-- group -->
+     <div class="clip_frame grpelem" id="u348741"><!-- image -->
+      <img class="block" id="u348741_img" src="images/retro.png?crc=4037279521" alt="" width="337" height="128"/>
+     </div>
+     <div class="shadow rounded-corners clip_frame grpelem" id="u348724"><!-- image -->
+      <img class="block" id="u348724_img" src="images/merc%207.jpg?crc=237155880" alt="" width="521" height="384"/>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu348715"><!-- group -->
+     <div class="rounded-corners clip_frame grpelem" id="u348715"><!-- image -->
+      <img class="block" id="u348715_img" src="images/merc%202-crop-u348715.png?crc=516151391" alt="Short Film" title="Short Film" width="958" height="1485"/>
+     </div>
+     <div class="clearfix grpelem" id="u348737-4"><!-- content -->
+      <p>Mercedes Benz</p>
+     </div>
+     <div class="grpelem" id="u348738"><!-- simple frame --></div>
+    </div>
+    <div class="shadow rounded-corners clip_frame colelem" id="u348726"><!-- image -->
+     <img class="block" id="u348726_img" src="images/merc%205.jpg?crc=4245309944" alt="" width="958" height="405"/>
+    </div>
+    <div class="clearfix colelem" id="pu348728"><!-- group -->
+     <div class="shadow rounded-corners clip_frame grpelem" id="u348728"><!-- image -->
+      <img class="block" id="u348728_img" src="images/merc%203.jpg?crc=4128172286" alt="" width="521" height="293"/>
+     </div>
+     <div class="clip_frame grpelem" id="u348739"><!-- image -->
+      <img class="block" id="u348739_img" src="images/retro.png?crc=4037279521" alt="" width="337" height="128"/>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu348732"><!-- group -->
+     <div class="shadow rounded-corners clip_frame grpelem" id="u348732"><!-- image -->
+      <img class="block" id="u348732_img" src="images/merc%206.jpg?crc=509226873" alt="" width="468" height="351"/>
+     </div>
+     <div class="shadow rounded-corners clip_frame grpelem" id="u348730"><!-- image -->
+      <img class="block" id="u348730_img" src="images/merc%201.jpg?crc=4001459611" alt="" width="453" height="231"/>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu348711"><!-- group -->
+     <div class="grpelem" id="u348711"><!-- simple frame --></div>
+     <div class="grpelem" id="u348712"><!-- simple frame --></div>
+     <div class="grpelem" id="u348713"><!-- simple frame --></div>
+     <div class="clearfix grpelem" id="u348714-4"><!-- content -->
+      <p>Бор /</p>
+     </div>
+    </div>
+    <div class="clip_frame clearfix colelem" id="u348702"><!-- image -->
+     <img class="position_content" id="u348702_img" src="images/picsart_09-10-030034.jpg?crc=282949933" alt="" width="911" height="683"/>
+    </div>
+    <div class="clearfix colelem" id="u348704-4"><!-- content -->
+     <p>&nbsp;Archive photo</p>
+    </div>
+    <div class="clip_frame colelem" id="u348804"><!-- image -->
+     <img class="block" id="u348804_img" src="images/%d1%82%d0%b5%d0%ba%d1%81%d1%82%20%d0%b1%d0%be%d1%80%20%d1%81%d0%be%d1%81%d0%bd%d0%be%d0%b2%d1%8b%d0%b9.png?crc=4051728425" alt="" width="918" height="228"/>
+    </div>
+    <div class="clearfix colelem" id="pu348705"><!-- group -->
+     <img class="grpelem" id="u348705" alt="" width="924" height="963" src="images/%d1%84%d0%be%d0%bd%20%d0%bc%d0%b0%d0%bb%d0%b5%d0%bd%d1%8c%d0%ba%d0%b8%d0%b9%20%d1%81%20%d0%ba%d0%bd%d0%be%d0%bf%d0%ba%d0%be%d0%b9%2011-u348705.png?crc=13530779"/><!-- rasterized frame -->
+     <div class="shadow rounded-corners clip_frame grpelem" id="u348980"><!-- image -->
+      <img class="block" id="u348980_img" src="images/39fcf2e8977e.jpg?crc=369909883" alt="" width="477" height="358"/>
+     </div>
+     <div class="shadow clip_frame grpelem" id="u348982"><!-- image -->
+      <img class="block" id="u348982_img" src="images/%d0%be%d0%ba%d1%82%d0%be%d0%b1.jpg?crc=4183374063" alt="" width="75" height="75"/>
+     </div>
+     <img class="grpelem" id="u348999-10" alt="&nbsp;OKTOBERFEST Октябрьские народные гуляния, нем. Oktoberfest, среди мюнхенцев также известные под названием «Wiesn» (на баварском диалекте — «луг») — фольклорный фестиваль (нем. Volksfest), ежегодно проводимый в Мюнхене (Германия), самое большое народное гуляние в мире. " width="279" height="263" src="images/u348999-10.png?crc=4009884473"/><!-- rasterized frame -->
+     <div class="rounded-corners grpelem" id="u349000"><!-- simple frame --></div>
+     <div class="clearfix grpelem" id="u349001-4"><!-- content -->
+      <p>&nbsp;&nbsp; Sehr // Das Feuer</p>
+     </div>
+     <div class="shadow clip_frame grpelem" id="u349013"><!-- image -->
+      <img class="block" id="u349013_img" src="images/%d0%be%d0%ba%d1%82%d0%be%d0%b1%202.jpg?crc=4192449038" alt="" width="75" height="75"/>
+     </div>
+     <div class="shadow clip_frame grpelem" id="u349015"><!-- image -->
+      <img class="block" id="u349015_img" src="images/%d0%be%d0%ba%d1%82%d0%be%d0%b1%203.jpg?crc=4187374745" alt="" width="75" height="75"/>
+     </div>
+     <div class="shadow clip_frame grpelem" id="u349017"><!-- image -->
+      <img class="block" id="u349017_img" src="images/%d0%be%d0%ba%d1%82%d0%be%d0%b1%208.jpg?crc=502883523" alt="" width="75" height="75"/>
+     </div>
+    </div>
+    <div class="rounded-corners clearfix colelem" id="u394555"><!-- column -->
+     <div class="clearfix colelem" id="pu348686"><!-- group -->
+      <div class="shadow clip_frame grpelem" id="u348686"><!-- image -->
+       <img class="block" id="u348686_img" src="images/17575782.jpg?crc=385998758" alt="" width="513" height="350"/>
+      </div>
+      <div class="clearfix grpelem" id="u348695-6"><!-- content -->
+       <p>&quot;Tut dies immer wieder</p>
+       <p>zur Erinnerung an mich&quot; (Lukas 22:19)</p>
+      </div>
+      <div class="grpelem" id="u348696"><!-- content --></div>
+     </div>
+     <div class="clearfix colelem" id="pu348688"><!-- group -->
+      <div class="shadow clip_frame grpelem" id="u348688"><!-- image -->
+       <img class="block" id="u348688_img" src="images/m0s1jxrcuoe.jpg?crc=3934855358" alt="" width="379" height="379"/>
+      </div>
+      <div class="shadow clip_frame grpelem" id="u348690"><!-- image -->
+       <img class="block" id="u348690_img" src="images/so2xhbgkzv0.jpg?crc=427962513" alt="" width="531" height="657"/>
+      </div>
+     </div>
+     <div class="rounded-corners colelem" id="u394984"><!-- simple frame --></div>
+    </div>
+    <div class="clip_frame colelem" id="u348812"><!-- image -->
+     <img class="block" id="u348812_img" src="images/%d1%82%d0%b5%d0%ba%d1%81%d1%82%20%d1%80%d0%b5%d1%82%d1%80%d0%b8%d0%b2%d0%b5%d1%80%203.png?crc=354291640" alt="" width="787" height="392"/>
+    </div>
+    <div class="colelem" id="u348685"><!-- content --></div>
+    <div class="clip_frame colelem" id="u349070"><!-- image -->
+     <img class="block" id="u349070_img" src="images/%d1%80%d0%b5%d1%82%d1%80%d0%b8%d0%b2%d0%b5%d1%80.jpg?crc=4002432919" alt="" width="579" height="576"/>
+    </div>
+    <div class="clearfix colelem" id="u348684-4"><!-- content -->
+     <p>The Encyclopedia of North American Sporting Dogs</p>
+    </div>
+    <div class="clearfix colelem" id="pu349042"><!-- group -->
+     <div class="grpelem" id="u349042"><!-- content --></div>
+     <div class="grpelem" id="u349043"><!-- content --></div>
+     <div class="grpelem" id="u349044"><!-- content --></div>
+     <div class="clip_frame grpelem" id="u349046"><!-- image -->
+      <img class="block" id="u349046_img" src="images/%d0%bb%d0%b8%d1%81%d1%82%d0%be%d0%ba%201.png?crc=4162694397" alt="" width="209" height="118"/>
+     </div>
+     <div class="grpelem" id="u349048"><!-- content --></div>
+     <div class="clip_frame grpelem" id="u349049"><!-- image -->
+      <img class="block" id="u349049_img" src="images/%d1%82%d0%b5%d0%ba%d1%81%d1%82%20%d1%80%d0%b0%d0%b4%d0%b8%d0%b0%d1%86%d0%b8%d1%8f.png?crc=481660695" alt="" width="958" height="1366"/>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu349045-4"><!-- group -->
+     <div class="clearfix grpelem" id="u349045-4"><!-- content -->
+      <p>https://www.iaea.org</p>
+     </div>
+     <div class="clip_frame grpelem" id="u349067"><!-- image -->
+      <img class="block" id="u349067_img" src="images/%d1%80%d0%b0%d0%b4%d0%b8%d0%b0%d1%86.png?crc=317595435" alt="" width="65" height="67"/>
+     </div>
+     <a class="nonblock nontext grpelem" id="u349069" href="https://www.iaea.org/Publications/Factsheets/English/radlife"><!-- content --></a>
+    </div>
+    <div class="clearfix colelem" id="pu439240"><!-- group -->
+     <div class="rounded-corners clearfix grpelem" id="u439240"><!-- column -->
+      <div class="position_content" id="u439240_position_content">
+       <div class="shadow rounded-corners colelem" id="u349058"><!-- content --></div>
+       <div class="clearfix colelem" id="pu348643"><!-- group -->
+        <div class="shadow clip_frame grpelem" id="u348643"><!-- image -->
+         <img class="block" id="u348643_img" src="images/%d1%82%d1%83%d1%80%d0%b3%d0%be%d1%8f%d0%ba%200.png?crc=3775521661" alt="" width="314" height="208"/>
+        </div>
+        <div class="clearfix grpelem" id="u349020-3"><!-- content -->
+         <p>&nbsp;</p>
+        </div>
+       </div>
+       <div class="colelem" id="u348658"><!-- simple frame --></div>
+       <div class="clearfix colelem" id="pu349056"><!-- group -->
+        <div class="clip_frame grpelem" id="u349056"><!-- image -->
+         <img class="block" id="u349056_img" src="images/summer.png?crc=3857496254" alt="" width="346" height="36"/>
+        </div>
+        <img class="grpelem" id="u349030" alt="" width="108" height="147" src="images/%d0%ba%d1%80%d1%83%d0%b6%d0%be%d0%ba-u349030.png?crc=181879325"/><!-- rasterized frame -->
+       </div>
+       <div class="clearfix colelem" id="pu348646"><!-- group -->
+        <div class="grpelem" id="u348646"><!-- content --></div>
+        <div class="grpelem" id="u348647"><!-- content --></div>
+        <div class="grpelem" id="u348652"><!-- content --></div>
+        <div class="grpelem" id="u348653"><!-- content --></div>
+        <div class="grpelem" id="u348654"><!-- content --></div>
+       </div>
+       <div class="clearfix colelem" id="pu348659-4"><!-- group -->
+        <div class="clearfix grpelem" id="u348659-4"><!-- content -->
+         <p><span id="u348659">June</span></p>
+        </div>
+        <div class="clearfix grpelem" id="u348660-4"><!-- content -->
+         <p><span id="u348660">e</span></p>
+        </div>
+        <div class="clearfix grpelem" id="u348661-4"><!-- content -->
+         <p><span id="u348661">e</span></p>
+        </div>
+        <div class="clearfix grpelem" id="u348662-4"><!-- content -->
+         <p><span id="u348662">e</span></p>
+        </div>
+        <div class="clearfix grpelem" id="u348663-4"><!-- content -->
+         <p><span id="u348663">e</span></p>
+        </div>
+       </div>
+       <div class="colelem" id="u348640"><!-- content --></div>
+       <div class="clearfix colelem" id="pu348664-4"><!-- group -->
+        <div class="clearfix grpelem" id="u348664-4"><!-- content -->
+         <p><span id="u348664">July</span></p>
+        </div>
+        <div class="clearfix grpelem" id="u348665-4"><!-- content -->
+         <p><span id="u348665">y</span></p>
+        </div>
+        <div class="clearfix grpelem" id="u348666-4"><!-- content -->
+         <p><span id="u348666">y</span></p>
+        </div>
+        <div class="clearfix grpelem" id="u348667-4"><!-- content -->
+         <p><span id="u348667">y</span></p>
+        </div>
+        <div class="clearfix grpelem" id="u348668-4"><!-- content -->
+         <p><span id="u348668">y</span></p>
+        </div>
+       </div>
+       <div class="colelem" id="u348641"><!-- content --></div>
+       <div class="clearfix colelem" id="pu348642"><!-- group -->
+        <div class="grpelem" id="u348642"><!-- content --></div>
+        <div class="clearfix grpelem" id="u348669-4"><!-- content -->
+         <p><span id="u348669">Avgust</span></p>
+        </div>
+        <div class="clearfix grpelem" id="u348670-4"><!-- content -->
+         <p><span id="u348670">&nbsp;t</span></p>
+        </div>
+        <div class="clearfix grpelem" id="u348671-4"><!-- content -->
+         <p><span id="u348671">&nbsp;t</span></p>
+        </div>
+        <div class="clearfix grpelem" id="u348672-4"><!-- content -->
+         <p><span id="u348672">&nbsp;t</span></p>
+        </div>
+        <div class="clearfix grpelem" id="u348673-4"><!-- content -->
+         <p><span id="u348673">&nbsp;t</span></p>
+        </div>
+        <div class="clip_frame grpelem" id="u349054"><!-- image -->
+         <img class="block" id="u349054_img" src="images/%d1%82%d1%83%d1%80%d0%b3%d0%be%d1%8f%d0%ba%202.jpg?crc=154950562" alt="" width="949" height="251"/>
+        </div>
+        <div class="shadow clip_frame grpelem" id="u349059"><!-- image -->
+         <img class="block" id="u349059_img" src="images/%d0%bb%d0%b5%d1%82%d0%be%204.jpg?crc=199955979" alt="" width="379" height="251"/>
+        </div>
+        <div class="shadow clearfix grpelem" id="u349061"><!-- group -->
+         <div class="shadow rounded-corners grpelem" id="u349065"><!-- content --></div>
+         <div class="shadow rounded-corners grpelem" id="u349063"><!-- content --></div>
+        </div>
+        <div class="shadow clearfix grpelem" id="u349062"><!-- group -->
+         <div class="shadow rounded-corners grpelem" id="u349066"><!-- content --></div>
+         <div class="shadow rounded-corners grpelem" id="u349064"><!-- content --></div>
+        </div>
+       </div>
+       <div class="clearfix colelem" id="pu348645"><!-- group -->
+        <div class="grpelem" id="u348645"><!-- content --></div>
+        <div class="rounded-corners grpelem" id="u439243"><!-- simple frame --></div>
+        <div class="size_fixed grpelem" id="u349021"><!-- custom html -->
+         <iframe width="342" height="263" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/182887547&amp;color=e5e5e5&amp;auto_play=false&amp;hide_related=true&amp;show_artwork=true"></iframe>
+        </div>
+        <div class="clip_frame grpelem" id="u349022"><!-- image -->
+         <img class="block" id="u349022_img" src="images/soundcloud%20logo%202-1.png?crc=3769832293" alt="" width="188" height="71"/>
+        </div>
+        <div class="grpelem" id="u349024"><!-- content --></div>
+        <div class="grpelem" id="u349025"><!-- simple frame --></div>
+       </div>
+      </div>
+     </div>
+     <div class="grpelem" id="u348648" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.9703,M12=0.2419,M21=-0.2419,M22=0.9703,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-1" data-mu-ie-matrix-dy="-8"><!-- content --></div>
+     <div class="grpelem" id="u348649" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.7193,M12=0.6947,M21=-0.6947,M22=0.7193,SizingMethod='auto expand')" data-mu-ie-matrix-dx="8" data-mu-ie-matrix-dy="-30"><!-- content --></div>
+     <div class="grpelem" id="u348650" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.0349,M12=0.9994,M21=-0.9994,M22=0.0349,SizingMethod='auto expand')" data-mu-ie-matrix-dx="16" data-mu-ie-matrix-dy="-17"><!-- content --></div>
+     <div class="grpelem" id="u348651" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=-0.4848,M12=0.8746,M21=-0.8746,M22=-0.4848,SizingMethod='auto expand')" data-mu-ie-matrix-dx="11" data-mu-ie-matrix-dy="-23"><!-- content --></div>
+     <div class="clip_frame grpelem" id="u348960"><!-- image -->
+      <img class="block" id="u348960_img" src="images/%d0%bc%d0%b8%d1%80%d1%8b%202.jpg?crc=178322176" alt="" width="567" height="426"/>
+     </div>
+     <div class="grpelem" id="u348963" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0,M12=-1,M21=1,M22=0,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-138" data-mu-ie-matrix-dy="138"><!-- content --></div>
+     <div class="shadow rounded-corners grpelem" id="u348964"><!-- content --></div>
+     <div class="grpelem" id="u348962"><!-- content --></div>
+     <div class="grpelem" id="u349032" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.8387,M12=-0.5446,M21=0.5446,M22=0.8387,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-8" data-mu-ie-matrix-dy="-8"><!-- content --></div>
+     <div class="grpelem" id="u349033" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=-0.225,M12=-0.9744,M21=0.9744,M22=-0.225,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-3" data-mu-ie-matrix-dy="-4"><!-- content --></div>
+     <div class="grpelem" id="u349034" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.4695,M12=-0.8829,M21=0.8829,M22=0.4695,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-9" data-mu-ie-matrix-dy="-10"><!-- content --></div>
+     <div class="grpelem" id="u349035" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=-0.515,M12=-0.8572,M21=0.8572,M22=-0.515,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-9" data-mu-ie-matrix-dy="-11"><!-- content --></div>
+     <div class="grpelem" id="u349036" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.0698,M12=-0.9976,M21=0.9976,M22=0.0698,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-1" data-mu-ie-matrix-dy="-2"><!-- content --></div>
+     <div class="grpelem" id="u349037" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.0698,M12=-0.9976,M21=0.9976,M22=0.0698,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-1" data-mu-ie-matrix-dy="-2"><!-- content --></div>
+     <div class="grpelem" id="u349038" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=-0.3256,M12=-0.9455,M21=0.9455,M22=-0.3256,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-3" data-mu-ie-matrix-dy="-4"><!-- content --></div>
+     <div class="grpelem" id="u349039" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=-0.3256,M12=-0.9455,M21=0.9455,M22=-0.3256,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-3" data-mu-ie-matrix-dy="-4"><!-- content --></div>
+     <div class="clearfix grpelem" id="u349052-5"><!-- content -->
+      <p>«Параллельные миры»</p>
+      <p>&nbsp;</p>
+     </div>
+     <div class="clearfix grpelem" id="u349053-4"><!-- content -->
+      <p>2012</p>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu348958"><!-- group -->
+     <div class="clip_frame grpelem" id="u348958"><!-- image -->
+      <img class="block" id="u348958_img" src="images/%d0%bc%d0%b8%d1%80%d1%8b%203.jpg?crc=213841068" alt="" width="627" height="397"/>
+     </div>
+     <div class="grpelem" id="u348966" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.4848,M12=-0.8746,M21=0.8746,M22=0.4848,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-6" data-mu-ie-matrix-dy="-24"><!-- content --></div>
+     <div class="grpelem" id="u348967" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.4848,M12=-0.8746,M21=0.8746,M22=0.4848,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-6" data-mu-ie-matrix-dy="-24"><!-- content --></div>
+    </div>
+    <div class="clip_frame colelem" id="u348969"><!-- image -->
+     <img class="block" id="u348969_img" src="images/%d1%82%d0%b5%d0%ba%d1%81%d1%82%20%d0%bc%d0%b8%d1%80%d1%8b.png?crc=3765611497" alt="" width="877" height="336"/>
+    </div>
+    <div class="clearfix colelem" id="pu348953"><!-- group -->
+     <div class="rounded-corners clip_frame grpelem" id="u348953"><!-- image -->
+      <img class="block" id="u348953_img" src="images/%d0%ba%d0%b0%d1%84%d0%b5-%d1%81-%d0%bf%d1%80%d1%8f%d0%bc%d0%be%d1%83%d0%b3%d0%be%d0%bb-3a-crop-u348953.png?crc=239480550" alt="Short Film" title="Short Film" width="958" height="1491"/>
+     </div>
+     <div class="clearfix grpelem" id="u348955-3"><!-- content -->
+      <p>&nbsp;</p>
+     </div>
+     <img class="grpelem" id="u348956" alt="" width="742" height="97" src="images/%d0%ba%d0%b0%d1%84%d0%b5-u348956.png?crc=12634813"/><!-- rasterized frame -->
+    </div>
+    <div class="clearfix colelem" id="pu348550-4"><!-- group -->
+     <div class="clearfix grpelem" id="u348550-4"><!-- content -->
+      <h1 id="u348550-2">News</h1>
+     </div>
+     <div class="rounded-corners clearfix grpelem" id="u394558"><!-- column -->
+      <div class="position_content" id="u394558_position_content">
+       <div class="clearfix colelem" id="pu348944"><!-- group -->
+        <div class="shadow clip_frame grpelem" id="u348944"><!-- image -->
+         <img class="block" id="u348944_img" src="images/%d0%b2%d0%b8%d0%bd%d0%be%206.jpg?crc=483620306" alt="" width="335" height="219"/>
+        </div>
+        <div class="shadow clip_frame grpelem" id="u348946"><!-- image -->
+         <img class="block" id="u348946_img" src="images/%d0%b2%d0%b8%d0%bd%d0%be%205.jpg?crc=4211952926" alt="" width="371" height="232"/>
+        </div>
+       </div>
+       <div class="clearfix colelem" id="pu348940"><!-- group -->
+        <div class="clip_frame grpelem" id="u348940"><!-- image -->
+         <img class="block" id="u348940_img" src="images/%d0%b2%d0%b8%d0%bd%d0%be.png?crc=4259194899" alt="" width="654" height="653"/>
+        </div>
+        <div class="clearfix grpelem" id="u348943-4"><!-- content -->
+         <p><span id="u348943">P.S.</span></p>
+        </div>
+        <div class="shadow clip_frame grpelem" id="u348948"><!-- image -->
+         <img class="block" id="u348948_img" src="images/%d0%b2%d0%b8%d0%bd%d0%be%203.jpg?crc=456380251" alt="" width="391" height="251"/>
+        </div>
+        <div class="shadow clip_frame grpelem" id="u348950"><!-- image -->
+         <img class="block" id="u348950_img" src="images/%d0%b2%d0%b8%d0%bd%d0%be.jpg?crc=320740134" alt="" width="427" height="305"/>
+        </div>
+        <div class="grpelem" id="u348952"><!-- content --></div>
+       </div>
+       <div class="clearfix colelem" id="u348942-4"><!-- content -->
+        <p>&nbsp; Лично я использую винные дрожжи, cок и ставлю гидрозатвор (делаю по классической технологии)</p>
+       </div>
+       <a class="nonblock nontext clearfix colelem" id="u349051-4" href="https://www.youtube.com/watch?v=vRwY37ZQ7Ns"><!-- content --><p>https://www.youtube.com/watch?v=vRwY37ZQ7Ns</p></a>
+       <div class="clearfix colelem" id="u348939-4"><!-- content -->
+        <p>www.ogorod.ru</p>
+       </div>
+       <div class="clearfix colelem" id="pu348873-5"><!-- group -->
+        <div class="clearfix grpelem" id="u348873-5"><!-- content -->
+         <p id="u348873-3"><span id="u348873">Short Film </span><span id="u348873-2">(2:42)</span></p>
+        </div>
+        <div class="clearfix grpelem" id="u348874-5"><!-- content -->
+         <p id="u348874-3"><span id="u348874">Short Film </span><span id="u348874-2">(2:42)</span></p>
+        </div>
+        <div class="grpelem" id="u348876"><!-- content --></div>
+        <div class="grpelem" id="u348877"><!-- content --></div>
+        <div class="size_fixed grpelem" id="u348887"><!-- custom html -->
+         
+<video width="100%" height="100%" title=" " poster="assets/%d0%be%d0%b1%d0%b2%d0%be%d0%b4%d0%ba%d0%b0-%d0%b4%d0%bb%d1%8f-%d1%84%d0%b8%d0%bb%d1%8c%d0%bc%d0%b0-22.png" controls muted     >
+  <source src="assets/%d0%bc%d1%8b%d1%88%d0%ba%d0%b0-%d0%b8-%d0%b4%d0%b5%d0%b4.mp4" type="video/mp4">
+  <source src="Add File" type="video/ogg">
+  <source src="Add File" type="video/webm">
+</video>
+
+        </div>
+        <div class="size_fixed grpelem" id="u348888"><!-- custom html -->
+         
+<video width="100%" height="100%" title=" " poster="assets/%d0%be%d0%b1%d0%b2%d0%be%d0%b4%d0%ba%d0%b0-%d0%b4%d0%bb%d1%8f-%d1%84%d0%b8%d0%bb%d1%8c%d0%bc%d0%b0-22.png" controls muted     >
+  <source src="assets/%d1%80%d0%be%d0%b1%d0%be%d1%82.mp4" type="video/mp4">
+  <source src="Add File" type="video/ogg">
+  <source src="Add File" type="video/webm">
+</video>
+
+        </div>
+        <div class="grpelem" id="u348890"><!-- content --></div>
+        <div class="grpelem" id="u348891"><!-- content --></div>
+        <div class="grpelem" id="u348893"><!-- content --></div>
+        <div class="grpelem" id="u348894"><!-- content --></div>
+        <div class="clearfix grpelem" id="u348897-5"><!-- content -->
+         <p id="u348897-3"><span id="u348897">Short Film </span><span id="u348897-2">(7:01)</span></p>
+        </div>
+        <div class="clearfix grpelem" id="u348898-5"><!-- content -->
+         <p id="u348898-3"><span id="u348898">Short Film </span><span id="u348898-2">(3:23)</span></p>
+        </div>
+        <img class="grpelem" id="u348900-4" alt="про мышатку ..." width="252" height="39" src="images/u348900-4.png?crc=126202021"/><!-- rasterized frame -->
+        <img class="grpelem" id="u348901-4" alt="своими руками ..." width="284" height="39" src="images/u348901-4.png?crc=58640828"/><!-- rasterized frame -->
+        <img class="grpelem" id="u348914-6" alt="&nbsp;Для просмотра в полноэкранном режиме, сразу после воспроизведения видеоролика переворачивайте вашу зверюшку. На PC достаточно двойного щелчка мышатки ." width="528" height="57" src="images/u348914-6.png?crc=141442245"/><!-- rasterized frame -->
+        <div class="clearfix grpelem" id="u348915-4"><!-- content -->
+         <p>*</p>
+        </div>
+       </div>
+       <div class="clearfix colelem" id="pu348871"><!-- group -->
+        <div class="clearfix grpelem" id="u348871"><!-- group -->
+         <div class="clearfix grpelem" id="u348872-5"><!-- content -->
+          <p id="u348872-3"><span id="u348872">Short Film </span><span id="u348872-2">(2:42)</span></p>
+         </div>
+        </div>
+        <div class="grpelem" id="u348875"><!-- content --></div>
+        <div class="clip_frame grpelem" id="u348878"><!-- image -->
+         <img class="block" id="u348878_img" src="images/%d0%bf%d1%80%d0%be%d0%be%20%d1%80%d0%b0%d0%b1%d0%be%d1%82%d1%83.png?crc=4268594194" alt="" width="487" height="250"/>
+        </div>
+        <div class="grpelem" id="u348883"><!-- simple frame --></div>
+        <div class="grpelem" id="u348884"><!-- simple frame --></div>
+        <div class="size_fixed grpelem" id="u348886"><!-- custom html -->
+         
+<video width="100%" height="100%" title=" " poster="assets/%d0%be%d0%b1%d0%b2%d0%be%d0%b4%d0%ba%d0%b0-%d0%b4%d0%bb%d1%8f-%d1%84%d0%b8%d0%bb%d1%8c%d0%bc%d0%b0-22.png" controls muted     >
+  <source src="assets/hole.mp4" type="video/mp4">
+  <source src="Add File" type="video/ogg">
+  <source src="Add File" type="video/webm">
+</video>
+
+        </div>
+        <div class="grpelem" id="u348889"><!-- content --></div>
+        <div class="grpelem" id="u348892"><!-- content --></div>
+        <div class="clearfix grpelem" id="u348896-5"><!-- content -->
+         <p id="u348896-3"><span id="u348896">Short Film </span><span id="u348896-2">(2:42)</span></p>
+        </div>
+        <div class="clearfix grpelem" id="u348899-4"><!-- content -->
+         <p>&quot;The Black Hole&quot;</p>
+        </div>
+        <img class="grpelem" id="u348902" alt="" width="307" height="193" src="images/%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0%20%d0%b7%d0%bd%d0%b0%d1%87%201-u348902.png?crc=109862443"/><!-- rasterized frame -->
+        <div class="shadow rounded-corners grpelem" id="u348904"><!-- content --></div>
+        <div class="shadow grpelem" id="u349010"><!-- content --></div>
+        <div class="shadow grpelem" id="u349011"><!-- content --></div>
+        <div class="shadow grpelem" id="u349012"><!-- content --></div>
+       </div>
+      </div>
+     </div>
+     <div class="rounded-corners clearfix grpelem" id="u439246"><!-- column -->
+      <div class="shadow rounded-corners clip_frame colelem" id="u348861"><!-- image -->
+       <img class="block" id="u348861_img" src="images/%d1%87%d0%b0%d1%81%20%d0%b7%d0%b5%d0%bc%d0%bb%d0%b8%203.jpg?crc=4255338242" alt="" width="765" height="485"/>
+      </div>
+      <div class="clearfix colelem" id="pu348851-3"><!-- group -->
+       <div class="shadow rounded-corners clearfix grpelem" id="u348851-3"><!-- content -->
+        <p>&nbsp;</p>
+       </div>
+       <img class="grpelem" id="u348854" alt="" width="326" height="76" src="images/%d0%b4%d0%be%20%d0%bb%d0%b5%d1%82%d0%b0-u348854.png?crc=260265724"/><!-- rasterized frame -->
+       <div class="grpelem" id="u348863"><!-- content --></div>
+       <div class="rounded-corners grpelem" id="u348864"><!-- simple frame --></div>
+       <div class="grpelem" id="u349007"><!-- custom html -->
+        <script language="JavaScript">
+<!--
+function daysLeftNewYear()
+{ 
+ today = new Date()
+ //Можно установить любую дату
+ nextDate = new Date("June 1, 2020")
+ //Количество миллисекунд в одном дне
+ msPerDay = 24*60*60*1000;
+ //Высчитываем количество дней
+ daysLeft = Math.round((nextDate.getTime()
+  - today.getTime())/msPerDay);
+ dayname=""
+ ds=""+daysLeft
+  //Вырезаем последнею цифру
+ dd=parseInt(ds.substr(ds.length-1))
+ //Определяем правильность написания
+ if(daysLeft>4&&daysLeft<21)dayname="  "
+ else
+  if(dd==1)dayname="  "
+  else
+   if(dd==2||dd==3||dd==4)dayname=" "
+   else dayname=" "
+ //Выводим надпись в документ
+ document.write("  <br>"
+ +daysLeft+dayname+" ");
+}
+
+//-->
+</script>
+
+<script language="JavaScript">
+<!--
+//Вызываем функцию
+daysLeftNewYear()
+//-->
+</script>
+
+
+       </div>
+      </div>
+      <div class="shadow clip_frame colelem" id="u348843"><!-- image -->
+       <img class="block" id="u348843_img" src="images/%d0%bb%d0%b5%d1%82%d0%be%20.gif?crc=3919303356" alt="" width="557" height="323"/>
+      </div>
+      <div class="clearfix colelem" id="pu348847"><!-- group -->
+       <div class="shadow rounded-corners clip_frame grpelem" id="u348847"><!-- image -->
+        <img class="block" id="u348847_img" src="images/%d0%bb%d0%b5%d1%82%d0%be.jpg?crc=235679969" alt="" width="457" height="285"/>
+       </div>
+       <div class="shadow rounded-corners clip_frame grpelem" id="u348849"><!-- image -->
+        <img class="block" id="u348849_img" src="images/%d0%bb%d0%b5%d1%82%d0%be%202.jpg?crc=252640930" alt="" width="399" height="398"/>
+       </div>
+      </div>
+      <div class="clearfix colelem" id="pu348852"><!-- group -->
+       <div class="clip_frame grpelem" id="u348852"><!-- image -->
+        <img class="block" id="u348852_img" src="images/%d0%ba%d1%80%d0%b0%d1%81%d0%b8%d0%b2%d0%be.jpg?crc=171167103" alt="" width="339" height="387"/>
+       </div>
+       <div class="rounded-corners grpelem" id="u349008"><!-- content --></div>
+       <div class="size_fixed grpelem" id="u349009"><!-- custom html -->
+        
+		<div id="wrapper">
+			<audio preload="auto" controls>
+             <source src="assets/la-bikina-71.mp3"><!-- Hide -->
+			<!--<source src="Add File"><!-- Hide -->
+			<!--<source src="Add File"><!-- Hide -->
+			</audio>
+
+			</div>
+
+       </div>
+      </div>
+     </div>
+     <div class="clip_frame grpelem" id="u348865" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=-0.9816,M12=-0.1908,M21=0.1908,M22=-0.9816,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-8" data-mu-ie-matrix-dy="-17"><!-- image -->
+      <img class="block" id="u348865_img" src="images/%d1%81%d0%be%d0%bb%d0%bd%d1%86_00000_00000.png?crc=242785919" alt="" width="190" height="107"/>
+     </div>
+     <div class="grpelem" id="u348885"><!-- content --></div>
+     <div class="clip_frame grpelem" id="u348905" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0,M12=-1,M21=1,M22=0,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-9" data-mu-ie-matrix-dy="9"><!-- image -->
+      <img class="block" id="u348905_img" src="images/%d0%bf%d0%bb%d0%b5%d0%b9.png?crc=3842421073" alt="" width="43" height="61"/>
+     </div>
+     <div class="clip_frame grpelem" id="u348907" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0,M12=-1,M21=1,M22=0,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-9" data-mu-ie-matrix-dy="9"><!-- image -->
+      <img class="block" id="u348907_img" src="images/%d0%bf%d0%bb%d0%b5%d0%b9.png?crc=3842421073" alt="" width="43" height="61"/>
+     </div>
+     <div class="clip_frame grpelem" id="u348909" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0,M12=-1,M21=1,M22=0,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-9" data-mu-ie-matrix-dy="9"><!-- image -->
+      <img class="block" id="u348909_img" src="images/%d0%bf%d0%bb%d0%b5%d0%b9.png?crc=3842421073" alt="" width="43" height="61"/>
+     </div>
+     <div class="shadow grpelem" id="u348916" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.9945,M12=-0.1045,M21=0.1045,M22=0.9945,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-2" data-mu-ie-matrix-dy="-6"><!-- content --></div>
+     <div class="shadow grpelem" id="u348917" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.8829,M12=0.4695,M21=-0.4695,M22=0.8829,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-4" data-mu-ie-matrix-dy="-24"><!-- content --></div>
+     <div class="shadow grpelem" id="u348918" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.9925,M12=0.1219,M21=-0.1219,M22=0.9925,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-2" data-mu-ie-matrix-dy="-7"><!-- content --></div>
+     <div class="shadow grpelem" id="u348919" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.9659,M12=-0.2588,M21=0.2588,M22=0.9659,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-5" data-mu-ie-matrix-dy="-10"><!-- content --></div>
+     <div class="shadow grpelem" id="u348920" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.9976,M12=-0.0698,M21=0.0698,M22=0.9976,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-2" data-mu-ie-matrix-dy="-4"><!-- content --></div>
+     <div class="shadow grpelem" id="u348921" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.7547,M12=-0.6561,M21=0.6561,M22=0.7547,SizingMethod='auto expand')" data-mu-ie-matrix-dx="4" data-mu-ie-matrix-dy="-46"><!-- content --></div>
+     <div class="shadow grpelem" id="u348922" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.9877,M12=0.1564,M21=-0.1564,M22=0.9877,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-6" data-mu-ie-matrix-dy="-10"><!-- content --></div>
+     <div class="shadow grpelem" id="u348923" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.9272,M12=-0.3746,M21=0.3746,M22=0.9272,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-11" data-mu-ie-matrix-dy="-23"><!-- content --></div>
+     <div class="shadow grpelem" id="u348924"><!-- content --></div>
+     <div class="shadow grpelem" id="u348925" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.9781,M12=0.2079,M21=-0.2079,M22=0.9781,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-5" data-mu-ie-matrix-dy="-13"><!-- content --></div>
+     <div class="clip_frame grpelem" id="u348971"><!-- image -->
+      <img class="block" id="u348971_img" src="images/%d1%82%d0%b5%d0%ba%d1%81%d1%82%20%d0%b7%d0%b0%d1%89%20%d0%b7%d0%b5%d0%bc%d0%bb%d0%b8.png?crc=353725590" alt="" width="828" height="391"/>
+     </div>
+     <div class="rounded-corners grpelem" id="u439249"><!-- simple frame --></div>
+    </div>
+    <div class="clearfix colelem" id="u348837-4"><!-- content -->
+     <p>Source Code, 2011</p>
+    </div>
+    <div class="shadow rounded-corners clip_frame colelem" id="u348835"><!-- image -->
+     <img class="block" id="u348835_img" src="images/280x178_2.jpg?crc=173567175" alt="" width="793" height="504"/>
+    </div>
+    <div class="clip_frame colelem" id="u348973"><!-- image -->
+     <img class="block" id="u348973_img" src="images/%d1%82%d0%b5%d0%ba%d1%81%d1%82%20%d0%b8%d1%81%d1%85%20%d0%ba%d0%be%d0%b4.png?crc=38318180" alt="" width="847" height="703"/>
+    </div>
+    <div class="rounded-corners clearfix colelem" id="u348838"><!-- group -->
+     <div class="rounded-corners grpelem" id="u348839"><!-- simple frame --></div>
+    </div>
+    <div class="verticalspacer" data-offset-top="93404" data-content-above-spacer="93404" data-content-below-spacer="57"></div>
+   </div>
+  </div>
+  <!-- JS includes -->
+  <script type="text/javascript">
+   if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn2.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script type="text/javascript">
+   window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js?crc=209076791" type="text/javascript">\x3C/script>');
+</script>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   // Decide whether to suppress missing file error or not based on preference setting
+var suppressMissingFileError = false
+</script>
+  <script type="text/javascript">
+   window.Muse.assets.check=function(c){if(!window.Muse.assets.checked){window.Muse.assets.checked=!0;var b={},d=function(a,b){if(window.getComputedStyle){var c=window.getComputedStyle(a,null);return c&&c.getPropertyValue(b)||c&&c[b]||""}if(document.documentElement.currentStyle)return(c=a.currentStyle)&&c[b]||a.style&&a.style[b]||"";return""},a=function(a){if(a.match(/^rgb/))return a=a.replace(/\s+/g,"").match(/([\d\,]+)/gi)[0].split(","),(parseInt(a[0])<<16)+(parseInt(a[1])<<8)+parseInt(a[2]);if(a.match(/^\#/))return parseInt(a.substr(1),
+16);return 0},f=function(f){for(var g=document.getElementsByTagName("link"),j=0;j<g.length;j++)if("text/css"==g[j].type){var l=(g[j].href||"").match(/\/?css\/([\w\-]+\.css)\?crc=(\d+)/);if(!l||!l[1]||!l[2])break;b[l[1]]=l[2]}g=document.createElement("div");g.className="version";g.style.cssText="display:none; width:1px; height:1px;";document.getElementsByTagName("body")[0].appendChild(g);for(j=0;j<Muse.assets.required.length;){var l=Muse.assets.required[j],k=l.match(/([\w\-\.]+)\.(\w+)$/),i=k&&k[1]?
+k[1]:null,k=k&&k[2]?k[2]:null;switch(k.toLowerCase()){case "css":i=i.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");g.className+=" "+i;i=a(d(g,"color"));k=a(d(g,"backgroundColor"));i!=0||k!=0?(Muse.assets.required.splice(j,1),"undefined"!=typeof b[l]&&(i!=b[l]>>>24||k!=(b[l]&16777215))&&Muse.assets.outOfDate.push(l)):j++;g.className="version";break;case "js":j++;break;default:throw Error("Unsupported file type: "+k);}}c?c().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
+g.parentNode.removeChild(g);if(Muse.assets.outOfDate.length||Muse.assets.required.length)g="Некоторые файлы на сервере могут отсутствовать или быть некорректными. Очистите кэш-память браузера и повторите попытку. Если проблему не удается устранить, свяжитесь с разработчиками сайта.",f&&Muse.assets.outOfDate.length&&(g+="\nOut of date: "+Muse.assets.outOfDate.join(",")),f&&Muse.assets.required.length&&(g+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(g+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(g)):alert(g)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
+setTimeout(function(){f(!0)},5E3):f()}};
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch"],function(c){var $ = c;$(document).ready(function(){try{
+window.Muse.assets.check($);/* body */
+Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
+Muse.Utils.prepHyperlinks(true);/* body */
+Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
+Muse.Utils.fullPage('#page');/* 100% height page */
+Muse.Utils.showWidgetsWhenReady();/* body */
+Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
+}catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
+
+</script>
+  <!-- RequireJS script -->
+  <script src="scripts/require.js?crc=7928878" type="text/javascript" async data-main="scripts/museconfig.js?crc=310584261" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
+  
+  <!--HTML Widget code-->
+  
+		<script language="javascript">
+            document.onmousedown=disableclick;
+            status="Правая кнопка заблокирована!";
+            Function disableclick(event){
+                if(event.button==2){
+                    alert(status);
+                    return false;    
+                }
+            }
+        </script>
+        <body oncontextmenu="return false">
+        </body>
+
+<script>
+$(document).ready(function(){
+    $(document).bind("contextmenu",function(e){
+        return false;
+    });
+    
+    $(document).mousedown(function(e){ 
+        if( e.button == 2 ) { 
+          return false; 
+        } 
+        return true; 
+    });
+});
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$("body").attr("oncopy","return false");
+	$("body").attr("oncontextmenu","return false")
+});
+</script>
+
+<script>
+!function(e,t,a){var i="ontouchstart"in t,n=i?"touchstart":"mousedown",o=i?"touchmove":"mousemove",d=i?"touchcancel":"mouseup",u=function(e){var t=e/3600,a=Math.floor(t),i=e%3600/60,n=Math.floor(i),o=Math.ceil(e%3600%60);return o>59&&(o=0,n=Math.ceil(i)),n>59&&(n=0,a=Math.ceil(t)),(0==a?"":a>0&&a.toString().length<2?"0"+a+":":a+":")+(n.toString().length<2?"0"+n:n)+":"+(o.toString().length<2?"0"+o:o)},l=function(e){var t=a.createElement("audio");return!(!t.canPlayType||!t.canPlayType("audio/"+e.split(".").pop().toLowerCase()+";").replace(/no/,""))};e.fn.audioPlayer=function(t){var t=e.extend({classPrefix:"audioplayer",strPlay:"Play",strPause:"Pause",strVolume:"Volume"},t),a={},r={playPause:"playpause",playing:"playing",stopped:"stopped",time:"time",timeCurrent:"time-current",timeDuration:"time-duration",bar:"bar",barLoaded:"bar-loaded",barPlayed:"bar-played",volume:"volume",volumeButton:"volume-button",volumeAdjust:"volume-adjust",noVolume:"novolume",muted:"muted",mini:"mini"};for(var s in r)a[s]=t.classPrefix+"-"+r[s];return this.each(function(){if("audio"!=e(this).prop("tagName").toLowerCase())return!1;var r=e(this),s=r.attr("src"),v=r.get(0).getAttribute("autoplay"),v=""===v||"autoplay"===v?!0:!1,m=r.get(0).getAttribute("loop"),m=""===m||"loop"===m?!0:!1,c=!1;"undefined"==typeof s?r.find("source").each(function(){return s=e(this).attr("src"),"undefined"!=typeof s&&l(s)?(c=!0,!1):void 0}):l(s)&&(c=!0);var h=e('<div class="'+t.classPrefix+'">'+(c?e("<div>").append(r.eq(0).clone()).html():'<embed src="'+s+'" width="0" height="0" volume="100" autostart="'+v.toString()+'" loop="'+m.toString()+'" />')+'<div class="'+a.playPause+'" title="'+t.strPlay+'"><a href="#">'+t.strPlay+"</a></div></div>"),f=h.find(c?"audio":"embed"),f=f.get(0);if(c){h.find("audio").css({width:0,height:0,visibility:"hidden"}),h.append('<div class="'+a.time+" "+a.timeCurrent+'"></div><div class="'+a.bar+'"><div class="'+a.barLoaded+'"></div><div class="'+a.barPlayed+'"></div></div><div class="'+a.time+" "+a.timeDuration+'"></div><div class="'+a.volume+'"><div class="'+a.volumeButton+'" title="'+t.strVolume+'"><a href="#">'+t.strVolume+'</a></div><div class="'+a.volumeAdjust+'"><div><div></div></div></div></div>');var p=h.find("."+a.bar),y=h.find("."+a.barPlayed),g=h.find("."+a.barLoaded),b=h.find("."+a.timeCurrent),P=h.find("."+a.timeDuration),C=h.find("."+a.volumeButton),E=h.find("."+a.volumeAdjust+" > div"),w=0,M=function(e){theRealEvent=i?e.originalEvent.touches[0]:e,f.currentTime=Math.round(f.duration*(theRealEvent.pageX-p.offset().left)/p.width())},L=function(e){theRealEvent=i?e.originalEvent.touches[0]:e,f.volume=Math.abs((theRealEvent.pageY-(E.offset().top+E.height()))/E.height())},S=function(){var e=setInterval(function(){return f.buffered.length<1?!0:(g.width(f.buffered.end(0)/f.duration*100+"%"),void(Math.floor(f.buffered.end(0))>=Math.floor(f.duration)&&clearInterval(e)))},100)},V=f.volume,j=f.volume=.111;Math.round(1e3*f.volume)/1e3==j?f.volume=V:h.addClass(a.noVolume),P.html("…"),b.html(u(0)),f.addEventListener("loadeddata",function(){S(),P.html(e.isNumeric(f.duration)?u(f.duration):"…"),E.find("div").height(100*f.volume+"%"),w=f.volume}),f.addEventListener("timeupdate",function(){b.html(u(f.currentTime)),y.width(f.currentTime/f.duration*100+"%")}),f.addEventListener("volumechange",function(){E.find("div").height(100*f.volume+"%"),f.volume>0&&h.hasClass(a.muted)&&h.removeClass(a.muted),f.volume<=0&&!h.hasClass(a.muted)&&h.addClass(a.muted)}),f.addEventListener("ended",function(){h.removeClass(a.playing).addClass(a.stopped)}),p.on(n,function(e){M(e),p.on(o,function(e){M(e)})}).on(d,function(){p.unbind(o)}),C.on("click",function(){return h.hasClass(a.muted)?(h.removeClass(a.muted),f.volume=w):(h.addClass(a.muted),w=f.volume,f.volume=0),!1}),E.on(n,function(e){L(e),E.on(o,function(e){L(e)})}).on(d,function(){E.unbind(o)})}else h.addClass(a.mini);h.addClass(v?a.playing:a.stopped),h.find("."+a.playPause).on("click",function(){return h.hasClass(a.playing)?(e(this).attr("title",t.strPlay).find("a").html(t.strPlay),h.removeClass(a.playing).addClass(a.stopped),c?f.pause():f.Stop()):(e(this).attr("title",t.strPause).find("a").html(t.strPause),h.addClass(a.playing).removeClass(a.stopped),c?f.play():f.Play()),!1}),r.replaceWith(h)}),this}}(jQuery,window,document);
+</script>
+<script>
+$( 'audio' ).audioPlayer(
+{
+	strPlay: 'Play', // default value: 'Play'
+	strPause: 'Pause', // default value: 'Pause'
+	strVolume: 'Volume', // default value: 'Volume'
+});
+</script>
+
+
+   </body>
+</html>
