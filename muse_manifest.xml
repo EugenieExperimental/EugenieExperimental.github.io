@@ -1,10 +1,10 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1498757722120">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1498758296018">
   <folder name="css">
     <file name="site_global.css" crc="3914131437"/>
     <file name="design.css" crc="3960267142" ref="design"/>
     <file name="info.css" crc="177371897" ref="info"/>
     <file name="index.css" crc="383130190" ref="index"/>
-    <file name="news.css" crc="4041558481" ref="news"/>
+    <file name="news.css" crc="367848302" ref="news"/>
     <file name="music.css" crc="3894507468" ref="music"/>
     <file name="iefonts_music.css" crc="4238321021" ref="music"/>
   </folder>
@@ -1928,8 +1928,8 @@
     <file name="index.html" crc="3980247706" seo="true" redirect="false"/>
   </folder>
   <file name="index.html" crc="23821374" seo="true" mt="1498756752100" redirect="true"/>
-  <file name="music.html" crc="501955134" seo="true" redirect="true"/>
+  <file name="music.html" crc="346901629" seo="true" redirect="true"/>
   <file name="design.html" crc="324240160" seo="true" redirect="true"/>
-  <file name="news.html" crc="287945035" seo="true" mt="1498757609148" redirect="true"/>
+  <file name="news.html" crc="4080814586" seo="true" mt="1498758189744" redirect="true"/>
   <file name="info.html" crc="4010677644" seo="true" redirect="true"/>
 </manifest>
