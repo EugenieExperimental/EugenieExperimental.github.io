@@ -1,7 +1,7 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1498708351213">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1498709286660">
   <folder name="css">
     <file name="site_global.css" crc="3914131437"/>
-    <file name="news.css" crc="270059622" ref="news"/>
+    <file name="news.css" crc="4208799451" ref="news"/>
     <file name="design.css" crc="3901875958" ref="design"/>
     <file name="index.css" crc="383130190" ref="index"/>
     <file name="music.css" crc="3894507468" ref="music"/>
@@ -653,8 +653,8 @@
     <file name="youtube_значок-u347753-u331045.png" crc="4051119154" ref="music"/>
     <file name="youtube_значок-u347753-u351148.png" crc="4051119154" ref="music"/>
     <file name="переворот-3.svg" crc="4037082086" seo="true" ref="music:design">
-      <caption webpage="design" alt=""/>
       <caption webpage="music" alt=""/>
+      <caption webpage="design" alt=""/>
     </file>
     <file name="переворот 3_poster_.png" crc="21591777" ref="music"/>
     <file name="78117392.jpg" crc="8134959" seo="true" ref="music">
@@ -734,14 +734,14 @@
       <caption webpage="music" alt=""/>
     </file>
     <file name="плей.png" crc="3842421073" seo="true" ref="music:design:news">
+      <caption webpage="news" alt=""/>
+      <caption webpage="news" alt=""/>
+      <caption webpage="news" alt=""/>
+      <caption webpage="music" alt=""/>
+      <caption webpage="music" alt=""/>
+      <caption webpage="music" alt=""/>
       <caption webpage="design" alt=""/>
       <caption webpage="design" alt=""/>
-      <caption webpage="news" alt=""/>
-      <caption webpage="news" alt=""/>
-      <caption webpage="news" alt=""/>
-      <caption webpage="music" alt=""/>
-      <caption webpage="music" alt=""/>
-      <caption webpage="music" alt=""/>
     </file>
     <file name="piano.jpg" crc="8451357" seo="true" ref="music">
       <caption webpage="music" alt=""/>
@@ -799,11 +799,11 @@
       <caption webpage="music" alt=""/>
     </file>
     <file name="роспись 4.png" crc="133031820" seo="true" ref="music:design:news">
-      <caption webpage="design" alt=""/>
-      <caption webpage="design" alt=""/>
-      <caption webpage="design" alt=""/>
       <caption webpage="news" alt=""/>
       <caption webpage="music" alt=""/>
+      <caption webpage="design" alt=""/>
+      <caption webpage="design" alt=""/>
+      <caption webpage="design" alt=""/>
     </file>
     <file name="ace vent.png" crc="516709029" seo="true" ref="music">
       <caption webpage="music" alt=""/>
@@ -1127,7 +1127,7 @@
     <file name="u563545-6.png" crc="3940592711" ref="news"/>
     <file name="u566365-4.png" crc="69096840" ref="news"/>
     <file name="u566366-4.png" crc="149692158" ref="news"/>
-    <file name="u566413-11.png" crc="101430964" ref="news"/>
+    <file name="u566413-11.png" crc="312609231" ref="news"/>
     <file name="u566426-12.png" crc="4223450141" ref="news"/>
     <file name="я-уфа-1.jpg" crc="3801497114" seo="true" ref="news">
       <caption webpage="news" alt=""/>
@@ -1966,9 +1966,9 @@
     </folder>
     <file name="index.html" crc="3980247706" seo="true" redirect="false"/>
   </folder>
-  <file name="index.html" crc="23821374" seo="true" redirect="true"/>
-  <file name="music.html" crc="4277761487" seo="true" redirect="true"/>
+  <file name="index.html" crc="116468341" seo="true" mt="1498709126830" redirect="true"/>
+  <file name="music.html" crc="259039173" seo="true" redirect="true"/>
   <file name="design.html" crc="86364472" seo="true" redirect="true"/>
-  <file name="news.html" crc="3789441328" seo="true" mt="1498708247762" redirect="true"/>
+  <file name="news.html" crc="394591083" seo="true" mt="1498709178709" redirect="true"/>
   <file name="info.html" crc="4010677644" seo="true" redirect="true"/>
 </manifest>
