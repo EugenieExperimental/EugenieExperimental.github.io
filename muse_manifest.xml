@@ -1,9 +1,9 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1498823213142">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1498824123455">
   <folder name="css">
     <file name="site_global.css" crc="3914131437"/>
     <file name="index.css" crc="3801088209" ref="index"/>
     <file name="info.css" crc="177371897" ref="info"/>
-    <file name="music.css" crc="4064861214" ref="music"/>
+    <file name="music.css" crc="204172747" ref="music"/>
     <file name="iefonts_music.css" crc="4238321021" ref="music"/>
     <file name="design.css" crc="3785105555" ref="design"/>
     <file name="news.css" crc="4005250012" ref="news"/>
@@ -171,9 +171,25 @@
     <file name="алан.jpg" crc="189099449" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
+    <file name="ссылка 2.jpg" crc="4220601960" seo="true" ref="music:news">
+      <caption webpage="news" alt=""/>
+      <caption webpage="news" alt=""/>
+      <caption webpage="news" alt=""/>
+      <caption webpage="news" alt=""/>
+      <caption webpage="news" alt=""/>
+      <caption webpage="news" alt=""/>
+      <caption webpage="music" alt=""/>
+      <caption webpage="music" alt=""/>
+      <caption webpage="music" alt=""/>
+      <caption webpage="music" alt=""/>
+      <caption webpage="music" alt=""/>
+      <caption webpage="music" alt=""/>
+      <caption webpage="music" alt=""/>
+    </file>
+    <file name="u551780-4.png" crc="506096906" ref="music"/>
     <file name="u550946-4.png" crc="90083513" ref="music"/>
     <file name="u550780-12.png" crc="4137345442" ref="music"/>
-    <file name="u551521-20.png" crc="79796311" ref="music"/>
+    <file name="u551521-20.png" crc="4014794516" ref="music"/>
     <file name="colbie 2.jpg" crc="338214591" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
@@ -222,20 +238,6 @@
     <file name="youtube_значок-u347753-u512547.png" crc="3895449116" ref="music"/>
     <file name="u512567-8.png" crc="4112403217" ref="music"/>
     <file name="цой.jpg" crc="4032957839" seo="true" ref="music">
-      <caption webpage="music" alt=""/>
-    </file>
-    <file name="ссылка 2.jpg" crc="4220601960" seo="true" ref="music:news">
-      <caption webpage="news" alt=""/>
-      <caption webpage="news" alt=""/>
-      <caption webpage="news" alt=""/>
-      <caption webpage="news" alt=""/>
-      <caption webpage="news" alt=""/>
-      <caption webpage="news" alt=""/>
-      <caption webpage="music" alt=""/>
-      <caption webpage="music" alt=""/>
-      <caption webpage="music" alt=""/>
-      <caption webpage="music" alt=""/>
-      <caption webpage="music" alt=""/>
       <caption webpage="music" alt=""/>
     </file>
     <file name="u514157-9.png" crc="3960282095" ref="music"/>
@@ -640,7 +642,7 @@
     <file name="header-extend.jpg" crc="4160055423" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
-    <file name="горы-1a-crop-u301830.png" crc="4125083082" seo="true" ref="music">
+    <file name="горы-1a-crop-u301830.png" crc="475115189" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
     <file name="ocarina winds.jpg" crc="469147090" seo="true" ref="music">
@@ -1879,7 +1881,7 @@
     <file name="index.html" crc="3980247706" seo="true" redirect="false"/>
   </folder>
   <file name="index.html" crc="307852169" seo="true" redirect="true"/>
-  <file name="music.html" crc="4264459608" seo="true" mt="1498823078306" redirect="true"/>
+  <file name="music.html" crc="239236519" seo="true" mt="1498824001120" redirect="true"/>
   <file name="design.html" crc="183801256" seo="true" redirect="true"/>
   <file name="news.html" crc="4189314423" seo="true" redirect="true"/>
   <file name="info.html" crc="4010677644" seo="true" redirect="true"/>
