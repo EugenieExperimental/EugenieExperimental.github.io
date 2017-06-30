@@ -1,12 +1,12 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1498792914004">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1498843639873">
   <folder name="css">
     <file name="site_global.css" crc="3914131437"/>
-    <file name="news.css" crc="133206088" ref="news"/>
-    <file name="music.css" crc="3762372819" ref="music"/>
+    <file name="music.css" crc="293982467" ref="music"/>
     <file name="iefonts_music.css" crc="4238321021" ref="music"/>
-    <file name="index.css" crc="3825338939" ref="index"/>
-    <file name="info.css" crc="159087581" ref="info"/>
-    <file name="design.css" crc="4024050380" ref="design"/>
+    <file name="news.css" crc="4009658704" ref="news"/>
+    <file name="info.css" crc="177371897" ref="info"/>
+    <file name="index.css" crc="256115862" ref="index"/>
+    <file name="design.css" crc="3960267142" ref="design"/>
   </folder>
   <folder name="assets">
     <file name="office.mp4" crc="4160197544" seo="true" mt="1553459853000"/>
@@ -669,7 +669,7 @@
     <file name="header-extend.jpg" crc="4160055423" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
-    <file name="горы-1a-crop-u301830.png" crc="475115189" seo="true" ref="music">
+    <file name="горы-1a-crop-u301830.png" crc="4125083082" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
     <file name="ocarina winds.jpg" crc="469147090" seo="true" ref="music">
@@ -1097,6 +1097,12 @@
     <file name="лампочка 1.gif" crc="4157040752" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
+    <file name="u555985-4.png" crc="22446750" ref="news"/>
+    <file name="u555986-4.png" crc="149692158" ref="news"/>
+    <file name="кейтель, вильгельм.jpg" crc="4156814145" seo="true" ref="news">
+      <caption webpage="news" alt=""/>
+    </file>
+    <file name="u556003-23.png" crc="295449835" ref="news"/>
     <file name="u554199-4.png" crc="530986767" ref="news"/>
     <file name="u554200-4.png" crc="149692158" ref="news"/>
     <file name="u554195-19.png" crc="3929509425" ref="news"/>
@@ -1927,9 +1933,9 @@
     </folder>
     <file name="index.html" crc="3980247706" seo="true" redirect="false"/>
   </folder>
-  <file name="index.html" crc="70391497" seo="true" mt="1498790738290" redirect="true"/>
-  <file name="music.html" crc="3975299927" seo="true" mt="1498723815691" redirect="true"/>
-  <file name="design.html" crc="183894441" seo="true" mt="1498792735367" redirect="true"/>
-  <file name="news.html" crc="4100431651" seo="true" mt="1498790661037" redirect="true"/>
-  <file name="info.html" crc="182201805" seo="true" redirect="true"/>
+  <file name="index.html" crc="311602976" seo="true" mt="1498790738290" redirect="true"/>
+  <file name="music.html" crc="349077516" seo="true" mt="1498723815691" redirect="true"/>
+  <file name="design.html" crc="324240160" seo="true" mt="1498792735367" redirect="true"/>
+  <file name="news.html" crc="3761680189" seo="true" mt="1498843525322" redirect="true"/>
+  <file name="info.html" crc="4010677644" seo="true" redirect="true"/>
 </manifest>
