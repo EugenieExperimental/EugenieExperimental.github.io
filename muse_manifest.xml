@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1498791933220">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1498792914004">
   <folder name="css">
     <file name="site_global.css" crc="3914131437"/>
     <file name="news.css" crc="133206088" ref="news"/>
@@ -6,7 +6,7 @@
     <file name="iefonts_music.css" crc="4238321021" ref="music"/>
     <file name="index.css" crc="3825338939" ref="index"/>
     <file name="info.css" crc="159087581" ref="info"/>
-    <file name="design.css" crc="3930211603" ref="design"/>
+    <file name="design.css" crc="4024050380" ref="design"/>
   </folder>
   <folder name="assets">
     <file name="office.mp4" crc="4160197544" seo="true" mt="1553459853000"/>
@@ -880,7 +880,7 @@
     <file name="загрузка 03.gif" crc="3811195276" seo="true" ref="design">
       <caption webpage="design" alt=""/>
     </file>
-    <file name="u544382-5.png" crc="418836180" ref="design"/>
+    <file name="u544382-5.png" crc="4136855636" ref="design"/>
     <file name="u544383-4.png" crc="149692158" ref="design"/>
     <file name="new 5.png" crc="453764867" seo="true" ref="design">
       <caption webpage="design" alt=""/>
@@ -1928,8 +1928,8 @@
     <file name="index.html" crc="3980247706" seo="true" redirect="false"/>
   </folder>
   <file name="index.html" crc="70391497" seo="true" mt="1498790738290" redirect="true"/>
-  <file name="music.html" crc="144483477" seo="true" mt="1498723815691" redirect="true"/>
-  <file name="design.html" crc="3832066104" seo="true" mt="1498791744924" redirect="true"/>
+  <file name="music.html" crc="3975299927" seo="true" mt="1498723815691" redirect="true"/>
+  <file name="design.html" crc="183894441" seo="true" mt="1498792735367" redirect="true"/>
   <file name="news.html" crc="4100431651" seo="true" mt="1498790661037" redirect="true"/>
   <file name="info.html" crc="182201805" seo="true" redirect="true"/>
 </manifest>
