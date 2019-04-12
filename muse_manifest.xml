@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1498844994878">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1498845745641">
   <folder name="css">
     <file name="site_global.css" crc="4205669128"/>
     <file name="design.css" crc="3759226840" ref="design"/>
@@ -142,9 +142,9 @@
   </folder>
   <folder name="phone">
     <folder name="css">
-      <file name="index.css" crc="3896064834" ref="phone>index"/>
+      <file name="index.css" crc="208182165" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="4129981465" seo="true" mt="1498844615695" redirect="true"/>
+    <file name="index.html" crc="342834981" seo="true" mt="1498845723425" redirect="true"/>
   </folder>
   <file name="index.html" crc="4184414616" seo="true" mt="1498844934549" redirect="true"/>
   <file name="music.html" crc="490633126" seo="true" mt="1498843537841" redirect="true"/>
