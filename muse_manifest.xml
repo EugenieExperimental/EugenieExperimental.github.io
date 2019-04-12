@@ -1,47 +1,137 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1498842086725">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1498844994878">
   <folder name="css">
     <file name="site_global.css" crc="4205669128"/>
-    <file name="index.css" crc="4718667" ref="index"/>
-    <file name="news.css" crc="4140248750" ref="news"/>
-    <file name="music.css" crc="158744955" ref="music"/>
-    <file name="3d-design.css" crc="3948606566" ref="3d-design"/>
+    <file name="design.css" crc="3759226840" ref="design"/>
+    <file name="index.css" crc="3759085526" ref="index"/>
+    <file name="news.css" crc="4261413746" ref="news"/>
+    <file name="music.css" crc="3824446652" ref="music"/>
   </folder>
   <folder name="assets">
-    <file name="office.mp4" crc="4160197544" seo="true" mt="1553459853000"/>
-    <file name="обводка-для-фильма-4.png" crc="68254362" seo="true" mt="1553453112000"/>
+    <file name="29.ico" crc="3903924356" seo="true" mt="1498100648000"/>
+    <file name="a1-(6).ico" crc="245672244" seo="true" mt="1498006863000"/>
+    <file name="15---крепитесь,-люди,-скоро-лето.mp3" crc="477590103" seo="true" mt="1161090584000"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="phone>index:index:music:3d-design:news"/>
-    <file name="museutils.js" crc="340535759" ref="phone>index:index:music:3d-design:news"/>
-    <file name="whatinput.js" crc="86476730" ref="phone>index:index:music:3d-design:news"/>
-    <file name="museconfig.js" crc="310584261" ref="phone>index:index:music:3d-design:news"/>
-    <file name="jquery.watch.js" crc="51536988" ref="phone>index:index:music:3d-design:news"/>
-    <file name="require.js" crc="7928878" ref="phone>index:index:music:3d-design:news"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="phone>index:index:music:design:news"/>
+    <file name="museutils.js" crc="340535759" ref="phone>index:index:music:design:news"/>
+    <file name="whatinput.js" crc="86476730" ref="phone>index:index:music:design:news"/>
+    <file name="museconfig.js" crc="310584261" ref="phone>index:index:music:design:news"/>
+    <file name="webpro.js" crc="4059564322" ref="phone>index:index"/>
+    <file name="musewpdisclosure.js" crc="3883500470" ref="phone>index:index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="phone>index"/>
+    <file name="jquery.watch.js" crc="51536988" ref="phone>index:index:music:design:news"/>
+    <file name="require.js" crc="7928878" ref="phone>index:index:music:design:news"/>
   </folder>
   <folder name="images">
+    <file name="u185422-9.png" crc="3853288747" ref="phone>index"/>
+    <file name="a.gif" crc="336420927" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u185446.png" crc="64039832" ref="phone>index"/>
+    <file name="u185446-r.png" crc="297706668" ref="phone>index"/>
+    <file name="u185446-m.png" crc="49246446" ref="phone>index"/>
+    <file name="u185352.png" crc="3912528912" ref="phone>index"/>
+    <file name="u185352-r.png" crc="4115925074" ref="phone>index"/>
+    <file name="u185352-m.png" crc="4115925074" ref="phone>index"/>
+    <file name="u185354.png" crc="4257686579" ref="phone>index"/>
+    <file name="u185354-r.png" crc="3901347194" ref="phone>index"/>
+    <file name="u185443.png" crc="525134926" ref="phone>index"/>
+    <file name="u185443-r.png" crc="3972055271" ref="phone>index"/>
+    <file name="u185342.png" crc="324974330" ref="phone>index"/>
+    <file name="u185342-r.png" crc="4028355459" ref="phone>index"/>
+    <file name="souncloud кнопка новая 2-выкл.png" crc="4239487059" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="souncloud кнопка новая 2-включ.png" crc="3868665267" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u185344.png" crc="103114181" ref="phone>index"/>
+    <file name="u185344-r.png" crc="301127504" ref="phone>index"/>
+    <file name="u185344-m.png" crc="4188397917" ref="phone>index"/>
+    <file name="u185365.png" crc="164872091" ref="phone>index"/>
+    <file name="u185365-r.png" crc="239097036" ref="phone>index"/>
+    <file name="u185357.png" crc="278002166" ref="phone>index"/>
+    <file name="u185357-r.png" crc="4020644445" ref="phone>index"/>
+    <file name="u185347.png" crc="4261715463" ref="phone>index"/>
+    <file name="u185347-r.png" crc="3873864015" ref="phone>index"/>
+    <file name="роспись 4.png" crc="133031820" seo="true" ref="phone>index:music">
+      <caption webpage="index" alt=""/>
+      <caption webpage="music" alt=""/>
+      <caption webpage="music" alt=""/>
+    </file>
     <file name="favicon.ico" crc="153956290" ref="index"/>
     <file name="u851-4.png" crc="4293860170" ref="index"/>
+    <file name="background-1328834_960_720.jpg" crc="3970186606" seo="true" ref="index">
+      <caption webpage="index" alt="для наслаждения и отдыха Кыштым"/>
+    </file>
+    <file name="1-u2005.png" crc="152086923" ref="index"/>
     <file name="herzl.png" crc="4263590857" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="u110440.png" crc="9297267" ref="index"/>
-    <file name="u110440-r.png" crc="3999839103" ref="index"/>
-    <file name="u110440-m.png" crc="3937886487" ref="index"/>
-    <file name="кнопка new on site прозрачн 11-u54983.png" crc="4069590687" ref="index"/>
-    <file name="кнопка new on site прозрачн 11-u54983-r.png" crc="242601612" ref="index"/>
-    <file name="кнопка new on site прозрачн 11-u54983-m.png" crc="59191356" ref="index"/>
-    <file name="u110334.png" crc="174843065" ref="index"/>
-    <file name="u110334-r.png" crc="4142870146" ref="index"/>
-    <file name="u110024.png" crc="4005576581" ref="index"/>
-    <file name="u110024-r.png" crc="4281907041" ref="index"/>
-    <file name="u110024-m.png" crc="4281907041" ref="index"/>
-    <file name="u110430.png" crc="395347158" ref="index"/>
-    <file name="u110430-r.png" crc="4106415026" ref="index"/>
+    <file name="u44127-9.png" crc="4139876637" ref="index"/>
+    <file name="u110440.png" crc="64039832" ref="index"/>
+    <file name="u110440-r.png" crc="297706668" ref="index"/>
+    <file name="u110440-m.png" crc="49246446" ref="index"/>
+    <file name="u110334.png" crc="4257686579" ref="index"/>
+    <file name="u110334-r.png" crc="3901347194" ref="index"/>
+    <file name="u110024.png" crc="3912528912" ref="index"/>
+    <file name="u110024-r.png" crc="4115925074" ref="index"/>
+    <file name="u110024-m.png" crc="4115925074" ref="index"/>
+    <file name="виджет для погоды оформление 1.png" crc="4230274878" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u110430.png" crc="525134926" ref="index"/>
+    <file name="u110430-r.png" crc="3972055271" ref="index"/>
+    <file name="u38605.png" crc="4280497610" ref="index"/>
+    <file name="u38605-r.png" crc="55006128" ref="index"/>
+    <file name="u38615.png" crc="4210508457" ref="index"/>
+    <file name="u38615-r.png" crc="208412107" ref="index"/>
+    <file name="u38615-m.png" crc="517211455" ref="index"/>
+    <file name="u38541.png" crc="4197687569" ref="index"/>
+    <file name="u38541-r.png" crc="3892845202" ref="index"/>
+    <file name="u30833.png" crc="3759057345" ref="index"/>
+    <file name="u30833-r.png" crc="285183658" ref="index"/>
+    <file name="u183793.png" crc="3980388346" ref="index"/>
+    <file name="u183793-r.png" crc="4271230734" ref="index"/>
     <file name="лого music.png" crc="4252852459" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
-    <file name="3d лого 1.png" crc="4133838646" seo="true" ref="3d-design">
-      <caption webpage="3d-design" alt=""/>
+    <file name="фон длинный-u175611.png" crc="3914284907" ref="music"/>
+    <file name="митяев 2.jpg" crc="3915373951" seo="true" ref="music">
+      <caption webpage="music" alt=""/>
+    </file>
+    <file name="белка.jpg" crc="4146825127" seo="true" ref="music">
+      <caption webpage="music" alt=""/>
+    </file>
+    <file name="митяев.jpg" crc="4001463040" seo="true" ref="music">
+      <caption webpage="music" alt=""/>
+    </file>
+    <file name="митяев 3.jpg" crc="3760977999" seo="true" ref="music">
+      <caption webpage="music" alt=""/>
+    </file>
+    <file name="фон длинный-u173392.png" crc="3914284907" ref="music"/>
+    <file name="soul.jpg" crc="484619494" seo="true" ref="music">
+      <caption webpage="music" alt=""/>
+    </file>
+    <file name="play 5.png" crc="134794717" seo="true" ref="music">
+      <caption webpage="music" alt=""/>
+    </file>
+    <file name="on sound cloud-u174313.png" crc="290647553" ref="music"/>
+    <file name="знач муз 2.png" crc="173801254" seo="true" ref="music">
+      <caption webpage="music" alt=""/>
+    </file>
+    <file name="знач муз 1.png" crc="370093584" seo="true" ref="music">
+      <caption webpage="music" alt=""/>
+    </file>
+    <file name="soundcloud logo 2-1.png" crc="3769832293" seo="true" ref="music">
+      <caption webpage="music" alt=""/>
+    </file>
+    <file name="замок откр.png" crc="383809704" seo="true" ref="music">
+      <caption webpage="music" alt=""/>
+    </file>
+    <file name="design лого 4.png" crc="3971076869" seo="true" ref="design">
+      <caption webpage="design" alt=""/>
     </file>
     <file name="заголовки news.png" crc="194279283" seo="true" ref="news">
       <caption webpage="news" alt=""/>
@@ -52,12 +142,12 @@
   </folder>
   <folder name="phone">
     <folder name="css">
-      <file name="index.css" crc="3972356362" ref="phone>index"/>
+      <file name="index.css" crc="3896064834" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="490149230" seo="true" redirect="false"/>
+    <file name="index.html" crc="4129981465" seo="true" mt="1498844615695" redirect="true"/>
   </folder>
-  <file name="index.html" crc="4082952273" seo="true" redirect="true"/>
-  <file name="music.html" crc="90772396" seo="true" redirect="true"/>
-  <file name="3d-design.html" crc="4151726587" seo="true" redirect="true"/>
-  <file name="news.html" crc="407494155" seo="true" redirect="true"/>
+  <file name="index.html" crc="4184414616" seo="true" mt="1498844934549" redirect="true"/>
+  <file name="music.html" crc="490633126" seo="true" mt="1498843537841" redirect="true"/>
+  <file name="design.html" crc="4203345721" seo="true" mt="1498844966262" redirect="true"/>
+  <file name="news.html" crc="3864072120" seo="true" mt="1498844986136" redirect="true"/>
 </manifest>
