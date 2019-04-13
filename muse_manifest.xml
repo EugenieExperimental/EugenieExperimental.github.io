@@ -1,7 +1,7 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1498854284471">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1498854720999">
   <folder name="css">
     <file name="site_global.css" crc="4205669128"/>
-    <file name="index.css" crc="289440652" ref="index"/>
+    <file name="index.css" crc="303642301" ref="index"/>
   </folder>
   <folder name="assets">
     <file name="29.ico" crc="3903924356" seo="true" mt="1498100648000"/>
@@ -14,8 +14,6 @@
     <file name="museconfig.js" crc="310584261" ref="phone>index:index"/>
     <file name="jquery.watch.js" crc="51536988" ref="phone>index:index"/>
     <file name="require.js" crc="7928878" ref="phone>index:index"/>
-    <file name="webpro.js" crc="4059564322" ref="index"/>
-    <file name="musewpdisclosure.js" crc="3883500470" ref="index"/>
   </folder>
   <folder name="images">
     <file name="favicon.ico" crc="153956290" ref="index"/>
@@ -30,7 +28,6 @@
     <file name="herzl.png" crc="4263590857" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="u44127-9.png" crc="4139876637" ref="index"/>
     <file name="u110440.png" crc="64039832" ref="index"/>
     <file name="u110440-r.png" crc="297706668" ref="index"/>
     <file name="u110440-m.png" crc="49246446" ref="index"/>
@@ -66,5 +63,5 @@
     </folder>
     <file name="index.html" crc="490149230" seo="true" redirect="false"/>
   </folder>
-  <file name="index.html" crc="3860914596" seo="true" mt="1498854175982" redirect="true"/>
+  <file name="index.html" crc="332380555" seo="true" mt="1498854710057" redirect="true"/>
 </manifest>
