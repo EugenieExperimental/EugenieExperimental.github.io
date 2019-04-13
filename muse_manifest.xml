@@ -1,7 +1,7 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1498853389044">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1498854284471">
   <folder name="css">
     <file name="site_global.css" crc="4205669128"/>
-    <file name="index.css" crc="412019228" ref="index"/>
+    <file name="index.css" crc="289440652" ref="index"/>
   </folder>
   <folder name="assets">
     <file name="29.ico" crc="3903924356" seo="true" mt="1498100648000"/>
@@ -66,5 +66,5 @@
     </folder>
     <file name="index.html" crc="490149230" seo="true" redirect="false"/>
   </folder>
-  <file name="index.html" crc="4044444435" seo="true" mt="1498853353756" redirect="true"/>
+  <file name="index.html" crc="3860914596" seo="true" mt="1498854175982" redirect="true"/>
 </manifest>
