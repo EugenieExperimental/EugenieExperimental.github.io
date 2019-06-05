@@ -1,7 +1,8 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://roesch.ml" resolutions="1x" timestamp="1498806851858">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://eugenie.ml" resolutions="1x" timestamp="1559678324623">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="425979470" ref="index"/>
+    <file name="index.css" crc="465600272" ref="index"/>
+    <file name="nomq_index.css" crc="3977113456" ref="index"/>
   </folder>
   <folder name="assets">
     <file name="landing--фотоa-after-before-1.png" crc="3963201433" seo="true" mt="1498805772000"/>
@@ -17,31 +18,42 @@
     <file name="jquery.museoverlay.js" crc="4147669564" ref="index"/>
     <file name="touchswipe.js" crc="4075097462" ref="index"/>
     <file name="jquery.watch.js" crc="51536988" ref="index"/>
+    <file name="jquery.museresponsive.js" crc="527716135" ref="index"/>
     <file name="require.js" crc="7928878" ref="index"/>
   </folder>
   <folder name="images">
-    <file name="домашняя-favicon.ico" crc="3826413213" ref="index"/>
+    <file name="домашняя-favicon.ico" crc="4122840000" ref="index"/>
+    <file name="u155-5.png" crc="118867979" ref="index"/>
     <file name="road.jpg" crc="160575141" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
     <file name="cactus.jpg" crc="376697727" seo="true" ref="index">
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="trees.jpg" crc="516951904" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
     <file name="эскиз компьютер компьютер телефон 1.jpg" crc="4176701689" seo="true" ref="index">
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="виджет для погоды оформление 1.png" crc="4230274878" seo="true" ref="index">
       <caption webpage="index" alt=""/>
-    </file>
-    <file name="изображение для моего landing сайта.png" crc="242653723" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="значок телефона 2.png" crc="272412678" seo="true" ref="index">
+    <file name="изображение-для-моего-landing-сайта-3-с-полоской-внизу-3.png" crc="146498811" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
+    <file name="green gardens of ural.png" crc="4150766367" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u1013.png" crc="3819780305" ref="index"/>
+    <file name="u1013-r.png" crc="18635620" ref="index"/>
     <file name="u346.png" crc="3759057345" ref="index"/>
     <file name="u346-r.png" crc="285183658" ref="index"/>
     <file name="u344.png" crc="3980388346" ref="index"/>
@@ -53,6 +65,21 @@
     <file name="u342-m.png" crc="518886938" ref="index"/>
     <file name="u348.png" crc="4197687569" ref="index"/>
     <file name="u348-r.png" crc="3892845202" ref="index"/>
+    <file name="u155-52.png" crc="118867979" ref="index"/>
+    <file name="u10132.png" crc="3819780305" ref="index"/>
+    <file name="u1013-r2.png" crc="18635620" ref="index"/>
+    <file name="u3462.png" crc="3759057345" ref="index"/>
+    <file name="u346-r2.png" crc="285183658" ref="index"/>
+    <file name="u3442.png" crc="3980388346" ref="index"/>
+    <file name="u344-r2.png" crc="3947323482" ref="index"/>
+    <file name="u3402.png" crc="4280497610" ref="index"/>
+    <file name="u340-r2.png" crc="55006128" ref="index"/>
+    <file name="u3422.png" crc="4210508457" ref="index"/>
+    <file name="u342-r2.png" crc="266690172" ref="index"/>
+    <file name="u342-m2.png" crc="518886938" ref="index"/>
+    <file name="u3482.png" crc="4197687569" ref="index"/>
+    <file name="u348-r2.png" crc="3892845202" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
   </folder>
-  <file name="index.html" crc="366917229" seo="true" mt="1498806627027" redirect="true"/>
+  <file name="index.html" crc="4126339914" seo="true" mt="1559678317008" redirect="true"/>
 </manifest>
