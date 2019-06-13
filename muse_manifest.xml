@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://experimentmysite.ml" resolutions="1x,2x" timestamp="1560433859893">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://experimentmysite.ml" resolutions="1x,2x" timestamp="1560434442192">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="index.css" crc="4071668269" ref="index"/>
@@ -19,14 +19,14 @@
     <file name="musewpslideshow.js" crc="3862962738" ref="phone>index:index"/>
     <file name="jquery.museoverlay.js" crc="4147669564" ref="phone>index:index"/>
     <file name="touchswipe.js" crc="4075097462" ref="phone>index:index"/>
-    <file name="jquery.watch.js" crc="51536988" ref="phone>index:index"/>
-    <file name="jquery.museresponsive.js" crc="527716135" ref="phone>index"/>
-    <file name="require.js" crc="7928878" ref="phone>index:index"/>
     <file name="form_check.php" crc="4020933626" ref="phone>index"/>
     <file name="form_throttle.php" crc="4259590256" ref="phone>index"/>
     <file name="form_process.php" crc="37464564" ref="phone>index"/>
-    <file name="form-u20733.php" crc="305927340" ref="phone>index"/>
-    <file name="form-u20508.php" crc="44837250" ref="index"/>
+    <file name="form-u20733.php" crc="76205140" ref="phone>index"/>
+    <file name="jquery.watch.js" crc="51536988" ref="phone>index:index"/>
+    <file name="jquery.museresponsive.js" crc="527716135" ref="phone>index"/>
+    <file name="require.js" crc="7928878" ref="phone>index:index"/>
+    <file name="form-u20508.php" crc="175293610" ref="index"/>
   </folder>
   <folder name="images">
     <file name="landing-favicon.ico" crc="3826413213" ref="phone>index"/>
@@ -138,6 +138,15 @@
     <file name="u5403-r.png" crc="3961784252" ref="phone>index"/>
     <file name="u5403-r_2x.png" crc="3940372983" ref="phone>index"/>
     <file name="загрузка 22.gif" crc="4260684896" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="загрузка 23.gif" crc="3970361127" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="загрузка 23_2x.gif" crc="3970361127" seo="true" ref="phone>index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
@@ -283,22 +292,13 @@
     <file name="u348_2x.png" crc="172611011" ref="index"/>
     <file name="u348-r.png" crc="477860890" ref="index"/>
     <file name="u348-r_2x.png" crc="376799914" ref="index"/>
-    <file name="загрузка 23.gif" crc="3970361127" seo="true" ref="phone>index:index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="загрузка 23_2x.gif" crc="3970361127" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
   </folder>
   <folder name="phone">
     <folder name="css">
       <file name="index.css" crc="288509935" ref="phone>index"/>
       <file name="nomq_index.css" crc="3988431500" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="3793302433" seo="true" mt="1560433780578" redirect="true"/>
+    <file name="index.html" crc="3793302433" seo="true" mt="1560434425727" redirect="true"/>
   </folder>
-  <file name="index.html" crc="3856355630" seo="true" mt="1560433830495" redirect="true"/>
+  <file name="index.html" crc="3856355630" seo="true" mt="1560434412244" redirect="true"/>
 </manifest>
