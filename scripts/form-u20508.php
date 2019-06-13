@@ -66,6 +66,51 @@ $form = array(
 			'errors' => array(
 				'required' => 'Поле \'Телефон\' не может быть пустым.'
 			)
+		),
+		'custom_U22631' => array(
+			'order' => 5,
+			'type' => 'string',
+			'label' => 'Домашний адрес',
+			'required' => true,
+			'errors' => array(
+				'required' => 'Поле \'Домашний адрес\' не может быть пустым.'
+			)
+		),
+		'custom_U22643' => array(
+			'order' => 6,
+			'type' => 'string',
+			'label' => 'Город',
+			'required' => true,
+			'errors' => array(
+				'required' => 'Поле \'Город\' не может быть пустым.'
+			)
+		),
+		'custom_U22655' => array(
+			'order' => 7,
+			'type' => 'string',
+			'label' => 'Область',
+			'required' => true,
+			'errors' => array(
+				'required' => 'Поле \'Область\' не может быть пустым.'
+			)
+		),
+		'custom_U22667' => array(
+			'order' => 8,
+			'type' => 'string',
+			'label' => 'Почтовый индекс',
+			'required' => true,
+			'errors' => array(
+				'required' => 'Поле \'Почтовый индекс\' не может быть пустым.'
+			)
+		),
+		'custom_U22679' => array(
+			'order' => 9,
+			'type' => 'string',
+			'label' => 'Страна',
+			'required' => true,
+			'errors' => array(
+				'required' => 'Поле \'Страна\' не может быть пустым.'
+			)
 		)
 	)
 );

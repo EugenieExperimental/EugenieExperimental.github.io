@@ -1,7 +1,7 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://experimentmysite.ml" resolutions="1x,2x" timestamp="1560435854701">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://experimentmysite.ml" resolutions="1x,2x" timestamp="1560439499588">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="4071668269" ref="index"/>
+    <file name="index.css" crc="20462698" ref="index"/>
   </folder>
   <folder name="assets">
     <file name="landing--фотоa-after-before-1.png" crc="3963201433" seo="true" mt="1498805772000"/>
@@ -26,7 +26,7 @@
     <file name="jquery.watch.js" crc="51536988" ref="phone>index:index"/>
     <file name="jquery.museresponsive.js" crc="527716135" ref="phone>index"/>
     <file name="require.js" crc="7928878" ref="phone>index:index"/>
-    <file name="form-u20508.php" crc="44837250" ref="index"/>
+    <file name="form-u20508.php" crc="3766867082" ref="index"/>
   </folder>
   <folder name="images">
     <file name="landing-favicon.ico" crc="3826413213" ref="phone>index"/>
@@ -300,5 +300,5 @@
     </folder>
     <file name="index.html" crc="3793302433" seo="true" mt="1560435779063" redirect="true"/>
   </folder>
-  <file name="index.html" crc="3856355630" seo="true" mt="1560435836462" redirect="true"/>
+  <file name="index.html" crc="224932746" seo="true" mt="1560438889345" redirect="true"/>
 </manifest>
