@@ -27,8 +27,8 @@ $form = array(
 		'unknown_method' => 'Неизвестный метод запроса сервера'
 	),
 	'email' => array(
-		'from' => 'roeeug@experimentmysite.ml',
-		'to' => 'roeeug@experimentmysite.ml'
+		'from' => 'all@experimentmysite.ml',
+		'to' => 'all@experimentmysite.ml'
 	),
 	'fields' => array(
 		'custom_U20739' => array(
