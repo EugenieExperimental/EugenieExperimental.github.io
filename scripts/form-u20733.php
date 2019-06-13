@@ -28,7 +28,7 @@ $form = array(
 	),
 	'email' => array(
 		'from' => 'e.roess@experimentmysite.ml',
-		'to' => 'e.roess@experimentmysite.ml,eug.roe@mail.ru'
+		'to' => 'e.roess@experimentmysite.ml'
 	),
 	'fields' => array(
 		'custom_U20739' => array(
