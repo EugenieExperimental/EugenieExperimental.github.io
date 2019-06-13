@@ -1,83 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://eugenie.ml/index.html</loc>
-    <lastmod>2019-06-05</lastmod>
+    <loc>https://experimentmysite.ml/index.html</loc>
+    <lastmod>2019-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="https://eugenie.ml/phone/index.html"/>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="https://experimentmysite.ml/phone/index.html"/>
     <image:image>
-      <image:loc>https://eugenie.ml/images/%D0%BF%D0%BE%D0%BB%D0%BE%D1%81%D0%BA%D0%B0-%D0%B2%D0%B5%D1%80%D1%82%D0%B8%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F-%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D1%86%D0%B8%D1%8F-2.gif</image:loc>
+      <image:loc>https://experimentmysite.ml/images/%D0%B0%D0%BD%D0%B8%D0%BC%D0%B5%20%D1%81%20%D0%BF%D0%BE%D0%B4%D0%BF%D0%B8%D1%81%D1%8F%D0%BC%D0%B8%20.gif</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://eugenie.ml/images/%D0%BF%D0%BE%D0%BB%D0%BE%D1%81%D0%BA%D0%B0-%D0%B2%D0%B5%D1%80%D1%82%D0%B8%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F-%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D1%86%D0%B8%D1%8F-2_2x.gif</image:loc>
+      <image:loc>https://experimentmysite.ml/images/%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B0%2019.gif</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://eugenie.ml/images/%D0%B2%20%D1%81%D0%BB%D0%B0%D0%B9%D0%B4%20%D1%88%D0%BE%D1%83%207.png</image:loc>
+      <image:loc>https://experimentmysite.ml/images/%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B0%2023.gif</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://eugenie.ml/images/%D0%B2%20%D1%81%D0%BB%D0%B0%D0%B9%D0%B4%20%D1%88%D0%BE%D1%83%207_2x.png</image:loc>
+      <image:loc>https://experimentmysite.ml/images/%D1%88%D0%B0%D1%80%D0%B8%D0%BA.gif</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://eugenie.ml/images/%D0%BE%D1%84%D0%BE%D1%80%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%201.jpg</image:loc>
+      <image:loc>https://experimentmysite.ml/images/%D1%88%D0%B0%D1%80%D0%B8%D0%BA_2x.gif</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://eugenie.ml/images/%D0%BE%D1%84%D0%BE%D1%80%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%202.jpg</image:loc>
+      <image:loc>https://experimentmysite.ml/images/%D0%B2%D0%B8%D0%B4%D0%B6%D0%B5%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%BF%D0%BE%D0%B3%D0%BE%D0%B4%D1%8B%20%D0%BE%D1%84%D0%BE%D1%80%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%201.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://eugenie.ml/images/price.jpg</image:loc>
+      <image:loc>https://experimentmysite.ml/images/%D0%B2%20%D1%81%D0%BB%D0%B0%D0%B9%D0%B4%20%D1%88%D0%BE%D1%83%207.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://eugenie.ml/images/%D1%8D%D1%81%D0%BA%D0%B8%D0%B7%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%20%D1%82%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD%201.jpg</image:loc>
+      <image:loc>https://experimentmysite.ml/images/%D0%B2%20%D1%81%D0%BB%D0%B0%D0%B9%D0%B4%20%D1%88%D0%BE%D1%83%207_2x.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://eugenie.ml/images/%D0%B2%D0%B8%D0%B4%D0%B6%D0%B5%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%BF%D0%BE%D0%B3%D0%BE%D0%B4%D1%8B%20%D0%BE%D1%84%D0%BE%D1%80%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%201.png</image:loc>
+      <image:loc>https://experimentmysite.ml/images/price.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://eugenie.ml/images/%D0%B7%D0%B0%D0%BC%D0%BE%D0%BA%205.jpg</image:loc>
+      <image:loc>https://experimentmysite.ml/images/%D0%BE%D1%84%D0%BE%D1%80%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%202.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://eugenie.ml/images/%D0%B7%D0%B0%D0%BC%D0%BE%D0%BA%205_2x.jpg</image:loc>
+      <image:loc>https://experimentmysite.ml/images/%D0%BE%D1%84%D0%BE%D1%80%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%201.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://eugenie.ml/images/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B4%D0%BB%D1%8F-%D0%BC%D0%BE%D0%B5%D0%B3%D0%BE-landing-%D1%81%D0%B0%D0%B9%D1%82%D0%B0-3-%D1%81-%D0%BF%D0%BE%D0%BB%D0%BE%D1%81%D0%BA%D0%BE%D0%B9-%D0%B2%D0%BD%D0%B8%D0%B7%D1%83-3.png</image:loc>
+      <image:loc>https://experimentmysite.ml/images/%D1%8D%D1%81%D0%BA%D0%B8%D0%B7%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%20%D1%82%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD%201.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://eugenie.ml/images/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B4%D0%BB%D1%8F-%D0%BC%D0%BE%D0%B5%D0%B3%D0%BE-landing-%D1%81%D0%B0%D0%B9%D1%82%D0%B0-3-%D1%81-%D0%BF%D0%BE%D0%BB%D0%BE%D1%81%D0%BA%D0%BE%D0%B9-%D0%B2%D0%BD%D0%B8%D0%B7%D1%83-3_2x.png</image:loc>
+      <image:loc>https://experimentmysite.ml/images/%D0%B7%D0%B0%D0%BC%D0%BE%D0%BA%205.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://eugenie.ml/images/green%20gardens%20of%20ural.png</image:loc>
+      <image:loc>https://experimentmysite.ml/images/%D0%B7%D0%B0%D0%BC%D0%BE%D0%BA%205_2x.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://eugenie.ml/images/green%20gardens%20of%20ural_2x.png</image:loc>
+      <image:loc>https://experimentmysite.ml/images/%D0%B1%D0%B5%D0%BB%D0%BA%D0%B0.gif</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://experimentmysite.ml/images/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B4%D0%BB%D1%8F-%D0%BC%D0%BE%D0%B5%D0%B3%D0%BE-landing---%D0%BE%D0%BA%D1%80%D1%83%D0%B3%D0%BB%D0%BE%D1%81%D1%82%D1%8C-1.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://experimentmysite.ml/images/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B4%D0%BB%D1%8F-%D0%BC%D0%BE%D0%B5%D0%B3%D0%BE-landing---%D0%BE%D0%BA%D1%80%D1%83%D0%B3%D0%BB%D0%BE%D1%81%D1%82%D1%8C-1_2x.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://experimentmysite.ml/images/perfomance%201.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://experimentmysite.ml/images/%D1%82%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD%201.png</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://eugenie.ml/assets/%D0%B4%D0%BB%D1%8F-landing-%D1%81%D0%B0%D0%B9%D1%82%D0%B0-bussines-(before---after-slider)-2.png</loc>
+    <loc>https://experimentmysite.ml/assets/%D0%B4%D0%BB%D1%8F-landing-%D1%81%D0%B0%D0%B9%D1%82%D0%B0-bussines-(before---after-slider)-2.png</loc>
     <lastmod>2017-06-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://eugenie.ml/assets/mobile-1.png</loc>
+    <loc>https://experimentmysite.ml/assets/mobile-1.png</loc>
     <lastmod>2019-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://eugenie.ml/assets/landing--%D1%84%D0%BE%D1%82%D0%BEa-after-before-1.png</loc>
+    <loc>https://experimentmysite.ml/assets/landing--%D1%84%D0%BE%D1%82%D0%BEa-after-before-1.png</loc>
     <lastmod>2017-06-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://eugenie.ml/assets/a1-(8).ico</loc>
+    <loc>https://experimentmysite.ml/assets/a1-(8).ico</loc>
     <lastmod>2017-06-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://eugenie.ml/assets/mobile-2.png</loc>
+    <loc>https://experimentmysite.ml/assets/mobile-2.png</loc>
     <lastmod>2019-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
