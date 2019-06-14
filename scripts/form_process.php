@@ -156,7 +156,23 @@ function email_form_submission($form) {
 	$message = get_email_body($subject, $form['heading'], $form['fields'], $form['resources']);
 	$headers = get_email_headers($to, $form_email);
 
-	//$sent = @mail($to, $subject, $message, $headers);
+	// $sent = @mail($to, $subject, $message, $headers);
+	$mail = new PHPMailer;
+	$mail->isSMTP();
+	$mail->Host = 'localhost'; // smtp.mail.ru
+	$mail->SMTPAuth = true;
+	$mail->Username = 'admin@xn--80aae4a1bi2b.xn--p1ai'; //eug.roe
+	$mail->Password = '000Poi000'; // 000Poi000
+	//$mail->SMTPSecure = 'ssl';(Если mail.ru,gmail.com расскоментировать.)
+	$mail->Port = 25; // здесь smtp-порт. Если яндекс, то 587
+	$mail->CharSet = 'UTF-8';
+	$mail->From = 'admin@xn--80aae4a1bi2b.xn--p1ai'; // eug.roe@mail.ru
+	$mail->FromName = 'admin@experimentmysite.ml'; //Имя, от кого письмо
+	$mail->addAddress($to);
+	$mail->isHTML(true);
+	$mail->Subject = $subject;
+	$mail->Body = $message;
+	$sent = $mail->send();
 
 	if(!$sent)
 		die(get_form_error_response($form['resources']['failed_to_send_email']));
