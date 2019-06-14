@@ -1,221 +1,31 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://experimentmysite.ml" resolutions="1x,2x" timestamp="1560439499588">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://experimentmysite.ml" resolutions="1x,2x" timestamp="1560472400876">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="20462698" ref="index"/>
+    <file name="index.css" crc="98504388" ref="index"/>
   </folder>
   <folder name="assets">
     <file name="landing--фотоa-after-before-1.png" crc="3963201433" seo="true" mt="1498805772000"/>
     <file name="для-landing-сайта-bussines-(before---after-slider)-2.png" crc="4252081864" seo="true" mt="1498805816000"/>
-    <file name="mobile-1.png" crc="267211074" seo="true" mt="1559692757000"/>
-    <file name="mobile-2.png" crc="3802391686" seo="true" mt="1559692729000"/>
     <file name="a1-(8).ico" crc="4108306412" seo="true" mt="1498007557000"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="phone>index:index"/>
-    <file name="museutils.js" crc="340535759" ref="phone>index:index"/>
-    <file name="whatinput.js" crc="86476730" ref="phone>index:index"/>
-    <file name="museconfig.js" crc="310584261" ref="phone>index:index"/>
-    <file name="webpro.js" crc="4059564322" ref="phone>index:index"/>
-    <file name="musewpslideshow.js" crc="3862962738" ref="phone>index:index"/>
-    <file name="jquery.museoverlay.js" crc="4147669564" ref="phone>index:index"/>
-    <file name="touchswipe.js" crc="4075097462" ref="phone>index:index"/>
-    <file name="form_check.php" crc="4020933626" ref="phone>index"/>
-    <file name="form_throttle.php" crc="4259590256" ref="phone>index"/>
-    <file name="form_process.php" crc="37464564" ref="phone>index"/>
-    <file name="form-u20733.php" crc="305927340" ref="phone>index"/>
-    <file name="jquery.watch.js" crc="51536988" ref="phone>index:index"/>
-    <file name="jquery.museresponsive.js" crc="527716135" ref="phone>index"/>
-    <file name="require.js" crc="7928878" ref="phone>index:index"/>
-    <file name="form-u20508.php" crc="3766867082" ref="index"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="340535759" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="310584261" ref="index"/>
+    <file name="webpro.js" crc="4059564322" ref="index"/>
+    <file name="musewpslideshow.js" crc="3862962738" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="4147669564" ref="index"/>
+    <file name="touchswipe.js" crc="4075097462" ref="index"/>
+    <file name="form_check.php" crc="4020933626" ref="index"/>
+    <file name="form_throttle.php" crc="4259590256" ref="index"/>
+    <file name="form_process.php" crc="37464564" ref="index"/>
+    <file name="form-u20508.php" crc="44837250" ref="index"/>
+    <file name="jquery.watch.js" crc="51536988" ref="index"/>
+    <file name="require.js" crc="7928878" ref="index"/>
   </folder>
   <folder name="images">
-    <file name="landing-favicon.ico" crc="3826413213" ref="phone>index"/>
-    <file name="u5352-7.png" crc="4030309258" ref="phone>index"/>
-    <file name="u5352-7_2x.png" crc="32279029" ref="phone>index"/>
-    <file name="параллелограмм.png" crc="53742367" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="параллелограмм_2x.png" crc="4283554233" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="marty.gif" crc="434718329" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="оригинальные сайты 1.jpg" crc="393513547" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="price330x232.jpg" crc="4091004497" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="price330x232_2x.jpg" crc="40848207" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="оформление сайта 1325x238.jpg" crc="425520276" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="в слайд шоу 7324x208.png" crc="4104204395" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="в слайд шоу 7324x208_2x.png" crc="4051950283" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="загрузка 16.gif" crc="532293963" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="загрузка 16_2x.gif" crc="532293963" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="загрузка 08.gif" crc="9798183" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="загрузка 08_2x.gif" crc="9798183" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="шестерня-2.gif" crc="104334162" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="шестерня-2_2x.gif" crc="104334162" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="эскиз компьютер компьютер телефон 1288x249.jpg" crc="4210535190" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="эскиз компьютер компьютер телефон 1288x249_2x.jpg" crc="3948333370" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="замок 539x40.jpg" crc="4108140783" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="замок 539x40_2x.jpg" crc="3998597463" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="аниме с подписями .gif" crc="145240404" seo="true" ref="phone>index:index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="аниме с подписями _2x.gif" crc="145240404" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="perfomance 4.png" crc="3766097650" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="perfomance 4_2x.png" crc="148130057" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="изображение-для-моего-landing---округлость-1344x186.png" crc="129357091" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="изображение-для-моего-landing---округлость-1344x186_2x.png" crc="322226003" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="загрузка 19.gif" crc="3768971339" seo="true" ref="phone>index:index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="u5403.png" crc="527972366" ref="phone>index"/>
-    <file name="u5403_2x.png" crc="3785542664" ref="phone>index"/>
-    <file name="u5403-r.png" crc="3961784252" ref="phone>index"/>
-    <file name="u5403-r_2x.png" crc="3940372983" ref="phone>index"/>
-    <file name="загрузка 22.gif" crc="4260684896" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="загрузка 23.gif" crc="3970361127" seo="true" ref="phone>index:index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="загрузка 23_2x.gif" crc="3970361127" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="u5416.png" crc="4249034072" ref="phone>index"/>
-    <file name="u5416_2x.png" crc="41868737" ref="phone>index"/>
-    <file name="u5416-r.png" crc="4005258471" ref="phone>index"/>
-    <file name="u5416-r_2x.png" crc="21603391" ref="phone>index"/>
-    <file name="u5418.png" crc="129480421" ref="phone>index"/>
-    <file name="u5418_2x.png" crc="4167077827" ref="phone>index"/>
-    <file name="u5418-r.png" crc="4185481695" ref="phone>index"/>
-    <file name="u5418-r_2x.png" crc="330362693" ref="phone>index"/>
-    <file name="u5420.png" crc="292157479" ref="phone>index"/>
-    <file name="u5420_2x.png" crc="4251919161" ref="phone>index"/>
-    <file name="u5420-r.png" crc="3876371990" ref="phone>index"/>
-    <file name="u5420-r_2x.png" crc="4271156157" ref="phone>index"/>
-    <file name="u5422.png" crc="307100036" ref="phone>index"/>
-    <file name="u5422_2x.png" crc="214922378" ref="phone>index"/>
-    <file name="u5422-r.png" crc="525988742" ref="phone>index"/>
-    <file name="u5422-r_2x.png" crc="3833353383" ref="phone>index"/>
-    <file name="u5422-m.png" crc="3927072813" ref="phone>index"/>
-    <file name="u5422-m_2x.png" crc="438365321" ref="phone>index"/>
-    <file name="u5424.png" crc="191318300" ref="phone>index"/>
-    <file name="u5424_2x.png" crc="348972699" ref="phone>index"/>
-    <file name="u5424-r.png" crc="4025047521" ref="phone>index"/>
-    <file name="u5424-r_2x.png" crc="245737378" ref="phone>index"/>
-    <file name="оригинальные сайты 1317x204.jpg" crc="3891397444" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="в слайд шоу 7327x211.png" crc="3808153522" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="в слайд шоу 7327x211_2x.png" crc="446000958" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="замок 553x53.jpg" crc="4192398492" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="замок 553x53_2x.jpg" crc="3935600037" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="u54032.png" crc="4061224753" ref="phone>index"/>
-    <file name="u5403_2x2.png" crc="4041211910" ref="phone>index"/>
-    <file name="u5403-r2.png" crc="369474222" ref="phone>index"/>
-    <file name="u5403-r_2x2.png" crc="4165680433" ref="phone>index"/>
-    <file name="u5352-72.png" crc="3807465975" ref="phone>index"/>
-    <file name="u5352-7_2x2.png" crc="359938312" ref="phone>index"/>
-    <file name="u54162.png" crc="4151813484" ref="phone>index"/>
-    <file name="u5416_2x2.png" crc="4118444766" ref="phone>index"/>
-    <file name="u5416-r2.png" crc="162604582" ref="phone>index"/>
-    <file name="u5416-r_2x2.png" crc="59628931" ref="phone>index"/>
-    <file name="u54182.png" crc="3838435488" ref="phone>index"/>
-    <file name="u5418_2x2.png" crc="359170288" ref="phone>index"/>
-    <file name="u5418-r2.png" crc="306033550" ref="phone>index"/>
-    <file name="u5418-r_2x2.png" crc="133192621" ref="phone>index"/>
-    <file name="u54202.png" crc="168568487" ref="phone>index"/>
-    <file name="u5420_2x2.png" crc="3938177974" ref="phone>index"/>
-    <file name="u5420-r2.png" crc="3881352031" ref="phone>index"/>
-    <file name="u5420-r_2x2.png" crc="511551341" ref="phone>index"/>
-    <file name="u54222.png" crc="4038857338" ref="phone>index"/>
-    <file name="u5422_2x2.png" crc="3895122923" ref="phone>index"/>
-    <file name="u5422-r2.png" crc="347097932" ref="phone>index"/>
-    <file name="u5422-r_2x2.png" crc="182207358" ref="phone>index"/>
-    <file name="u5422-m2.png" crc="4153149407" ref="phone>index"/>
-    <file name="u5422-m_2x2.png" crc="3784105053" ref="phone>index"/>
-    <file name="u54242.png" crc="4188849016" ref="phone>index"/>
-    <file name="u5424_2x2.png" crc="92693371" ref="phone>index"/>
-    <file name="u5424-r2.png" crc="328032192" ref="phone>index"/>
-    <file name="u5424-r_2x2.png" crc="383913084" ref="phone>index"/>
-    <file name="blank.gif" crc="4208392903" ref="phone>index"/>
+    <file name="landing-favicon.ico" crc="3826413213" ref="index"/>
     <file name="u155-5.png" crc="435940493" ref="index"/>
     <file name="u155-5_2x.png" crc="4078381096" ref="index"/>
     <file name="шарик.gif" crc="235075892" seo="true" ref="index">
@@ -260,16 +70,25 @@
     <file name="изображение-для-моего-landing---округлость-1_2x.png" crc="4123306662" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
+    <file name="аниме с подписями .gif" crc="145240404" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
     <file name="perfomance 1.jpg" crc="381648102" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="телефон 1.png" crc="4007793223" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="u1013.png" crc="4147075457" ref="index"/>
-    <file name="u1013_2x.png" crc="176276132" ref="index"/>
-    <file name="u1013-r.png" crc="487125187" ref="index"/>
-    <file name="u1013-r_2x.png" crc="4278242838" ref="index"/>
+    <file name="загрузка 23.gif" crc="3970361127" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="загрузка 19.gif" crc="3768971339" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u1013.png" crc="4097497317" ref="index"/>
+    <file name="u1013_2x.png" crc="355514630" ref="index"/>
+    <file name="u1013-r.png" crc="4087486135" ref="index"/>
+    <file name="u1013-r_2x.png" crc="4154693478" ref="index"/>
     <file name="u346.png" crc="3895868138" ref="index"/>
     <file name="u346_2x.png" crc="140532904" ref="index"/>
     <file name="u346-r.png" crc="491960626" ref="index"/>
@@ -293,12 +112,5 @@
     <file name="u348-r.png" crc="477860890" ref="index"/>
     <file name="u348-r_2x.png" crc="376799914" ref="index"/>
   </folder>
-  <folder name="phone">
-    <folder name="css">
-      <file name="index.css" crc="288509935" ref="phone>index"/>
-      <file name="nomq_index.css" crc="3988431500" ref="phone>index"/>
-    </folder>
-    <file name="index.html" crc="3793302433" seo="true" mt="1560435779063" redirect="true"/>
-  </folder>
-  <file name="index.html" crc="224932746" seo="true" mt="1560438889345" redirect="true"/>
+  <file name="index.html" crc="4079567513" seo="true" mt="1560472369090" redirect="true"/>
 </manifest>
