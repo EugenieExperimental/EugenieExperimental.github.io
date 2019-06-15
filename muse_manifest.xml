@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://experimentmysite.ml" resolutions="1x,2x" timestamp="1560656711968">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://experimentmysite.ml" resolutions="1x,2x" timestamp="1560639712986">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="index.css" crc="291229095" ref="index"/>
@@ -115,5 +115,5 @@
     <file name="u348-r.png" crc="477860890" ref="index"/>
     <file name="u348-r_2x.png" crc="376799914" ref="index"/>
   </folder>
-  <file name="index.html" crc="360370365" seo="true" mt="1560656684918" redirect="true"/>
+  <file name="index.html" crc="360370365" seo="true" redirect="true"/>
 </manifest>
