@@ -27,7 +27,7 @@ $form = array(
 		'unknown_method' => 'Неизвестный метод запроса сервера'
 	),
 	'email' => array(
-		'from' => 'five.airport.extreme@gmail.com',
+		'from' => '',
 		'to' => 'e.roess@experimentmysite.ml'
 	),
 	'fields' => array(
