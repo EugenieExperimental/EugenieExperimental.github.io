@@ -1,7 +1,7 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="eugenie.ml" resolutions="1x,2x" timestamp="1561329398456">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="eugenie.ml" resolutions="1x,2x" timestamp="1561330602889">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="293224247" ref="index"/>
+    <file name="index.css" crc="4292949056" ref="index"/>
   </folder>
   <folder name="assets">
     <file name="a1-(8).ico" crc="4108306412" seo="true" mt="1498007557000"/>
@@ -32,8 +32,8 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="u30867-6.png" crc="4202182433" ref="phone>index"/>
-    <file name="u30867-6_2x.png" crc="50879841" ref="phone>index"/>
+    <file name="u30867-6.png" crc="387530784" ref="phone>index"/>
+    <file name="u30867-6_2x.png" crc="14484439" ref="phone>index"/>
     <file name="u30887-6.png" crc="4011422964" ref="phone>index"/>
     <file name="u30887-6_2x.png" crc="400369915" ref="phone>index"/>
     <file name="city-lights-night-rooftop-medium.jpg" crc="536394151" ref="phone>index:index">
@@ -56,8 +56,8 @@
     <file name="bg2-u30819-fr.jpg" crc="4157013075" ref="phone>index"/>
     <file name="u30887-62.png" crc="4134613576" ref="phone>index"/>
     <file name="u30887-6_2x2.png" crc="516932530" ref="phone>index"/>
-    <file name="u30867-62.png" crc="3856427220" ref="phone>index"/>
-    <file name="u30867-6_2x2.png" crc="185757947" ref="phone>index"/>
+    <file name="u30867-62.png" crc="200468599" ref="phone>index"/>
+    <file name="u30867-6_2x2.png" crc="508778240" ref="phone>index"/>
     <file name="u30826-42.png" crc="4023322835" ref="phone>index"/>
     <file name="u30826-4_2x2.png" crc="3981409095" ref="phone>index"/>
     <file name="bg2-u30819-fr2.jpg" crc="97302143" ref="phone>index"/>
@@ -74,10 +74,10 @@
   </folder>
   <folder name="phone">
     <folder name="css">
-      <file name="index.css" crc="521889297" ref="phone>index"/>
-      <file name="nomq_index.css" crc="517152111" ref="phone>index"/>
+      <file name="index.css" crc="183654400" ref="phone>index"/>
+      <file name="nomq_index.css" crc="338107120" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="3934983360" seo="true" mt="1561329336416" redirect="true"/>
+    <file name="index.html" crc="466056363" seo="true" mt="1561330583528" redirect="true"/>
   </folder>
-  <file name="index.html" crc="4282965610" seo="true" mt="1561325367954" redirect="true"/>
+  <file name="index.html" crc="3867431167" seo="true" mt="1561329970766" redirect="true"/>
 </manifest>
