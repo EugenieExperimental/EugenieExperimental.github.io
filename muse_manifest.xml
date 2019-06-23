@@ -1,7 +1,7 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="eugenie.ml" resolutions="1x,2x" timestamp="1561323162752">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="eugenie.ml" resolutions="1x,2x" timestamp="1561323856129">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="353406016" ref="index"/>
+    <file name="index.css" crc="3850662244" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="phone>index:index"/>
@@ -22,5 +22,5 @@
     </folder>
     <file name="index.html" crc="10718102" seo="true" mt="1561322349721" redirect="false"/>
   </folder>
-  <file name="index.html" crc="83154871" seo="true" mt="1561323144290" redirect="true"/>
+  <file name="index.html" crc="4274263547" seo="true" mt="1561323772178" redirect="true"/>
 </manifest>
