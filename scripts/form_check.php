@@ -11,7 +11,7 @@ require_once('form_throttle.php');
 if ($_SERVER['REQUEST_METHOD'] == 'post')
 {
 	$supportResponse = checkSupport();
-	if (!empty($_GET['mode']) and $_GET['mode'] == 'verify')
+	if (!empty($_post['mode']) and $_post['mode'] == 'verify')
 	{
 		echo $supportResponse;
 		exit;
