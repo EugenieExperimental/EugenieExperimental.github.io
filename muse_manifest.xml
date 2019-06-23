@@ -1,20 +1,59 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="experimentmysite.ml" resolutions="1x" timestamp="1561319279657">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="musefree.com" resolutions="1x" timestamp="1561324130566">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="257742981" ref="index"/>
+    <file name="index.css" crc="4015685333" ref="index"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
-    <file name="museutils.js" crc="340535759" ref="index"/>
-    <file name="whatinput.js" crc="86476730" ref="index"/>
-    <file name="museconfig.js" crc="310584261" ref="index"/>
-    <file name="webpro.js" crc="4059564322" ref="index"/>
-    <file name="form_check.php" crc="4020933626" ref="index"/>
-    <file name="form_throttle.php" crc="4259590256" ref="index"/>
-    <file name="form_process.php" crc="37464564" ref="index"/>
-    <file name="form-u94.php" crc="35461267" ref="index"/>
-    <file name="jquery.watch.js" crc="51536988" ref="index"/>
-    <file name="require.js" crc="7928878" ref="index"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="phone>index:index"/>
+    <file name="museutils.js" crc="340535759" ref="phone>index:index"/>
+    <file name="whatinput.js" crc="86476730" ref="phone>index:index"/>
+    <file name="museconfig.js" crc="310584261" ref="phone>index:index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="phone>index:index"/>
+    <file name="jquery.watch.js" crc="51536988" ref="phone>index:index"/>
+    <file name="jquery.musemenu.js" crc="510910590" ref="phone>index:index"/>
+    <file name="webpro.js" crc="4059564322" ref="phone>index:index"/>
+    <file name="form_check.php" crc="4020933626" ref="phone>index"/>
+    <file name="form_throttle.php" crc="4259590256" ref="phone>index"/>
+    <file name="form_process.php" crc="37464564" ref="phone>index"/>
+    <file name="form-u1166.php" crc="367359578" ref="phone>index"/>
+    <file name="jquery.scrolleffects.js" crc="39568856" ref="phone>index:index"/>
+    <file name="html5shiv.js" crc="4241844378" ref="phone>index:index"/>
+    <file name="require.js" crc="7928878" ref="phone>index:index"/>
+    <file name="form-u305.php" crc="187955868" ref="index"/>
   </folder>
-  <file name="index.html" crc="4281219733" seo="true" redirect="true"/>
+  <folder name="images">
+    <file name="путешеств 1.jpg" crc="308614161" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u1226-6.png" crc="4288574477" ref="phone>index"/>
+    <file name="u1205-5.png" crc="3920190091" ref="phone>index"/>
+    <file name="u1165-4.png" crc="203193276" ref="phone>index"/>
+    <file name="bg2-u1157-fr.jpg" crc="77205698" ref="phone>index"/>
+    <file name="people-eiffel-tower-france-landmark-medium.jpg" crc="303313089" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="city-lights-night-rooftop-medium.jpg" crc="536394151" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="night-industry-rails-railroads-medium.jpg" crc="4048567330" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="travel-favicon.ico" crc="4122840000" ref="index"/>
+    <file name="u397-6.png" crc="3771688691" ref="index"/>
+    <file name="u353-5.png" crc="128382470" ref="index"/>
+    <file name="u304-4.png" crc="4003094706" ref="index"/>
+    <file name="bg2.jpg" crc="3950595014" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+  </folder>
+  <folder name="phone">
+    <folder name="css">
+      <file name="index.css" crc="4167453306" ref="phone>index"/>
+    </folder>
+    <file name="index.html" crc="367963252" seo="true" mt="1561324056825" redirect="true"/>
+  </folder>
+  <file name="index.html" crc="36495236" seo="true" mt="1561322232054" redirect="true"/>
 </manifest>
