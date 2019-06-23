@@ -1,20 +1,20 @@
-<manifest alg="2" build="2017.0.4.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="experimentmysite.ml" resolutions="1x" timestamp="1561316974104">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="experimentmysite.ml" resolutions="1x" timestamp="1561319279657">
   <folder name="css">
-    <file name="site_global.css" crc="443350757"/>
-    <file name="index.css" crc="6659232" ref="index"/>
+    <file name="site_global.css" crc="444006867"/>
+    <file name="index.css" crc="257742981" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
-    <file name="museutils.js" crc="4216313831" ref="index"/>
+    <file name="museutils.js" crc="340535759" ref="index"/>
     <file name="whatinput.js" crc="86476730" ref="index"/>
-    <file name="museconfig.js" crc="4177022356" ref="index"/>
-    <file name="webpro.js" crc="4143865194" ref="index"/>
-    <file name="form_check.php" crc="154010282" ref="index"/>
-    <file name="form_throttle.php" crc="266437015" ref="index"/>
-    <file name="form_process.php" crc="512629711" ref="index"/>
-    <file name="form-u94.php" crc="4045617105" ref="index"/>
-    <file name="jquery.watch.js" crc="460461809" ref="index"/>
-    <file name="require.js" crc="3951022091" ref="index"/>
+    <file name="museconfig.js" crc="310584261" ref="index"/>
+    <file name="webpro.js" crc="4059564322" ref="index"/>
+    <file name="form_check.php" crc="4020933626" ref="index"/>
+    <file name="form_throttle.php" crc="4259590256" ref="index"/>
+    <file name="form_process.php" crc="37464564" ref="index"/>
+    <file name="form-u94.php" crc="35461267" ref="index"/>
+    <file name="jquery.watch.js" crc="51536988" ref="index"/>
+    <file name="require.js" crc="7928878" ref="index"/>
   </folder>
-  <file name="index.html" crc="160165053" seo="true" mt="1561316910852" redirect="true"/>
+  <file name="index.html" crc="4281219733" seo="true" redirect="true"/>
 </manifest>
