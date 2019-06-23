@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://musefree.com/index.html</loc>
+    <loc>http://eugenie.ml/index.html</loc>
     <lastmod>2019-06-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://musefree.com/phone/index.html"/>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://eugenie.ml/phone/index.html"/>
+  </url>
+  <url>
+    <loc>http://eugenie.ml/assets/a1-(8).ico</loc>
+    <lastmod>2017-06-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>
