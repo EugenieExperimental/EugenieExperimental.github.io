@@ -1,7 +1,10 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="eugenie.ml" resolutions="1x,2x" timestamp="1561323856129">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="eugenie.ml" resolutions="1x,2x" timestamp="1561330472261">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="3850662244" ref="index"/>
+    <file name="index.css" crc="4150901827" ref="index"/>
+  </folder>
+  <folder name="assets">
+    <file name="a1-(8).ico" crc="4108306412" seo="true" mt="1498007557000"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="phone>index:index"/>
@@ -11,16 +14,52 @@
     <file name="jquery.watch.js" crc="51536988" ref="phone>index:index"/>
     <file name="jquery.museresponsive.js" crc="527716135" ref="phone>index"/>
     <file name="require.js" crc="7928878" ref="phone>index:index"/>
+    <file name="webpro.js" crc="4059564322" ref="index"/>
+    <file name="form_check.php" crc="4020933626" ref="index"/>
+    <file name="form_throttle.php" crc="4259590256" ref="index"/>
+    <file name="form_process.php" crc="37464564" ref="index"/>
+    <file name="form-u27835.php" crc="281174825" ref="index"/>
   </folder>
   <folder name="images">
     <file name="landing-favicon.ico" crc="3826413213" ref="phone>index"/>
+    <file name="шарик.gif" crc="235075892" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="шарик_2x.gif" crc="235075892" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="виджет для погоды оформление 1.png" crc="4181908532" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u346.png" crc="3895868138" ref="index"/>
+    <file name="u346_2x.png" crc="140532904" ref="index"/>
+    <file name="u346-r.png" crc="491960626" ref="index"/>
+    <file name="u346-r_2x.png" crc="3830413134" ref="index"/>
+    <file name="u344.png" crc="504375253" ref="index"/>
+    <file name="u344_2x.png" crc="3847617264" ref="index"/>
+    <file name="u344-r.png" crc="4130462751" ref="index"/>
+    <file name="u344-r_2x.png" crc="395488729" ref="index"/>
+    <file name="u340.png" crc="3912808265" ref="index"/>
+    <file name="u340_2x.png" crc="329624868" ref="index"/>
+    <file name="u340-r.png" crc="4093944308" ref="index"/>
+    <file name="u340-r_2x.png" crc="506485613" ref="index"/>
+    <file name="u342.png" crc="4034806357" ref="index"/>
+    <file name="u342_2x.png" crc="129583563" ref="index"/>
+    <file name="u342-r.png" crc="4027260024" ref="index"/>
+    <file name="u342-r_2x.png" crc="93025187" ref="index"/>
+    <file name="u342-m.png" crc="3976269443" ref="index"/>
+    <file name="u342-m_2x.png" crc="4159628213" ref="index"/>
+    <file name="u348.png" crc="409082180" ref="index"/>
+    <file name="u348_2x.png" crc="172611011" ref="index"/>
+    <file name="u348-r.png" crc="477860890" ref="index"/>
+    <file name="u348-r_2x.png" crc="376799914" ref="index"/>
   </folder>
   <folder name="phone">
     <folder name="css">
-      <file name="index.css" crc="295451525" ref="phone>index"/>
-      <file name="nomq_index.css" crc="301807244" ref="phone>index"/>
+      <file name="index.css" crc="488323762" ref="phone>index"/>
+      <file name="nomq_index.css" crc="527684402" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="10718102" seo="true" mt="1561322349721" redirect="false"/>
+    <file name="index.html" crc="491613419" seo="true" mt="1561330464995" redirect="true"/>
   </folder>
-  <file name="index.html" crc="4274263547" seo="true" mt="1561323772178" redirect="true"/>
+  <file name="index.html" crc="4046348313" seo="true" mt="1561330437404" redirect="true"/>
 </manifest>
