@@ -1,83 +1,120 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="eugenie.ml" resolutions="1x,2x" timestamp="1561331516030">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1498810562066">
   <folder name="css">
-    <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="4292949056" ref="index"/>
+    <file name="site_global.css" crc="3914131437"/>
+    <file name="index.css" crc="4170096082" ref="index"/>
   </folder>
   <folder name="assets">
-    <file name="a1-(8).ico" crc="4108306412" seo="true" mt="1498007557000"/>
+    <file name="29.ico" crc="3903924356" seo="true" mt="1498100648000"/>
+    <file name="a1-(6).ico" crc="245672244" seo="true" mt="1498006863000"/>
+    <file name="тфоны-цветные-1.png" crc="490086048" seo="true" mt="1499029799000"/>
+    <file name="векторная-графика-калякула.pdf" crc="4180248182" seo="true" mt="1499031644000"/>
+    <file name="мышка-33.jpg" crc="26421184" seo="true" mt="1498695852000"/>
+    <file name="мыш-.png" crc="26421184" seo="true" mt="1498695952000"/>
+    <file name="david-guetta.html" crc="4288515735" seo="true" mt="1498769069000"/>
+    <file name="passenger-—-survivors-my-accompaniment.zip" crc="4287852319" seo="true" mt="1498816718000"/>
+    <file name="passenger--when-we-were-young-(my-accompaniment).zip" crc="3784805383" seo="true" mt="1498729567000"/>
+    <file name="passenger--when-we-were-young-my-piano-accompaniment.zip" crc="315702408" seo="true" mt="1498814071000"/>
+    <file name="passenger--when-we-were-young-(my-accompaniment-piano-correct-version-).mp4" crc="44782395" seo="true" mt="1498864425000"/>
+    <file name="heart-s-on-fire-my-best-accopm.--evening-version.mp4" crc="324559576" seo="true" mt="1498736555000"/>
+    <file name="you-telll-me-that-you-love-me-(publication)-4.mp4" crc="173159611" seo="true" mt="1498709687000"/>
+    <file name="alarm.mp3" crc="4068951950" seo="true" mt="1498680675000"/>
+    <file name="dance-fly-extended-8-limiter.mp3" crc="368327332" seo="true" mt="1499633117000"/>
+    <file name="you-telll-me-that-you-love-me-(publication)-bass-control.mp4" crc="3930317063" seo="true" mt="1498724582000"/>
+    <file name="платье-в-горошек-короткое-3.webp" crc="299382421" seo="true" mt="1498683274000"/>
+    <file name="astrix---deep-jungle-walk.mp3" crc="444145435" seo="true" mt="1498771636000"/>
+    <file name="бездомным.pdf" crc="4293545373" seo="true" mt="1498775012000"/>
+    <file name="бурундук-4.webp" crc="465584445" seo="true" mt="1498802243000"/>
+    <file name="бурундук-6-.png" crc="465584445" seo="true" mt="1498802326000"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="phone>index:index"/>
     <file name="museutils.js" crc="340535759" ref="phone>index:index"/>
     <file name="whatinput.js" crc="86476730" ref="phone>index:index"/>
     <file name="museconfig.js" crc="310584261" ref="phone>index:index"/>
-    <file name="webpro.js" crc="4059564322" ref="phone>index:index"/>
-    <file name="musewpdisclosure.js" crc="3883500470" ref="phone>index"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="phone>index:index"/>
-    <file name="form_check.php" crc="4020933626" ref="phone>index"/>
-    <file name="form_throttle.php" crc="4259590256" ref="phone>index"/>
-    <file name="form_process.php" crc="37464564" ref="phone>index"/>
-    <file name="form-u30827.php" crc="4143952915" ref="phone>index"/>
     <file name="jquery.watch.js" crc="51536988" ref="phone>index:index"/>
-    <file name="jquery.scrolleffects.js" crc="39568856" ref="phone>index:index"/>
-    <file name="jquery.museresponsive.js" crc="527716135" ref="phone>index"/>
     <file name="require.js" crc="7928878" ref="phone>index:index"/>
-    <file name="jquery.musemenu.js" crc="510910590" ref="index"/>
-    <file name="form-u31917.php" crc="263486815" ref="index"/>
-    <file name="html5shiv.js" crc="4241844378" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="index"/>
+    <file name="webpro.js" crc="4059564322" ref="index"/>
+    <file name="musewpslideshow.js" crc="3862962738" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="4147669564" ref="index"/>
+    <file name="touchswipe.js" crc="4075097462" ref="index"/>
   </folder>
   <folder name="images">
-    <file name="landing-favicon.ico" crc="3826413213" ref="phone>index"/>
-    <file name="путешеств 1.jpg" crc="308614161" seo="true" ref="phone>index:index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="u30867-6.png" crc="387530784" ref="phone>index"/>
-    <file name="u30867-6_2x.png" crc="14484439" ref="phone>index"/>
-    <file name="u30887-6.png" crc="4011422964" ref="phone>index"/>
-    <file name="u30887-6_2x.png" crc="400369915" ref="phone>index"/>
-    <file name="city-lights-night-rooftop-medium.jpg" crc="536394151" ref="phone>index:index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
+    <file name="roesch-favicon.ico" crc="4286553693" ref="index"/>
+    <file name="u851-4.png" crc="179501934" ref="index"/>
+    <file name="background-12.jpg" crc="465861194" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="night-industry-rails-railroads-medium.jpg" crc="4048567330" ref="phone>index:index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
+    <file name="a.gif" crc="336420927" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="people-eiffel-tower-france-landmark-medium.jpg" crc="303313089" ref="phone>index:index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
+    <file name="1.png" crc="4169949689" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="u30826-4.png" crc="3994401823" ref="phone>index"/>
-    <file name="u30826-4_2x.png" crc="4138040626" ref="phone>index"/>
-    <file name="bg2-u30819-fr.jpg" crc="4157013075" ref="phone>index"/>
-    <file name="u30887-62.png" crc="4134613576" ref="phone>index"/>
-    <file name="u30887-6_2x2.png" crc="516932530" ref="phone>index"/>
-    <file name="u30867-62.png" crc="200468599" ref="phone>index"/>
-    <file name="u30867-6_2x2.png" crc="508778240" ref="phone>index"/>
-    <file name="u30826-42.png" crc="4023322835" ref="phone>index"/>
-    <file name="u30826-4_2x2.png" crc="3981409095" ref="phone>index"/>
-    <file name="bg2-u30819-fr2.jpg" crc="97302143" ref="phone>index"/>
-    <file name="blank.gif" crc="4208392903" ref="phone>index"/>
-    <file name="u31916-4.png" crc="4003094706" ref="index"/>
-    <file name="u31916-4_2x.png" crc="3909866022" ref="index"/>
-    <file name="bg2.jpg" crc="3950595014" ref="index">
+    <file name="herzl.png" crc="4263590857" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="u31956-5.png" crc="128382470" ref="index"/>
-    <file name="u31956-5_2x.png" crc="267005791" ref="index"/>
-    <file name="u31977-6.png" crc="3771688691" ref="index"/>
-    <file name="u31977-6_2x.png" crc="3967326084" ref="index"/>
+    <file name="u206413-17.png" crc="470693670" ref="index"/>
+    <file name="u110440.png" crc="3885408907" ref="index"/>
+    <file name="u110440-r.png" crc="249615352" ref="index"/>
+    <file name="u110440-m.png" crc="4179399753" ref="index"/>
+    <file name="прозрачность 2 процента.png" crc="3847533985" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="кружки--3.gif" crc="449566093" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="фон модерн 14.png" crc="4108118480" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u454961-4.png" crc="3864661121" ref="index"/>
+    <file name="u38605.png" crc="4280497610" ref="index"/>
+    <file name="u38605-r.png" crc="55006128" ref="index"/>
+    <file name="u38615.png" crc="4210508457" ref="index"/>
+    <file name="u38615-r.png" crc="266690172" ref="index"/>
+    <file name="u38615-m.png" crc="518886938" ref="index"/>
+    <file name="u183793.png" crc="3980388346" ref="index"/>
+    <file name="u183793-r.png" crc="3947323482" ref="index"/>
+    <file name="u248325-9.png" crc="332868595" ref="index"/>
+    <file name="u110024.png" crc="320555308" ref="index"/>
+    <file name="u110024-r.png" crc="4093721707" ref="index"/>
+    <file name="u110024-m.png" crc="4093721707" ref="index"/>
+    <file name="u110334.png" crc="3847072171" ref="index"/>
+    <file name="u110334-r.png" crc="4197339722" ref="index"/>
+    <file name="u30833.png" crc="3759057345" ref="index"/>
+    <file name="u30833-r.png" crc="285183658" ref="index"/>
+    <file name="u38541.png" crc="4197687569" ref="index"/>
+    <file name="u38541-r.png" crc="3892845202" ref="index"/>
+    <file name="u110430.png" crc="4063779528" ref="index"/>
+    <file name="u110430-r.png" crc="4179344923" ref="index"/>
+    <file name="девушка-дождь-аниме-3.gif" crc="3675298" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="фон длинный без выреза.png" crc="179625175" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="осень 4.jpg" crc="3820265254" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="осень-8tf.jpg" crc="4123665854" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="осень-6tfd.jpg" crc="67479838" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u212514-12.png" crc="4101413307" ref="index"/>
+    <file name="u212450-19.png" crc="4291129485" ref="index"/>
+    <file name="фон 17.png" crc="4214773170" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="перо 8-u444334.png" crc="4261867721" ref="index"/>
+    <file name="u452649-10.png" crc="4115883409" ref="index"/>
   </folder>
   <folder name="phone">
     <folder name="css">
-      <file name="index.css" crc="3768685640" ref="phone>index"/>
-      <file name="nomq_index.css" crc="401468166" ref="phone>index"/>
+      <file name="index.css" crc="3972356362" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="298315307" seo="true" mt="1561331500554" redirect="true"/>
+    <file name="index.html" crc="3980247706" seo="true" redirect="false"/>
   </folder>
-  <file name="index.html" crc="4168648449" seo="true" mt="1561329970766" redirect="true"/>
+  <file name="index.html" crc="4173549814" seo="true" mt="1498809745292" redirect="true"/>
 </manifest>
