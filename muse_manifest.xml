@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1584673193630">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1584674086695">
   <folder name="css">
     <file name="site_global.css" crc="3914131437"/>
     <file name="music.css" crc="3962512158" ref="music"/>
@@ -140,7 +140,7 @@
       <caption webpage="music" alt=""/>
     </file>
     <file name="u512508-8.png" crc="127273544" ref="music"/>
-    <file name="u512521-10.png" crc="4174951765" ref="music"/>
+    <file name="u512521-10.png" crc="301251444" ref="music"/>
     <file name="игорь тальков.jpg" crc="103784232" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
@@ -1000,7 +1000,7 @@
     </file>
     <file name="u545023-4.png" crc="141581046" ref="news"/>
     <file name="u545035-4.png" crc="154498699" ref="news"/>
-    <file name="u544987-93.png" crc="4219895728" ref="news"/>
+    <file name="u544987-93.png" crc="535680786" ref="news"/>
     <file name="короновирус 2.jpg" crc="307129760" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
@@ -1797,8 +1797,8 @@
     <file name="index.html" crc="3980247706" seo="true" redirect="false"/>
   </folder>
   <file name="index.html" crc="3936725300" seo="true" mt="1584670775616" redirect="true"/>
-  <file name="music.html" crc="4172109906" seo="true" redirect="true"/>
+  <file name="music.html" crc="3799533168" seo="true" redirect="true"/>
   <file name="design.html" crc="361296687" seo="true" mt="1584670742878" redirect="true"/>
-  <file name="news.html" crc="418091772" seo="true" mt="1584673034309" redirect="true"/>
+  <file name="news.html" crc="148070460" seo="true" mt="1584673979225" redirect="true"/>
   <file name="info.html" crc="3814224670" seo="true" redirect="true"/>
 </manifest>
