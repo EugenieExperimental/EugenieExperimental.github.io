@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.1.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1607552054122">
+<manifest alg="2" build="2018.1.1.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1607552801201">
   <folder name="css">
     <file name="site_global.css" crc="3914131437"/>
     <file name="index.css" crc="436376230" ref="index"/>
@@ -1963,8 +1963,8 @@
     </folder>
     <file name="index.html" crc="4180950154" seo="true" redirect="false"/>
   </folder>
-  <file name="index.html" crc="4183110088" seo="true" mt="1607554485216" redirect="true"/>
-  <file name="music.html" crc="244038035" seo="true" redirect="true"/>
+  <file name="index.html" crc="4006331025" seo="true" mt="1607552424832" redirect="true"/>
+  <file name="music.html" crc="4177494820" seo="true" redirect="true"/>
   <file name="design.html" crc="323897169" seo="true" redirect="true"/>
   <file name="news.html" crc="147458572" seo="true" mt="1607554831153" redirect="true"/>
   <file name="info.html" crc="3883065655" seo="true" redirect="true"/>
