@@ -1,12 +1,12 @@
-<manifest alg="2" build="2018.1.1.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1607551018603">
+<manifest alg="2" build="2018.1.1.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1607553298990">
   <folder name="css">
     <file name="site_global.css" crc="3914131437"/>
-    <file name="music.css" crc="461190688" ref="music"/>
+    <file name="info.css" crc="251687272" ref="info"/>
+    <file name="music.css" crc="198491345" ref="music"/>
     <file name="iefonts_music.css" crc="4238321021" ref="music"/>
-    <file name="index.css" crc="3791168232" ref="index"/>
-    <file name="news.css" crc="4206454456" ref="news"/>
-    <file name="design.css" crc="3799190076" ref="design"/>
-    <file name="info.css" crc="216625228" ref="info"/>
+    <file name="news.css" crc="273962368" ref="news"/>
+    <file name="index.css" crc="4013439704" ref="index"/>
+    <file name="design.css" crc="4098430420" ref="design"/>
   </folder>
   <folder name="assets">
     <file name="office.mp4" crc="4160197544" seo="true" mt="1553459853000"/>
@@ -68,10 +68,10 @@
     <file name="кружки--3.gif" crc="449566093" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="кнопка музыка 6-слой 0.png" crc="4278851787" ref="index">
+    <file name="кнопка музыка 9-слой 0.png" crc="260975895" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="кнопка музыка 6-слой 1.png" crc="3791821385" ref="index">
+    <file name="кнопка музыка 9-слой 1.png" crc="4002625920" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="кнопка фотоаппарата 4-фотоаппарат-u110334.png" crc="4257865942" ref="index">
@@ -657,7 +657,7 @@
     <file name="header-extend.jpg" crc="4160055423" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
-    <file name="горы-1a-crop-u301830.png" crc="239595385" seo="true" ref="music">
+    <file name="горы-1a-crop-u301830.png" crc="4125083082" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
     <file name="ocarina winds.jpg" crc="469147090" seo="true" ref="music">
@@ -1965,9 +1965,9 @@
     </folder>
     <file name="index.html" crc="4180950154" seo="true" redirect="false"/>
   </folder>
-  <file name="index.html" crc="419325393" seo="true" mt="1607550893584" redirect="true"/>
-  <file name="music.html" crc="3953365688" seo="true" redirect="true"/>
-  <file name="design.html" crc="3999236773" seo="true" redirect="true"/>
-  <file name="news.html" crc="155036266" seo="true" redirect="true"/>
-  <file name="info.html" crc="4255932037" seo="true" redirect="true"/>
+  <file name="index.html" crc="413440027" seo="true" mt="1607553008102" redirect="true"/>
+  <file name="music.html" crc="3888372391" seo="true" redirect="true"/>
+  <file name="design.html" crc="414632376" seo="true" redirect="true"/>
+  <file name="news.html" crc="528051795" seo="true" redirect="true"/>
+  <file name="info.html" crc="4110079929" seo="true" redirect="true"/>
 </manifest>
