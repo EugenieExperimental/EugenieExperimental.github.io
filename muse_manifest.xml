@@ -1,10 +1,10 @@
-<manifest alg="2" build="2018.1.1.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1607575063579">
+<manifest alg="2" build="2018.1.1.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1607576230842">
   <folder name="css">
     <file name="site_global.css" crc="3914131437"/>
     <file name="info.css" crc="216625228" ref="info"/>
     <file name="music.css" crc="494515990" ref="music"/>
     <file name="iefonts_music.css" crc="4238321021" ref="music"/>
-    <file name="index.css" crc="3834590800" ref="index"/>
+    <file name="index.css" crc="382058639" ref="index"/>
     <file name="design.css" crc="3931919777" ref="design"/>
     <file name="news.css" crc="3773013354" ref="news"/>
   </folder>
@@ -62,8 +62,8 @@
     <file name="кружки--3.gif" crc="449566093" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="u577935.png" crc="4291039959" ref="index"/>
-    <file name="u577935-r.png" crc="4184413293" ref="index"/>
+    <file name="u577935.png" crc="3818574400" ref="index"/>
+    <file name="u577935-r.png" crc="3875305519" ref="index"/>
     <file name="кнопка музыка 9-слой 0.png" crc="260975895" ref="index">
       <caption webpage="index" alt=""/>
     </file>
@@ -1962,8 +1962,8 @@
     </folder>
     <file name="index.html" crc="4180950154" seo="true" redirect="false"/>
   </folder>
-  <file name="index.html" crc="354030919" seo="true" mt="1607574917295" redirect="true"/>
-  <file name="music.html" crc="118514596" seo="true" redirect="true"/>
+  <file name="index.html" crc="4171179181" seo="true" mt="1607575948032" redirect="true"/>
+  <file name="music.html" crc="419859075" seo="true" redirect="true"/>
   <file name="design.html" crc="509909894" seo="true" mt="1607571891160" redirect="true"/>
   <file name="news.html" crc="328964338" seo="true" mt="1607573268547" redirect="true"/>
   <file name="info.html" crc="4255932037" seo="true" redirect="true"/>
