@@ -1,10 +1,10 @@
-<manifest alg="2" build="2018.1.1.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1607576075250">
+<manifest alg="2" build="2018.1.1.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1607582345640">
   <folder name="css">
     <file name="site_global.css" crc="3914131437"/>
     <file name="music.css" crc="4063530639" ref="music"/>
     <file name="iefonts_music.css" crc="4238321021" ref="music"/>
     <file name="news.css" crc="221864943" ref="news"/>
-    <file name="index.css" crc="200686225" ref="index"/>
+    <file name="index.css" crc="4094645458" ref="index"/>
     <file name="info.css" crc="216625228" ref="info"/>
     <file name="design.css" crc="4052962976" ref="design"/>
   </folder>
@@ -99,13 +99,11 @@
     <file name="фон длинный без выреза.png" crc="179625175" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="для-сайта-в-слайд-боксе-1.jpg" crc="383189877" ref="index">
+    <file name="для-сайта-в-слайд-боксе-3-u212328-fr.jpg" crc="46026130" ref="index"/>
+    <file name="для-сайта-в-слайд-боксе-0.jpg" crc="4027688381" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="для-сайта-в-слайд-боксе-2.jpg" crc="4253476205" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="для-сайта-в-слайд-боксе-3.jpg" crc="145873612" ref="index">
+    <file name="для-сайта-в-слайд-боксе-2.jpg" crc="374948732" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="u212514-12.png" crc="4101413307" ref="index"/>
@@ -1954,8 +1952,8 @@
     </folder>
     <file name="index.html" crc="4180950154" seo="true" redirect="false"/>
   </folder>
-  <file name="index.html" crc="3825364511" seo="true" mt="1607575972236" redirect="true"/>
-  <file name="music.html" crc="57773698" seo="true" redirect="true"/>
+  <file name="index.html" crc="330550266" seo="true" mt="1607582251036" redirect="true"/>
+  <file name="music.html" crc="265765692" seo="true" redirect="true"/>
   <file name="design.html" crc="4110188197" seo="true" redirect="true"/>
   <file name="news.html" crc="3775818067" seo="true" redirect="true"/>
   <file name="info.html" crc="4255932037" seo="true" redirect="true"/>
