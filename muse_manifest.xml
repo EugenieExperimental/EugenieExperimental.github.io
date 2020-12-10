@@ -1,12 +1,12 @@
-<manifest alg="2" build="2018.1.1.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1607565680389">
+<manifest alg="2" build="2018.1.1.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1607585522535">
   <folder name="css">
     <file name="site_global.css" crc="3914131437"/>
-    <file name="news.css" crc="3915644152" ref="news"/>
-    <file name="music.css" crc="263461485" ref="music"/>
+    <file name="index.css" crc="449610072" ref="index"/>
+    <file name="music.css" crc="3935944798" ref="music"/>
     <file name="iefonts_music.css" crc="4238321021" ref="music"/>
-    <file name="index.css" crc="4093850272" ref="index"/>
-    <file name="design.css" crc="3931919777" ref="design"/>
     <file name="info.css" crc="216625228" ref="info"/>
+    <file name="news.css" crc="3944839734" ref="news"/>
+    <file name="design.css" crc="4052962976" ref="design"/>
   </folder>
   <folder name="assets">
     <file name="office.mp4" crc="4160197544" seo="true" mt="1553459853000"/>
@@ -627,7 +627,7 @@
       <caption webpage="music" alt=""/>
     </file>
     <file name="youtube_значок-u347753-u354065.png" crc="160525797" ref="music"/>
-    <file name="u354072-13.png" crc="3761087370" ref="music"/>
+    <file name="u354072-13.png" crc="103073980" ref="music"/>
     <file name="u354856-7.png" crc="322899805" ref="music"/>
     <file name="u355407-7.png" crc="251496765" ref="music"/>
     <file name="u339890-8.png" crc="3814546084" ref="music"/>
@@ -655,7 +655,7 @@
     <file name="header-extend.jpg" crc="4160055423" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
-    <file name="горы-1a-crop-u301830.png" crc="475115189" seo="true" ref="music">
+    <file name="горы-1a-crop-u301830.png" crc="4125083082" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
     <file name="ocarina winds.jpg" crc="469147090" seo="true" ref="music">
@@ -725,12 +725,12 @@
       <caption webpage="music" alt=""/>
     </file>
     <file name="плей.png" crc="3842421073" seo="true" ref="music:design:news">
-      <caption webpage="music" alt=""/>
-      <caption webpage="music" alt=""/>
-      <caption webpage="music" alt=""/>
       <caption webpage="news" alt=""/>
       <caption webpage="news" alt=""/>
       <caption webpage="news" alt=""/>
+      <caption webpage="music" alt=""/>
+      <caption webpage="music" alt=""/>
+      <caption webpage="music" alt=""/>
       <caption webpage="design" alt=""/>
       <caption webpage="design" alt=""/>
     </file>
@@ -788,8 +788,8 @@
       <caption webpage="music" alt=""/>
     </file>
     <file name="роспись 4.png" crc="133031820" seo="true" ref="music:design:news">
-      <caption webpage="music" alt=""/>
       <caption webpage="news" alt=""/>
+      <caption webpage="music" alt=""/>
       <caption webpage="design" alt=""/>
       <caption webpage="design" alt=""/>
       <caption webpage="design" alt=""/>
@@ -1966,9 +1966,9 @@
     </folder>
     <file name="index.html" crc="4180950154" seo="true" redirect="false"/>
   </folder>
-  <file name="index.html" crc="176486274" seo="true" mt="1607558116198" redirect="true"/>
-  <file name="music.html" crc="318962921" seo="true" mt="1607564889841" redirect="true"/>
-  <file name="design.html" crc="323897169" seo="true" mt="1607558056157" redirect="true"/>
-  <file name="news.html" crc="136439400" seo="true" mt="1607565575747" redirect="true"/>
+  <file name="index.html" crc="387120829" seo="true" mt="1607585381063" redirect="true"/>
+  <file name="music.html" crc="158625281" seo="true" mt="1607564889841" redirect="true"/>
+  <file name="design.html" crc="121589430" seo="true" mt="1607558056157" redirect="true"/>
+  <file name="news.html" crc="143961772" seo="true" mt="1607565575747" redirect="true"/>
   <file name="info.html" crc="3883065655" seo="true" redirect="true"/>
 </manifest>
