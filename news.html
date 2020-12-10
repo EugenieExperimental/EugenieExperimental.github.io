@@ -16,8 +16,8 @@ document.documentElement.className = document.documentElement.className.replace(
 // Check that all required assets are uploaded and up-to-date
 if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "require.js", "news.css"], "outOfDate":[]};
 </script>
-  
-  <link rel="shortcut icon" href="images/news-favicon.ico?crc=231847113"/>
+
+  <link rel="shortcut icon" href="images/news-favicon.svg?crc=231847113"/>
   <title>News</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=3914131437"/>
@@ -36,14 +36,14 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 <!-- iOS Safari -->
 <meta name="apple-mobile-web-app-status-bar-style" content="#666666">
 
-<style> 
-.js body { 
-visibility: visible !important; 
+<style>
+.js body {
+visibility: visible !important;
 -webkit-tap-highlight-color: rgba(0,0,0,0); -webkit-tap-highlight-color: transparent; /* For some Androids */
 }
 </style>
   <!--HTML Widget code-->
-    
+
 <style>
 
 .audioplayer
@@ -65,7 +65,7 @@ visibility: visible !important;
     color: #FFFFFF;
 	background: #7F7F7F;
 }
-    
+
 .audioplayer-playpause
 {
 	width: 2.5em; /* 40 */
@@ -81,7 +81,7 @@ visibility: visible !important;
 	{
 		width: 100%;
 	}
-    
+
     /* Color */
 	.audioplayer-playpause:hover,
 	.audioplayer-playpause:focus
@@ -116,7 +116,7 @@ visibility: visible !important;
 		left: 50%;
 		margin: -0.375em 0 0 -0.375em; /* 6 */
 	}
-    
+
 		.audioplayer-playing .audioplayer-playpause a:before,
 		.audioplayer-playing .audioplayer-playpause a:after
 		{
@@ -135,8 +135,8 @@ visibility: visible !important;
 		{
 			right: 0;
 		}
-        
-        
+
+
 .audioplayer-time
 {
 	width: 4.375em; /* 70 */
@@ -160,8 +160,8 @@ visibility: visible !important;
 			border-right: 0;
 			right: 0;
 		}
-        
-       
+
+
 .audioplayer-bar
 {
 	height: 0.875em; /* 14 */
@@ -185,7 +185,7 @@ visibility: visible !important;
 		left: 0;
 		top: 0;
 	}
-    
+
 	.audioplayer-bar-loaded
 	{
 		background-color: #E5E5E5;
@@ -217,7 +217,7 @@ visibility: visible !important;
 	.audioplayer-volume:focus
 	{
 		background-color: #7F7F7F;
-        
+
 
 	}
 	.audioplayer-volume-button
@@ -244,7 +244,7 @@ visibility: visible !important;
 				content: '';
 				position: absolute;
 			}
-            
+
 			.audioplayer-volume-button a:before
 			{
 				width: 0;
@@ -257,7 +257,7 @@ visibility: visible !important;
 				right: -0.25em;
 				margin-top: -0.5em; /* 8 */
 			}
-            
+
             /* Color */
 			.audioplayer:not(.audioplayer-mute) .audioplayer-volume-button a:after
 			{
@@ -287,9 +287,9 @@ visibility: visible !important;
 		left: 0;
 		top: -9999px;
 		background: #7F7F7F;
-        
 
-        
+
+
 	}
 		.audioplayer-volume:not(:hover) .audioplayer-volume-adjust
 		{
@@ -310,7 +310,7 @@ visibility: visible !important;
 			z-index: 1;
 			margin: 30% auto 0;
 		}
-        
+
 
 			.audioplayer-volume-adjust div div
 			{
@@ -325,7 +325,7 @@ visibility: visible !important;
 	.audioplayer-novolume .audioplayer-volume
 	{
 		display: none;
-	} 
+	}
 </style>
 
  </head>
@@ -345,11 +345,11 @@ visibility: visible !important;
        <div class="size_fixed grpelem" id="u348867"><!-- custom html -->
        </div>
        <div class="size_fixed grpelem" id="u348868"><!-- custom html -->
-        
+
 
        </div>
        <div class="size_fixed grpelem" id="u348968"><!-- custom html -->
-        
+
 
        </div>
       </div>
@@ -1930,7 +1930,7 @@ visibility: visible !important;
         <script language="JavaScript">
 <!--
 function daysLeftNewYear()
-{ 
+{
  today = new Date()
  //Можно установить любую дату
  nextDate = new Date("June 1, 2021")
@@ -1985,7 +1985,7 @@ daysLeftNewYear()
        </div>
        <div class="rounded-corners grpelem" id="u349008"><!-- content --></div>
        <div class="size_fixed grpelem" id="u349009"><!-- custom html -->
-        
+
 		<div id="wrapper">
 			<audio preload="auto" controls>
              <source src="assets/paul-mauriat---la-bikina.mp3"><!-- Hide -->
@@ -2049,16 +2049,16 @@ Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 </script>
   <!-- RequireJS script -->
   <script src="scripts/require.js?crc=4177726516" type="text/javascript" async data-main="scripts/museconfig.js?crc=128606099" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
-  
+
   <!--HTML Widget code-->
-  
+
 		<script language="javascript">
             document.onmousedown=disableclick;
             status="Правая кнопка заблокирована!";
             Function disableclick(event){
                 if(event.button==2){
                     alert(status);
-                    return false;    
+                    return false;
                 }
             }
         </script>
@@ -2070,12 +2070,12 @@ $(document).ready(function(){
     $(document).bind("contextmenu",function(e){
         return false;
     });
-    
-    $(document).mousedown(function(e){ 
-        if( e.button == 2 ) { 
-          return false; 
-        } 
-        return true; 
+
+    $(document).mousedown(function(e){
+        if( e.button == 2 ) {
+          return false;
+        }
+        return true;
     });
 });
 </script>
