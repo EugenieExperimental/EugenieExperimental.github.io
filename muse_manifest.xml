@@ -1,7 +1,7 @@
-<manifest alg="2" build="2018.1.1.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1607553396265">
+<manifest alg="2" build="2018.1.1.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1607558990813">
   <folder name="css">
     <file name="site_global.css" crc="3914131437"/>
-    <file name="index.css" crc="436376230" ref="index"/>
+    <file name="index.css" crc="13130323" ref="index"/>
     <file name="news.css" crc="436967377" ref="news"/>
     <file name="music.css" crc="263461485" ref="music"/>
     <file name="iefonts_music.css" crc="4238321021" ref="music"/>
@@ -46,7 +46,7 @@
     <file name="background-12.jpg" crc="465861194" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="a.gif" crc="336420927" seo="true" ref="index">
+    <file name="poloska.gif" crc="336420927" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="1.png" crc="4169949689" seo="true" ref="index">
@@ -1963,8 +1963,8 @@
     </folder>
     <file name="index.html" crc="4180950154" seo="true" redirect="false"/>
   </folder>
-  <file name="index.html" crc="4006331025" seo="true" mt="1607552424832" redirect="true"/>
-  <file name="music.html" crc="491169972" seo="true" mt="1607553060008" redirect="true"/>
+  <file name="index.html" crc="4181249556" seo="true" mt="1607558830425" redirect="true"/>
+  <file name="music.html" crc="286417503" seo="true" mt="1607553060008" redirect="true"/>
   <file name="design.html" crc="509909894" seo="true" mt="1607553083005" redirect="true"/>
   <file name="news.html" crc="4066906482" seo="true" mt="1607553034244" redirect="true"/>
   <file name="info.html" crc="4255932037" seo="true" mt="1607553098451" redirect="true"/>
