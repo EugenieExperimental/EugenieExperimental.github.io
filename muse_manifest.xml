@@ -1,12 +1,12 @@
-<manifest alg="2" build="2018.1.1.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1607560190676">
+<manifest alg="2" build="2018.1.1.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1607574690012">
   <folder name="css">
     <file name="site_global.css" crc="3914131437"/>
-    <file name="index.css" crc="183297511" ref="index"/>
-    <file name="news.css" crc="221864943" ref="news"/>
     <file name="music.css" crc="4063530639" ref="music"/>
     <file name="iefonts_music.css" crc="4238321021" ref="music"/>
-    <file name="design.css" crc="4052962976" ref="design"/>
+    <file name="news.css" crc="221864943" ref="news"/>
+    <file name="index.css" crc="174215150" ref="index"/>
     <file name="info.css" crc="216625228" ref="info"/>
+    <file name="design.css" crc="4052962976" ref="design"/>
   </folder>
   <folder name="assets">
     <file name="office.mp4" crc="4160197544" seo="true" mt="1553459853000"/>
@@ -77,35 +77,35 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="u454961-4.png" crc="3864661121" ref="index"/>
-    <file name="u38605.png" crc="4280497610" ref="index"/>
-    <file name="u38605-r.png" crc="55006128" ref="index"/>
-    <file name="u38615.png" crc="4210508457" ref="index"/>
-    <file name="u38615-r.png" crc="266690172" ref="index"/>
-    <file name="u38615-m.png" crc="518886938" ref="index"/>
-    <file name="u183793.png" crc="3980388346" ref="index"/>
-    <file name="u183793-r.png" crc="3947323482" ref="index"/>
+    <file name="u38605.png" crc="3844665104" ref="index"/>
+    <file name="u38605-r.png" crc="299706039" ref="index"/>
+    <file name="u38615.png" crc="4254836476" ref="index"/>
+    <file name="u38615-r.png" crc="3868221772" ref="index"/>
+    <file name="u38615-m.png" crc="3810121932" ref="index"/>
+    <file name="u183793.png" crc="66938268" ref="index"/>
+    <file name="u183793-r.png" crc="7860140" ref="index"/>
     <file name="u248325-9.png" crc="332868595" ref="index"/>
-    <file name="u30833.png" crc="3759057345" ref="index"/>
-    <file name="u30833-r.png" crc="285183658" ref="index"/>
-    <file name="u38541.png" crc="4244602287" ref="index"/>
-    <file name="u38541-r.png" crc="3772345287" ref="index"/>
-    <file name="u38541-m.png" crc="129142063" ref="index"/>
+    <file name="u30833.png" crc="3949312823" ref="index"/>
+    <file name="u30833-r.png" crc="4129252330" ref="index"/>
+    <file name="u38541.png" crc="3876243325" ref="index"/>
+    <file name="u38541-r.png" crc="525468470" ref="index"/>
+    <file name="u38541-m.png" crc="43109848" ref="index"/>
     <file name="настя 2 анимие - лучшее качество.gif" crc="407996226" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="u558282.png" crc="4130094512" ref="index"/>
-    <file name="u558282-r.png" crc="105588054" ref="index"/>
-    <file name="u558282-m.png" crc="105588054" ref="index"/>
+    <file name="u558282.png" crc="18721399" ref="index"/>
+    <file name="u558282-r.png" crc="4059160935" ref="index"/>
+    <file name="u558282-m.png" crc="4059160935" ref="index"/>
     <file name="фон длинный без выреза.png" crc="179625175" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="осень 4.jpg" crc="3820265254" ref="index">
+    <file name="для-сайта-в-слайд-боксе-1.jpg" crc="383189877" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="осень-8tf.jpg" crc="4123665854" ref="index">
+    <file name="для-сайта-в-слайд-боксе-2.jpg" crc="399089395" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="осень-6tfd.jpg" crc="67479838" ref="index">
+    <file name="для-сайта-в-слайд-боксе-3.jpg" crc="145873612" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="u212514-12.png" crc="4101413307" ref="index"/>
@@ -147,20 +147,20 @@
       <caption webpage="music" alt=""/>
     </file>
     <file name="ссылка 2.jpg" crc="4220601960" seo="true" ref="music:news">
-      <caption webpage="music" alt=""/>
-      <caption webpage="music" alt=""/>
-      <caption webpage="music" alt=""/>
-      <caption webpage="music" alt=""/>
-      <caption webpage="music" alt=""/>
-      <caption webpage="music" alt=""/>
-      <caption webpage="music" alt=""/>
-      <caption webpage="music" alt=""/>
       <caption webpage="news" alt=""/>
       <caption webpage="news" alt=""/>
       <caption webpage="news" alt=""/>
       <caption webpage="news" alt=""/>
       <caption webpage="news" alt=""/>
       <caption webpage="news" alt=""/>
+      <caption webpage="music" alt=""/>
+      <caption webpage="music" alt=""/>
+      <caption webpage="music" alt=""/>
+      <caption webpage="music" alt=""/>
+      <caption webpage="music" alt=""/>
+      <caption webpage="music" alt=""/>
+      <caption webpage="music" alt=""/>
+      <caption webpage="music" alt=""/>
     </file>
     <file name="u552654-4.png" crc="4043406978" ref="music"/>
     <file name="скрипка 4.png" crc="313693680" seo="true" ref="music">
@@ -374,8 +374,8 @@
     </file>
     <file name="u475872-4.png" crc="320661915" ref="music"/>
     <file name="лист.jpg" crc="3917235389" seo="true" ref="music:news">
-      <caption webpage="music" alt=""/>
       <caption webpage="news" alt=""/>
+      <caption webpage="music" alt=""/>
     </file>
     <file name="youtube_значок-u347753-u472960.png" crc="529193724" ref="music"/>
     <file name="u472949-12.png" crc="523035265" ref="music"/>
@@ -401,8 +401,8 @@
     <file name="u474621-6.png" crc="3929022985" ref="music"/>
     <file name="u468566-10.png" crc="3779398486" ref="music"/>
     <file name="печать 1.png" crc="4049031454" seo="true" ref="music:news">
-      <caption webpage="music" alt=""/>
       <caption webpage="news" alt=""/>
+      <caption webpage="music" alt=""/>
     </file>
     <file name="u468869-49.png" crc="4176408792" ref="music"/>
     <file name="u469186-4.png" crc="157974499" ref="music"/>
@@ -489,8 +489,8 @@
     <file name="u422618-4.png" crc="3937923319" ref="music"/>
     <file name="u422601-5.png" crc="3777045180" ref="music"/>
     <file name="чашка.png" crc="388648966" seo="true" ref="music:news">
-      <caption webpage="music" alt=""/>
       <caption webpage="news" alt=""/>
+      <caption webpage="music" alt=""/>
     </file>
     <file name="u422619-14.png" crc="3800543358" ref="music"/>
     <file name="милен 3.jpg" crc="3848560215" seo="true" ref="music">
@@ -543,17 +543,17 @@
     </file>
     <file name="u381298-4.png" crc="4226160256" ref="music"/>
     <file name="soundcloud logo 2-1.png" crc="3769832293" seo="true" ref="music:news">
-      <caption webpage="music" alt=""/>
-      <caption webpage="music" alt=""/>
-      <caption webpage="music" alt=""/>
-      <caption webpage="music" alt=""/>
-      <caption webpage="music" alt=""/>
-      <caption webpage="music" alt=""/>
-      <caption webpage="music" alt=""/>
-      <caption webpage="music" alt=""/>
-      <caption webpage="music" alt=""/>
-      <caption webpage="music" alt=""/>
       <caption webpage="news" alt=""/>
+      <caption webpage="music" alt=""/>
+      <caption webpage="music" alt=""/>
+      <caption webpage="music" alt=""/>
+      <caption webpage="music" alt=""/>
+      <caption webpage="music" alt=""/>
+      <caption webpage="music" alt=""/>
+      <caption webpage="music" alt=""/>
+      <caption webpage="music" alt=""/>
+      <caption webpage="music" alt=""/>
+      <caption webpage="music" alt=""/>
     </file>
     <file name="замок откр.png" crc="383809704" seo="true" ref="music">
       <caption webpage="music" alt=""/>
@@ -617,7 +617,7 @@
       <caption webpage="music" alt=""/>
     </file>
     <file name="youtube_значок-u347753-u354065.png" crc="160525797" ref="music"/>
-    <file name="u354072-13.png" crc="3761087370" ref="music"/>
+    <file name="u354072-13.png" crc="103073980" ref="music"/>
     <file name="u354856-7.png" crc="322899805" ref="music"/>
     <file name="u355407-7.png" crc="251496765" ref="music"/>
     <file name="u339890-8.png" crc="3814546084" ref="music"/>
@@ -634,8 +634,8 @@
     <file name="youtube_значок-u347753-u331045.png" crc="4051119154" ref="music"/>
     <file name="youtube_значок-u347753-u351148.png" crc="4051119154" ref="music"/>
     <file name="переворот-3.svg" crc="4037082086" seo="true" ref="music:design">
-      <caption webpage="music" alt=""/>
       <caption webpage="design" alt=""/>
+      <caption webpage="music" alt=""/>
     </file>
     <file name="переворот 3_poster_.png" crc="21591777" ref="music"/>
     <file name="78117392.jpg" crc="8134959" seo="true" ref="music">
@@ -645,7 +645,7 @@
     <file name="header-extend.jpg" crc="4160055423" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
-    <file name="горы-1a-crop-u301830.png" crc="475115189" seo="true" ref="music">
+    <file name="горы-1a-crop-u301830.png" crc="4125083082" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
     <file name="ocarina winds.jpg" crc="469147090" seo="true" ref="music">
@@ -715,14 +715,14 @@
       <caption webpage="music" alt=""/>
     </file>
     <file name="плей.png" crc="3842421073" seo="true" ref="music:design:news">
-      <caption webpage="music" alt=""/>
-      <caption webpage="music" alt=""/>
-      <caption webpage="music" alt=""/>
       <caption webpage="design" alt=""/>
       <caption webpage="design" alt=""/>
       <caption webpage="news" alt=""/>
       <caption webpage="news" alt=""/>
       <caption webpage="news" alt=""/>
+      <caption webpage="music" alt=""/>
+      <caption webpage="music" alt=""/>
+      <caption webpage="music" alt=""/>
     </file>
     <file name="piano.jpg" crc="8451357" seo="true" ref="music">
       <caption webpage="music" alt=""/>
@@ -778,11 +778,11 @@
       <caption webpage="music" alt=""/>
     </file>
     <file name="роспись 4.png" crc="133031820" seo="true" ref="music:design:news">
-      <caption webpage="music" alt=""/>
       <caption webpage="design" alt=""/>
       <caption webpage="design" alt=""/>
       <caption webpage="design" alt=""/>
       <caption webpage="news" alt=""/>
+      <caption webpage="music" alt=""/>
     </file>
     <file name="ace vent.png" crc="516709029" seo="true" ref="music">
       <caption webpage="music" alt=""/>
@@ -1954,8 +1954,8 @@
     </folder>
     <file name="index.html" crc="4180950154" seo="true" redirect="false"/>
   </folder>
-  <file name="index.html" crc="3863443911" seo="true" mt="1607560091775" redirect="true"/>
-  <file name="music.html" crc="4151183129" seo="true" redirect="true"/>
+  <file name="index.html" crc="248756143" seo="true" mt="1607574576943" redirect="true"/>
+  <file name="music.html" crc="376363805" seo="true" redirect="true"/>
   <file name="design.html" crc="4110188197" seo="true" redirect="true"/>
   <file name="news.html" crc="3775818067" seo="true" redirect="true"/>
   <file name="info.html" crc="4255932037" seo="true" redirect="true"/>
