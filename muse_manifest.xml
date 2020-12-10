@@ -1,7 +1,7 @@
-<manifest alg="2" build="2018.1.1.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1607559344605">
+<manifest alg="2" build="2018.1.1.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1607559926384">
   <folder name="css">
     <file name="site_global.css" crc="3914131437"/>
-    <file name="index.css" crc="230796582" ref="index"/>
+    <file name="index.css" crc="183297511" ref="index"/>
     <file name="news.css" crc="221864943" ref="news"/>
     <file name="music.css" crc="4063530639" ref="music"/>
     <file name="iefonts_music.css" crc="4238321021" ref="music"/>
@@ -90,7 +90,7 @@
     <file name="u38541.png" crc="4244602287" ref="index"/>
     <file name="u38541-r.png" crc="3772345287" ref="index"/>
     <file name="u38541-m.png" crc="129142063" ref="index"/>
-    <file name="настя аниме.gif" crc="139794763" seo="true" ref="index">
+    <file name="настя 2 анимие.gif" crc="22950857" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="u558282.png" crc="4130094512" ref="index"/>
@@ -1954,8 +1954,8 @@
     </folder>
     <file name="index.html" crc="4180950154" seo="true" redirect="false"/>
   </folder>
-  <file name="index.html" crc="3852088502" seo="true" mt="1607559241890" redirect="true"/>
-  <file name="music.html" crc="493037118" seo="true" redirect="true"/>
+  <file name="index.html" crc="29619092" seo="true" mt="1607559815153" redirect="true"/>
+  <file name="music.html" crc="3840847621" seo="true" redirect="true"/>
   <file name="design.html" crc="4110188197" seo="true" redirect="true"/>
   <file name="news.html" crc="3775818067" seo="true" redirect="true"/>
   <file name="info.html" crc="4255932037" seo="true" redirect="true"/>
