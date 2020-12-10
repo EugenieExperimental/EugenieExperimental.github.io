@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.1.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1607573949111">
+<manifest alg="2" build="2018.1.1.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1607575063579">
   <folder name="css">
     <file name="site_global.css" crc="3914131437"/>
     <file name="info.css" crc="216625228" ref="info"/>
@@ -46,7 +46,7 @@
   <folder name="images">
     <file name="roesch-favicon.ico" crc="231847113" ref="index"/>
     <file name="u851-4.png" crc="179501934" ref="index"/>
-    <file name="background-13.png" crc="4251234382" seo="true" ref="index">
+    <file name="background-14.jpg" crc="3915772837" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="poloska.gif" crc="336420927" seo="true" ref="index">
@@ -1962,8 +1962,8 @@
     </folder>
     <file name="index.html" crc="4180950154" seo="true" redirect="false"/>
   </folder>
-  <file name="index.html" crc="534108078" seo="true" mt="1607573785598" redirect="true"/>
-  <file name="music.html" crc="4014389331" seo="true" redirect="true"/>
+  <file name="index.html" crc="354030919" seo="true" mt="1607574917295" redirect="true"/>
+  <file name="music.html" crc="118514596" seo="true" redirect="true"/>
   <file name="design.html" crc="509909894" seo="true" mt="1607571891160" redirect="true"/>
   <file name="news.html" crc="328964338" seo="true" mt="1607573268547" redirect="true"/>
   <file name="info.html" crc="4255932037" seo="true" redirect="true"/>
