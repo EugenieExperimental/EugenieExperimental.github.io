@@ -6,7 +6,7 @@
 ##############################################################################
 # COPYRIGHT NOTICE                                                           #
 # Copyright 2001-2006 Ying Zhang.  All Rights Reserved.                      #
-#    111                                                                        #
+#                                                                         #
 # DodosMail may be used and modified free of charge by anyone so long as     #
 # this copyright notice and the comments above remain intact.  By using this #
 # code you agree to indemnify Ying Zhang from any liability that             #
