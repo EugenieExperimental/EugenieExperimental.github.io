@@ -1,17 +1,15 @@
-<manifest alg="2" build="2018.1.1.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1607672812255">
+<manifest alg="2" build="2018.1.1.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1607673178649">
   <folder name="css">
     <file name="site_global.css" crc="3914131437"/>
     <file name="info.css" crc="216625228" ref="info"/>
     <file name="design.css" crc="342994811" ref="design"/>
     <file name="index.css" crc="319571835" ref="index"/>
     <file name="news.css" crc="4043558232" ref="news"/>
-    <file name="music.css" crc="3862597028" ref="music"/>
+    <file name="music.css" crc="3793809033" ref="music"/>
     <file name="iefonts_music.css" crc="4094420627" ref="music"/>
   </folder>
   <folder name="assets">
     <file name="тфоны-цветные-1.png" crc="490086048" seo="true" mt="1499029799000"/>
-    <file name="обложка-фото.png" crc="4103833645" seo="true" mt="1498780071000"/>
-    <file name="you-can-do-it,-drive-edition,-публикаца.mp4" crc="3843615003" seo="true" mt="1498800285000"/>
     <file name="бездомным.pdf" crc="4293545373" seo="true" mt="1498775012000"/>
     <file name="paul-mauriat---la-bikina.mp3" crc="74670687" seo="true" mt="1607554135000"/>
     <file name="timelapse-(trance-elements,-lite-ver.).mp3" crc="3846011609" seo="true" mt="1498685396000"/>
@@ -588,9 +586,6 @@
     </file>
     <file name="u355769-7.png" crc="3760825670" ref="music"/>
     <file name="u355732-17.png" crc="445018669" ref="music"/>
-    <file name="u355817-10.png" crc="55674825" ref="music"/>
-    <file name="u355688-5.png" crc="244566800" ref="music"/>
-    <file name="u357624-4.png" crc="3781643727" ref="music"/>
     <file name="the chainsmokers - push my luck 2.png" crc="72975175" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
@@ -624,7 +619,7 @@
     <file name="header-extend.jpg" crc="4160055423" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
-    <file name="горы-1a-crop-u301830.png" crc="4127417307" seo="true" ref="music">
+    <file name="горы-1a-crop-u301830.png" crc="475115189" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
     <file name="ocarina winds.jpg" crc="469147090" seo="true" ref="music">
@@ -1876,7 +1871,7 @@
     <file name="index.html" crc="4180950154" seo="true" redirect="false"/>
   </folder>
   <file name="index.html" crc="90527142" seo="true" mt="1607648157878" redirect="true"/>
-  <file name="music.html" crc="450911941" seo="true" mt="1607672531077" redirect="true"/>
+  <file name="music.html" crc="3928647680" seo="true" mt="1607673048970" redirect="true"/>
   <file name="design.html" crc="4202746421" seo="true" mt="1607672679581" redirect="true"/>
   <file name="news.html" crc="86609765" seo="true" mt="1607645820370" redirect="true"/>
   <file name="info.html" crc="4255932037" seo="true" redirect="true"/>
