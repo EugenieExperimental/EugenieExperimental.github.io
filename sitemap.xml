@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://9.com/index.html</loc>
-    <lastmod>2020-12-12</lastmod>
+    <lastmod>2020-12-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -41,7 +41,7 @@
   </url>
   <url>
     <loc>http://9.com/news.html</loc>
-    <lastmod>2020-12-12</lastmod>
+    <lastmod>2020-12-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -75,13 +75,13 @@
       <image:loc>http://9.com/images/%D0%BB%D0%B0%D0%BC%D0%BF%D0%BE%D1%87%D0%BA%D0%B0%201.gif</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://9.com/images/%D1%8F---%D1%83%D1%84%D0%B0-8.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://9.com/images/%D0%BA%D0%BB%D1%8F%D0%BA%D1%81%D0%B0.jpg</image:loc>
+      <image:loc>http://9.com/images/%D1%8F-%D0%BC%D0%B5%D1%82%D1%80%D0%BE.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://9.com/images/%D0%BF%D0%BE%D0%B5%D0%B7%D0%B4-5.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://9.com/images/%D0%BC%D0%B5%D1%82%D1%80%D0%BE.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://9.com/images/img_202008055_211842.jpg</image:loc>
@@ -694,7 +694,7 @@
   </url>
   <url>
     <loc>http://9.com/info.html</loc>
-    <lastmod>2020-12-12</lastmod>
+    <lastmod>2020-12-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
