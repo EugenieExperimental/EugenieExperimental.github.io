@@ -6,7 +6,7 @@
 ##############################################################################
 # COPYRIGHT NOTICE                                                           #
 # Copyright 2001-2006 Ying Zhang.  All Rights Reserved.                      #
-#                                                                            #
+#    111                                                                        #
 # DodosMail may be used and modified free of charge by anyone so long as     #
 # this copyright notice and the comments above remain intact.  By using this #
 # code you agree to indemnify Ying Zhang from any liability that             #
@@ -26,7 +26,7 @@ About
 DodosMail is an easy-to-install PHP email script for everyone.
 This zip file includes
 	dodosmail.php		- the php file that does the mail delivering
-	dodoscaptcha.php	- the php file that does the captcha image 	
+	dodoscaptcha.php	- the php file that does the captcha image
 				  generation
 	readme.txt		- instructions about how to install
 	header.php		- default header file
@@ -35,7 +35,7 @@ This zip file includes
 	back.png		- background image
 	test.php		- demo how to use header and footer files.
 	captchaTest.php		- demo how to use captcha
-	longform.php		- demo how to use dodosmail for a multi-page 	
+	longform.php		- demo how to use dodosmail for a multi-page
 			  form.
 	test.html		- demo backward compatibility
 
@@ -67,24 +67,24 @@ Demo to show you how to use DodosMail with a long multi-page form
 ================================================================================
 Installation
 ================================================================================
-You should have some basic knowledge about form in html. Open test.html, you 
+You should have some basic knowledge about form in html. Open test.html, you
 will see a very basic sample form code.
 hidden fields are:
-  <input type="hidden" name="required_fields" 
+  <input type="hidden" name="required_fields"
 value="subject,after_url,name,email,message" />
 	-- put all the names of the required fields in here
 
   <input type="hidden" name="your_email_address" value="you@yourdomain.com" />
-	-- put your real email address here or to do it a more secure way, check 
+	-- put your real email address here or to do it a more secure way, check
 out "Customize your email address" section
 
   <input type="hidden" name="check_email_address" value="yes" />
-	-- put "no" if you do not want the script to check the sender's email 
+	-- put "no" if you do not want the script to check the sender's email
 address for validity.
 
   <input type="hidden" name="subject" value="DodosMail" />
-	-- you can have this field either as text or hidden. if it's text, then 
-sender may change the subject of the email freely, otherwise it'll be 
+	-- you can have this field either as text or hidden. if it's text, then
+sender may change the subject of the email freely, otherwise it'll be
 the same subject regardless who sends it.
 
 
@@ -93,27 +93,27 @@ the same subject regardless who sends it.
 ================================================================================
 How to use captcha (take a look at captchaTest.php)
 ================================================================================
-You must have PHP & GD library installed on your server for this to work. 
+You must have PHP & GD library installed on your server for this to work.
 
-First you must indicate in your form that you plan to use this feature by 
+First you must indicate in your form that you plan to use this feature by
 putting the code below in your form:
 	<!-- indicate below that you will use captcha -->
 	<input type="hidden" name="use_dodos_captcha" value="yes" />
 
-Then you must include a field that allows the user to input the text and link 
+Then you must include a field that allows the user to input the text and link
 the captcha image by doing something like:
-	Spam protection (enter the text <img 
-src="dodoscaptcha.php?captchabgcolor=EEEEEE&amp;captchatextcolor=900000" 
+	Spam protection (enter the text <img
+src="dodoscaptcha.php?captchabgcolor=EEEEEE&amp;captchatextcolor=900000"
 style="vertical-align: middle" /> below):
 	<br />
-	<input type="text" name="use_dodos_captcha_typed" size="6" /> 
+	<input type="text" name="use_dodos_captcha_typed" size="6" />
 
-Notice you may change the background and text color by passing the hexcode for 
-the two colors. If you do not pass in any colors, you will have black text on 
+Notice you may change the background and text color by passing the hexcode for
+the two colors. If you do not pass in any colors, you will have black text on
 white background.
 
-If the image does not show up on your page after you have included the file, 
-it's most likely GD library is not appropriately installed on your server. 
+If the image does not show up on your page after you have included the file,
+it's most likely GD library is not appropriately installed on your server.
 Please contact your host for more information.
 
 ----------------REMEMBER----------------
@@ -129,11 +129,11 @@ may only be used for captcha purpose.
 following fields MUST appear if you wish to use captcha
 ----------------------------------------------------------------------------
   <input type="hidden" name="use_dodos_captcha" value="yes" />
-Spam protection (enter the text <img 
-src="dodoscaptcha.php?captchabgcolor=EEEEEE&amp;captchatextcolor=900000" 
+Spam protection (enter the text <img
+src="dodoscaptcha.php?captchabgcolor=EEEEEE&amp;captchatextcolor=900000"
 style="vertical-align: middle" /> below):
 	<br />
-	<input type="text" name="use_dodos_captcha_typed" size="6" /> 
+	<input type="text" name="use_dodos_captcha_typed" size="6" />
 ----------------------------------------------------------------------------
 END OF following fields MUST appear if you wish to use captcha
 ----------------------------------------------------------------------------
@@ -154,14 +154,14 @@ END OF following fields MUST appear if you wish to use php header and footer
 
 
 ----------------------------------------------------------------------------
-following fields should NOT appear if you choose to include php header and 
+following fields should NOT appear if you choose to include php header and
 footer
 ----------------------------------------------------------------------------
   <input type="hidden" name="background_color" value="#FFFFFF">
 	-- the html color code for page backgroud
 
   <input type="hidden" name="background_image" value="bk.gif">
-	-- the image name for background. you may put it as the format 
+	-- the image name for background. you may put it as the format
 "http://yourdomain.com/images/bk.gif"
 
   <input type="hidden" name="text_color" value="#000000">
@@ -185,14 +185,14 @@ footer
   <input type="hidden" name="highlight_color" value="red">
 	-- the highlight color for required field on error page.
 	for example:
-		The required field <font color=highlight_color>name</font> is 
+		The required field <font color=highlight_color>name</font> is
 empty.
 
   <input type="hidden" name="css_file" value="">
-	-- if you have a css file you'd like to use, please fill it in, 
+	-- if you have a css file you'd like to use, please fill it in,
 otherwise leave it blank
 ----------------------------------------------------------------------------
-END OF following fields should NOT appear if you choose to include php header 
+END OF following fields should NOT appear if you choose to include php header
 and footer
 ----------------------------------------------------------------------------
 
@@ -200,26 +200,26 @@ and footer
 
 
   <input type="hidden" name="autoresponse" value="yes" />
-	-- put "no" in the value if you do not wish the sender to get an auto 
+	-- put "no" in the value if you do not wish the sender to get an auto
 response mail from you.
-	
+
   <input type="hidden" name="owner_name" value="me" />
 	-- replace "me" with YOUR NAME (the owner of the mail form)
 
-  <input type="hidden" name="response_subject" value="Thank you for your mail!" 
+  <input type="hidden" name="response_subject" value="Thank you for your mail!"
 />
 	-- the auto response mail subject
 
-  <input type="hidden" name="response_mail" value="This is an auto response to 
-let you know that I've successfully received your email sent through my email 
+  <input type="hidden" name="response_mail" value="This is an auto response to
+let you know that I've successfully received your email sent through my email
 form. Thanks!" />
 	-- what do you want it to say in the auto response mail?
 
 
   <input type="hidden" name="after_url" value="thankyou.html" />
-	-- this is the url where you want the mail form to redirect to after it 
-has successfully sent the mail. if want the dodosmail to print an output 
-instead of redirect. just get rid of this line. if you got rid of it, 
+	-- this is the url where you want the mail form to redirect to after it
+has successfully sent the mail. if want the dodosmail to print an output
+instead of redirect. just get rid of this line. if you got rid of it,
 dodosmail will print something like:
 
 	The following has been sent successfully!
@@ -237,21 +237,21 @@ dodosmail will print something like:
 ================================================================================
 IMPORTANT NOTE!
 ================================================================================
-Please do not use the following variable names other than for layout purpose. 
+Please do not use the following variable names other than for layout purpose.
 They are all reserved variable names.
 
-"css_file", "background_color", "background_image", "text_color", "link_color", 
-"visited_link_color", "active_link_color", "font_name", "font_size", 
-"highlight_color", "required_fields", "after_url", "check_email_address", 
-"subject", "your_email_address", "env_report", "owner_name", "autoresponse", 
-"response_subject", "response_mail", "dodosmail_header_file", 
+"css_file", "background_color", "background_image", "text_color", "link_color",
+"visited_link_color", "active_link_color", "font_name", "font_size",
+"highlight_color", "required_fields", "after_url", "check_email_address",
+"subject", "your_email_address", "env_report", "owner_name", "autoresponse",
+"response_subject", "response_mail", "dodosmail_header_file",
 "dodosmail_footer_file"
 
-If you wish to use checkbox in your form, the name of your check box must end 
+If you wish to use checkbox in your form, the name of your check box must end
 with []. For example:
-<input type="checkbox" name="checkboxtest[]" value="1">1 
-<input type="checkbox" name="checkboxtest[]" value="2">2 
-<input type="checkbox" name="checkboxtest[]" value="3">3 
+<input type="checkbox" name="checkboxtest[]" value="1">1
+<input type="checkbox" name="checkboxtest[]" value="2">2
+<input type="checkbox" name="checkboxtest[]" value="3">3
 <input type="checkbox" name="checkboxtest[]" value="4">4
 
 
@@ -260,10 +260,10 @@ with []. For example:
 ================================================================================
 Modify Header and Footer
 ================================================================================
-The values for your header and footer files can be modified at two locations. 
+The values for your header and footer files can be modified at two locations.
 	put in the correct file names for:
 	<input type="hidden" name="dodosmail_header_file" value="header.php" />
-	<input type="hidden" name="dodosmail_footer_file" value="dodofooter.php" 
+	<input type="hidden" name="dodosmail_footer_file" value="dodofooter.php"
 />
 	in the form code
 
@@ -273,8 +273,8 @@ The values for your header and footer files can be modified at two locations.
 ================================================================================
 Add more fields
 ================================================================================
-You can add as many new fields as you want. Please keep in mind name the fields 
-using smart naming techniques. NO SPACES!! ALWAYS USE UNDERSCORE!!! or your mail 
+You can add as many new fields as you want. Please keep in mind name the fields
+using smart naming techniques. NO SPACES!! ALWAYS USE UNDERSCORE!!! or your mail
 script wont work!
 
 for exmaple:
@@ -287,46 +287,46 @@ for exmaple:
 ================================================================================
 Customize your email address
 ================================================================================
-There are two ways to put your email address in this script. You can either put 
-it in the form as an hidden field or you can hide your email address from the 
+There are two ways to put your email address in this script. You can either put
+it in the form as an hidden field or you can hide your email address from the
 public and put it in the dodosmail.php
 
 WAY ONE:
 	put in your correct address for:
-	<input type="hidden" name="your_email_address" 
+	<input type="hidden" name="your_email_address"
 value="you@yourdomain.com" />
 	in the form code
 
 	**********
 	advantage:
 	**********
-	without modifying dodosmail.php, you can call this script from anywhere 
+	without modifying dodosmail.php, you can call this script from anywhere
 and as many times as you want.
 	*************
 	disadvantage:
 	*************
-	your email address is not really hidden, people can still find it out by 
+	your email address is not really hidden, people can still find it out by
 view source
 
 WAY TWO:
 	open dodosmail.php
-	get rid of the "##" in front of 
+	get rid of the "##" in front of
 $your_email_address="you@yourdomain.com";
 	and replace you@yourdomain.com with your real email address
 	delete
-	<input type="hidden" name="your_email_address" 
+	<input type="hidden" name="your_email_address"
 value="you@yourdomain.com" />
 	in the form code
 
 	**********
 	advantage:
 	**********
-	your email address is now truly hidden from public. no one can view it 
+	your email address is now truly hidden from public. no one can view it
 from the server.
 	*************
 	disadvantage:
 	*************
-	if you wish to set up another mail form to ANOTHER email address, you 
+	if you wish to set up another mail form to ANOTHER email address, you
 must use a second copy of dodosmail.php
 
 
@@ -335,9 +335,9 @@ must use a second copy of dodosmail.php
 ================================================================================
 Comments or Suggestions
 ================================================================================
-You are welcome to send comments or suggestions to 
+You are welcome to send comments or suggestions to
 http://pure-essence.net/about/contact
-However, do not expect a reply. That will depend on the complexity of your 
+However, do not expect a reply. That will depend on the complexity of your
 problem and my schedule.
 
 
@@ -349,14 +349,14 @@ Script Log
 09/04/01 started.
 09/05/01 finished version 1.0 ;)
 09/06/01 fixed a minor bug for env_report thing
-09/06/01 added extra option to have dodosmail show mail output as well as 
+09/06/01 added extra option to have dodosmail show mail output as well as
 rediret. and released as v1.05
 11/18/01 added extra option to allow auto response mail for your sender.
 02/14/05 upgrading the script to Version 2.0.1
 09/19/05 added global register code
-12/02/05 upgrading the script to Version 2.1 by securing the script from header 
-injection 
+12/02/05 upgrading the script to Version 2.1 by securing the script from header
+injection
 http://securephp.damonkohler.com/index.php/Email_Injection
 11/23/06 upgrading the script to Version 2.5 by adding the captcha support
-04/13/07 fixed gmail issue by removing \r in headers. for more info, visit 
+04/13/07 fixed gmail issue by removing \r in headers. for more info, visit
 http://www.bigroom.co.uk/blog/php-mail-and-gmail/
