@@ -1,11 +1,11 @@
-<manifest alg="2" build="2018.1.1.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1607749082950">
+<manifest alg="2" build="2018.1.1.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1607750357994">
   <folder name="css">
     <file name="site_global.css" crc="3914131437"/>
     <file name="music.css" crc="222897357" ref="music"/>
     <file name="iefonts_music.css" crc="4094420627" ref="music"/>
     <file name="news.css" crc="15890635" ref="news"/>
     <file name="info.css" crc="216625228" ref="info"/>
-    <file name="index.css" crc="4071971148" ref="index"/>
+    <file name="index.css" crc="4153246316" ref="index"/>
     <file name="design.css" crc="233162498" ref="design"/>
   </folder>
   <folder name="assets">
@@ -45,11 +45,7 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="u206413-17.png" crc="470693670" ref="index"/>
-    <file name="кружки--3.gif" crc="449566093" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="u579949.png" crc="3965721944" ref="index"/>
-    <file name="u579949-r.png" crc="357716984" ref="index"/>
+    <file name="значок-new-19-u579949.png" crc="3965721944" ref="index"/>
     <file name="кнопка музыка (выкл).png" crc="264730458" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
@@ -1869,8 +1865,8 @@
     </folder>
     <file name="index.html" crc="4180950154" seo="true" redirect="false"/>
   </folder>
-  <file name="index.html" crc="3985083379" seo="true" mt="1607744422811" redirect="true"/>
-  <file name="music.html" crc="488082090" seo="true" mt="1607673340401" redirect="true"/>
+  <file name="index.html" crc="3808535006" seo="true" mt="1607750252954" redirect="true"/>
+  <file name="music.html" crc="3966032320" seo="true" mt="1607673340401" redirect="true"/>
   <file name="design.html" crc="92865506" seo="true" mt="1607672679581" redirect="true"/>
   <file name="news.html" crc="4237508350" seo="true" mt="1607748930664" redirect="true"/>
   <file name="info.html" crc="4255932037" seo="true" redirect="true"/>
