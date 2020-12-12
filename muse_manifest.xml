@@ -1,12 +1,12 @@
-<manifest alg="2" build="2018.1.1.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1607673178649">
+<manifest alg="2" build="2018.1.1.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1607743619309">
   <folder name="css">
     <file name="site_global.css" crc="3914131437"/>
-    <file name="info.css" crc="216625228" ref="info"/>
-    <file name="design.css" crc="342994811" ref="design"/>
-    <file name="index.css" crc="319571835" ref="index"/>
-    <file name="news.css" crc="4043558232" ref="news"/>
-    <file name="music.css" crc="3793809033" ref="music"/>
+    <file name="music.css" crc="222897357" ref="music"/>
     <file name="iefonts_music.css" crc="4094420627" ref="music"/>
+    <file name="news.css" crc="3916927130" ref="news"/>
+    <file name="info.css" crc="216625228" ref="info"/>
+    <file name="index.css" crc="360618334" ref="index"/>
+    <file name="design.css" crc="233162498" ref="design"/>
   </folder>
   <folder name="assets">
     <file name="тфоны-цветные-1.png" crc="490086048" seo="true" mt="1499029799000"/>
@@ -49,7 +49,7 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="u579949.png" crc="3965721944" ref="index"/>
-    <file name="u579949-r.png" crc="4281607295" ref="index"/>
+    <file name="u579949-r.png" crc="91937780" ref="index"/>
     <file name="кнопка музыка (выкл).png" crc="264730458" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
@@ -601,7 +601,7 @@
     <file name="девушка-2.jpg" crc="107848154" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
-    <file name="u354072-13.png" crc="3761087370" ref="music"/>
+    <file name="u354072-13.png" crc="103073980" ref="music"/>
     <file name="u355407-7.png" crc="251496765" ref="music"/>
     <file name="u339890-8.png" crc="3814546084" ref="music"/>
     <file name="стрелки-u340984.png" crc="196213325" ref="music"/>
@@ -619,7 +619,7 @@
     <file name="header-extend.jpg" crc="4160055423" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
-    <file name="горы-1a-crop-u301830.png" crc="475115189" seo="true" ref="music">
+    <file name="горы-1a-crop-u301830.png" crc="4125083082" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
     <file name="ocarina winds.jpg" crc="469147090" seo="true" ref="music">
@@ -1033,7 +1033,7 @@
     <file name="u571291-5.png" crc="153396359" ref="news"/>
     <file name="u571292-4.png" crc="500433668" ref="news"/>
     <file name="u577445-5.png" crc="3878547366" ref="news"/>
-    <file name="я---уфа-7.jpg" crc="346670503" seo="true" ref="news">
+    <file name="я---уфа-8.jpg" crc="4164012981" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
     <file name="клякса.jpg" crc="4095262646" seo="true" ref="news">
@@ -1870,9 +1870,9 @@
     </folder>
     <file name="index.html" crc="4180950154" seo="true" redirect="false"/>
   </folder>
-  <file name="index.html" crc="90527142" seo="true" mt="1607648157878" redirect="true"/>
-  <file name="music.html" crc="3928647680" seo="true" mt="1607673048970" redirect="true"/>
-  <file name="design.html" crc="4202746421" seo="true" mt="1607672679581" redirect="true"/>
-  <file name="news.html" crc="86609765" seo="true" mt="1607645820370" redirect="true"/>
+  <file name="index.html" crc="3802469350" seo="true" mt="1607742718138" redirect="true"/>
+  <file name="music.html" crc="4109162038" seo="true" mt="1607673340401" redirect="true"/>
+  <file name="design.html" crc="92865506" seo="true" mt="1607672679581" redirect="true"/>
+  <file name="news.html" crc="3835931314" seo="true" mt="1607743478254" redirect="true"/>
   <file name="info.html" crc="4255932037" seo="true" redirect="true"/>
 </manifest>
