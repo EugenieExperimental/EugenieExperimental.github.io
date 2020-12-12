@@ -1,9 +1,9 @@
-<manifest alg="2" build="2018.1.1.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1607747585884">
+<manifest alg="2" build="2018.1.1.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1607749082950">
   <folder name="css">
     <file name="site_global.css" crc="3914131437"/>
     <file name="music.css" crc="222897357" ref="music"/>
     <file name="iefonts_music.css" crc="4094420627" ref="music"/>
-    <file name="news.css" crc="3916927130" ref="news"/>
+    <file name="news.css" crc="15890635" ref="news"/>
     <file name="info.css" crc="216625228" ref="info"/>
     <file name="index.css" crc="4071971148" ref="index"/>
     <file name="design.css" crc="233162498" ref="design"/>
@@ -1042,7 +1042,6 @@
     <file name="поезд-5.jpg" crc="3957706348" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
-    <file name="u571722-6.png" crc="511634498" ref="news"/>
     <file name="u567833-4.png" crc="457330340" ref="news"/>
     <file name="u567836-4.png" crc="500433668" ref="news"/>
     <file name="u567839-4.png" crc="4048546701" ref="news"/>
@@ -1871,8 +1870,8 @@
     <file name="index.html" crc="4180950154" seo="true" redirect="false"/>
   </folder>
   <file name="index.html" crc="3985083379" seo="true" mt="1607744422811" redirect="true"/>
-  <file name="music.html" crc="366832202" seo="true" mt="1607673340401" redirect="true"/>
+  <file name="music.html" crc="488082090" seo="true" mt="1607673340401" redirect="true"/>
   <file name="design.html" crc="92865506" seo="true" mt="1607672679581" redirect="true"/>
-  <file name="news.html" crc="4094889574" seo="true" mt="1607747488388" redirect="true"/>
+  <file name="news.html" crc="4237508350" seo="true" mt="1607748930664" redirect="true"/>
   <file name="info.html" crc="4255932037" seo="true" redirect="true"/>
 </manifest>
