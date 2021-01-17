@@ -1,16 +1,15 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1498708253937">
+<manifest alg="2" build="2018.1.1.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="9.com" resolutions="1x" timestamp="1639100191298">
   <folder name="css">
     <file name="site_global.css" crc="3914131437"/>
-    <file name="info.css" crc="177371897" ref="info"/>
-    <file name="music.css" crc="3787067418" ref="music"/>
+    <file name="news.css" crc="213985108" ref="news"/>
+    <file name="music.css" crc="424420835" ref="music"/>
     <file name="iefonts_music.css" crc="4238321021" ref="music"/>
-    <file name="news.css" crc="4209632775" ref="news"/>
-    <file name="index.css" crc="4028593907" ref="index"/>
-    <file name="design.css" crc="4245301640" ref="design"/>
+    <file name="index.css" crc="4093850272" ref="index"/>
+    <file name="design.css" crc="3931919777" ref="design"/>
+    <file name="info.css" crc="216625228" ref="info"/>
   </folder>
   <folder name="assets">
     <file name="office.mp4" crc="4160197544" seo="true" mt="1553459853000"/>
-    <file name="forever-love-gary.mp4" crc="4280222977" seo="true" mt="1498864698000"/>
     <file name="ифон-аниме-публикаца-2.mp4" crc="3813671186" seo="true" mt="1499046976000"/>
     <file name="тфоны-цветные-1.png" crc="490086048" seo="true" mt="1499029799000"/>
     <file name="обводка-для-фильма-22.png" crc="3987071228" seo="true" mt="1499026794000"/>
@@ -18,36 +17,28 @@
     <file name="обводка-для-фильма-девушка.png" crc="4240481911" seo="true" mt="1498683001000"/>
     <file name="два-варианта-сольфеджио-по-средам-публикаца.mp4" crc="76144897" seo="true" mt="1498689682000"/>
     <file name="обложка-сольф.png" crc="3791383057" seo="true" mt="1498704840000"/>
-    <file name="робот.mp4" crc="207559184" seo="true" mt="1563659798000"/>
     <file name="hole.mp4" crc="4220793825" seo="true" mt="1553473924000"/>
     <file name="take-away.-.mp4" crc="4015896932" seo="true" mt="1498803021000"/>
     <file name="обложка-фото.png" crc="4103833645" seo="true" mt="1498780071000"/>
     <file name="you-can-do-it,-drive-edition,-публикаца.mp4" crc="3843615003" seo="true" mt="1498800285000"/>
     <file name="ft-chainsmokers-публикаца.mp4" crc="4116027016" seo="true" mt="1498682756000"/>
     <file name="обводка-для-фильма-24.png" crc="4027978402" seo="true" mt="1498684952000"/>
-    <file name="aus-dem-meer-(psychotronic-ver.-rmx-7.mp4" crc="3855886116" seo="true" mt="1498716919000"/>
     <file name="бездомным.pdf" crc="4293545373" seo="true" mt="1498775012000"/>
-    <file name="i-will-be-seeing-(-sunday-evening-ver.-orchestra-edition-)-публикаца.mp4" crc="3902039514" seo="true" mt="1499035623000"/>
-    <file name="wonderful-tonight--strings-accompaniment-мой-.mp4" crc="4153269201" seo="true" mt="1568625544000"/>
     <file name="ableton--melody.mp4" crc="263596161" seo="true" mt="1498864697000"/>
-    <file name="taylor-swift--my--vfx,--best.mp4" crc="4272208063" seo="true" mt="1560366000000"/>
-    <file name="infected--new.mp3" crc="504914683" seo="true" mt="1498730918000"/>
-    <file name="1-вариант-с-колби-сольфеджио-уроки.mp3" crc="4279717615" seo="true" mt="1498776422000"/>
-    <file name="2-вариант-с-колби-сольфеджио-уроки.mp3" crc="96238045" seo="true" mt="1498776470000"/>
-    <file name="с-колби-мой-аккомп.-(orchestra-edition).mp3" crc="3986363016" seo="true" mt="1498848288000"/>
+    <file name="paul-mauriat---la-bikina.mp3" crc="74670687" seo="true" mt="1607554135000"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="phone>index:index:music:design:news:info"/>
-    <file name="museutils.js" crc="340535759" ref="phone>index:index:music:design:news:info"/>
+    <file name="museutils.js" crc="3939489907" ref="phone>index:index:music:design:news:info"/>
     <file name="whatinput.js" crc="86476730" ref="phone>index:index:music:design:news:info"/>
-    <file name="museconfig.js" crc="310584261" ref="phone>index:index:music:design:news:info"/>
-    <file name="jquery.watch.js" crc="51536988" ref="phone>index:index:music:design:news:info"/>
-    <file name="require.js" crc="7928878" ref="phone>index:index:music:design:news:info"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="index"/>
-    <file name="webpro.js" crc="4059564322" ref="index"/>
-    <file name="musewpslideshow.js" crc="3862962738" ref="index"/>
-    <file name="jquery.museoverlay.js" crc="4147669564" ref="index"/>
-    <file name="touchswipe.js" crc="4075097462" ref="index"/>
+    <file name="museconfig.js" crc="128606099" ref="phone>index:index:music:design:news:info"/>
+    <file name="jquery.watch.js" crc="522499760" ref="phone>index:index:music:design:news:info"/>
+    <file name="require.js" crc="4177726516" ref="phone>index:index:music:design:news:info"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="85124417" ref="index"/>
+    <file name="webpro.js" crc="3856315280" ref="index"/>
+    <file name="musewpslideshow.js" crc="244150766" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="3877667098" ref="index"/>
+    <file name="touchswipe.js" crc="3888935200" ref="index"/>
   </folder>
   <folder name="images">
     <file name="roesch-favicon.ico" crc="231847113" ref="index"/>
@@ -121,12 +112,12 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="перо 8-u444334.png" crc="4261867721" ref="index"/>
-    <file name="u452649-10.png" crc="4115883409" ref="index"/>
+    <file name="u452649-4.png" crc="35393058" ref="index"/>
     <file name="music-favicon.ico" crc="231847113" ref="music"/>
     <file name="music 43.gif" crc="4248609182" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
-    <file name="u554603-10.png" crc="4101838440" ref="music"/>
+    <file name="u554603-10.png" crc="4284723407" ref="music"/>
     <file name="u554616-9.png" crc="253269436" ref="music"/>
     <file name="timelapse 2.jpg" crc="4042415023" seo="true" ref="music">
       <caption webpage="music" alt=""/>
@@ -134,8 +125,8 @@
     <file name="лого music.png" crc="4252852459" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
-    <file name="u554619-4.png" crc="162665939" ref="music"/>
-    <file name="u554634-4.png" crc="3787113090" ref="music"/>
+    <file name="u554619-4.png" crc="4164691932" ref="music"/>
+    <file name="u554634-4.png" crc="180110577" ref="music"/>
     <file name="timelapse.jpg" crc="13717150" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
@@ -146,12 +137,12 @@
       <caption webpage="music" alt=""/>
       <caption webpage="music" alt=""/>
     </file>
-    <file name="u552804-8.png" crc="224898096" ref="music"/>
+    <file name="u552804-8.png" crc="265632433" ref="music"/>
     <file name="u552805-11.png" crc="3818550261" ref="music"/>
     <file name="u553203-6.png" crc="3788266952" ref="music"/>
-    <file name="u552924-4.png" crc="301041441" ref="music"/>
-    <file name="u552938-4.png" crc="3787113090" ref="music"/>
-    <file name="u552645-10.png" crc="501551999" ref="music"/>
+    <file name="u552924-4.png" crc="296635191" ref="music"/>
+    <file name="u552938-4.png" crc="180110577" ref="music"/>
+    <file name="u552645-10.png" crc="4069826988" ref="music"/>
     <file name="u552648-9.png" crc="4210275760" ref="music"/>
     <file name="tones-and-i---d.jpg" crc="117800452" seo="true" ref="music">
       <caption webpage="music" alt=""/>
@@ -172,11 +163,11 @@
       <caption webpage="news" alt=""/>
       <caption webpage="news" alt=""/>
     </file>
-    <file name="u552654-4.png" crc="506096906" ref="music"/>
+    <file name="u552654-4.png" crc="4043406978" ref="music"/>
     <file name="скрипка 4.png" crc="313693680" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
-    <file name="u551055-6.png" crc="3794778770" ref="music"/>
+    <file name="u551055-6.png" crc="3875389891" ref="music"/>
     <file name="скрипка 6.jpg" crc="188236481" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
@@ -185,33 +176,33 @@
     </file>
     <file name="u551113-16.png" crc="132501935" ref="music"/>
     <file name="u551216-12.png" crc="324662831" ref="music"/>
-    <file name="u551077-4.png" crc="301041441" ref="music"/>
+    <file name="u551077-4.png" crc="296635191" ref="music"/>
     <file name="палец 2.png" crc="4285798514" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
     <file name="скрипка-8.jpg" crc="226002110" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
-    <file name="u550890-9.png" crc="3860480840" ref="music"/>
+    <file name="u550890-9.png" crc="3863492767" ref="music"/>
     <file name="ableton live 2.png" crc="4178804402" seo="true" ref="music">
       <caption webpage="music" alt=""/>
       <caption webpage="music" alt=""/>
       <caption webpage="music" alt=""/>
     </file>
-    <file name="u550922-4.png" crc="301041441" ref="music"/>
-    <file name="u550887-4.png" crc="4236631125" ref="music"/>
-    <file name="u550907-4.png" crc="3876579538" ref="music"/>
+    <file name="u550922-4.png" crc="296635191" ref="music"/>
+    <file name="u550887-4.png" crc="3797750296" ref="music"/>
+    <file name="u550907-4.png" crc="444638860" ref="music"/>
     <file name="colbie.jpg" crc="4192570030" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
-    <file name="u550949-8.png" crc="3821333719" ref="music"/>
+    <file name="u550949-8.png" crc="9676689" ref="music"/>
     <file name="алан.jpg" crc="189099449" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
-    <file name="u551780-4.png" crc="506096906" ref="music"/>
+    <file name="u551780-4.png" crc="4043406978" ref="music"/>
     <file name="u550946-4.png" crc="90083513" ref="music"/>
-    <file name="u550780-12.png" crc="4137345442" ref="music"/>
-    <file name="u551521-20.png" crc="4014794516" ref="music"/>
+    <file name="u550780-12.png" crc="4086956803" ref="music"/>
+    <file name="u551521-20.png" crc="187011592" ref="music"/>
     <file name="colbie 2.jpg" crc="338214591" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
@@ -254,11 +245,11 @@
     <file name="игорь тальков.jpg" crc="103784232" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
-    <file name="u513044-6.png" crc="4216288468" ref="music"/>
+    <file name="u513044-6.png" crc="28411713" ref="music"/>
     <file name="youtube_значок-u347753-u512525.png" crc="3895449116" ref="music"/>
     <file name="youtube_значок-u347753-u512527.png" crc="3895449116" ref="music"/>
     <file name="youtube_значок-u347753-u512547.png" crc="3895449116" ref="music"/>
-    <file name="u512567-8.png" crc="4112403217" ref="music"/>
+    <file name="u512567-8.png" crc="524812304" ref="music"/>
     <file name="цой.jpg" crc="4032957839" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
@@ -298,7 +289,7 @@
       <caption webpage="music" alt=""/>
     </file>
     <file name="u501686-4.png" crc="4079477621" ref="music"/>
-    <file name="u501730-4.png" crc="32811456" ref="music"/>
+    <file name="u501730-4.png" crc="4100267794" ref="music"/>
     <file name="youtube_значок-u347753-u502058.png" crc="529193724" ref="music"/>
     <file name="astrix.jpg" crc="178330545" seo="true" ref="music">
       <caption webpage="music" alt=""/>
@@ -312,12 +303,12 @@
     <file name="цветы-09f.jpg" crc="3997437101" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
-    <file name="u492387-4.png" crc="4122619644" ref="music"/>
+    <file name="u492387-4.png" crc="4074449222" ref="music"/>
     <file name="u493509-4.png" crc="475478545" ref="music"/>
     <file name="стрелка 4.png" crc="468403246" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
-    <file name="u492180-6.png" crc="515318183" ref="music"/>
+    <file name="u492180-6.png" crc="3880243729" ref="music"/>
     <file name="девочка 5.jpg" crc="149073005" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
@@ -329,7 +320,7 @@
     <file name="лебеди.jpg" crc="129490171" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
-    <file name="u493031-15.png" crc="3818071135" ref="music"/>
+    <file name="u493031-15.png" crc="3951897321" ref="music"/>
     <file name="поезд.jpg" crc="4176375592" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
@@ -337,7 +328,7 @@
     <file name="конфетки 4.jpg" crc="3998330285" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
-    <file name="u486456-7.png" crc="4236914553" ref="music"/>
+    <file name="u486456-7.png" crc="475143863" ref="music"/>
     <file name="девушка 22.jpg" crc="4201395481" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
@@ -356,11 +347,11 @@
     <file name="кто я.jpg" crc="4185213416" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
-    <file name="u485307-4.png" crc="506096906" ref="music"/>
+    <file name="u485307-4.png" crc="4043406978" ref="music"/>
     <file name="круг.png" crc="4073821254" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
-    <file name="u485294-7.png" crc="3956803655" ref="music"/>
+    <file name="u485294-7.png" crc="4212116735" ref="music"/>
     <file name="хакер.jpg" crc="4170827929" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
@@ -368,7 +359,7 @@
     <file name="u484273-8.png" crc="302692264" ref="music"/>
     <file name="u484388-7.png" crc="175231109" ref="music"/>
     <file name="u484391-6.png" crc="170246774" ref="music"/>
-    <file name="u484396-6.png" crc="300056372" ref="music"/>
+    <file name="u484396-6.png" crc="4115327329" ref="music"/>
     <file name="bass control version.jpg" crc="117864046" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
@@ -397,7 +388,7 @@
       <caption webpage="news" alt=""/>
     </file>
     <file name="youtube_значок-u347753-u472960.png" crc="529193724" ref="music"/>
-    <file name="u472949-12.png" crc="3991719801" ref="music"/>
+    <file name="u472949-12.png" crc="523035265" ref="music"/>
     <file name="пассажир 2.jpg" crc="4249868069" seo="true" ref="music">
       <caption webpage="music" alt=""/>
       <caption webpage="music" alt=""/>
@@ -413,7 +404,7 @@
       <caption webpage="music" alt=""/>
     </file>
     <file name="u473907-4.png" crc="157974499" ref="music"/>
-    <file name="u473908-4.png" crc="3815103936" ref="music"/>
+    <file name="u473908-4.png" crc="58039337" ref="music"/>
     <file name="vimeo значок-u473905.png" crc="512566936" ref="music"/>
     <file name="u468567-7.png" crc="265414265" ref="music"/>
     <file name="u474486-8.png" crc="532148662" ref="music"/>
@@ -425,11 +416,11 @@
     </file>
     <file name="u468869-49.png" crc="4176408792" ref="music"/>
     <file name="u469186-4.png" crc="157974499" ref="music"/>
-    <file name="u469187-4.png" crc="3815103936" ref="music"/>
+    <file name="u469187-4.png" crc="58039337" ref="music"/>
     <file name="vimeo значок-u469184.png" crc="512566936" ref="music"/>
     <file name="u467683-10.png" crc="4198747669" ref="music"/>
     <file name="u468119-4.png" crc="157974499" ref="music"/>
-    <file name="u468120-4.png" crc="3815103936" ref="music"/>
+    <file name="u468120-4.png" crc="58039337" ref="music"/>
     <file name="vimeo значок-u468117.png" crc="512566936" ref="music"/>
     <file name="u467113-6.png" crc="3816861228" ref="music"/>
     <file name="passenger 2.png" crc="404440948" seo="true" ref="music">
@@ -441,20 +432,20 @@
     <file name="u465208-12.png" crc="94352011" ref="music"/>
     <file name="u465750-4.png" crc="110152074" ref="music"/>
     <file name="u465224-4.png" crc="157974499" ref="music"/>
-    <file name="u466405-4.png" crc="341863553" ref="music"/>
+    <file name="u466405-4.png" crc="154573487" ref="music"/>
     <file name="vimeo значок-u465214.png" crc="512566936" ref="music"/>
     <file name="музыка 5.jpg" crc="138313620" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
     <file name="u463567-4.png" crc="3943321012" ref="music"/>
-    <file name="u463568-4.png" crc="4122619644" ref="music"/>
+    <file name="u463568-4.png" crc="4074449222" ref="music"/>
     <file name="музыка 2.jpg" crc="477319686" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
     <file name="музыка 6.jpg" crc="4126358333" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
-    <file name="u462447-9.png" crc="4230173773" ref="music"/>
+    <file name="u462447-9.png" crc="166190004" ref="music"/>
     <file name="u462470-6.png" crc="4012100062" ref="music"/>
     <file name="u463077-7.png" crc="225688096" ref="music"/>
     <file name="u462444-4.png" crc="153752692" ref="music"/>
@@ -483,7 +474,7 @@
     <file name="u431011-4.png" crc="4130699126" ref="music"/>
     <file name="u431019-4.png" crc="4238422282" ref="music"/>
     <file name="u431022-4.png" crc="247778022" ref="music"/>
-    <file name="u430465-11.png" crc="4128320788" ref="music"/>
+    <file name="u430465-11.png" crc="4131527809" ref="music"/>
     <file name="gedit-u429669.png" crc="77445486" ref="music"/>
     <file name="gnome-help-u429679.png" crc="3910729111" ref="music"/>
     <file name="gnome-music-u429699.png" crc="285138855" ref="music"/>
@@ -496,7 +487,7 @@
       <caption webpage="music" alt=""/>
     </file>
     <file name="u430768-4.png" crc="269927539" ref="music"/>
-    <file name="u429662-11.png" crc="419468467" ref="music"/>
+    <file name="u429662-11.png" crc="174803728" ref="music"/>
     <file name="джо 2.jpg" crc="468139365" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
@@ -511,7 +502,7 @@
       <caption webpage="music" alt=""/>
       <caption webpage="news" alt=""/>
     </file>
-    <file name="u422619-14.png" crc="62339367" ref="music"/>
+    <file name="u422619-14.png" crc="3800543358" ref="music"/>
     <file name="милен 3.jpg" crc="3848560215" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
@@ -522,7 +513,7 @@
     <file name="u397379-5.png" crc="165092813" ref="music"/>
     <file name="u420440-6.png" crc="198085245" ref="music"/>
     <file name="youtube_значок-u347753-u420432.png" crc="4121484885" ref="music"/>
-    <file name="u420441-11.png" crc="282045075" ref="music"/>
+    <file name="u420441-11.png" crc="4019244414" ref="music"/>
     <file name="tobias 2.jpg" crc="4097454999" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
@@ -535,14 +526,14 @@
     </file>
     <file name="u400583-6.png" crc="4068890104" ref="music"/>
     <file name="youtube_значок-u347753-u400580.png" crc="4121484885" ref="music"/>
-    <file name="u400584-11.png" crc="4031070424" ref="music"/>
+    <file name="u400584-11.png" crc="71781417" ref="music"/>
     <file name="габриэлла-1.jpg" crc="291892454" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
     <file name="u420716-5.png" crc="403517281" ref="music"/>
     <file name="u397595-6.png" crc="299114473" ref="music"/>
     <file name="youtube_значок-u347753-u397585.png" crc="4121484885" ref="music"/>
-    <file name="u399663-12.png" crc="63906862" ref="music"/>
+    <file name="u399663-12.png" crc="3978740288" ref="music"/>
     <file name="youtube_значок-u389358.png" crc="281010938" ref="music"/>
     <file name="u389388-9.png" crc="4041175490" ref="music"/>
     <file name="u389258-10.png" crc="4104384307" ref="music"/>
@@ -587,21 +578,21 @@
       <caption webpage="music" alt=""/>
       <caption webpage="music" alt=""/>
     </file>
-    <file name="u381294-16.png" crc="4154286326" ref="music"/>
+    <file name="u381294-16.png" crc="178402894" ref="music"/>
     <file name="185069 - headset sound streamline.png" crc="4216917504" seo="true" ref="music">
       <caption webpage="music" alt=""/>
       <caption webpage="music" alt=""/>
       <caption webpage="music" alt=""/>
     </file>
-    <file name="u385800-10.png" crc="4169898443" ref="music"/>
+    <file name="u385800-10.png" crc="3886004404" ref="music"/>
     <file name="u382613-15.png" crc="197387618" ref="music"/>
     <file name="u381839-9.png" crc="4181490076" ref="music"/>
     <file name="vimeo значок-u383798.png" crc="3782776213" ref="music"/>
     <file name="u374795-10.png" crc="4099575701" ref="music"/>
-    <file name="u375567-6.png" crc="4149929944" ref="music"/>
+    <file name="u375567-6.png" crc="286201711" ref="music"/>
     <file name="youtube_значок-u347753-u376587.png" crc="529193724" ref="music"/>
     <file name="u376597-4.png" crc="192285518" ref="music"/>
-    <file name="u373201-12.png" crc="3893557217" ref="music"/>
+    <file name="u373201-13.png" crc="138216585" ref="music"/>
     <file name="daw.jpg" crc="4084528824" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
@@ -612,7 +603,7 @@
       <caption webpage="music" alt=""/>
     </file>
     <file name="u355769-7.png" crc="3760825670" ref="music"/>
-    <file name="u355732-17.png" crc="18003851" ref="music"/>
+    <file name="u355732-17.png" crc="445018669" ref="music"/>
     <file name="u355817-10.png" crc="55674825" ref="music"/>
     <file name="u355688-5.png" crc="244566800" ref="music"/>
     <file name="u357624-4.png" crc="3781643727" ref="music"/>
@@ -620,7 +611,7 @@
       <caption webpage="music" alt=""/>
     </file>
     <file name="youtube_значок-u347753-u355567.png" crc="160525797" ref="music"/>
-    <file name="u355574-7.png" crc="3956791703" ref="music"/>
+    <file name="u355574-7.png" crc="520007606" ref="music"/>
     <file name="youtube_значок-u347753-u353312.png" crc="160525797" ref="music"/>
     <file name="u353550-4.png" crc="3851233618" ref="music"/>
     <file name="youtube_значок-u347753-u353533.png" crc="4168309636" ref="music"/>
@@ -636,11 +627,11 @@
       <caption webpage="music" alt=""/>
     </file>
     <file name="youtube_значок-u347753-u354065.png" crc="160525797" ref="music"/>
-    <file name="u354072-13.png" crc="416106000" ref="music"/>
+    <file name="u354072-13.png" crc="3761087370" ref="music"/>
     <file name="u354856-7.png" crc="322899805" ref="music"/>
     <file name="u355407-7.png" crc="251496765" ref="music"/>
     <file name="u339890-8.png" crc="3814546084" ref="music"/>
-    <file name="стрелки-u340984.png" crc="225578706" ref="music"/>
+    <file name="стрелки-u340984.png" crc="196213325" ref="music"/>
     <file name="youtube_значок-u347753-u340037.png" crc="4168309636" ref="music"/>
     <file name="замок закр.png" crc="4023424839" seo="true" ref="music">
       <caption webpage="music" alt=""/>
@@ -648,29 +639,29 @@
     <file name="185069 - headset sound streamline-u326840.png" crc="192408397" ref="music"/>
     <file name="u340047-4.png" crc="501252384" ref="music"/>
     <file name="u331492-14.png" crc="3763109665" ref="music"/>
-    <file name="u353115-4.png" crc="179711981" ref="music"/>
-    <file name="u331061-6.png" crc="3842520311" ref="music"/>
+    <file name="u353115-4.png" crc="301945547" ref="music"/>
+    <file name="u331061-6.png" crc="45767283" ref="music"/>
     <file name="youtube_значок-u347753-u331045.png" crc="4051119154" ref="music"/>
     <file name="youtube_значок-u347753-u351148.png" crc="4051119154" ref="music"/>
     <file name="переворот-3.svg" crc="4037082086" seo="true" ref="music:design">
-      <caption webpage="design" alt=""/>
       <caption webpage="music" alt=""/>
+      <caption webpage="design" alt=""/>
     </file>
     <file name="переворот 3_poster_.png" crc="21591777" ref="music"/>
     <file name="78117392.jpg" crc="8134959" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
-    <file name="u307744-16.png" crc="66711585" ref="music"/>
+    <file name="u307744-16.png" crc="3929898010" ref="music"/>
     <file name="header-extend.jpg" crc="4160055423" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
-    <file name="горы-1a-crop-u301830.png" crc="4125083082" seo="true" ref="music">
+    <file name="горы-1a-crop-u301830.png" crc="475115189" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
     <file name="ocarina winds.jpg" crc="469147090" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
-    <file name="u302570-4.png" crc="3777040999" ref="music"/>
+    <file name="u302570-4.png" crc="4215389023" ref="music"/>
     <file name="soundcloud 3-u304812.png" crc="377125178" ref="music"/>
     <file name="mobile-4.png" crc="12582256" seo="true" ref="music">
       <caption webpage="music" alt=""/>
@@ -679,7 +670,7 @@
       <caption webpage="music" alt=""/>
     </file>
     <file name="звезды 2-u297250.png" crc="281787160" ref="music"/>
-    <file name="u302567-5.png" crc="76714450" ref="music"/>
+    <file name="u302567-5.png" crc="140762636" ref="music"/>
     <file name="soundcloud 3-u298599.png" crc="116396527" ref="music"/>
     <file name="вселенная 3.jpg" crc="133223083" seo="true" ref="music">
       <caption webpage="music" alt=""/>
@@ -694,7 +685,7 @@
       <caption webpage="music" alt=""/>
     </file>
     <file name="sonuscore_theorchestra_logo_gold_small-u290737.png" crc="504425025" ref="music"/>
-    <file name="u290200-18.png" crc="11718608" ref="music"/>
+    <file name="u290200-18.png" crc="3834612678" ref="music"/>
     <file name="скрипка 2.jpg" crc="520586530" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
@@ -710,8 +701,8 @@
     <file name="asxd.jpg" crc="3959991760" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
-    <file name="u281799-4.png" crc="4230301267" ref="music"/>
-    <file name="u281800-7.png" crc="198235962" ref="music"/>
+    <file name="u281799-4.png" crc="285503126" ref="music"/>
+    <file name="u281800-7.png" crc="395231273" ref="music"/>
     <file name="csa.jpg" crc="4191841250" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
@@ -734,14 +725,14 @@
       <caption webpage="music" alt=""/>
     </file>
     <file name="плей.png" crc="3842421073" seo="true" ref="music:design:news">
+      <caption webpage="music" alt=""/>
+      <caption webpage="music" alt=""/>
+      <caption webpage="music" alt=""/>
+      <caption webpage="news" alt=""/>
+      <caption webpage="news" alt=""/>
+      <caption webpage="news" alt=""/>
       <caption webpage="design" alt=""/>
       <caption webpage="design" alt=""/>
-      <caption webpage="music" alt=""/>
-      <caption webpage="music" alt=""/>
-      <caption webpage="music" alt=""/>
-      <caption webpage="news" alt=""/>
-      <caption webpage="news" alt=""/>
-      <caption webpage="news" alt=""/>
     </file>
     <file name="piano.jpg" crc="8451357" seo="true" ref="music">
       <caption webpage="music" alt=""/>
@@ -753,19 +744,19 @@
       <caption webpage="music" alt=""/>
     </file>
     <file name="текст для гарри 6-u272848.png" crc="3844988643" ref="music"/>
-    <file name="u261889-4.png" crc="4198480030" ref="music"/>
-    <file name="u261890-6.png" crc="525489735" ref="music"/>
+    <file name="u261889-4.png" crc="4278395732" ref="music"/>
+    <file name="u261890-6.png" crc="108732287" ref="music"/>
     <file name="piano.png" crc="3946186270" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
-    <file name="u261950-6.png" crc="337647601" ref="music"/>
+    <file name="u261950-6.png" crc="3795718221" ref="music"/>
     <file name="море 6.jpg" crc="4055760273" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
     <file name="вахтанг.jpg" crc="84617222" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
-    <file name="u239765-4.png" crc="116795547" ref="music"/>
+    <file name="u239765-4.png" crc="3930908246" ref="music"/>
     <file name="ava-and-frank-cake.jpg" crc="4088246418" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
@@ -792,18 +783,16 @@
     <file name="знач муз 1.png" crc="370093584" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
-    <file name="часы.jpg" crc="4280833348" seo="true" ref="music">
-      <caption webpage="music" alt=""/>
-    </file>
+    <file name="часы-u168048.png" crc="4269555194" ref="music"/>
     <file name="prchtu1nqeo.jpg" crc="460922359" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
     <file name="роспись 4.png" crc="133031820" seo="true" ref="music:design:news">
-      <caption webpage="design" alt=""/>
-      <caption webpage="design" alt=""/>
-      <caption webpage="design" alt=""/>
       <caption webpage="music" alt=""/>
       <caption webpage="news" alt=""/>
+      <caption webpage="design" alt=""/>
+      <caption webpage="design" alt=""/>
+      <caption webpage="design" alt=""/>
     </file>
     <file name="ace vent.png" crc="516709029" seo="true" ref="music">
       <caption webpage="music" alt=""/>
@@ -826,7 +815,7 @@
     <file name="дожд 4.jpg" crc="137550496" seo="true" ref="music">
       <caption webpage="music" alt=""/>
     </file>
-    <file name="динамик.png" crc="36369689" seo="true" ref="music">
+    <file name="динамик.png" crc="505112767" seo="true" ref="music">
       <caption webpage="music" alt=""/>
       <caption webpage="music" alt=""/>
     </file>
@@ -876,11 +865,8 @@
       <caption webpage="design" alt=""/>
     </file>
     <file name="u569673-4.png" crc="482667795" ref="design"/>
-    <file name="u569674-4.png" crc="149692158" ref="design"/>
+    <file name="u569674-4.png" crc="500433668" ref="design"/>
     <file name="design лого 4.png" crc="3971076869" seo="true" ref="design">
-      <caption webpage="design" alt=""/>
-    </file>
-    <file name="new 5.png" crc="453764867" seo="true" ref="design">
       <caption webpage="design" alt=""/>
     </file>
     <file name="images.jpg" crc="38649881" seo="true" ref="design">
@@ -889,16 +875,16 @@
     <file name="я 3244 .jpg" crc="4207670196" seo="true" ref="design">
       <caption webpage="design" alt=""/>
     </file>
-    <file name="u568712-4.png" crc="496852598" ref="design"/>
-    <file name="u568713-4.png" crc="149692158" ref="design"/>
-    <file name="u568708-4.png" crc="3935011341" ref="design"/>
+    <file name="u568712-4.png" crc="5982" ref="design"/>
+    <file name="u568713-4.png" crc="500433668" ref="design"/>
+    <file name="u568708-5.png" crc="4011225388" ref="design"/>
     <file name="петербург 4.jpg" crc="10144787" seo="true" ref="design">
       <caption webpage="design" alt=""/>
     </file>
     <file name="папирус 3 -1 -u569114.png" crc="324333105" ref="design"/>
-    <file name="u568693-6.png" crc="3833348481" ref="design"/>
+    <file name="u568693-6.png" crc="3998021262" ref="design"/>
     <file name="u561642-6.png" crc="361656028" ref="design"/>
-    <file name="u561643-4.png" crc="149692158" ref="design"/>
+    <file name="u561643-4.png" crc="500433668" ref="design"/>
     <file name="bmw.jpg" crc="272294664" seo="true" ref="design">
       <caption webpage="design" alt=""/>
     </file>
@@ -911,14 +897,14 @@
     <file name="bmw 2 (2).jpg" crc="227274152" seo="true" ref="design">
       <caption webpage="design" alt=""/>
     </file>
-    <file name="u544393-12.png" crc="3877665415" ref="design"/>
-    <file name="u544382-5.png" crc="4136855636" ref="design"/>
-    <file name="u544383-4.png" crc="149692158" ref="design"/>
-    <file name="u544390-9.png" crc="520751225" ref="design"/>
+    <file name="u544393-12.png" crc="4050822365" ref="design"/>
+    <file name="u544382-5.png" crc="71530093" ref="design"/>
+    <file name="u544383-4.png" crc="500433668" ref="design"/>
+    <file name="u544390-9.png" crc="532626266" ref="design"/>
     <file name="u536662-4.png" crc="3935165240" ref="design"/>
-    <file name="u536663-4.png" crc="149692158" ref="design"/>
-    <file name="u543004-9.png" crc="1750538" ref="design"/>
-    <file name="u544399-10.png" crc="3965239288" ref="design"/>
+    <file name="u536663-4.png" crc="500433668" ref="design"/>
+    <file name="u543004-9.png" crc="4177631236" ref="design"/>
+    <file name="u544399-10.png" crc="4203256807" ref="design"/>
     <file name="интерьер-виee.jpg" crc="3767288505" seo="true" ref="design">
       <caption webpage="design" alt=""/>
     </file>
@@ -946,13 +932,13 @@
     <file name="самый-сложный-мdd.jpg" crc="260703595" seo="true" ref="design">
       <caption webpage="design" alt=""/>
     </file>
-    <file name="u543027-9.png" crc="520751225" ref="design"/>
-    <file name="u536657-9.png" crc="3889922834" ref="design"/>
+    <file name="u543027-9.png" crc="532626266" ref="design"/>
+    <file name="u536657-9.png" crc="485804927" ref="design"/>
     <file name="комната-с-лампой-2.jpg" crc="3910818211" seo="true" ref="design">
       <caption webpage="design" alt=""/>
     </file>
     <file name="u499640-4.png" crc="4075579157" ref="design"/>
-    <file name="u499641-4.png" crc="149692158" ref="design"/>
+    <file name="u499641-4.png" crc="500433668" ref="design"/>
     <file name="u499029-8.png" crc="4074002994" ref="design"/>
     <file name="interior-my-new-1-compos-2.jpg" crc="3834771598" seo="true" ref="design">
       <caption webpage="design" alt=""/>
@@ -967,14 +953,14 @@
     <file name="u499949-4.png" crc="329581715" ref="design"/>
     <file name="u499250-4.png" crc="3853731814" ref="design"/>
     <file name="u499649-4.png" crc="133318273" ref="design"/>
-    <file name="u499650-4.png" crc="510953716" ref="design"/>
+    <file name="u499650-4.png" crc="500433668" ref="design"/>
     <file name="видеокарта 1.jpg" crc="140252333" seo="true" ref="design">
       <caption webpage="design" alt=""/>
     </file>
     <file name="видеокарта 2.jpg" crc="192926777" seo="true" ref="design">
       <caption webpage="design" alt=""/>
     </file>
-    <file name="u418233-18.png" crc="325357836" ref="design"/>
+    <file name="u418233-18.png" crc="4234024925" ref="design"/>
     <file name="u420100-5.png" crc="380140775" ref="design"/>
     <file name="дизайн 1.jpg" crc="4263409088" seo="true" ref="design">
       <caption webpage="design" alt=""/>
@@ -995,7 +981,7 @@
     <file name="тфоны-цветные-1-optimaze.png" crc="237903128" seo="true" ref="design">
       <caption webpage="design" alt=""/>
     </file>
-    <file name="u316292-17.png" crc="484562575" ref="design"/>
+    <file name="u316292-17.png" crc="32148324" ref="design"/>
     <file name="фон длинный.png" crc="257595623" seo="true" ref="design">
       <caption webpage="design" alt=""/>
       <caption webpage="design" alt=""/>
@@ -1022,7 +1008,7 @@
     <file name="текст-1.png" crc="378455659" seo="true" ref="design">
       <caption webpage="design" alt=""/>
     </file>
-    <file name="u175093-10.png" crc="416962051" ref="design"/>
+    <file name="u175093-10.png" crc="4129904774" ref="design"/>
     <file name="3d 2.jpg" crc="104165627" seo="true" ref="design">
       <caption webpage="design" alt=""/>
     </file>
@@ -1115,16 +1101,47 @@
     <file name="новости лого 3.png" crc="4223956716" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
+    <file name="new 5.png" crc="453764867" seo="true" ref="news">
+      <caption webpage="news" alt=""/>
+    </file>
     <file name="лампочка 1.gif" crc="4157040752" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
-    <file name="u563549-5.png" crc="59011258" ref="news"/>
-    <file name="u563550-4.png" crc="149692158" ref="news"/>
-    <file name="eugenie-ml-2sa.jpg" crc="158439178" seo="true" ref="news">
+    <file name="u571291-4.png" crc="3986195037" ref="news"/>
+    <file name="u571292-4.png" crc="500433668" ref="news"/>
+    <file name="я---уфа-5.jpg" crc="3793070345" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
-    <file name="u563544-9.png" crc="273626913" ref="news"/>
-    <file name="u563547-4.png" crc="4259458822" ref="news"/>
+    <file name="я---уфа-2.jpg" crc="432823283" seo="true" ref="news">
+      <caption webpage="news" alt=""/>
+    </file>
+    <file name="клякса.jpg" crc="4095262646" seo="true" ref="news">
+      <caption webpage="news" alt=""/>
+    </file>
+    <file name="u571722-6.png" crc="511634498" ref="news"/>
+    <file name="u567833-4.png" crc="457330340" ref="news"/>
+    <file name="u567836-4.png" crc="500433668" ref="news"/>
+    <file name="u567839-4.png" crc="4048546701" ref="news"/>
+    <file name="img_202008055_211842.jpg" crc="4050630867" seo="true" ref="news">
+      <caption webpage="news" alt=""/>
+    </file>
+    <file name="img_20200805_211842.jpg" crc="3780703926" seo="true" ref="news">
+      <caption webpage="news" alt=""/>
+    </file>
+    <file name="u567329-4.png" crc="4271079641" ref="news"/>
+    <file name="u567330-4.png" crc="500433668" ref="news"/>
+    <file name="я-6.jpg" crc="3814612673" seo="true" ref="news">
+      <caption webpage="news" alt=""/>
+    </file>
+    <file name="u567337-4.png" crc="3880807647" ref="news"/>
+    <file name="u565188-4.png" crc="533384978" ref="news"/>
+    <file name="u565191-4.png" crc="500433668" ref="news"/>
+    <file name="u565229-6.png" crc="3778420057" ref="news"/>
+    <file name="u565197-11.png" crc="393482355" ref="news"/>
+    <file name="перельман.jpg" crc="4096411312" seo="true" ref="news">
+      <caption webpage="news" alt=""/>
+    </file>
+    <file name="u565226-7.png" crc="4227340659" ref="news"/>
     <file name="ссылка.png" crc="4137797038" seo="true" ref="news">
       <caption webpage="news" alt=""/>
       <caption webpage="news" alt=""/>
@@ -1133,51 +1150,21 @@
       <caption webpage="news" alt=""/>
       <caption webpage="news" alt=""/>
       <caption webpage="news" alt=""/>
-      <caption webpage="news" alt=""/>
     </file>
-    <file name="акция-u563560.png" crc="89127431" ref="news"/>
-    <file name="u563546-8.png" crc="404539789" ref="news"/>
-    <file name="ссылка 4.jpg" crc="103601854" seo="true" ref="news">
-      <caption webpage="news" alt=""/>
-    </file>
-    <file name="u563545-6.png" crc="3940592711" ref="news"/>
-    <file name="u567833-4.png" crc="457330340" ref="news"/>
-    <file name="u567836-4.png" crc="149692158" ref="news"/>
-    <file name="u567839-4.png" crc="97440097" ref="news"/>
-    <file name="img_202008055_211842.jpg" crc="4050630867" seo="true" ref="news">
-      <caption webpage="news" alt=""/>
-    </file>
-    <file name="img_20200805_211842.jpg" crc="3780703926" seo="true" ref="news">
-      <caption webpage="news" alt=""/>
-    </file>
-    <file name="u567329-4.png" crc="4271079641" ref="news"/>
-    <file name="u567330-4.png" crc="149692158" ref="news"/>
-    <file name="я-6.jpg" crc="3814612673" seo="true" ref="news">
-      <caption webpage="news" alt=""/>
-    </file>
-    <file name="u567337-4.png" crc="3880807647" ref="news"/>
-    <file name="u565188-4.png" crc="533384978" ref="news"/>
-    <file name="u565191-4.png" crc="149692158" ref="news"/>
-    <file name="u565229-6.png" crc="3778420057" ref="news"/>
-    <file name="u565197-11.png" crc="4165712853" ref="news"/>
-    <file name="перельман.jpg" crc="4096411312" seo="true" ref="news">
-      <caption webpage="news" alt=""/>
-    </file>
-    <file name="u565226-7.png" crc="4227340659" ref="news"/>
     <file name="пуанкаре-2.jpg" crc="84604489" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
     <file name="u564379-4.png" crc="4218964319" ref="news"/>
-    <file name="u564380-4.png" crc="149692158" ref="news"/>
+    <file name="u564380-4.png" crc="500433668" ref="news"/>
     <file name="glorius39.jpg" crc="167098853" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
     <file name="glorius39---3.jpg" crc="531289244" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
-    <file name="u564387-15.png" crc="4012923916" ref="news"/>
+    <file name="u564387-15.png" crc="3891576839" ref="news"/>
     <file name="u562564-4.png" crc="3900309982" ref="news"/>
-    <file name="u562565-4.png" crc="149692158" ref="news"/>
+    <file name="u562565-4.png" crc="500433668" ref="news"/>
     <file name="наши матери, наши отцы-u560212.png" crc="4118891962" ref="news"/>
     <file name="наши матери 3.jpg" crc="4216205683" seo="true" ref="news">
       <caption webpage="news" alt=""/>
@@ -1195,15 +1182,15 @@
       <caption webpage="news" alt=""/>
     </file>
     <file name="u563856-4.png" crc="153401715" ref="news"/>
-    <file name="u563857-4.png" crc="149692158" ref="news"/>
-    <file name="u563851-10.png" crc="4142005754" ref="news"/>
-    <file name="u563852-6.png" crc="4231350243" ref="news"/>
+    <file name="u563857-4.png" crc="500433668" ref="news"/>
+    <file name="u563851-10.png" crc="99342489" ref="news"/>
+    <file name="u563852-6.png" crc="226633991" ref="news"/>
     <file name="я-ццц.jpg" crc="351071457" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
     <file name="u554199-4.png" crc="530986767" ref="news"/>
-    <file name="u554200-4.png" crc="149692158" ref="news"/>
-    <file name="u554195-19.png" crc="3929509425" ref="news"/>
+    <file name="u554200-4.png" crc="500433668" ref="news"/>
+    <file name="u554195-19.png" crc="4130026153" ref="news"/>
     <file name="u554207-10.png" crc="165913779" ref="news"/>
     <file name="u554210-8.png" crc="210903450" ref="news"/>
     <file name="u554223-4.png" crc="33322840" ref="news"/>
@@ -1214,54 +1201,54 @@
       <caption webpage="news" alt=""/>
     </file>
     <file name="u546119-4.png" crc="27500291" ref="news"/>
-    <file name="u546120-4.png" crc="149692158" ref="news"/>
+    <file name="u546120-4.png" crc="500433668" ref="news"/>
     <file name="ундина-44.jpg" crc="3860651567" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
-    <file name="u546266-26.png" crc="4160051680" ref="news"/>
+    <file name="u546266-26.png" crc="86843277" ref="news"/>
     <file name="u546263-6.png" crc="3951047070" ref="news"/>
     <file name="u544979-4.png" crc="51489248" ref="news"/>
-    <file name="u544980-4.png" crc="149692158" ref="news"/>
+    <file name="u544980-4.png" crc="500433668" ref="news"/>
     <file name="короновирусы.jpg" crc="4283825315" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
-    <file name="u545023-4.png" crc="141581046" ref="news"/>
+    <file name="u545023-4.png" crc="4090638013" ref="news"/>
     <file name="u545035-4.png" crc="154498699" ref="news"/>
-    <file name="u544987-93.png" crc="535680786" ref="news"/>
+    <file name="u544987-93.png" crc="3854602801" ref="news"/>
     <file name="короновирус 2.jpg" crc="307129760" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
-    <file name="u545665-49.png" crc="4157082838" ref="news"/>
-    <file name="u545662-34.png" crc="4255072901" ref="news"/>
+    <file name="u545665-49.png" crc="336022601" ref="news"/>
+    <file name="u545662-34.png" crc="4018369703" ref="news"/>
     <file name="игиена-й.jpg" crc="38283828" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
     <file name="u543134-4.png" crc="3893742918" ref="news"/>
-    <file name="u543135-4.png" crc="149692158" ref="news"/>
-    <file name="u545659-28.png" crc="4024707945" ref="news"/>
-    <file name="u543152-11.png" crc="386854241" ref="news"/>
-    <file name="u544875-9.png" crc="3948994953" ref="news"/>
+    <file name="u543135-4.png" crc="500433668" ref="news"/>
+    <file name="u545659-28.png" crc="2758148" ref="news"/>
+    <file name="u543152-11.png" crc="378251812" ref="news"/>
+    <file name="u544875-9.png" crc="4219846112" ref="news"/>
     <file name="соль1.jpg" crc="4111998123" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
     <file name="соль 2.jpg" crc="133537496" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
-    <file name="u543165-26.png" crc="4081310446" ref="news"/>
+    <file name="u543165-26.png" crc="4131279416" ref="news"/>
     <file name="u526459-4.png" crc="46446374" ref="news"/>
-    <file name="u526460-4.png" crc="149692158" ref="news"/>
-    <file name="u526477-8.png" crc="368479469" ref="news"/>
-    <file name="u533227-41.png" crc="349008096" ref="news"/>
-    <file name="u531410-51.png" crc="4081962355" ref="news"/>
+    <file name="u526460-4.png" crc="500433668" ref="news"/>
+    <file name="u526477-8.png" crc="4093250500" ref="news"/>
+    <file name="u533227-41.png" crc="133614471" ref="news"/>
+    <file name="u531410-51.png" crc="36520857" ref="news"/>
     <file name="u523401-4.png" crc="167753043" ref="news"/>
-    <file name="u523402-4.png" crc="149692158" ref="news"/>
+    <file name="u523402-4.png" crc="500433668" ref="news"/>
     <file name="евгения.jpg" crc="68089497" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
     <file name="u526480-4.png" crc="3977209541" ref="news"/>
     <file name="u531423-4.png" crc="3811528916" ref="news"/>
     <file name="u531399-4.png" crc="4111655861" ref="news"/>
-    <file name="u531400-4.png" crc="149692158" ref="news"/>
+    <file name="u531400-4.png" crc="500433668" ref="news"/>
     <file name="вода 8.jpg" crc="4286264084" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
@@ -1274,19 +1261,19 @@
     <file name="бурундук-2.jpg" crc="11636547" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
-    <file name="u523397-15.png" crc="4177856893" ref="news"/>
+    <file name="u523397-15.png" crc="3905112236" ref="news"/>
     <file name="u522269-4.png" crc="70053301" ref="news"/>
-    <file name="u522270-4.png" crc="149692158" ref="news"/>
-    <file name="u522287-21.png" crc="3883747242" ref="news"/>
+    <file name="u522270-4.png" crc="500433668" ref="news"/>
+    <file name="u522287-21.png" crc="275769561" ref="news"/>
     <file name="u520090-4.png" crc="180461296" ref="news"/>
-    <file name="u520091-4.png" crc="149692158" ref="news"/>
+    <file name="u520091-4.png" crc="500433668" ref="news"/>
     <file name="цветная-строка-2.jpg" crc="291469890" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
-    <file name="u520108-24.png" crc="100118400" ref="news"/>
-    <file name="u520111-47.png" crc="130303851" ref="news"/>
+    <file name="u520108-24.png" crc="401237701" ref="news"/>
+    <file name="u520111-47.png" crc="3872544107" ref="news"/>
     <file name="u517552-4.png" crc="4115982709" ref="news"/>
-    <file name="u517553-4.png" crc="149692158" ref="news"/>
+    <file name="u517553-4.png" crc="500433668" ref="news"/>
     <file name="асбест.jpg" crc="12758942" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
@@ -1294,16 +1281,16 @@
       <caption webpage="news" alt=""/>
     </file>
     <file name="u521338-6.png" crc="4134582819" ref="news"/>
-    <file name="u517570-17.png" crc="353671042" ref="news"/>
-    <file name="u517573-4.png" crc="355526751" ref="news"/>
+    <file name="u517570-17.png" crc="184006345" ref="news"/>
+    <file name="u517573-4.png" crc="78844225" ref="news"/>
     <file name="я-редактирование-4ds.jpg" crc="3925438772" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
     <file name="u516219-4.png" crc="4007518103" ref="news"/>
-    <file name="u516220-4.png" crc="149692158" ref="news"/>
-    <file name="u516237-9.png" crc="3993126779" ref="news"/>
-    <file name="u516432-5.png" crc="67698822" ref="news"/>
-    <file name="u516718-5.png" crc="3815377908" ref="news"/>
+    <file name="u516220-4.png" crc="500433668" ref="news"/>
+    <file name="u516237-9.png" crc="217098865" ref="news"/>
+    <file name="u516432-5.png" crc="4106995204" ref="news"/>
+    <file name="u516718-5.png" crc="328222223" ref="news"/>
     <file name="в-сочи--2.jpg" crc="3944127350" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
@@ -1317,24 +1304,24 @@
     </file>
     <file name="youtube_значок-u347753-u517045.png" crc="3895449116" ref="news"/>
     <file name="youtube_значок-u347753-u517324.png" crc="3895449116" ref="news"/>
-    <file name="u517043-7.png" crc="4123941826" ref="news"/>
-    <file name="u517340-7.png" crc="3991498809" ref="news"/>
-    <file name="u517059-15.png" crc="4031579131" ref="news"/>
+    <file name="u517043-7.png" crc="114160206" ref="news"/>
+    <file name="u517340-7.png" crc="4236109408" ref="news"/>
+    <file name="u517059-15.png" crc="3854626985" ref="news"/>
     <file name="u514359-4.png" crc="257578603" ref="news"/>
-    <file name="u514360-4.png" crc="149692158" ref="news"/>
+    <file name="u514360-4.png" crc="500433668" ref="news"/>
     <file name="козёл.jpg" crc="456976365" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
-    <file name="u514367-9.png" crc="4271489520" ref="news"/>
+    <file name="u514367-9.png" crc="182479097" ref="news"/>
     <file name="u511312-4.png" crc="356193619" ref="news"/>
-    <file name="u511313-4.png" crc="149692158" ref="news"/>
-    <file name="u511305-8.png" crc="61720385" ref="news"/>
-    <file name="u511302-8.png" crc="426922651" ref="news"/>
+    <file name="u511313-4.png" crc="500433668" ref="news"/>
+    <file name="u511305-8.png" crc="113993590" ref="news"/>
+    <file name="u511302-8.png" crc="468285001" ref="news"/>
     <file name="кролик.jpg" crc="302380970" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
     <file name="u508608-4.png" crc="4156307002" ref="news"/>
-    <file name="u508609-4.png" crc="149692158" ref="news"/>
+    <file name="u508609-4.png" crc="500433668" ref="news"/>
     <file name="бездомный.jpg" crc="4085180842" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
@@ -1342,15 +1329,15 @@
     <file name="pdf значок 4.png" crc="3898170329" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
-    <file name="u508650-4.png" crc="447356875" ref="news"/>
-    <file name="u508631-6.png" crc="3768934210" ref="news"/>
+    <file name="u508650-4.png" crc="4138868874" ref="news"/>
+    <file name="u508631-6.png" crc="4240913912" ref="news"/>
     <file name="u496115-4.png" crc="257578603" ref="news"/>
-    <file name="u496116-4.png" crc="149692158" ref="news"/>
+    <file name="u496116-4.png" crc="500433668" ref="news"/>
     <file name="u504584-5.png" crc="4241081977" ref="news"/>
     <file name="катынь.jpg" crc="464113540" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
-    <file name="u504587-4.png" crc="334607519" ref="news"/>
+    <file name="u504587-4.png" crc="4140143686" ref="news"/>
     <file name="другая земля.jpg" crc="144226252" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
@@ -1359,15 +1346,15 @@
     </file>
     <file name="u505508-23.png" crc="524708857" ref="news"/>
     <file name="u505511-4.png" crc="533012433" ref="news"/>
-    <file name="u505514-4.png" crc="4161864880" ref="news"/>
+    <file name="u505514-4.png" crc="112201888" ref="news"/>
     <file name="лиам.jpg" crc="4063832676" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
-    <file name="u498681-5.png" crc="84914880" ref="news"/>
+    <file name="u498681-5.png" crc="4102176118" ref="news"/>
     <file name="прометей 5.jpg" crc="4232284438" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
-    <file name="u496143-7.png" crc="13646954" ref="news"/>
+    <file name="u496143-7.png" crc="4010498424" ref="news"/>
     <file name="прометей 1.jpg" crc="4076647934" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
@@ -1378,7 +1365,7 @@
       <caption webpage="news" alt=""/>
     </file>
     <file name="u494440-4.png" crc="426979360" ref="news"/>
-    <file name="u494441-4.png" crc="149692158" ref="news"/>
+    <file name="u494441-4.png" crc="500433668" ref="news"/>
     <file name="porsche 911 2.png" crc="4289673832" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
@@ -1386,22 +1373,22 @@
     <file name="u495484-6.png" crc="3895399881" ref="news"/>
     <file name="youtube_значок-u347753-u494650.png" crc="3895449116" ref="news"/>
     <file name="motor-u494665.png" crc="4265507650" ref="news"/>
-    <file name="u494662-6.png" crc="4201936923" ref="news"/>
+    <file name="u494662-6.png" crc="76027049" ref="news"/>
     <file name="porsche-911--1.jpg" crc="4293192978" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
     <file name="u494675-5.png" crc="3939193451" ref="news"/>
     <file name="u491013-4.png" crc="257578603" ref="news"/>
-    <file name="u491014-4.png" crc="149692158" ref="news"/>
+    <file name="u491014-4.png" crc="500433668" ref="news"/>
     <file name="том круз 2.jpg" crc="74746563" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
     <file name="u491009-4.png" crc="312287238" ref="news"/>
     <file name="u491006-8.png" crc="431457626" ref="news"/>
-    <file name="u491129-4.png" crc="3792220091" ref="news"/>
-    <file name="u491125-8.png" crc="512911524" ref="news"/>
+    <file name="u491129-4.png" crc="4188024746" ref="news"/>
+    <file name="u491125-8.png" crc="391285712" ref="news"/>
     <file name="u491127-6.png" crc="4122053150" ref="news"/>
-    <file name="u491128-4.png" crc="412186627" ref="news"/>
+    <file name="u491128-4.png" crc="3831469479" ref="news"/>
     <file name="youtube_значок-u347753-u491131.png" crc="3895449116" ref="news"/>
     <file name="авто 5.png" crc="462819100" seo="true" ref="news">
       <caption webpage="news" alt=""/>
@@ -1429,7 +1416,7 @@
     <file name="цветок 2.png" crc="3776617500" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
-    <file name="u490817-8.png" crc="107269699" ref="news"/>
+    <file name="u490817-8.png" crc="3904414475" ref="news"/>
     <file name="цветок 3.png" crc="3955550389" seo="true" ref="news">
       <caption webpage="news" alt=""/>
       <caption webpage="news" alt=""/>
@@ -1452,7 +1439,7 @@
     <file name="девочка 4.jpg" crc="401050043" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
-    <file name="u489894-6.png" crc="256445401" ref="news"/>
+    <file name="u489894-6.png" crc="273486491" ref="news"/>
     <file name="девочка 2.jpg" crc="4292279670" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
@@ -1464,15 +1451,15 @@
     </file>
     <file name="youtube_значок-u347753-u489898.png" crc="3895449116" ref="news"/>
     <file name="u488768-4.png" crc="495450008" ref="news"/>
-    <file name="u488769-4.png" crc="149692158" ref="news"/>
+    <file name="u488769-4.png" crc="500433668" ref="news"/>
     <file name="юбка 2.jpg" crc="166591274" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
     <file name="юбка 1.jpg" crc="4017513252" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
-    <file name="u488796-20.png" crc="4162305164" ref="news"/>
-    <file name="u488810-10.png" crc="4255010295" ref="news"/>
+    <file name="u488796-20.png" crc="4266724453" ref="news"/>
+    <file name="u488810-10.png" crc="450499560" ref="news"/>
     <file name="цветы 1.png" crc="4192156284" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
@@ -1486,17 +1473,17 @@
     <file name="интерсвязь.jpg" crc="3793142933" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
-    <file name="u482459-10.png" crc="105882651" ref="news"/>
+    <file name="u482459-10.png" crc="3889975693" ref="news"/>
     <file name="u482463-6.png" crc="4122053150" ref="news"/>
-    <file name="u482464-4.png" crc="412186627" ref="news"/>
-    <file name="u482494-4.png" crc="230849062" ref="news"/>
+    <file name="u482464-4.png" crc="3831469479" ref="news"/>
+    <file name="u482494-4.png" crc="4207697079" ref="news"/>
     <file name="youtube_значок-u347753-u482472.png" crc="3895449116" ref="news"/>
     <file name="капельки-u482763.png" crc="4225349143" ref="news"/>
     <file name="море 13.png" crc="51826902" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
     <file name="u483062-4.png" crc="326133028" ref="news"/>
-    <file name="u483065-4.png" crc="149692158" ref="news"/>
+    <file name="u483065-4.png" crc="500433668" ref="news"/>
     <file name="youtube_значок-u347753-u483081.png" crc="3895449116" ref="news"/>
     <file name="город 3.jpg" crc="380517075" seo="true" ref="news">
       <caption webpage="news" alt=""/>
@@ -1515,12 +1502,12 @@
     <file name="цветы 12.jpg" crc="3846989100" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
-    <file name="u480718-4.png" crc="4122619644" ref="news"/>
+    <file name="u480718-4.png" crc="4074449222" ref="news"/>
     <file name="цветы 13.jpg" crc="442937185" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
     <file name="u471729-4.png" crc="16861363" ref="news"/>
-    <file name="u471730-4.png" crc="4122619644" ref="news"/>
+    <file name="u471730-4.png" crc="4074449222" ref="news"/>
     <file name="вода 1.jpg" crc="126840341" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
@@ -1533,7 +1520,7 @@
     <file name="вода 4.png" crc="495385075" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
-    <file name="u471747-6.png" crc="160116046" ref="news"/>
+    <file name="u471747-6.png" crc="422228374" ref="news"/>
     <file name="вода 5.png" crc="4234090151" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
@@ -1541,9 +1528,9 @@
       <caption webpage="news" alt=""/>
     </file>
     <file name="u470509-11.png" crc="4259043071" ref="news"/>
-    <file name="u470515-4.png" crc="74233127" ref="news"/>
+    <file name="u470515-4.png" crc="3988208651" ref="news"/>
     <file name="u461150-4.png" crc="299914920" ref="news"/>
-    <file name="u461151-4.png" crc="4122619644" ref="news"/>
+    <file name="u461151-4.png" crc="4074449222" ref="news"/>
     <file name="костер 2.png" crc="110914164" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
@@ -1570,7 +1557,7 @@
       <caption webpage="news" alt=""/>
     </file>
     <file name="u443488-4.png" crc="3800497028" ref="news"/>
-    <file name="u443498-4.png" crc="4122619644" ref="news"/>
+    <file name="u443498-4.png" crc="4074449222" ref="news"/>
     <file name="u443475-6.png" crc="4023727022" ref="news"/>
     <file name="хлеб.jpg" crc="3850954941" seo="true" ref="news">
       <caption webpage="news" alt=""/>
@@ -1578,7 +1565,7 @@
     <file name="хлебцы jfif.jpg" crc="509869911" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
-    <file name="u442009-6.png" crc="49049642" ref="news"/>
+    <file name="u442009-6.png" crc="365741138" ref="news"/>
     <file name="u442696-9.png" crc="4111818114" ref="news"/>
     <file name="шторм фильм 6.jpg" crc="3925235745" seo="true" ref="news">
       <caption webpage="news" alt=""/>
@@ -1592,7 +1579,7 @@
     <file name="sylvia hoeks.jpg" crc="3779866101" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
-    <file name="u442205-4.png" crc="155495788" ref="news"/>
+    <file name="u442205-4.png" crc="3873804113" ref="news"/>
     <file name="u441530-4.png" crc="3814671079" ref="news"/>
     <file name="romashka-9.jpg" crc="4027274548" seo="true" ref="news">
       <caption webpage="news" alt=""/>
@@ -1619,17 +1606,17 @@
     <file name="оптимизация 2.jpg" crc="423606562" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
-    <file name="u432585-8.png" crc="3799844674" ref="news"/>
+    <file name="u432585-8.png" crc="244208350" ref="news"/>
     <file name="плей значок-u432594.png" crc="419031601" ref="news"/>
     <file name="ночной режим-u432573.png" crc="4020049334" ref="news"/>
     <file name="u432591-4.png" crc="80150018" ref="news"/>
-    <file name="u432604-4.png" crc="3980223607" ref="news"/>
-    <file name="u432614-6.png" crc="531989968" ref="news"/>
+    <file name="u432604-4.png" crc="4288934377" ref="news"/>
+    <file name="u432614-6.png" crc="96116718" ref="news"/>
     <file name="стрелка 4-u432800.png" crc="3910722159" ref="news"/>
     <file name="ночной реж 3.png" crc="3857798012" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
-    <file name="u432607-7.png" crc="17288019" ref="news"/>
+    <file name="u432607-7.png" crc="3970282778" ref="news"/>
     <file name="u425803-4.png" crc="3920003402" ref="news"/>
     <file name="снег.jpg" crc="4031473423" seo="true" ref="news">
       <caption webpage="news" alt=""/>
@@ -1810,7 +1797,7 @@
     <file name="киев.jpg" crc="441727295" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
-    <file name="слай 6.png" crc="326914244" seo="true" ref="news">
+    <file name="слай 6.png" crc="3822191728" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
     <file name="merc 2681x379.jpg" crc="528368869" seo="true" ref="news">
@@ -1948,7 +1935,7 @@
     <file name="красиво.jpg" crc="171167103" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
-    <file name="солнц_00000_00000.png" crc="242785919" seo="true" ref="news">
+    <file name="солнц_00000_00000.png" crc="3943065031" seo="true" ref="news">
       <caption webpage="news" alt=""/>
     </file>
     <file name="текст защ земли.png" crc="353725590" seo="true" ref="news">
@@ -1962,8 +1949,8 @@
     </file>
     <file name="info-favicon.ico" crc="231847113" ref="info"/>
     <file name="u423077-4.png" crc="406174329" ref="info"/>
-    <file name="u311846-5.png" crc="112221400" ref="info"/>
-    <file name="u320468-5.png" crc="411580339" ref="info"/>
+    <file name="u311846-5.png" crc="420526454" ref="info"/>
+    <file name="u320468-5.png" crc="3791863055" ref="info"/>
     <file name="u311847-4.png" crc="320274340" ref="info"/>
     <file name="u311848-4.png" crc="189765231" ref="info"/>
     <file name="дерево 4.jpg" crc="46174300" seo="true" ref="info">
@@ -1979,11 +1966,11 @@
     <folder name="css">
       <file name="index.css" crc="3972356362" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="3980247706" seo="true" redirect="false"/>
+    <file name="index.html" crc="4180950154" seo="true" redirect="false"/>
   </folder>
-  <file name="index.html" crc="3903029347" seo="true" redirect="true"/>
-  <file name="music.html" crc="3905354547" seo="true" redirect="true"/>
-  <file name="design.html" crc="241947657" seo="true" mt="1498708116802" redirect="true"/>
-  <file name="news.html" crc="297502073" seo="true" redirect="true"/>
-  <file name="info.html" crc="4010677644" seo="true" redirect="true"/>
+  <file name="index.html" crc="176486274" seo="true" mt="1607558116198" redirect="true"/>
+  <file name="music.html" crc="4275443934" seo="true" mt="1607557565843" redirect="true"/>
+  <file name="design.html" crc="323897169" seo="true" mt="1607558056157" redirect="true"/>
+  <file name="news.html" crc="30771122" seo="true" mt="1639099998258" redirect="true"/>
+  <file name="info.html" crc="3883065655" seo="true" redirect="true"/>
 </manifest>
